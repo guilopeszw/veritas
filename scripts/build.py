@@ -76,7 +76,7 @@ for event in data.get("rallyCrowds", []):
     assert city and any(a["candidate"] == event["candidate"] and a["date"] == event["date"] for a in city["acts"]), "Crowd count mapped to wrong event"
     assert event.get("estimates"), "Empty crowd estimates"
     for estimate in event["estimates"]:
-        assert all(estimate.get(k) for k in ("value", "author", "method", "kind")), "Unattributed crowd estimate"
+        assert all(estimate.get(k) for k in ("value", "author", "method", "kind", "observedAt", "publishedRange", "countingMethod")), "Unattributed crowd estimate"
         assert estimate.get("source", {}).get("url", "").startswith("https://"), "Missing crowd source"
     if args.public and (event.get("status") != "approved" or event.get("verification") != "checked"):
         raise SystemExit("Publicação bloqueada: estimativas de público pendentes de revisão")

@@ -46,3 +46,9 @@ These are discrepant publications, not an uncertainty interval of 40,000–200,0
 The site now stores seven event records in `rallyCrowds`, with eleven attributed estimates. Every record carries a city, date, candidate, venue, method limitation and source. These are expandable above the municipal vote table, which also links the estimates to the matching events. Rio18October and Brasília18October were added as distinct acts; the earlier events keep their own dates. No national sum, attendance-to-vote conversion, winner ranking, or false zero is produced. All seven event records remain editorial drafts and are included in the public-build approval gate.
 
 Searches also covered local October reports for Fortaleza, Recife, Belém and other cities. Figures from different dates or unsupported social posts were not transferred to existing events. Coverage remains partial; absence of a number means missing data.
+
+## Standardized attendance layout
+
+The approved layout uses one event container with candidate identity, city, venue and date. Each estimator has the same visible fields: attendance, measurement time, counting method, published range and source link. Method details stay in a native collapsed disclosure. Research limitations and conflicting estimates remain visible. On screens up to600px, estimator columns become a single stack, with44px minimum source/disclosure targets. The two legacy Paulista prose blocks are no longer repeated on the overview; their source records remain available through permanent links.
+
+Verified locally: all seven event cards/eleven estimates render; desktop columns align;390px preview stacks without horizontal clipping; native disclosure and source links remain accessible.

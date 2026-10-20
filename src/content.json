@@ -12837,7 +12837,10 @@
             "label": "More in Common — relatório original",
             "url": "https://moreincommon.org.br/ato-da-campanha-de-flavio-bolsonaro-na-paulista-reune-719-mil-pessoas/"
           },
-          "kind": "research"
+          "kind": "research",
+          "observedAt": "12h20",
+          "publishedRange": "63,3–80,5 mil",
+          "countingMethod": "Pessoas identificadas em fotos aéreas"
         },
         {
           "value": "76,2 mil",
@@ -12847,7 +12850,10 @@
             "label": "Poder360 — cálculo próprio",
             "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-flavio-reune-76-200-na-paulista-a-uma-semana-do-2o-turno/"
           },
-          "kind": "media-method"
+          "kind": "media-method",
+          "observedAt": "11h40 e 12h50",
+          "publishedRange": "Não informada",
+          "countingMethod": "Área ocupada × pessoas por m²"
         }
       ],
       "limit": "São estimativas do mesmo ato por métodos diferentes. Não devem ser somadas.",
@@ -12870,7 +12876,10 @@
             "label": "More in Common — relatório original",
             "url": "https://moreincommon.org.br/ato-musical-pela-democracia-reune-564-mil-pessoas-em-copacabana/"
           },
-          "kind": "research"
+          "kind": "research",
+          "observedAt": "18h",
+          "publishedRange": "49,7–63,1 mil",
+          "countingMethod": "Pessoas identificadas em fotos aéreas"
         }
       ],
       "limit": "A chuva impediu medições posteriores; o ato terminou às 20h30. O número não é o total de pessoas que passaram nem necessariamente o pico.",
@@ -12893,7 +12902,10 @@
             "label": "MundoBA — estimativa dos organizadores",
             "url": "https://mundoba.com.br/eleicoes/flavio-bolsonaro-reune-apoiadores-na-barra-e-diz-que-ato-em-salvador-foi-de-arrepiar/"
           },
-          "kind": "organizer"
+          "kind": "organizer",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         }
       ],
       "limit": "É uma estimativa de quem organizou o ato; não temos uma medição independente para confrontá-la.",
@@ -12916,7 +12928,10 @@
             "label": "Brasil de Fato — cobertura de 14/10",
             "url": "https://www.brasildefato.com.br/2026/10/14/mare-vermelha-toma-conta-de-porto-alegre-e-reune-mais-de-50-mil-pessoas-na-maior-caminhada-do-segundo-turno/"
           },
-          "kind": "reported-unspecified"
+          "kind": "reported-unspecified",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         }
       ],
       "limit": "O ato durou cerca de três horas. Não sabemos se o número se refere ao pico ou ao público acumulado.",
@@ -12939,7 +12954,10 @@
             "label": "Brasil de Fato — reportagem de 13/10",
             "url": "https://www.brasildefato.com.br/2026/10/13/manifestacao-na-esplanada-reune-50-mil-contra-bolsonaro-e-em-apoio-a-lula-e-leandro-grass/"
           },
-          "kind": "organizer"
+          "kind": "organizer",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         },
         {
           "value": "Pelo menos 20 mil",
@@ -12949,7 +12967,10 @@
             "label": "Brasil de Fato — relato da estimativa informal",
             "url": "https://www.brasildefato.com.br/2026/10/13/manifestacao-na-esplanada-reune-50-mil-contra-bolsonaro-e-em-apoio-a-lula-e-leandro-grass/"
           },
-          "kind": "reported-informal"
+          "kind": "reported-informal",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         }
       ],
       "limit": "São duas estimativas atribuídas, não uma faixa de erro. Este é o ato de 13/10, diferente do realizado em 18/10.",
@@ -12972,7 +12993,10 @@
             "label": "Poder360 — número atribuído à campanha",
             "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-lula-em-sao-paulo-ocupou-7-quarteiroes-da-av-paulista/"
           },
-          "kind": "organizer"
+          "kind": "organizer",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         }
       ],
       "limit": "Não temos contagem independente equivalente. A capacidade hipotética de 261 mil citada pelo veículo não é uma contagem de participantes.",
@@ -12995,7 +13019,10 @@
             "label": "Metrópoles — 18/10",
             "url": "https://www.metropoles.com/distrito-federal/ato-da-virada-reune-40-mil-apoiadores-de-lula-na-esplanada-diz-organizacao"
           },
-          "kind": "organizer"
+          "kind": "organizer",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         },
         {
           "value": "100 mil",
@@ -13005,7 +13032,10 @@
             "label": "Brasil de Fato — 18/10",
             "url": "https://www.brasildefato.com.br/2026/10/18/ato-da-virada-leva-100-mil-pessoas-as-ruas-de-brasilia-em-apoio-a-lula-e-leandro-grass/"
           },
-          "kind": "reported-unspecified"
+          "kind": "reported-unspecified",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         },
         {
           "value": "200 mil",
@@ -13015,7 +13045,10 @@
             "label": "Vale do Guaribas FM — 18/10",
             "url": "https://www.valedoguaribasfm.com.br/noticia/2939481/ato-pro-lula-reune-200-mil-apoiadores-no-centro-de-brasilia"
           },
-          "kind": "organizer"
+          "kind": "organizer",
+          "observedAt": "Não informado",
+          "publishedRange": "Não informada",
+          "countingMethod": "Método não divulgado"
         }
       ],
       "limit": "As publicações divergem. Não temos uma medição que resolva a diferença. Os valores não formam uma margem de erro e não devem ser somados ou usados para calcular uma média.",
