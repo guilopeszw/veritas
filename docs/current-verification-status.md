@@ -4,7 +4,7 @@ This snapshot supersedes earlier numerical readiness summaries. It does not gran
 
 ## Content
 
-208 of 209 blocks have documented verification within their explicit scope. This is not a claim that every underlying allegation, payment or predicted effect has been independently proved. Final editorial approval is separate and remains required.
+210 of 211 blocks have documented verification within their explicit scope. This is not a claim that every underlying allegation, payment or predicted effect has been independently proved. Final editorial approval is separate and remains required.
 
 The remaining pending block is `flavio-imoveis-especie`: complete deed/payment/electoral-filing reconciliation was not obtained. The exact allegation of ten cash purchases is not asserted as fact. The itemized UOL report, defense and dated PET 10562 decision have been recovered; they do not replace the full transaction chain.
 
@@ -27,3 +27,7 @@ The extracted-text reconciliation maps 796 records to 145 cards: 782 direct mapp
 Candidate-specific cards identify the candidate with a portrait and name. Shared context cards separate attributed positions, dates and sources before shared analysis. Missing positions remain explicit rather than invented. The generic opening economic card was removed from the sovereignty page; its standalone explanation remains available.
 
 Publication and comparison-sharing approval remain blocked. Editorial approval must cover the final text, including additions.
+
+## Newly mapped debate commitments
+
+The debt-auction/Pix and sex-offender-register promises now have separate reader cards, video locators and explicit limits. They remain outside the original frozen148-card denominator; adding a card after coding must not retroactively change that historical metric. Individual program coverage is being normalized separately.

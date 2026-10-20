@@ -10198,6 +10198,88 @@
       "verification": "checked",
       "verifiedAt": "2026-10-20",
       "verificationScope": "program-attribution-and-context"
+    },
+    {
+      "id": "lula-renegociacao-pix",
+      "candidate": "lula",
+      "topic": "economia",
+      "kind": "Proposta",
+      "title": "Renegociação de dívidas e apoio para recomeçar",
+      "summary": "Propõe leiloar dívidas para reduzir o valor devido e depois transferir dinheiro por Pix, sem empréstimo.",
+      "paragraphs": [
+        "No debate, Lula afirmou que o governo faria leilões com os bancos para reduzir dívidas, citando descontos de até 92%. Também prometeu uma transferência por Pix para as pessoas recomeçarem a vida, sem obrigação de devolver esse dinheiro.",
+        "A fala não detalha quem receberia o Pix, seu valor, prazo ou orçamento. O desconto máximo anunciado não significa que todas as pessoas teriam a mesma redução."
+      ],
+      "implications": [
+        {
+          "label": "Como pode afetar você",
+          "text": "Uma renegociação pode reduzir o valor a pagar. O Pix é apenas a forma de transferir o apoio anunciado; não define quem tem direito ao dinheiro."
+        },
+        {
+          "label": "O que falta definir",
+          "text": "Não temos, neste trecho, regras completas de participação, valor do benefício ou custo total. A promessa de compra de dívidas e a de apoio sem devolução são medidas diferentes."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho do debate de 18/10",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6012s",
+          "locator": "Intervalo 6012–6047 segundos na gravação; transcrição automática confrontada com legendas e imagens."
+        },
+        {
+          "label": "Aos Fatos — transcrição do debate",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "attributed-debate-commitment-not-implementation",
+      "editorialNotes": "Compromisso do debate, separado do inventário congelado dos programas oficiais. Sem escuta humana independente. Aprovação editorial pendente.",
+      "proposalOrigin": "debate-2026-10-18"
+    },
+    {
+      "id": "flavio-cadastro-crimes-sexuais",
+      "candidate": "flavio",
+      "topic": "seguranca",
+      "kind": "Proposta",
+      "title": "Colocar o cadastro de condenados por crimes sexuais em funcionamento",
+      "summary": "Promete colocar em funcionamento o cadastro nacional para consulta pela população.",
+      "paragraphs": [
+        "Flávio prometeu colocar em funcionamento o Cadastro Nacional de Pedófilos e Predadores Sexuais. A fala se refere à execução de uma medida legal existente, não à criação inédita de um cadastro.",
+        "O candidato também acusou o governo de não ter colocado o sistema no ar. O trecho comprova que ele fez a acusação, mas não demonstra sozinho o estado de funcionamento do cadastro."
+      ],
+      "implications": [
+        {
+          "label": "O que já existe",
+          "text": "A Lei 15.035, sancionada em 27/11/2024, determina a criação do cadastro a partir dos dados de pessoas condenadas por estupro. A promessa precisa ser comparada à execução dessa lei."
+        },
+        {
+          "label": "O que precisa funcionar",
+          "text": "Para a consulta ser útil, os dados precisam estar corretos e atualizados, com respeito às regras de sigilo e às decisões judiciais. Não temos uma avaliação que demonstre quanto a medida reduziria crimes."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho do debate de 18/10",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5821s",
+          "locator": "Intervalo 5821–5844 segundos na gravação; transcrição automática confrontada com legendas e imagens."
+        },
+        {
+          "label": "Aos Fatos — transcrição do debate",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+        },
+        {
+          "label": "Planalto — Lei 15.035/2024, art. 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15035.htm"
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "attributed-debate-commitment-not-implementation",
+      "editorialNotes": "Compromisso do debate, separado do inventário congelado dos programas oficiais. Sem escuta humana independente. Aprovação editorial pendente.",
+      "proposalOrigin": "debate-2026-10-18"
     }
   ],
   "rallyCities": [
@@ -12794,16 +12876,25 @@
         "candidate": "lula",
         "start": 6012,
         "end": 6047,
-        "summary": "Compra de dívidas e transferência para recomeçar a vida. Sem correspondência exata no catálogo congelado."
+        "summary": "Propõe leiloar dívidas para reduzir o valor devido e depois transferir dinheiro por Pix, sem empréstimo.",
+        "blockId": "lula-renegociacao-pix",
+        "mappingStatus": "mapped-outside-frozen-program-inventory"
       },
       {
         "candidate": "flavio",
         "start": 5821,
         "end": 5844,
-        "summary": "Cadastro nacional de pessoas condenadas por crimes sexuais contra crianças. Sem correspondência exata no catálogo congelado."
+        "summary": "Promete colocar em funcionamento o cadastro nacional para consulta pela população.",
+        "blockId": "flavio-cadastro-crimes-sexuais",
+        "mappingStatus": "mapped-outside-frozen-program-inventory"
       }
     ],
-    "videoDurationSeconds": 6855.16
+    "videoDurationSeconds": 6855.16,
+    "catalogFrozen": true,
+    "catalogExcludedAdditions": [
+      "lula-renegociacao-pix",
+      "flavio-cadastro-crimes-sexuais"
+    ]
   },
   "programCoverage": {
     "status": "draft",

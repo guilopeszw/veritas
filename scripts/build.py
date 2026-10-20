@@ -54,7 +54,8 @@ audit = data.get("debateAudit")
 if audit:
     catalog = {b["id"]: b for b in audit["catalog"]}
     assert len(catalog) == len(audit["catalog"]), "Catálogo do debate duplicado"
-    assert set(catalog) == {b["id"] for b in data["blocks"] if b.get("kind") == "Proposta"}, "Catálogo do debate desatualizado"
+    assert set(catalog) | set(audit.get("catalogExcludedAdditions", [])) == {b["id"] for b in data["blocks"] if b.get("kind") == "Proposta"}, "Catálogo do debate desatualizado"
+    assert not set(catalog) & set(audit.get("catalogExcludedAdditions", [])), "Adição já consta no catálogo congelado"
     seen = set()
     for match in audit["matches"]:
         block = catalog.get(match["blockId"])

@@ -65,3 +65,7 @@ Full media and transcripts remain in the local working directory; they are not r
 - “Assuntos” is now “Entenda a eleição”; direct health/proposal shortcut removed.
 - Sovereignty cards use Lula’s specific response to the Milei reference; unrelated generic program positions removed. No-response copy says that no documented comment is available, not that he never commented.
 - Comparison sharing uses the icon only, retaining accessible labels and title.
+
+## Follow-up: previously unmapped promises
+
+Added `lula-renegociacao-pix` and `flavio-cadastro-crimes-sexuais` as debate-origin proposal cards. The debt measure is now paired with Flávio’s debt-purchase card in the comparison. The registry card distinguishes implementation from creation: Law15035/2024 already provides the legal basis. The candidate’s allegation of non-operation is not asserted as independently proved. These additions do not enter the frozen148-card denominator or imply inclusion in the official program inventory.
