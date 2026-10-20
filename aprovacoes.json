@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-20",
+  "source": "Resposta explícita do usuário nesta conversa: aprovado",
+  "documents": [
+    "revisao-editorial-01.md",
+    "revisao-editorial-02-economia.md",
+    "revisao-editorial-03-propostas.md"
+  ],
+  "pending_new_blocks": [
+    "flavio-emprego",
+    "flavio-estatais",
+    "lula-digital",
+    "lula-renda"
+  ],
+  "note": "Aprovação editorial não substitui conferência documental. Documento 04 e complementos não aprovados.",
+  "history_approval": {
+    "document": "revisao-editorial-05-historico.md",
+    "revision": 1,
+    "answer": "Aprovo os textos, mantendo as pendências",
+    "note": "Não inclui revisão posterior com andamento de 2022."
+  }
+}
