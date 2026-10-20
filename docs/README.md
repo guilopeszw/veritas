@@ -28,6 +28,10 @@ approval to publish. Older counts must not be mistaken for the current inventory
 | [Program coverage audit](programas-cobertura-auditoria.md) | Six confirmed database omissions and their integration |
 | [Program coverage, round 02](programas-cobertura-rodada-02.md) | Partial health and education reconciliation |
 
+- [Asset dashboard verification](asset-dashboard-verification.md): official records, calculations, and responsive checks.
+- [Final fact-check readiness audit](final-factcheck-audit.md): remaining blockers and newly checked claims.
+- [PT program inventory](program-inventory-pt.md) and [PL program inventory](program-inventory-pl.md): chapter-level coverage and omissions.
+
 ## Product planning
 
 - [Electoral dashboard options](electoral-dashboards.md): proposed views,
@@ -39,3 +43,18 @@ Do not infer that missing data means a candidate has no proposal. Complete the
 program inventory, reconcile each commitment with the UI, verify sources, and
 record editorial approval before releasing comparisons. Keep documented
 uncertainty intact when editing or translating reports.
+
+## Latest verification records
+
+- [Current status and unresolved evidence](current-verification-status.md)
+- [Program reconciliation](program-reconciliation.md)
+- [Context guide candidate audit](context-guide-candidate-audit.md)
+- [Fact check context audit](fact-check-context-audit.md)
+- [Fact check economy closeout](fact-check-economy-closeout.md)
+- [Fact check education rights](fact-check-education-rights.md)
+- [Fact check publisher audit](fact-check-publisher-audit.md)
+- [Fact check sector closeout](fact-check-sector-closeout.md)
+- [Fact check security institutions](fact-check-security-institutions.md)
+- [Health closeout audit](health-closeout-audit.md)
+- [Rally tse verification](rally-tse-verification.md)
+- [Remaining source closeout](remaining-source-closeout.md)
