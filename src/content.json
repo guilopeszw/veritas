@@ -221,7 +221,7 @@
       "candidate": "lula",
       "topic": "saude",
       "title": "Farmácia Popular",
-      "summary": "Ampliar o Farmácia Popular para oferecer exames e consultas à distância, além de remédios.",
+      "summary": "Manter os itens gratuitos do Farmácia Popular e acrescentar exames de acompanhamento.",
       "context": "Também propõe ampliar locais de retirada nas periferias.",
       "sources": [
         {
@@ -230,17 +230,17 @@
           "locator": "Página física 36 do PDF; seleção de proposta, não cobertura integral"
         },
         {
-          "label": "Agência Gov / Ministério da Saúde — regras de retirada e gratuidade, março de 2025",
-          "url": "https://agenciagov.ebc.com.br/noticias/202503/saiba-como-retirar-medicamentos-e-insumos-pelo-farmacia-popular"
+          "label": "Ministério da Saúde — retirada de medicamentos e insumos, março de 2025",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2025/marco/saiba-como-retirar-medicamentos-e-insumos-pelo-farmacia-popular"
         }
       ],
       "status": "draft",
       "kind": "Proposta",
       "verification": "pending",
       "paragraphs": [
-        "O programa propõe manter medicamentos gratuitos e propõe incluir exames para acompanhar doenças crônicas, como diabetes e hipertensão."
+        "O programa propõe manter a gratuidade e incluir exames para acompanhar doenças crônicas, como diabetes e hipertensão."
       ],
-      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal.",
+      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação.",
       "implications": [
         {
           "label": "O que muda",
@@ -261,7 +261,7 @@
       "candidate": "flavio",
       "topic": "saude",
       "title": "Atendimento de saúde",
-      "summary": "Usar horários livres de atendimento para ampliar o acesso à saúde.",
+      "summary": "Contratar exames em horários livres da rede privada para pacientes do SUS.",
       "context": "",
       "sources": [
         {
@@ -274,8 +274,8 @@
           "url": "https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas"
         },
         {
-          "label": "Ministério da Saúde — contratação de hospitais particulares, agosto de 2026",
-          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/agosto/pacientes-do-sus-serao-atendidos-por-hospitais-particulares-para-a-realizacao-de-600-mil-cirurgias-e-exames"
+          "label": "Ministério da Saúde — créditos financeiros do Agora Tem Especialistas",
+          "url": "https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas/componente-creditos-financeiros/componente-creditos-financeiros"
         }
       ],
       "status": "draft",
@@ -284,7 +284,7 @@
       "paragraphs": [
         "O programa propõe ampliar Saúde da Família e contratar exames privados em horários livres para atender quem espera."
       ],
-      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal.",
+      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação.",
       "implications": [
         {
           "label": "O que muda",
@@ -3271,9 +3271,9 @@
       "kind": "Proposta",
       "topic": "saude",
       "title": "Prevenção e saúde das mulheres",
-      "summary": "O plano inclui exames preventivos e atendimento para câncer, menopausa e endometriose, conforme a Folha.",
+      "summary": "Ampliar exames preventivos e cuidados para câncer, menopausa e endometriose.",
       "paragraphs": [
-        "O plano inclui exames preventivos e atendimento para câncer, menopausa e endometriose, conforme a Folha."
+        "O programa propõe ampliar a prevenção e o atendimento para câncer, menopausa e endometriose."
       ],
       "implications": [
         {
@@ -3291,8 +3291,9 @@
       ],
       "sources": [
         {
-          "label": "Folha de S.Paulo — proposta apresentada",
-          "url": "https://www1.folha.uol.com.br/poder/2026/10/o-que-lula-e-flavio-bolsonaro-propoem-para-as-mulheres.shtml"
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=21",
+          "locator": "Página física 21, Saúde para elas; compromisso de campanha."
         },
         {
           "label": "Ministério das Mulheres — histórico da PNAISM",
@@ -3301,7 +3302,7 @@
       ],
       "status": "draft",
       "verification": "pending",
-      "editorialNotes": "Ampliação por eixos, consultada em 20/10/2026. Síntese atribuída à reportagem; análise descreve condições e efeitos possíveis, não resultados garantidos. Conferência integral item a item do programa pendente."
+      "editorialNotes": "20/10/2026: atribuição conferida no texto do programa oficial, p.21, substituindo reportagem como fonte principal. Implicações são condições de execução, não resultados demonstrados. Revisão editorial e inspeção visual do documento pendentes. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação."
     },
     {
       "id": "flavio-ajuste-fiscal",
@@ -4036,7 +4037,7 @@
         },
         {
           "label": "Como pode afetar você",
-          "text": "Entregar medicamentos exige estoque e logística regulares. Apoiar cuidadores requer equipes e substituição de jornadas de cuidado, além de aplicativo. Não temos custo, cobertura e critérios de cada serviço."
+          "text": "Entregar medicamentos exige estoque e logística regulares. Apoiar cuidadores requer equipes e serviços que assumam parte do cuidado e deem tempo de descanso a quem cuida. Não temos custo, cobertura e critérios de cada serviço."
         }
       ],
       "sources": [
@@ -4051,7 +4052,7 @@
       ],
       "status": "draft",
       "verification": "pending",
-      "editorialNotes": "Consulta 20/10/2026. Histórico documentado; efeitos descritos como mecanismos/condições. Auditoria integral de custo e execução pendente."
+      "editorialNotes": "Consulta 20/10/2026. Histórico documentado; efeitos descritos como mecanismos/condições. Auditoria integral de custo e execução pendente. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação."
     },
     {
       "id": "flavio-antifraude-inss",
@@ -4337,7 +4338,7 @@
         },
         {
           "label": "Como seria feito",
-          "text": "O Mais Médicos seleciona profissionais por edital, tanto para ampliação quanto para reposição de vagas. Também exige formação durante a participação. Assim, contar inscrições ou vagas anunciadas não equivale a contar médicos efetivamente atendendo."
+          "text": "O Mais Médicos seleciona profissionais por edital, tanto para ampliação quanto para reposição de vagas. Contar inscrições ou vagas anunciadas não equivale a contar médicos efetivamente atendendo."
         },
         {
           "label": "O que já aconteceu e o que falta saber",
@@ -4359,7 +4360,7 @@
           "url": "https://www.gov.br/saude/pt-br/composicao/sgtes/mais-medicos/medico-e-medica"
         }
       ],
-      "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente."
+      "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação."
     },
     {
       "id": "lula-saude-bucal",
@@ -4524,10 +4525,10 @@
         },
         {
           "label": "Ministério da Saúde — Portaria 5.350/2024, Rede Alyne",
-          "url": "https://bvs.saude.gov.br/bvs/saudelegis/gm/2024/prt5350_13_09_2024.html"
+          "url": "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5350_13_09_2024.html"
         }
       ],
-      "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente."
+      "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação."
     },
     {
       "id": "lula-saude-mental",
