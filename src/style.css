@@ -249,3 +249,6 @@ body.sidebar-collapsed .floating-search>span{display:none}
 .position-entry+.position-entry{margin-top:24px}.position-sources>summary{min-height:44px;display:flex;align-items:center;cursor:pointer;font-size:.85rem;font-weight:600}
 .position-sources .sources{margin-top:0}.proposal-card>summary .card-candidate{margin-bottom:16px}
 @media(max-width:600px){.candidate-position{padding:20px 0}.card-candidate{gap:10px}}
+
+/* Keep crowd figures and attribution visible; expand only methodology. */
+.rally-estimate summary{cursor:pointer;line-height:1.5;padding-right:24px}.rally-estimate summary span{display:block;margin-top:8px;font-weight:400;font-size:.95rem}.rally-estimate .sources{padding-left:20px}.rally-estimate li+li{margin-top:20px}

@@ -2345,13 +2345,17 @@
       "title": "11/10: ato pró-Lula na Paulista, sem contagem equivalente",
       "summary": "A ausência de uma contagem comparável impede afirmar quantas vezes um ato foi maior que o outro.",
       "paragraphs": [
-        "Lula participou do ato na Paulista em 11 de outubro. Segundo a Folha, o Monitor do Debate Político e a More in Common não fizeram sua estimativa porque não obtiveram autorização para sobrevoar o evento com drone. Campanha e GSI não explicaram o motivo à reportagem.",
+        "Lula participou do ato na Paulista em 11 de outubro. Em nota própria, o Monitor USP/Cebrap e a More in Common dizem que a campanha não autorizou o sobrevoo de drone necessário à contagem. Não temos uma estimativa desses pesquisadores para esse ato. A nota não identifica uma decisão pessoal de Lula.",
         "Fotos mostram ocupação da avenida, mas extensão e densidade variam. Comparar quarteirões ou escolher imagens de horários diferentes não substitui uma contagem feita pelo mesmo método."
       ],
       "sources": [
         {
           "label": "Folha — comparação dos atos, 18/10/2026",
           "url": "https://www1.folha.uol.com.br/poder/2026/10/veja-imagens-comparando-os-atos-de-lula-e-flavio-na-paulista.shtml"
+        },
+        {
+          "label": "More in Common — nota pública sobre a ausência de contagem",
+          "url": "https://moreincommon.org.br/nota-publica-sobre-ato-da-campanha-de-lula-na-avenida-paulista/"
         }
       ],
       "status": "draft",
@@ -2368,13 +2372,13 @@
       "title": "18/10: duas estimativas para o ato pró-Flávio",
       "summary": "Os números de 71,9 mil e 76,2 mil vêm de métodos diferentes; ambos precisam aparecer com autoria.",
       "paragraphs": [
-        "Para o ato de Flávio em 18 de outubro, a Folha reportou 71,9 mil pessoas às 12h20, estimativa do Monitor do Debate Político/Cebrap e More in Common com margem de 12% — aproximadamente 63,3 a 80,5 mil. O método identifica pessoas em fotos aéreas. É uma estimativa do público naquele momento, não a soma de quem passou pelo evento.",
+        "O Monitor USP/Cebrap e a More in Common estimaram 71,9 mil pessoas às 12h20, com faixa publicada de 63,3 a 80,5 mil. O relatório original usa 28 fotos aéreas sem sobreposição. É uma medição naquele horário, não a soma de todos que passaram.",
         "O Poder360 calculou 76,2 mil por outro método: delimitou áreas em imagens das 11h40 e 12h50 e aplicou faixas de densidade de uma a cinco pessoas por metro quadrado. O veículo reconhece limitações de visibilidade sob árvores e marquises. Os valores não devem ser somados nem tratados como duas contagens idênticas."
       ],
       "sources": [
         {
-          "label": "Folha — estimativa do Monitor",
-          "url": "https://www1.folha.uol.com.br/poder/2026/10/veja-imagens-comparando-os-atos-de-lula-e-flavio-na-paulista.shtml"
+          "label": "More in Common — relatório original de 18/10",
+          "url": "https://moreincommon.org.br/ato-da-campanha-de-flavio-bolsonaro-na-paulista-reune-719-mil-pessoas/"
         },
         {
           "label": "Poder360 — cálculo próprio e método",
@@ -2383,7 +2387,7 @@
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": "Relatório original Monitor18/10 ainda não localizado. Não inferir intenção de voto nem comparar com número inexistente do ato de Lula.",
+      "editorialNotes": "Relatório original consultado. A margem divulgada pelo método não deve ser tratada como intervalo de confiança estatístico. Não comparar com número de campanha como se usassem o mesmo método.",
       "checkedAt": "20/10/2026",
       "candidate": "flavio",
       "verifiedAt": "2026-10-20",
@@ -10316,6 +10320,11 @@
           "candidate": "lula",
           "date": "2026-10-13",
           "source": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades/"
+        },
+        {
+          "candidate": "lula",
+          "date": "2026-10-18",
+          "source": "https://www.metropoles.com/distrito-federal/ato-da-virada-reune-40-mil-apoiadores-de-lula-na-esplanada-diz-organizacao"
         }
       ],
       "sources": [
@@ -10327,9 +10336,25 @@
           "label": "TSE — votação oficial por município, 1º turno de 2026",
           "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
           "locator": "Arquivo BR; município 97012; votos válidos somados por zona."
+        },
+        {
+          "label": "Brasil de Fato — reportagem de 13/10",
+          "url": "https://www.brasildefato.com.br/2026/10/13/manifestacao-na-esplanada-reune-50-mil-contra-bolsonaro-e-em-apoio-a-lula-e-leandro-grass/"
+        },
+        {
+          "label": "Metrópoles — 18/10",
+          "url": "https://www.metropoles.com/distrito-federal/ato-da-virada-reune-40-mil-apoiadores-de-lula-na-esplanada-diz-organizacao"
+        },
+        {
+          "label": "Brasil de Fato — 18/10",
+          "url": "https://www.brasildefato.com.br/2026/10/18/ato-da-virada-leva-100-mil-pessoas-as-ruas-de-brasilia-em-apoio-a-lula-e-leandro-grass/"
+        },
+        {
+          "label": "Vale do Guaribas FM — 18/10",
+          "url": "https://www.valedoguaribasfm.com.br/noticia/2939481/ato-pro-lula-reune-200-mil-apoiadores-no-centro-de-brasilia"
         }
       ],
-      "crowd": "Não temos estimativa de público para este ato.",
+      "crowd": "13/10 · Lula: 50 mil (Organizadores, segundo o Brasil de Fato); Pelo menos 20 mil (PMDF, em conversa informal relatada pelo Brasil de Fato). 18/10 · Lula: 40 mil (Organizadores, segundo o Metrópoles); 100 mil (Brasil de Fato); 200 mil (Organizadores, segundo a Vale do Guaribas FM). Consulte os métodos acima. Não temos contagem para os demais atos desta cidade.",
       "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado. Brasília/DF é recorte territorial do Distrito Federal; não é município.",
       "verification": "checked",
       "verifiedAt": "2026-10-20",
@@ -11140,9 +11165,13 @@
           "label": "TSE — votação oficial por município, 1º turno de 2026",
           "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
           "locator": "Arquivo BR; município 88013; votos válidos somados por zona."
+        },
+        {
+          "label": "Brasil de Fato — cobertura de 14/10",
+          "url": "https://www.brasildefato.com.br/2026/10/14/mare-vermelha-toma-conta-de-porto-alegre-e-reune-mais-de-50-mil-pessoas-na-maior-caminhada-do-segundo-turno/"
         }
       ],
-      "crowd": "Não temos estimativa de público para este ato.",
+      "crowd": "13/10 · Lula: Mais de 50 mil (Brasil de Fato). Consulte os métodos acima. Não temos contagem para os demais atos desta cidade.",
       "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado.",
       "verification": "checked",
       "verifiedAt": "2026-10-20",
@@ -11261,6 +11290,11 @@
           "candidate": "lula",
           "date": "2026-10-12",
           "source": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pela-virada-de-lula-enchem-ruas-em-dezenas-cidades/"
+        },
+        {
+          "candidate": "lula",
+          "date": "2026-10-18",
+          "source": "https://moreincommon.org.br/ato-musical-pela-democracia-reune-564-mil-pessoas-em-copacabana/"
         }
       ],
       "sources": [
@@ -11272,9 +11306,13 @@
           "label": "TSE — votação oficial por município, 1º turno de 2026",
           "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
           "locator": "Arquivo BR; município 60011; votos válidos somados por zona."
+        },
+        {
+          "label": "More in Common — relatório original",
+          "url": "https://moreincommon.org.br/ato-musical-pela-democracia-reune-564-mil-pessoas-em-copacabana/"
         }
       ],
-      "crowd": "Não temos estimativa de público para este ato.",
+      "crowd": "18/10 · Lula: 56,4 mil (Monitor USP/Cebrap e More in Common). Consulte os métodos acima. Não temos contagem para os demais atos desta cidade.",
       "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado.",
       "verification": "checked",
       "verifiedAt": "2026-10-20",
@@ -11314,9 +11352,13 @@
           "label": "TSE — votação oficial por município, 1º turno de 2026",
           "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
           "locator": "Arquivo BR; município 38490; votos válidos somados por zona."
+        },
+        {
+          "label": "MundoBA — estimativa dos organizadores",
+          "url": "https://mundoba.com.br/eleicoes/flavio-bolsonaro-reune-apoiadores-na-barra-e-diz-que-ato-em-salvador-foi-de-arrepiar/"
         }
       ],
-      "crowd": "Não temos estimativa de público para este ato.",
+      "crowd": "17/10 · Flávio: Mais de 100 mil (Organizadores, segundo o MundoBA). Consulte os métodos acima. Não temos contagem para os demais atos desta cidade.",
       "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado.",
       "verification": "checked",
       "verifiedAt": "2026-10-20",
@@ -11600,9 +11642,17 @@
           "label": "TSE — votação oficial por município, 1º turno de 2026",
           "url": "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
           "locator": "Arquivo BR; município 71072; votos válidos somados por zona."
+        },
+        {
+          "label": "More in Common — relatório original",
+          "url": "https://moreincommon.org.br/ato-da-campanha-de-flavio-bolsonaro-na-paulista-reune-719-mil-pessoas/"
+        },
+        {
+          "label": "Poder360 — número atribuído à campanha",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-lula-em-sao-paulo-ocupou-7-quarteiroes-da-av-paulista/"
         }
       ],
-      "crowd": "11/10 pró-Lula: sem contagem equivalente do Monitor. 18/10 pró-Flávio: Monitor/Cebrap + More in Common: 71,9 mil ±12% (via Folha); Poder360: 76,2 mil por cálculo próprio de área/densidade, métodos diferentes.",
+      "crowd": "18/10 · Flávio: 71,9 mil (Monitor USP/Cebrap e More in Common); 76,2 mil (Poder360). 11/10 · Lula: 1 milhão (PT e aliados, segundo o Poder360). Consulte os métodos acima. Não temos contagem para os demais atos desta cidade.",
       "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado.",
       "verification": "checked",
       "verifiedAt": "2026-10-20",
@@ -11723,7 +11773,7 @@
   "rallyReview": {
     "status": "draft",
     "verification": "checked",
-    "notes": "Percentuais e vencedores de 43 localidades conferidos no arquivo oficial do TSE; atos atribuídos às reportagens indicadas. Público e votos não estabelecem relação causal.",
+    "notes": "Percentuais e vencedores de 43 localidades conferidos no arquivo oficial do TSE; atos atribuídos às reportagens indicadas. Público e votos não estabelecem relação causal. Estimativas de público separadas por ato, autoria e método; não constituem recontagem pelo Veritas. Estimativas de público separadas por ato, autoria e método; não constituem recontagem pelo Veritas.",
     "verifiedAt": "2026-10-20"
   },
   "heroPhotos": [
@@ -12771,5 +12821,208 @@
     "inventoryMappingComplete": true,
     "inventoryRows": 796,
     "mappedCards": 145
-  }
+  },
+  "rallyCrowds": [
+    {
+      "city": "São Paulo",
+      "candidate": "flavio",
+      "date": "2026-10-18",
+      "place": "Avenida Paulista",
+      "estimates": [
+        {
+          "value": "71,9 mil",
+          "author": "Monitor USP/Cebrap e More in Common",
+          "method": "Às 12h20; faixa publicada de 63,3 a 80,5 mil (12%). Contagem de pessoas em 28 fotos aéreas, sem sobreposição.",
+          "source": {
+            "label": "More in Common — relatório original",
+            "url": "https://moreincommon.org.br/ato-da-campanha-de-flavio-bolsonaro-na-paulista-reune-719-mil-pessoas/"
+          },
+          "kind": "research"
+        },
+        {
+          "value": "76,2 mil",
+          "author": "Poder360",
+          "method": "Cálculo por área e densidade em imagens das 11h40 e 12h50. Árvores e marquises limitam a visibilidade.",
+          "source": {
+            "label": "Poder360 — cálculo próprio",
+            "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-flavio-reune-76-200-na-paulista-a-uma-semana-do-2o-turno/"
+          },
+          "kind": "media-method"
+        }
+      ],
+      "limit": "São estimativas do mesmo ato por métodos diferentes. Não devem ser somadas.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    },
+    {
+      "city": "Rio de Janeiro",
+      "candidate": "lula",
+      "date": "2026-10-18",
+      "place": "Copacabana · ato musical pela democracia",
+      "estimates": [
+        {
+          "value": "56,4 mil",
+          "author": "Monitor USP/Cebrap e More in Common",
+          "method": "Às 18h; faixa publicada de 49,7 a 63,1 mil (12%). Contagem em 70 fotos aéreas.",
+          "source": {
+            "label": "More in Common — relatório original",
+            "url": "https://moreincommon.org.br/ato-musical-pela-democracia-reune-564-mil-pessoas-em-copacabana/"
+          },
+          "kind": "research"
+        }
+      ],
+      "limit": "A chuva impediu medições posteriores; o ato terminou às 20h30. O número não é o total de pessoas que passaram nem necessariamente o pico.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    },
+    {
+      "city": "Salvador",
+      "candidate": "flavio",
+      "date": "2026-10-17",
+      "place": "Cristo da Barra ao Farol da Barra",
+      "estimates": [
+        {
+          "value": "Mais de 100 mil",
+          "author": "Organizadores, segundo o MundoBA",
+          "method": "A reportagem não apresenta método, horário de contagem ou margem de erro.",
+          "source": {
+            "label": "MundoBA — estimativa dos organizadores",
+            "url": "https://mundoba.com.br/eleicoes/flavio-bolsonaro-reune-apoiadores-na-barra-e-diz-que-ato-em-salvador-foi-de-arrepiar/"
+          },
+          "kind": "organizer"
+        }
+      ],
+      "limit": "É uma estimativa de quem organizou o ato; não temos uma medição independente para confrontá-la.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    },
+    {
+      "city": "Porto Alegre",
+      "candidate": "lula",
+      "date": "2026-10-13",
+      "place": "Caminhada em apoio à reeleição",
+      "estimates": [
+        {
+          "value": "Mais de 50 mil",
+          "author": "Brasil de Fato",
+          "method": "A reportagem informa o número, mas não identifica quem contou nem explica o método.",
+          "source": {
+            "label": "Brasil de Fato — cobertura de 14/10",
+            "url": "https://www.brasildefato.com.br/2026/10/14/mare-vermelha-toma-conta-de-porto-alegre-e-reune-mais-de-50-mil-pessoas-na-maior-caminhada-do-segundo-turno/"
+          },
+          "kind": "reported-unspecified"
+        }
+      ],
+      "limit": "O ato durou cerca de três horas. Não sabemos se o número se refere ao pico ou ao público acumulado.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    },
+    {
+      "city": "Brasília",
+      "candidate": "lula",
+      "date": "2026-10-13",
+      "place": "Esplanada dos Ministérios",
+      "estimates": [
+        {
+          "value": "50 mil",
+          "author": "Organizadores, segundo o Brasil de Fato",
+          "method": "Método e horário de contagem não informados.",
+          "source": {
+            "label": "Brasil de Fato — reportagem de 13/10",
+            "url": "https://www.brasildefato.com.br/2026/10/13/manifestacao-na-esplanada-reune-50-mil-contra-bolsonaro-e-em-apoio-a-lula-e-leandro-grass/"
+          },
+          "kind": "organizer"
+        },
+        {
+          "value": "Pelo menos 20 mil",
+          "author": "PMDF, em conversa informal relatada pelo Brasil de Fato",
+          "method": "Relato da reportagem; não é um boletim oficial de contagem. Método não informado.",
+          "source": {
+            "label": "Brasil de Fato — relato da estimativa informal",
+            "url": "https://www.brasildefato.com.br/2026/10/13/manifestacao-na-esplanada-reune-50-mil-contra-bolsonaro-e-em-apoio-a-lula-e-leandro-grass/"
+          },
+          "kind": "reported-informal"
+        }
+      ],
+      "limit": "São duas estimativas atribuídas, não uma faixa de erro. Este é o ato de 13/10, diferente do realizado em 18/10.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    },
+    {
+      "city": "São Paulo",
+      "candidate": "lula",
+      "date": "2026-10-11",
+      "place": "Avenida Paulista",
+      "estimates": [
+        {
+          "value": "1 milhão",
+          "author": "PT e aliados, segundo o Poder360",
+          "method": "Método e horário de contagem não divulgados. O Monitor não realizou medição neste ato.",
+          "source": {
+            "label": "Poder360 — número atribuído à campanha",
+            "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-de-lula-em-sao-paulo-ocupou-7-quarteiroes-da-av-paulista/"
+          },
+          "kind": "organizer"
+        }
+      ],
+      "limit": "Não temos contagem independente equivalente. A capacidade hipotética de 261 mil citada pelo veículo não é uma contagem de participantes.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    },
+    {
+      "city": "Brasília",
+      "candidate": "lula",
+      "date": "2026-10-18",
+      "place": "Ato da Virada · Esplanada",
+      "estimates": [
+        {
+          "value": "40 mil",
+          "author": "Organizadores, segundo o Metrópoles",
+          "method": "Método de contagem não informado.",
+          "source": {
+            "label": "Metrópoles — 18/10",
+            "url": "https://www.metropoles.com/distrito-federal/ato-da-virada-reune-40-mil-apoiadores-de-lula-na-esplanada-diz-organizacao"
+          },
+          "kind": "organizer"
+        },
+        {
+          "value": "100 mil",
+          "author": "Brasil de Fato",
+          "method": "A reportagem não identifica o responsável pela contagem nem o método.",
+          "source": {
+            "label": "Brasil de Fato — 18/10",
+            "url": "https://www.brasildefato.com.br/2026/10/18/ato-da-virada-leva-100-mil-pessoas-as-ruas-de-brasilia-em-apoio-a-lula-e-leandro-grass/"
+          },
+          "kind": "reported-unspecified"
+        },
+        {
+          "value": "200 mil",
+          "author": "Organizadores, segundo a Vale do Guaribas FM",
+          "method": "Método de contagem não informado.",
+          "source": {
+            "label": "Vale do Guaribas FM — 18/10",
+            "url": "https://www.valedoguaribasfm.com.br/noticia/2939481/ato-pro-lula-reune-200-mil-apoiadores-no-centro-de-brasilia"
+          },
+          "kind": "organizer"
+        }
+      ],
+      "limit": "As publicações divergem. Não temos uma medição que resolva a diferença. Os valores não formam uma margem de erro e não devem ser somados ou usados para calcular uma média.",
+      "status": "draft",
+      "verification": "checked",
+      "verifiedAt": "2026-10-20",
+      "verificationScope": "source-attributed-estimates-not-recount"
+    }
+  ]
 }

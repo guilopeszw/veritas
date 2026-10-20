@@ -64,3 +64,5 @@ uncertainty intact when editing or translating reports.
 - [Debate fact checks: primary evidence](debate-factchecks-primary.md)
 - [Remaining document follow-up](remaining-documents-followup.md)
 - [Context navigation separation](navigation-context-separation.md)
+
+- [Mobilization attendance: sources and limits](mobilization-crowd-research.md)

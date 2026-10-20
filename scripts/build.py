@@ -68,6 +68,18 @@ if audit:
         assert all(m.get("verification") == "asr-caption-visual-corroborated" and m.get("coverageNote") for m in audit["matches"]), "Unverified or unexplained debate match"
     if args.public and (audit["status"] != "approved" or audit["verification"] != "checked"):
         raise SystemExit("Publicação bloqueada: análise do debate pendente")
+# Crowd estimates retain their event and attribution; never silently publish drafts.
+for event in data.get("rallyCrowds", []):
+    assert event.get("city") and event.get("date") and event.get("place") and event.get("limit"), "Incomplete crowd event"
+    assert event.get("candidate") in ("lula", "flavio"), "Unknown crowd candidate"
+    city = next((r for r in data.get("rallyCities", []) if r["city"] == event["city"]), None)
+    assert city and any(a["candidate"] == event["candidate"] and a["date"] == event["date"] for a in city["acts"]), "Crowd count mapped to wrong event"
+    assert event.get("estimates"), "Empty crowd estimates"
+    for estimate in event["estimates"]:
+        assert all(estimate.get(k) for k in ("value", "author", "method", "kind")), "Unattributed crowd estimate"
+        assert estimate.get("source", {}).get("url", "").startswith("https://"), "Missing crowd source"
+    if args.public and (event.get("status") != "approved" or event.get("verification") != "checked"):
+        raise SystemExit("Publicação bloqueada: estimativas de público pendentes de revisão")
 if args.public:
     coverage = data.get("programCoverage", {})
     if coverage.get("status") != "approved" or coverage.get("verification") != "checked":
