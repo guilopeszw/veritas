@@ -1,0 +1,12 @@
+{
+  "name": "projeto-veritas",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/app.js",
+    "build": "python3 scripts/build.py",
+    "build:public": "python3 scripts/build.py --public",
+    "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist"
+  }
+}
