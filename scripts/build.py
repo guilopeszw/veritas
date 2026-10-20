@@ -3,6 +3,8 @@ import argparse
 import base64
 import hashlib
 import json
+from decimal import Decimal
+from urllib.parse import urlparse
 import shutil
 from pathlib import Path
 
@@ -18,6 +20,17 @@ for block in data["blocks"]:
     assert block["status"] in ("approved", "draft")
     for source in block["sources"]:
         assert source["url"].startswith("https://"), f"Fonte inválida: {block['id']}"
+# Asset totals must reconcile exactly before any dashboard is generated.
+for block in data["blocks"]:
+    if "assets" not in block:
+        continue
+    assert block["assets"], f"Empty asset declaration: {block['id']}"
+    values = [Decimal(str(item["value"])) for item in block["assets"]]
+    assert all(value.is_finite() and value >= 0 and value == value.quantize(Decimal("0.01")) for value in values), f"Invalid asset amount: {block['id']}"
+    assert sum(values) == Decimal(str(block["assetTotal"])), f"Asset total mismatch: {block['id']}"
+    assert all(item.get("group") and item.get("type") and item.get("description") for item in block["assets"]), f"Incomplete asset item: {block['id']}"
+    source = urlparse(block.get("officialSource", {}).get("url", ""))
+    assert source.scheme == "https" and source.hostname == "divulgacandcontas.tse.jus.br", f"Missing official asset source: {block['id']}"
 by_id = {block["id"]: block for block in data["blocks"]}
 for topic, guide in data.get("topicGuides", {}).items():
     assert guide["title"] and guide["summary"] and guide["questions"], f"Guia incompleto: {topic}"
