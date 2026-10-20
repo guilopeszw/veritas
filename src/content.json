@@ -1150,26 +1150,32 @@
       "id": "flavio-abertura-sigilos",
       "candidate": "flavio",
       "kind": "Transparência",
-      "title": "A resposta de Flávio ao desafio de abrir os sigilos",
-      "summary": "Flávio respondeu ao desafio no debate. Não temos dados sobre uma autorização formal ou divulgação posterior.",
+      "title": "Aliados dizem que não aceitará abrir os sigilos",
+      "summary": "Segundo o SBT News, aliados da campanha disseram em 20 de outubro que Flávio não aceitará o desafio de Lula para abrir os sigilos.",
       "paragraphs": [
         "Na resposta ao desafio de Lula no debate de 18 de outubro, Flávio afirmou: “Eu não tenho absolutamente nada a esconder”. Segundo a cobertura da CNN, ele não confirmou expressamente que abriria seus sigilos e passou a fazer acusações contra o adversário.",
+        "Em 20 de outubro, a coluna de Túlio Amâncio, no SBT News, informou que aliados integrantes da campanha disseram que Flávio não pretende abrir seus sigilos bancário, fiscal e telefônico em resposta ao desafio. Segundo a coluna, esses aliados consideram a iniciativa uma estratégia eleitoral para gerar desgaste nos últimos dias da campanha.",
         "Não temos uma autorização formal de Flávio em resposta ao desafio nem dados bancários ou telefônicos divulgados por ele para esse fim. Dados disponíveis até 20/10/2026."
       ],
-      "context": "Temos o registro da resposta no debate. Não temos dados sobre autorização formal ou divulgação pública dos documentos.",
+      "context": "A informação sobre a recusa é atribuída a aliados ouvidos pelo SBT News; a reportagem não apresenta uma nova declaração direta de Flávio. Não temos autorização formal nem os dados publicados.",
       "sources": [
         {
           "label": "CNN Brasil — resposta no terceiro bloco, 18/10/2026",
           "url": "https://www.cnnbrasil.com.br/eleicoes/lula-fala-em-abrir-sigilos-flavio-diz-que-nao-tem-nada-a-esconder/",
           "locator": "Trecho da resposta de Flávio e distinção entre declaração e aceitação explícita."
+        },
+        {
+          "label": "SBT News — Túlio Amâncio, 20/10/2026, 12h39",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-nao-vai-aceitar-desafio-de-lula-para-abrir-sigilos",
+          "locator": "A coluna atribui a decisão a aliados integrantes da campanha; não reproduz nova recusa direta do candidato."
         }
       ],
       "status": "draft",
       "verification": "pending",
       "statusSteps": [
         {
-          "label": "Declaração",
-          "value": "Resposta registrada"
+          "label": "Resposta ao desafio",
+          "value": "Aliados dizem ao SBT News que não aceitará (20/10)."
         },
         {
           "label": "Autorização formal",
@@ -1179,7 +1185,9 @@
           "label": "Dados publicados",
           "value": "Não temos esses dados."
         }
-      ]
+      ],
+      "editorialNotes": "20/10/2026: reportagem integral consultada no navegador. Recusa atribuída a aliados não identificados nominalmente, integrantes da campanha; não tratar como fala direta do candidato. Conferência de eventual documento formal e revisão editorial continuam pendentes.",
+      "checkedAt": "20/10/2026"
     },
     {
       "id": "flavio-cargo-camara",
