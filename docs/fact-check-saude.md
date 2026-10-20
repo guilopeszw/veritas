@@ -1,134 +1,245 @@
-# Conferência factual — Saúde
+# Health fact-check
 
-Consulta: 20/10/2026. Escopo: os 14 blocos com `topic: saude` em `outputs/veritas/src/content.json`. Conferência documental, sem alteração do aplicativo e sem aprovação editorial automática.
+Reviewed: 2026-10-20. Scope: the 14 blocks with `topic: saude` in the examined
+`outputs/veritas/src/content.json` snapshot. Documentary review only; no app
+changes or automatic editorial approval. Counts and recommendations below are
+historical and must be reconciled with subsequent implementation.
 
-## Resultado e limites
+## Findings and limitations
 
-Os dois programas em domínio oficial do TSE abriram nesta consulta. A atribuição das propostas pode ser conferida nesses documentos. Um programa comprova o compromisso da campanha; não comprova que a política funcionará, que os resultados históricos narrados pela campanha são corretos ou que existe orçamento aprovado.
+Both programs on the official TSE domain opened during this review. They can
+support attribution of campaign commitments. A program does not prove that a
+policy will work, that its historical claims are true, or that funding is approved.
 
-Há uma correção factual necessária: `lula-saude` inclui consultas à distância no Farmácia Popular, mas o trecho específico do programa não faz essa associação. A parte digital é outro eixo. Há também melhorias de fonte: o programa oficial permite substituir a reportagem no bloco de saúde das mulheres de Flávio. Alguns links da administração pública estão temporariamente indisponíveis; isso não prova falsidade.
+One factual correction is needed: `lula-saude` associates remote consultations
+with Farmácia Popular, but that specific passage does not make the connection.
+Digital health is a separate policy area. The official program also supports
+replacing a news source in Flávio's women's-health block. Temporary unavailability
+of government links is not proof of falsehood.
 
-Nenhum bloco foi marcado `checked` neste trabalho. Mesmo os classificados abaixo como sustentados exigem aplicação das correções, conferência editorial e preservação da distinção entre proposta, mecanismo e resultado. As frases “não temos” são descrições do acervo do Veritas, não prova de que a informação inexista.
+No block was marked `checked`. Even supported attributions require the corrections,
+editorial review, and a distinction between proposal, mechanism, and outcome.
+“We do not have” describes Veritas's holdings, not proof that information does not exist.
 
-## Atribuição dos compromissos
+## Attribution of commitments
 
-Fontes: [programa de Lula no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt), 84 páginas; [programa de Flávio no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl), 76 páginas. Paginação abaixo é a página física, iniciando em 1. Documentos acessados em 20/10/2026; data de depósito e histórico de versões não aferidos nesta rodada.
+Sources: [Lula's TSE program](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt),
+84 pages, and [Flávio's TSE program](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl),
+76 pages. Page numbers are physical pages starting at 1. Accessed 2026-10-20;
+filing dates and version histories were not established in this round.
 
-| Bloco | Alegação examinada | Conclusão sobre a atribuição |
-|---|---|---|
-| `lula-saude` | Farmácia Popular com exames e mais locais de retirada | Sustentada, p.36. Teleconsultas nesse programa: não sustentadas pelo trecho. |
-| `lula-saude-digital` | Prontuário, teleatendimento e IA | Sustentada, p.35. |
-| `lula-especialistas` | Turnos, mutirões e serviços privados com créditos | Sustentada, p.37. |
-| `lula-atencao-basica` | Equipes e fixação de médicos | Sustentada, pp.34–35. |
-| `lula-saude-bucal` | Expansão odontológica municipal | Sustentada, p.36. |
-| `lula-vacinacao` | Cobertura e vacinação escolar | Sustentada, pp.36–37. |
-| `lula-cancer` | Rede oncológica e telediagnóstico | Sustentada, p.38. |
-| `lula-saude-mulheres` | Prevenção, reprodução e maternidade | Sustentada, pp.38–39. |
-| `lula-saude-mental` | CAPS e cuidado para problemas com apostas | Sustentada, p.39. |
-| `lula-industria-saude` | Produção e absorção tecnológica | Sustentada, p.39. |
-| `flavio-saude` | Saúde da Família e contratação privada ociosa | Sustentada, p.37. |
-| `flavio-saude-mulheres` | Prevenção, câncer, menopausa e endometriose | Sustentada, p.21; usar fonte primária. |
+| Block | Claim examined | Attribution finding |
+| --- | --- | --- |
+| `lula-saude` | Farmácia Popular with tests and more collection locations | Supported, p.36. Remote consultations within this program are not supported by the passage. |
+| `lula-saude-digital` | Records, telehealth, and AI | Supported, p.35. |
+| `lula-especialistas` | Extended shifts, concentrated service drives, and private services against credits | Supported, p.37. |
+| `lula-atencao-basica` | Teams and physician retention | Supported, pp.34–35. |
+| `lula-saude-bucal` | Municipal dental-care expansion | Supported, p.36. |
+| `lula-vacinacao` | Coverage and school vaccination | Supported, pp.36–37. |
+| `lula-cancer` | Cancer-care network and remote diagnosis | Supported, p.38. |
+| `lula-saude-mulheres` | Prevention, reproduction, and maternity | Supported, pp.38–39. |
+| `lula-saude-mental` | CAPS and gambling-related care | Supported, p.39. |
+| `lula-industria-saude` | Production and technology absorption | Supported, p.39. |
+| `flavio-saude` | Family Health and contracting unused private capacity | Supported, p.37. |
+| `flavio-saude-mulheres` | Prevention, cancer, menopause, and endometriosis | Supported, p.21; use the primary source. |
 
-Os dois compromissos restantes têm fontes diretas próprias:
+The other two commitments have direct sources of their own:
 
-- `flavio-prontuario-cpf`: a [seleção publicada pela Band](https://www.band.com.br/politica/eleicoes/debate-na-band-veja-como-foi-o-1o-embate-entre-flavio-e-lula-em-frases), seção “Saúde e SUS”, reproduz a promessa de conectar informações municipais e estaduais pelo CPF. Sustentado como declaração publicada pela emissora; vídeo completo e timestamp não foram examinados. Não chamar a seleção de transcrição integral.
-- `flavio-cuidado-idosos`: o [site 70MAIS da campanha](https://70mais.flaviobolsonaro.com.br/), seções “Remédio em casa” e “Cuidado e autonomia”, apresenta entrega domiciliar, telessaúde, adaptação da casa, centros-dia, cuidado domiciliar e instituições de longa permanência. Sustentado como promessa. Página sem data de publicação visível; consulta em 20/10/2026.
+- `flavio-prontuario-cpf`: [Band's selected statements](https://www.band.com.br/politica/eleicoes/debate-na-band-veja-como-foi-o-1o-embate-entre-flavio-e-lula-em-frases),
+  “Saúde e SUS,” reproduce a promise to connect municipal and state information
+  using CPF. Supported as a broadcaster-published statement; the full video and
+  timestamp were not examined. Do not call this selection a full transcript.
+- `flavio-cuidado-idosos`: the campaign's [70MAIS site](https://70mais.flaviobolsonaro.com.br/),
+  “Remédio em casa” and “Cuidado e autonomia,” describes home delivery, telehealth,
+  home adaptation, day centers, home care, and long-term institutions. Supported
+  as a promise. No visible publication date; accessed 2026-10-20.
 
-## Contexto e implicações, bloco por bloco
+## Context and implications by block
 
 ### `lula-saude`
 
-**Histórico sustentado:** o [Ministério da Saúde, março de 2025](https://www.gov.br/saude/pt-br/assuntos/noticias/2025/marco/saiba-como-retirar-medicamentos-e-insumos-pelo-farmacia-popular) registra os 41 itens gratuitos após anúncio em 13/02/2025. A versão da Agência Gov usada no card redirecionou para aviso de indisponibilidade eleitoral; substituir pela fonte ministerial e verificar sua acessibilidade no navegador final. Chamar de **itens/medicamentos e insumos**, não 41 medicamentos, porque inclui fraldas.
+**Supported history:** the [Health Ministry, March 2025](https://www.gov.br/saude/pt-br/assuntos/noticias/2025/marco/saiba-como-retirar-medicamentos-e-insumos-pelo-farmacia-popular)
+records 41 free items following the 2025-02-13 announcement. The Agência Gov
+version used by the card redirected to an election-period unavailability notice;
+replace it with the ministry source and check browser accessibility. Say
+**items/medicines and supplies**, not 41 medicines, because diapers are included.
 
-**Correção proposta para resumo:** “Manter os itens gratuitos do Farmácia Popular e acrescentar exames de acompanhamento.” Remover “consultas à distância” deste card. Isso é correção de escopo, não concluir que a campanha rejeita teleconsultas.
+**Recommended summary meaning:** keep Farmácia Popular items free and add
+monitoring tests. Remove remote consultations from this card. This is a scope
+correction, not a finding that the campaign rejects teleconsultations.
 
-**Condições:** lista de exames, credenciamento, integração de resultados e custo são perguntas de implementação. Não há evidência examinada que quantifique efeito ou custo. Preservar linguagem condicional e não transformar falta de dados do acervo em ausência definitiva no programa.
+**Conditions:** test lists, accreditation, result integration, and cost remain
+implementation questions. No examined evidence quantifies effects or cost.
+Keep conditional wording; missing collection data is not absence from the program.
 
 ### `flavio-saude`
 
-**Histórico sustentado:** [Agora Tem Especialistas](https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas) e [componente de créditos financeiros](https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas/componente-creditos-financeiros/componente-creditos-financeiros) documentam participação privada já existente no SUS. A política não começa do zero. O mecanismo do compromisso de Flávio não deve ser declarado idêntico ao de Lula apenas por ambos envolverem hospitais particulares.
+**Supported history:** [Agora Tem Especialistas](https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas)
+and its [financial-credit component](https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas/componente-creditos-financeiros/componente-creditos-financeiros)
+document existing private participation in SUS. This does not start from zero.
+Do not describe Flávio's mechanism as identical to Lula's solely because both
+involve private hospitals.
 
-**Análise, não efeito medido:** aproveitar capacidade pode ampliar oferta; reduzir espera depende de especialidade, local, recursos e encaminhamento. Não há estimativa causal examinada. O link sobre 600 mil cirurgias de agosto de 2026 não foi necessário para sustentar a existência do mecanismo e não foi validado nesta rodada: retirar da fundamentação principal ou checar separadamente antes de reproduzir esse número.
+**Analysis, not a measured effect:** using available capacity may expand supply;
+waiting-time reductions depend on specialty, location, resources, and referrals.
+No causal estimate was reviewed. The August 2026 link about 600,000 surgeries
+was unnecessary to establish the mechanism and was not validated: remove it from
+the main justification or check it separately before repeating that number.
 
-**Resumo mais informativo:** “Contratar exames e atendimentos em horários livres da rede privada para pacientes do SUS.” Separar expansão de equipes em uma medida própria se houver comparação equivalente.
+**Clearer summary meaning:** contract tests and care in unused private-provider
+time slots for SUS patients. Separate team expansion if an equivalent comparison
+can be made.
 
-### `flavio-prontuario-cpf` e `lula-saude-digital`
+### `flavio-prontuario-cpf` and `lula-saude-digital`
 
-**Sustentado:** [RNDS](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds) descreve troca de informações, acesso profissional restrito e consulta individual no Meu SUS Digital. [Perguntas do Meu SUS Digital](https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao/), questão 18, menciona identificação por CNS e CPF. Isso não prova que todo o histórico de todos os pacientes já esteja integrado.
+**Supported:** [RNDS](https://www.gov.br/saude/pt-br/composicao/seidigi/rnds)
+describes exchange of information, restricted professional access, and individual
+access through Meu SUS Digital. [Citizen FAQs](https://www.gov.br/saude/pt-br/composicao/seidigi/meususdigital/perguntas-e-respostas/cidadao/),
+question 18, mention CNS and CPF identification. This does not establish that
+every patient's full history is already integrated.
 
-**Marco histórico:** [Portaria 1.434, de 28/05/2020](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2020/prt1434_01_06_2020_rep.html) aparece no índice oficial com criação da RNDS. A abertura direta retornou 403 nesta rodada; a busca recuperou a ementa e artigos. Para remover a pendência completa, obter o texto normativo integral acessível ou DOU. A data não é 01/06 simplesmente porque aparece no nome do arquivo: distinguir assinatura de publicação.
+**Historical milestone:** [Ordinance 1,434, 2020-05-28](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2020/prt1434_01_06_2020_rep.html)
+appears in the official index as creating RNDS. Direct opening returned 403;
+search retrieved the summary and articles. Obtain accessible full text or the
+official gazette before closing this gap. Distinguish signature and publication;
+the June 1 date in the filename is not the signature date.
 
-**Proteção sustentada:** [LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm), arts.5, 11 e46: dados de saúde são sensíveis, com hipóteses legais para tratamento e deveres de segurança. Não afirmar que consentimento é sempre a única base legal.
+**Supported safeguards:** [LGPD](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm),
+articles 5, 11, and 46: health information is sensitive, with lawful processing
+grounds and security duties. Do not claim consent is always the sole legal basis.
 
-**Texto recomendado comum:** “O SUS já troca parte dessas informações. A proposta precisa ampliar a integração sem expor os dados dos pacientes.” Para Lula, avaliação de desempenho da IA ainda é pendência; não prometer diagnóstico melhor ou redução de filas sem estudo. Para Flávio, a declaração na Band basta para atribuir a promessa, mas não para descrever um projeto técnico completo.
+**Shared explanation meaning:** SUS already exchanges some of this information;
+the proposal must expand integration without exposing patient data. Lula's AI
+performance claims remain unverified; do not promise better diagnosis or shorter
+queues without a study. Flávio's Band statement supports attribution, not a
+complete technical design.
 
 ### `lula-especialistas`
 
-**Sustentado:** o [componente oficial](https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas/componente-creditos-financeiros/componente-creditos-financeiros) explica oferta, pactuação, atendimento e compensação de débitos ou tributos. A [Portaria 7.307, de 25/06/2025](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2025/prt7307_26_06_2025.html) define adesão voluntária e oferta. Corrigir eventual referência à data de assinatura como 26/06 (essa é a data no caminho do arquivo).
+**Supported:** the [official component](https://www.gov.br/saude/pt-br/composicao/saes/agora-tem-especialistas/componente-creditos-financeiros/componente-creditos-financeiros)
+explains supply, agreements, service delivery, and compensation of debts or taxes.
+[Ordinance 7,307, 2025-06-25](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2025/prt7307_26_06_2025.html)
+defines voluntary participation and supply. Correct a June 26 signature attribution
+if present: that date appears in the URL, not the signature date.
 
-**Pode manter:** não se trata de cancelamento de dívida sem serviço; os créditos dependem do atendimento. **Não sustentado como resultado:** expansão futura reduzirá filas em quantidade ou prazo específico. “Pode ampliar atendimento” é análise condicionada; medir entrega exige dados executados, não metas de campanha.
+**Retain:** this is not debt cancellation without service; credits depend on care
+being delivered. **Not established as an outcome:** a specific future waiting-time
+reduction. “May expand access” is conditional analysis; delivered services require
+execution data, not campaign targets.
 
 ### `flavio-saude-mulheres`
 
-**Histórico sustentado:** [Ministério das Mulheres](https://www.gov.br/mulheres/pt-br/acesso-a-informacao/acoes-e-programas-1/acoes-e-programas-de-gestoes-anteriores/politicas-para-mulheres/arquivo/assuntos/saude-integral-da-mulher/saude-integral-da-mulher) registra elaboração da PNAISM em 2004. Não implica que todos os cuidados previstos já estejam disponíveis em toda região.
+**Supported history:** the [Ministry of Women](https://www.gov.br/mulheres/pt-br/acesso-a-informacao/acoes-e-programas-1/acoes-e-programas-de-gestoes-anteriores/politicas-para-mulheres/arquivo/assuntos/saude-integral-da-mulher/saude-integral-da-mulher)
+records PNAISM's development in 2004. This does not establish universal regional
+availability of all planned care.
 
-**Correção:** retirar “conforme a Folha” do resumo, vincular programa oficial p.21. **Análise:** exame, retorno e tratamento formam etapas diferentes; não presumir eliminação de filas. Metas completas por serviço permanecem sem dados no acervo conferido.
+**Correction:** replace attribution to Folha in the summary with official program
+page 21. **Analysis:** testing, follow-up, and treatment are separate steps; do not
+assume queues disappear. Complete service targets remain unavailable in the
+reviewed collection.
 
 ### `flavio-cuidado-idosos`
 
-**Histórico sustentado:** [Lei 15.069, de 23/12/2024](https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15069.htm) institui Política Nacional de Cuidados. Isso não demonstra que todas as medidas prometidas já existam ou sejam universais.
+**Supported history:** [Law 15,069, 2024-12-23](https://www.presidencia.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15069.htm)
+establishes the National Care Policy. That does not prove every promised measure
+already exists or is universal.
 
-**Análise:** estoque, logística, profissionais e continuidade são condições de execução, não resultados comprovados. A expressão “substituição de jornadas de cuidado” é pouco clara: trocar por “serviços que assumam parte do cuidado e deem tempo de descanso aos cuidadores”. Não inferir remuneração ou benefício financeiro se não estiver previsto.
+**Analysis:** supplies, logistics, staff, and continuity are execution conditions,
+not proven results. Replace unclear wording about substituting care shifts with
+services that take on part of the care and give caregivers time to rest. Do not
+infer pay or financial benefits unless explicitly proposed.
 
 ### `lula-atencao-basica`
 
-**Sustentado:** [orientação oficial aos médicos](https://www.gov.br/saude/pt-br/composicao/sgtes/mais-medicos/medico-e-medica) informa seleção por edital, ampliação e reposição de vagas. O texto atual sobre formação durante participação deve apontar a regulamentação ou página de oferta formativa, pois a seção de inscrição consultada não basta para todos os requisitos de formação.
+**Supported:** [official physician guidance](https://www.gov.br/saude/pt-br/composicao/sgtes/mais-medicos/medico-e-medica)
+describes public selection, expansion, and replacement vacancies. The current
+training-during-participation claim requires its regulation or training-offer
+page; the registration section alone does not establish all training requirements.
 
-**Análise correta:** vagas anunciadas não equivalem a profissionais presentes; avaliar ocupação e permanência. **Correção simples:** “Mais equipes nos postos de saúde e profissionais nas regiões onde faltam.” Sem meta municipal comprovada, não acrescentar número.
+**Appropriate analysis:** announced positions are not physicians actually present;
+evaluate occupancy and retention. Simpler meaning: more primary-care teams and
+professionals where they are missing. Do not add a municipal target without evidence.
 
 ### `lula-saude-bucal`
 
-**Sustentado:** [Brasil Sorridente](https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/brasil-sorridente) registra origem em 2004 e rede com atenção básica e especializada; [Lei 14.572, de 08/05/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm) institui a Política Nacional de Saúde Bucal no SUS. “Programa começou em 2004, política incorporada à lei em 2023” é distinção adequada.
+**Supported:** [Brasil Sorridente](https://www.gov.br/saude/pt-br/composicao/saps/brasil-sorridente/brasil-sorridente)
+records its 2004 origin and primary/specialist network;
+[Law 14,572, 2023-05-08](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14572.htm)
+establishes the National Oral Health Policy within SUS. Distinguish program
+inception in 2004 from incorporation into law in 2023.
 
-**Análise:** equipamento sozinho não entrega tratamento. Prazo de cobertura universal e metas municipais não estão demonstrados neste acervo. Não transformar a palavra universalização do programa em compromisso com data definida.
+**Analysis:** equipment alone does not deliver treatment. A universal-coverage
+deadline and municipal targets are not established by this collection. Do not
+turn “universalization” into a dated commitment without evidence.
 
 ### `lula-vacinacao`
 
-**Sustentado:** [Calendário Técnico Nacional](https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico), atualizado em02/03/2026, remete à instrução2026 e identifica faixas etárias, grupos, escolas, registro e monitoramento. Não dar conselho individual sobre vacinas sem consultar a regra específica.
+**Supported:** the [National Technical Calendar](https://www.gov.br/saude/pt-br/composicao/svsa/pni/calendario-tecnico/calendario-tecnico),
+updated 2026-03-02, links to 2026 instructions and identifies ages, groups, schools,
+recording, and monitoring. Do not provide individual vaccination advice without
+consulting the specific rule.
 
-**Análise:** doses distribuídas, doses aplicadas e cobertura são medidas diferentes. Não há estimativa causal ou meta adicional aferida no relatório. Texto atual pode manter essa distinção.
+**Analysis:** distributed doses, administered doses, and coverage are different
+measures. No causal estimate or additional target was verified; retain that distinction.
 
 ### `lula-cancer`
 
-**Sustentado:** [INCA, tratamento](https://www.gov.br/inca/pt-br/assuntos/gestor-e-profissional-de-saude/controle-do-cancer-de-mama/acoes/tratamento) explica Unacon/Cacon, estrutura de alta complexidade, terapias e organização dos encaminhamentos. É página específica sobre câncer de mama; para generalizar a todos os cânceres, preferir também a norma de habilitação nela ligada.
+**Supported:** [INCA treatment guidance](https://www.gov.br/inca/pt-br/assuntos/gestor-e-profissional-de-saude/controle-do-cancer-de-mama/acoes/tratamento)
+explains Unacon/Cacon, complex-care infrastructure, therapies, and referrals.
+It is breast-cancer-specific; use the linked accreditation rule as well before
+generalizing to all cancers.
 
-**Não verificado:** superlativo “maior rede mundial”; não publicar como fato. **Análise:** expansão física precisa de profissionais e encaminhamento; não prova redução da espera. “Expandir diagnóstico e tratamento” é mais simples que “rede oncológica”.
+**Unverified:** the superlative “largest network in the world”; do not publish it
+as fact. **Analysis:** facilities require staff and referral systems; expansion
+does not establish shorter waits. “Expand diagnosis and treatment” is simpler
+than specialist network terminology.
 
 ### `lula-saude-mulheres`
 
-**Sustentado:** [Portaria 5.350, de12/09/2024](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5350_13_09_2024.html) dispõe sobre Rede Alyne, componentes e vínculo da gestante. O URL atual com host `bvs.saude.gov.br` retornou502; o equivalente `bvsms.saude.gov.br` abriu. Trocar o link para o funcional.
+**Supported:** [Ordinance 5,350, 2024-09-12](https://bvsms.saude.gov.br/bvs/saudelegis/gm/2024/prt5350_13_09_2024.html)
+sets out Rede Alyne, components, and pregnancy-care linkage. The current
+`bvs.saude.gov.br` host returned 502; the equivalent `bvsms.saude.gov.br` URL
+opened. Replace the broken link with the working one.
 
-**Análise:** exames, contracepção, acompanhamento e parto são etapas distintas; obras não comprovam cuidado completo. Sem metas adicionais por região no acervo consultado, evitar promessa de cobertura total.
+**Analysis:** tests, contraception, monitoring, and childbirth are distinct steps;
+construction does not prove complete care. Without additional regional targets,
+avoid promising complete coverage.
 
 ### `lula-saude-mental`
 
-**Sustentado:** [CAPS](https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps), seção de acesso, informa acolhimento inicial sem marcação e articulação com outras unidades. Não é garantia de tratamento especializado imediato nem de funcionamento24h em todo CAPS; modalidades variam.
+**Supported:** [CAPS access information](https://www.gov.br/saude/pt-br/composicao/saes/desmad/raps/caps)
+describes initial reception without an appointment and coordination with other
+units. This does not guarantee immediate specialist treatment or 24-hour operation
+at every CAPS; service types vary.
 
-**Análise:** acesso e continuidade requerem pessoal e rede. Pode manter essa condição. O compromisso sobre apostas não demonstra número de novos serviços ou atendimento universal.
+**Analysis:** access and continuity require staff and a network. The gambling
+commitment does not establish a number of new services or universal treatment.
 
 ### `lula-industria-saude`
 
-**Sustentado:** [PDPs](https://www.gov.br/saude/pt-br/composicao/sectics/pdp/pdp/) descreve quatro fases, monitoramento e transferência/absorção de tecnologia. Comprar nacional, assinar parceria e dominar tecnologia não são equivalentes.
+**Supported:** [PDP documentation](https://www.gov.br/saude/pt-br/composicao/sectics/pdp/pdp/)
+describes four stages, monitoring, and technology transfer/absorption. Buying
+nationally, signing a partnership, and mastering technology are not equivalent.
 
-**Análise:** não há cálculo aferido de economia futura nem diminuição de desabastecimento por projeto. Resumo proposto: “Produzir no Brasil mais medicamentos e equipamentos usados pelo SUS.” Manter a explicação sobre dependência tecnológica sem prometer autossuficiência.
+**Analysis:** no project-level future savings or shortage-reduction calculation
+was verified. Suggested meaning: produce more SUS medicines and equipment in
+Brazil. Explain technological dependence without promising self-sufficiency.
 
-## Ações necessárias antes de encerrar a conferência
+## Actions before closing verification
 
-1. Corrigir o escopo de Farmácia Popular; não associar teleconsulta a ele sem outra fonte direta.
-2. Adotar TSE p.21 em saúde das mulheres de Flávio e host funcional para a Rede Alyne.
-3. Registrar fonte primária/trecho para cada parte histórica; obter texto integral acessível da Portaria RNDS e regra de formação do Mais Médicos.
-4. Inspecionar visualmente páginas35–39 do PDFPT,21/37 do PDFPL, além do trecho completo de saúde da Band; a atribuição acima foi aferida pelo texto extraído, não pelo vídeo.
-5. Tratar todas as “implicações” como análise condicionada. Nenhuma fonte examinada demonstra efeitos futuros quantitativos.
-6. Considerar cobertura: o inventário atual tem10 blocos de Lula e4 de Flávio. Isso não é prova de ausência de propostas de Flávio nos outros temas. O programaPL menciona prevenção, vacinas, hospitais universitários e saúde mental; inventariar por subtema antes de mostrar espaço vazio como “sem proposta”.
+1. Correct the Farmácia Popular scope; do not attach teleconsultations without
+   another direct source.
+2. Use TSE page 21 for Flávio's women's-health block and the working Rede Alyne host.
+3. Record primary evidence for each historical claim; obtain complete RNDS legal
+   text and the Mais Médicos training rule.
+4. Visually inspect PT pages 35–39, PL pages 21/37, and the full Band health
+   passage. Attribution above used extracted text, not video.
+5. Treat every implication as conditional analysis. None of the examined sources
+   establishes quantitative future effects.
+6. Reconcile coverage: this snapshot has ten Lula and four Flávio blocks. It does
+   not prove Flávio lacks proposals elsewhere. PL mentions prevention, vaccines,
+   university hospitals, and mental health; inventory subtopics before labeling
+   an empty comparison cell as no proposal.
 
-O relatório não autoriza publicação de acusações, números de resultados de governo ou toda a base eleitoral: o escopo foi exclusivamente Saúde.
+This report does not authorize publication of allegations, government outcome
+figures, or the entire electoral database. Its scope is health alone.

@@ -1,25 +1,42 @@
-# Complementos de Saúde — proposta editorial
+# Health additions — editorial proposal
 
-Consulta em 20/10/2026. Arquivo de entrada: `outputs/saude-complementos.json`. Os três complementos foram integrados à prévia e pareados por assunto. Todos permanecem `draft` / `pending`.
+Reviewed: 2026-10-20. Input: `outputs/saude-complementos.json`. The three additions
+were integrated into the preview and paired by topic. All remain `draft` / `pending`.
 
-## Evidência primária
+## Primary evidence
 
-[Programa PL no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl): extração completa de 76 páginas disponível. A paginação física é iniciada em 1; P36 da ferramenta corresponde à página física 37.
+[PL program at TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl):
+full 76-page text extraction available. Physical pagination starts at 1; tool
+page P36 corresponds to physical page 37.
 
-- Página física 37, seção de saúde preventiva: sustenta os blocos de atenção básica e vacinação.
-- Página física 39, seção de cuidados: sustenta o bloco de saúde mental.
-- Foram solicitadas imagens das páginas 37 e 39, mas o retorno não incluiu imagem utilizável para conferência visual. Não registrar inspeção visual concluída.
+- Physical page 37, preventive health: supports primary care and vaccination blocks.
+- Physical page 39, care section: supports the mental-health block.
+- Page images were requested for 37 and 39, but no usable image was returned.
+  Do not record visual inspection as complete.
 
-## Integração e limites
+## Integration and limits
 
-1. Atenção básica deve ser retirada do parágrafo de `flavio-saude` ao integrar o novo bloco; aquele card permanece sobre serviços privados para o SUS.
-2. Vacinas podem ser comparadas com `lula-vacinacao`, mas manutenção e ampliação são compromissos diferentes. Não criar um segundo card industrial com a mesma frase: seria duplicação e equivalência artificial.
-3. Saúde mental permite comparação temática, não equivalência de instrumentos. Não inferir CAPS para Flávio.
-4. Não propor novo card de câncer geral usando a passagem específica sobre mulheres, já cadastrada.
-5. Não afirmar ausência de propostas nos demais assuntos: não foi feita uma extração exaustiva dos dois programas nesta rodada.
-6. O programa PT retornou timeout em duas tentativas na ferramenta web; a rota de download não abriu e curl retornou página de bloqueio. Não há evidência nova suficiente para acrescentar cuidado dos idosos de Lula nesta entrega. Isso é limitação da consulta, não ausência de compromisso.
-7. As implicações são condições de execução e critérios de avaliação; não são resultados causais apurados ou aconselhamento de saúde.
+1. Remove primary care from `flavio-saude` when integrating the new block; the
+   existing card remains about private services for SUS patients.
+2. Vaccination can be compared with `lula-vacinacao`, but maintenance and expansion
+   are different commitments. Do not create a second industrial-policy card from
+   the same sentence: that would duplicate evidence and imply false equivalence.
+3. Mental health permits thematic comparison, not equivalence of instruments.
+   Do not infer a CAPS commitment for Flávio.
+4. Do not create a general cancer card from the women-specific passage already
+   represented in the database.
+5. Do not claim absence of proposals elsewhere: this round was not an exhaustive
+   extraction of both programs.
+6. The PT program timed out twice in the web tool; its download route did not
+   open and curl returned a blocking page. This round lacks sufficient new
+   evidence to add Lula's older-person care counterpart. That is a retrieval
+   limitation, not evidence of no commitment.
+7. Implications are implementation conditions and evaluation criteria, not
+   measured causal results or medical advice.
 
-## Pendências para o responsável
+## Outstanding work
 
-Conferir visualmente páginas oficiais, registrar revisão editorial e a versão do documento. Se houver arquivo local íntegro do PT previamente obtido, ler a seção específica de idosos antes de criar contraparte. Não marcar qualquer novo bloco como pronto para publicação automaticamente.
+Inspect official pages visually, record editorial review and document version.
+If a complete local PT copy is available, read the specific older-person care
+section before creating a counterpart. Do not automatically mark any new block
+as ready for publication.

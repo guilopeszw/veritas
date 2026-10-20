@@ -1,45 +1,67 @@
-# Cobertura dos programas — rodada 02
+# Program coverage — round 02
 
-Consulta: 20/10/2026. Escopo: leitura textual focal de educação e saúde, além das seis lacunas da rodada anterior. **Não é uma auditoria integral nem aprovação editorial.**
+Reviewed: 2026-10-20. Scope: focused textual review of education and health,
+beyond the six omissions from the previous round. **This is neither a complete
+audit nor editorial approval.**
 
-## Evidências e método
+## Evidence and method
 
-Fontes primárias: [PT, 84 páginas](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt) e [PL, 76 páginas](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl). Páginas físicas, iniciadas em 1. Trechos consultados: PT 31–33 e 35–39; PL 35–39, com referências a outras seções ainda não reconciliadas.
+Primary sources: [PT, 84 pages](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt)
+and [PL, 76 pages](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl).
+Physical pages start at 1. Passages reviewed: PT 31–33 and 35–39; PL 35–39, with
+references to other sections still awaiting reconciliation.
 
-A comparação considerou títulos, resumos, parágrafos, contexto e implicações dos cards de educação e saúde, além de buscas em todos os campos das propostas para localizar medidas agrupadas em outros assuntos. Ausência de uma palavra isolada não foi usada como prova de ausência da medida.
+The comparison examined titles, summaries, paragraphs, context, and implications
+of education and health cards, plus searches across proposal fields to locate
+measures grouped elsewhere. A missing keyword was not treated as evidence that
+a measure was absent.
 
-Fotografia intermediária do conteúdo: SHA-256 `f157e0e65f654f17a5144c3b380fb744ebf7d4235f0280fcf6ded21c7c27728b`. Outros agentes estavam integrando as seis medidas da primeira rodada durante esta consulta; os achados abaixo são adicionais e devem ser reconciliados contra a versão final.
+Intermediate content snapshot SHA-256:
+`f157e0e65f654f17a5144c3b380fb744ebf7d4235f0280fcf6ded21c7c27728b`.
+The first round's six measures were being integrated concurrently; the findings
+below are additional and must be reconciled against the final version.
 
-## Lula — medidas e correspondência
+## Lula — commitments and mapping
 
-| Página | Compromisso, em paráfrase | Situação do cadastro |
-|---|---|---|
-| 31 | Alcançar 80% das crianças alfabetizadas na idade certa. | `lula-alfabetizacao` cobre a política, mas omite a meta. Cobertura parcial; acrescentar a meta como promessa, sem validar estatísticas históricas. |
-| 32 | Ampliar acervo do MEC Livros e idiomas disponíveis no MEC Idiomas. | Instrumentos ausentes. `lula-adultos-conectividade` trata EJA e conexão, que não são equivalentes. |
-| 38 | Fila digital única organizada por risco clínico e transporte sanitário regional. | `lula-saude-digital` cobre integração e IA; `lula-especialistas`, atendimentos. Falta esse mecanismo específico de acesso. |
-| 38–39 | Ampliar contraceptivos duradouros, cuidado da endometriose e dignidade menstrual. | `lula-saude-mulheres` resume planejamento e maternidade; cobertura parcial dessas medidas. |
-| 39 | Diagnóstico e acompanhamento do autismo e outras neurodivergências. | `lula-saude-mental` registra CAPS e apostas; não explicita esse público e compromisso. |
+| Page | Commitment, paraphrased | Database coverage |
+| --- | --- | --- |
+| 31 | Reach 80% of children literate at the expected age. | `lula-alfabetizacao` covers the policy but omits the target. Partial: add it as a promise, without validating historical statistics. |
+| 32 | Expand the MEC Livros collection and languages offered by MEC Idiomas. | Instruments missing. `lula-adultos-conectividade` covers adult education and connectivity, which are not equivalent. |
+| 38 | A single digital waiting list prioritized by clinical risk, with regional patient transport. | `lula-saude-digital` covers integration and AI; `lula-especialistas` covers appointments. This access mechanism is missing. |
+| 38–39 | Expand long-acting contraception, endometriosis care, and menstrual dignity. | `lula-saude-mulheres` summarizes family planning and maternity; these measures are only partially covered. |
+| 39 | Diagnosis and follow-up for autism and other neurodivergence. | `lula-saude-mental` describes CAPS and gambling-related care without this explicit population and commitment. |
 
-Essas linhas identificam especificidades não representadas; não exigem necessariamente cinco cards novos. Podem virar submedidas nos cards existentes, com rastreabilidade por página.
+These rows identify missing specifics, not necessarily five new cards. They may
+be added as submeasures to existing cards with page-level traceability.
 
-## Flávio — medidas e correspondência
+## Flávio — commitments and mapping
 
-| Página | Compromisso, em paráfrase | Situação do cadastro |
-|---|---|---|
-| 35 | Criar Acolher, remunerando alunos para reforço aos colegas. | Ausente em `flavio-educacao`; alfabetização não representa esse instrumento. |
-| 35 | Vincular repasses a metas de aprendizagem e formar professores continuamente. | Ausentes como instrumentos em `flavio-educacao`. |
-| 35–36 | Atender altas habilidades e abrir escolas nas férias. | Não descritos nos cards de educação. |
-| 36 | Transferir ensino superior ao MCTI e redirecionar prioridades de Capes/CNPq. | `flavio-tecnico-fies` não cobre essa mudança institucional. |
-| 37 | Corrigir remuneração da tabela SUS e criar atendimento específico aos idosos. | `flavio-saude` cobre contratação privada; `flavio-cuidado-idosos`, cuidados. Faltam esses instrumentos. |
-| 38 | Entregar medicamentos em casa e usar teleatendimento. | **Já representado** em `flavio-cuidado-idosos`. Acrescentar fonte primária; não criar duplicata. |
-| 36–37 | Bolsas técnicas e financiamento estudantil condicionado à renda. | Já representado em `flavio-tecnico-fies`; substituir dependência exclusiva de reportagem pela fonte primária. |
+| Page | Commitment, paraphrased | Database coverage |
+| --- | --- | --- |
+| 35 | Create Acolher, paying students to tutor peers. | Missing from `flavio-educacao`; literacy does not represent this instrument. |
+| 35 | Link transfers to learning targets and provide continuous teacher training. | Missing as instruments in `flavio-educacao`. |
+| 35–36 | Support gifted students and open schools during vacations. | Not described in education cards. |
+| 36 | Move higher education to MCTI and redirect Capes/CNPq priorities. | `flavio-tecnico-fies` does not cover this institutional change. |
+| 37 | Adjust the SUS reimbursement schedule and create dedicated services for older people. | `flavio-saude` covers private contracting; `flavio-cuidado-idosos` covers care. These instruments are missing. |
+| 38 | Deliver medicines at home and use telehealth. | **Already represented** in `flavio-cuidado-idosos`. Add the primary source; do not duplicate. |
+| 36–37 | Technical scholarships and income-linked student financing. | Already represented in `flavio-tecnico-fies`; replace sole reliance on reporting with the primary source. |
 
-## Ações editoriais necessárias
+## Required editorial actions
 
-1. Integrar as submedidas ausentes sem duplicar os cards agregados. Registrar relações muitos-para-um entre compromissos e cards.
-2. Nas comparações, conferir os dois programas para cada medida; o cadastro incompleto não autoriza conclusão de silêncio do candidato.
-3. Não calcular percentuais com número de cards: um card reúne vários compromissos e há sobreposição entre cards.
-4. Conferir visualmente páginas e fixar versões antes de aprovação. Os pedidos de screenshots das páginas 32/PT e 35/PL retornaram referências sem pixels inspecionáveis. O download dos bytes pelos dois endereços retornou HTTP 403, portanto **não há hash confiável dos PDFs nesta rodada**. Não foi calculado hash de página de erro.
-5. Continuar inventário de todas as páginas e documentos complementares, incluindo educação e saúde fora das seções principais. Este recorte não esgota nem esses dois temas.
+1. Integrate missing submeasures without duplicating aggregate cards. Record
+   many-to-one relationships between commitments and cards.
+2. Check both programs for each comparison. Incomplete cataloging does not
+   justify concluding that a candidate is silent on the subject.
+3. Do not calculate program percentages using card counts: one card may group
+   several commitments, and cards may overlap.
+4. Inspect pages visually and fix versions before approval. Screenshot requests
+   for PT page 32 and PL page 35 returned references without inspectable pixels.
+   Both byte downloads returned HTTP 403, so **no reliable PDF hash exists for
+   this round**. No error-page hash was substituted.
+5. Continue inventorying every page and supplement, including education and
+   health outside the main sections. This review does not exhaust even these
+   two topics.
 
-As propostas acima são compromissos atribuídos aos documentos, não comprovação de eficácia, viabilidade, resultados históricos ou financiamento. Nenhum status de publicação foi alterado por este relatório. A liberação do compartilhamento comparativo segue bloqueada até revisão da cobertura e dos textos.
+These are commitments attributed to documents, not evidence of effectiveness,
+feasibility, historical results, or funding. This report changed no publication
+state. Public comparison sharing remains blocked pending coverage and text review.

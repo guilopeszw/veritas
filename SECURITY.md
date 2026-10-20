@@ -1,35 +1,42 @@
-# Segurança e publicação
+# Security and deployment
 
-## Reportar vulnerabilidades
+## Reporting vulnerabilities
 
-Use a aba Security > Report a vulnerability no GitHub. Não publique segredos ou
-instruções de exploração em issues públicas. O mantenedor é @guilopeszw.
+Use GitHub's **Security → Report a vulnerability** if available. If private
+reporting is unavailable, contact the maintainer, **@guilopeszw**, privately;
+do not publish secrets or exploit instructions in public issues.
 
-## Modelo de acesso
+## Access model
 
-- Repositório temporariamente privado, por solicitação do mantenedor em 20/10/2026.
-- A licença MIT permanece; tornar o repositório público novamente exige decisão do mantenedor.
-- `main` exige PR e o check `validate`, com revisão. O administrador conserva recuperação.
-- Force pushes e exclusão da branch principal são bloqueados.
-- Actions tem token somente de leitura. CI de PR não recebe segredos de produção.
-- Não usamos `pull_request_target`, runners próprios ou execução de código de forks com privilégios.
-- Não existe workflow de deploy nesta edição; GitHub Pages não está habilitado.
-- O ambiente `production` aceita somente `main`. Após tornar o repositório privado,
-  o GitHub retirou o revisor obrigatório. A tentativa de restabelecê-lo retornou
-  HTTP 422: o plano não suporta essa proteção no repositório privado.
-- A publicação permanece bloqueada: não adicionar deploy automático enquanto
-  não houver um mecanismo efetivo de aprovação do mantenedor. Revalidar a proteção
-  do ambiente e da branch antes do primeiro lançamento; configuração armazenada
-  não substitui a verificação de que as regras são aplicadas.
+The following is the configuration record from 2026-10-20, not a guarantee that
+GitHub settings cannot change. Recheck enforcement before the first deployment.
 
-Não há garantia contra todo ataque. A conta administradora pode alterar as regras;
-proteja-a com passkey/2FA e revise colaboradores, tokens e logs periodicamente.
-Não adicione tokens duradouros ao código. Uma futura publicação deve usar permissões
-mínimas, workflow revisado e ambiente protegido, após aprovação editorial.
+- The repository is temporarily private at the maintainer's request.
+- The MIT code license remains. Making the repository public requires a separate
+  maintainer decision.
+- `main` is configured to require a PR and the `validate` check, with review.
+  The administrator retains bypass/recovery access. Maintainer-authorized direct
+  pushes have used that exception.
+- Force pushes and deletion of the default branch are configured as blocked.
+- Actions uses a read-only token. PR CI does not receive production secrets.
+- There is no `pull_request_target`, self-hosted runner, or privileged execution
+  of fork code in this configuration.
+- There is no deployment workflow; GitHub Pages is not enabled.
+- The `production` environment accepts only `main`. After the repository became
+  private, GitHub removed the required reviewer. Restoring it returned HTTP 422:
+  the current plan does not support that protection for this private repository.
+- Do not add automatic deployment until effective maintainer authorization is
+  enforced. Stored settings are not proof that protections are applied.
 
-## Primeira publicação
+There is no guarantee against every attack. Administrators can change rules.
+Protect accounts with passkeys/2FA and review collaborators, tokens, and audit
+logs. Never commit long-lived tokens. Future deployment must use minimal
+permissions, a reviewed workflow, and effective release protection.
 
-A autorização para abrir o código não aprova textos ou lançamento do site.
-`python3 scripts/build.py --public` bloqueia conteúdo não aprovado/verificado,
-cobertura incompleta ou ausência de `launchApproved`. Apenas a saída `public/`
-pode ser usada no futuro deploy. Não publicar a prévia `dist/` como atalho.
+## First release
+
+Permission to open-source the code does not approve content or launch.
+`python3 scripts/build.py --public` rejects unapproved or unverified content,
+incomplete required coverage, or missing `launchApproved`. The program-coverage
+gate is separate from individual card approvals. Only the generated `public/`
+output may be used for a future release; never deploy `dist/` as a workaround.

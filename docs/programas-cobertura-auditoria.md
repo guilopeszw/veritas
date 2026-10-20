@@ -1,65 +1,99 @@
-# Auditoria de cobertura dos programas oficiais
+# Official program coverage audit
 
-Consulta: 20/10/2026. Resultado: **a base não contempla integralmente os programas**. Esta rodada identificou lacunas concretas; não concluiu o inventário exaustivo e não aprovou nenhum texto para publicação.
+Reviewed: 2026-10-20. Finding: **the database does not fully cover the programs**.
+This round identified concrete omissions; it did not complete an exhaustive
+inventory or approve any text for publication.
 
-## Base e método
+## Baseline and method
 
-A fotografia examinada de `src/content.json` contém 120 cards de propostas: 65 de Lula e 55 de Flávio. SHA-256: `252e8fbdc886b1d0e0fd03867c09d9bdb751319f011f1963313e91cbe5a21415`.
+The examined snapshot of `src/content.json` contains 120 proposal cards: 65 for
+Lula and 55 for Flávio. SHA-256:
+`252e8fbdc886b1d0e0fd03867c09d9bdb751319f011f1963313e91cbe5a21415`.
 
-Foram lidos os títulos e resumos de todos os cards e, nos assuntos abaixo, também seus parágrafos e implicações. Uma busca literal em todos os campos dos cards foi usada como apoio, nunca como prova isolada de ausência. Uma menção temática genérica não equivale a cadastrar todas as medidas do tema.
+All card titles and summaries were read; paragraphs and implications were also
+examined for the topics below. Literal searches across card fields supported the
+review but were never treated as standalone evidence of absence. A generic topic
+mention does not establish coverage of every measure within that topic.
 
-Os dois documentos abriram diretamente no domínio oficial do TSE nesta rodada:
+Both documents opened directly on the official TSE domain during this round:
 
-- [Programa PT — 84 páginas](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt).
-- [Programa PL — 76 páginas](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl).
+- [PT program — 84 pages](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt).
+- [PL program — 76 pages](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl).
 
-As páginas abaixo são físicas, iniciadas em 1. A ferramenta de leitura usa índice iniciado em zero. Foram solicitadas imagens das páginas 57/PT e 26/PL; a ferramenta retornou referências sem pixels utilizáveis. Portanto, a conferência realizada foi textual, não visual. Data de depósito, versão e hash dos PDFs ainda precisam ser fixados antes da reconciliação final.
+Page numbers below are physical pages, starting at 1; the reading tool indexes
+from zero. Images of PT page 57 and PL page 26 were requested, but the tool
+returned references without inspectable pixels. Verification was textual, not
+visual. Filing date, version, and PDF hashes remain to be fixed before final
+reconciliation.
 
-## Lula: lacunas documentadas
+## Lula: documented omissions
 
-Fonte primária de todas as linhas: [programa PT no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt).
+Primary source for every row: [PT program at TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt).
 
-| Página | Medida no programa, em síntese | Situação na base | Tratamento recomendado |
-|---|---|---|---|
-| 57 | Desenvolver destinos e roteiros turísticos; promover o Brasil no exterior. | Não há card de turismo nem descrição equivalente. | Criar medida de turismo; comparar com `flavio-turismo`, distinguindo instrumentos. |
-| 71–72 | Ampliar ProPatinhas, continuar SinPatinhas e combater maus-tratos. | `lula-biodiversidade` trata genericamente de espécies e ecossistemas; não registra esses compromissos. | Acrescentar proteção animal como medida própria. |
-| 57 | Ampliar compras governamentais de pequenas empresas e apoiar sua inserção exportadora. | `lula-pequenos-negocios` cobre crédito; não cobre esses instrumentos. | Completar ou desmembrar o card; não contar crédito duas vezes. |
+| Page | Program measure, paraphrased | Database state at review | Recommended treatment |
+| --- | --- | --- | --- |
+| 57 | Develop destinations and tourist routes; promote Brazil abroad. | No tourism card or equivalent description. | Add a tourism measure and compare with `flavio-turismo`, distinguishing instruments. |
+| 71–72 | Expand ProPatinhas, continue SinPatinhas, and combat animal mistreatment. | `lula-biodiversidade` addresses species and ecosystems generally, not these commitments. | Add animal protection as a distinct measure. |
+| 57 | Expand government procurement from small businesses and support their access to export markets. | `lula-pequenos-negocios` covers credit, not these instruments. | Expand or split the card without counting credit twice. |
 
-Esses achados demonstram propostas existentes que ainda não estavam representadas; não validam os números históricos ou promessas de resultado narrados no programa.
+These findings establish commitments missing from the database. They do not
+validate historical figures or promised outcomes in the program.
 
-## Flávio: lacunas documentadas
+## Flávio: documented omissions
 
-Fonte primária de todas as linhas: [programa PL no TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl).
+Primary source for every row: [PL program at TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl).
 
-| Página | Medida no programa, em síntese | Situação na base | Tratamento recomendado |
-|---|---|---|---|
-| 26 | Usar IA para agendar consultas e exames, buscando vagas disponíveis. | `flavio-prontuario-cpf` cobre integração do histórico; não descreve agendamento. | Acrescentar submedida digital, preservando distinção entre promessa e resultado. |
-| 27 | Simplificar outorgas de irrigação e acelerar titulação do pequeno proprietário rural. | `flavio-agro-alimentos` cobre logística, seguro e fertilizantes. | Criar medida de regularização e procedimentos rurais. |
-| 28 | Integrar cadastros e controles para rastrear cadeias produtivas. | A referência a rastreabilidade existente é de emendas parlamentares; não é equivalente. | Acrescentar medida rural/ambiental; evitar substituição por rótulo genérico. |
+| Page | Program measure, paraphrased | Database state at review | Recommended treatment |
+| --- | --- | --- | --- |
+| 26 | Use AI to schedule appointments and tests by finding available slots. | `flavio-prontuario-cpf` covers record integration, not scheduling. | Add the digital submeasure; distinguish promise from outcome. |
+| 27 | Simplify irrigation water-use permits and accelerate small landowners' title registration. | `flavio-agro-alimentos` covers logistics, insurance, and fertilizers. | Add rural procedures and land regularization. |
+| 28 | Integrate registries and controls to trace supply chains. | Existing traceability references concern parliamentary budget amendments, not this measure. | Add a rural/environmental measure rather than a generic label. |
 
-A própria página 26 também documenta o prontuário único. O card hoje atribuído à seleção da Band pode receber a fonte primária do programa, sem apagar a evidência de que houve uma fala no debate.
+Page 26 also documents the unified medical record. The card currently attributed
+to Band's selected statements can gain the primary program source without
+removing evidence of the debate statement.
 
-## O que isso muda para comparações e compartilhamento
+## Implications for comparisons and sharing
 
-1. Não liberar afirmação “não tem proposta” por haver um card vazio. O caso de turismo demonstra risco concreto: existe proposta de Lula no programa, embora ainda não haja card correspondente.
-2. Tampouco liberar “não encontramos nos documentos consultados” como conclusão definitiva antes de terminar a busca temática nos documentos completos e canais oficiais definidos na metodologia.
-3. Na prévia editorial, o vazio deve ser tratado como cadastro em conferência. Uma imagem externa com apenas uma posição deve permanecer bloqueada até existir evidência explícita de conclusão da busca para aquele tema.
-4. A presença de duas posições não basta: ambos os textos e suas fontes precisam de conferência e aprovação editorial.
-5. 65 e 55 são contagens de cards, não de propostas atômicas. Um card pode reunir vários compromissos; não usar esses totais como prova de cobertura integral nem como denominador do programa sem explicar a unidade.
+1. Do not publish “has no proposal” because a card is missing. Tourism illustrates
+   the risk: Lula's program contained a proposal without a corresponding card.
+2. Do not treat “not found in the documents consulted” as a final conclusion
+   before completing thematic review of full documents and official channels
+   defined by the methodology.
+3. In the editorial preview, treat an empty cell as pending catalog review. An
+   external image with only one position must remain blocked until explicit
+   evidence shows that topic's search is complete.
+4. Two populated positions are not enough: both texts and sources need
+   verification and editorial approval.
+5. The 65 and 55 figures count cards, not atomic commitments. A card can group
+   several promises; do not use those totals as proof of exhaustive coverage or
+   a program denominator without defining the unit.
 
-## Trabalho necessário para fechamento
+## Work required to close the audit
 
-- Fixar cópia, versão, paginação e hash de cada programa oficial.
-- Percorrer todas as páginas, separando compromisso futuro, histórico, diagnóstico e crítica.
-- Registrar cada compromisso em matriz: candidato, medida, página, paráfrase, card correspondente, cobertura completa/parcial/ausente e revisão.
-- Deduplicar compromissos repetidos e desmembrar pacotes antes de calcular qualquer percentual.
-- Conferir complementos oficiais de campanha separadamente do programa depositado no TSE, com datas e versões.
-- Fazer revisão visual das passagens citadas e revisão editorial das inserções antes de alterar status.
+- Fix a copy, version, pagination, and hash for each official program.
+- Read every page, separating future commitments, history, diagnosis, and criticism.
+- Record each commitment in a matrix: candidate, measure, page, paraphrase,
+  corresponding card, full/partial/missing coverage, and review state.
+- Deduplicate repeated commitments and split packages before computing percentages.
+- Review official campaign supplements separately from the TSE-filed program,
+  retaining dates and versions.
+- Visually inspect cited passages and editorially review additions before
+  changing approval states.
 
-Esta entrega é uma auditoria parcial com omissões comprovadas. Não afirma cobertura de 100%, não mede quantas propostas faltam no total e não muda `status`, `verification` ou permissões de publicação.
+This is a partial audit with documented omissions. It does not claim 100%
+coverage, quantify all remaining proposals, or change `status`, `verification`,
+or publication permissions.
 
-## Incorporação na prévia — 20/10/2026
+## Incorporated into the preview — 2026-10-20
 
-As seis lacunas desta rodada foram cadastradas como rascunhos: `lula-turismo`, `lula-protecao-animal`, `lula-pequenas-empresas-mercados`, `flavio-agendamento-saude`, `flavio-regularizacao-rural` e `flavio-rastreabilidade-rural`. A base passou a 126 cards (68 de Lula e 58 de Flávio). Turismo ganhou comparação direta; isso não certifica completude dos demais temas.
+The six omissions were added as drafts: `lula-turismo`, `lula-protecao-animal`,
+`lula-pequenas-empresas-mercados`, `flavio-agendamento-saude`,
+`flavio-regularizacao-rural`, and `flavio-rastreabilidade-rural`. The database now
+has 126 cards (68 Lula, 58 Flávio). Tourism has a direct comparison; this does not
+certify completeness of other topics.
 
-O build público e o compartilhamento público de comparações agora exigem também a conferência e aprovação de `programCoverage`, além da revisão dos textos. A prévia editorial continua disponível com marca de revisão. Teste isolado confirmou que aprovar os textos não contorna o bloqueio de cobertura.
+Public builds and public comparison sharing now also require verified and
+approved `programCoverage`, independently of text approval. The editorial
+preview remains available with a review mark. An isolated test confirmed that
+approving text does not bypass the coverage gate.

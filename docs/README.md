@@ -1,0 +1,41 @@
+# Documentation
+
+All project documentation is written in English. The product and its editorial
+content remain in Brazilian Portuguese. Portuguese filenames and content IDs
+are retained for compatibility with existing links and audit references.
+
+## Start here
+
+- [Project overview and local setup](../README.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Security and deployment](../SECURITY.md)
+- [Verification record](../VERIFICACAO.md)
+- [Image attribution](../ATTRIBUTIONS.md)
+
+## Editorial evidence
+
+These reports preserve dated research snapshots. Their claims are scoped to the
+sources and versions examined; neither a report nor its translation grants
+approval to publish. Older counts must not be mistaken for the current inventory.
+
+| Report | Scope |
+| --- | --- |
+| [Editorial inventory](inventario-editorial.md) | Recorded approval states and content fingerprints |
+| [Priority fact-checks](fact-check-prioridades.md) | Working hours, prisons, criminal-group designations, disclosures |
+| [Health fact-check](fact-check-saude.md) | Proposal attribution, historical context, implementation limits |
+| [Health additions](saude-complementos.md) | Additional health commitments and pairing constraints |
+| [Debate transcript audit](debate-transcript-audit.md) | Caption evidence, timestamps, and unresolved audiovisual review |
+| [Program coverage audit](programas-cobertura-auditoria.md) | Six confirmed database omissions and their integration |
+| [Program coverage, round 02](programas-cobertura-rodada-02.md) | Partial health and education reconciliation |
+
+## Product planning
+
+- [Electoral dashboard options](electoral-dashboards.md): proposed views,
+  source requirements, interpretation limits, and a no-cost integration plan.
+
+## Release rule
+
+Do not infer that missing data means a candidate has no proposal. Complete the
+program inventory, reconcile each commitment with the UI, verify sources, and
+record editorial approval before releasing comparisons. Keep documented
+uncertainty intact when editing or translating reports.

@@ -1,20 +1,38 @@
-# Verificação — 20/10/2026
+# Verification record — 2026-10-20
 
-- `node --check src/app.js`: passou.
-- `python3 scripts/build.py`: passou, 181 blocos.
-- Publicação permanece bloqueada pelas pendências editoriais.
-- Layout verificado em janelas simuladas de 320 e 390 px; não em aparelho físico.
-- Busca, menu, cards e navegação verificados no navegador local.
+This file records checks from implementation rounds. It is not a statement that
+all editorial content is verified or ready for publication.
 
-Não há auditoria completa WCAG nem teste em todos os navegadores. O CI valida
-sintaxe e integridade, não a veracidade de afirmações. Cada bloco preserva suas
-fontes, pendências e estado de aprovação em `src/content.json`.
+## Latest program-coverage round
 
-## Rodada Saúde — guia e comparações
+- `npm run check`: passed JavaScript syntax validation.
+- `npm run build`: passed; 187 content blocks, including 126 proposal cards
+  (68 for Lula and 58 for Flávio).
+- `git diff --check`: passed.
+- An isolated fixture with approved content and a pending `programCoverage`
+  record was rejected by the public builder as expected.
+- The six added proposal IDs remain `draft` / `pending` with official TSE
+  program references and page fragments.
+- Tourism was checked in the browser as a two-candidate comparison.
+- Publication and public comparison sharing remain blocked by coverage and
+  editorial requirements. A passing build is not a fact-check.
 
-- Saúde reúne 17 propostas e seis pares temáticos. Os três complementos permanecem em revisão.
-- Sintaxe JS, build de prévia e git diff --check passaram.
-- Browser: filtro de candidato retornou sete propostas de Flávio; busca por vacina restringiu a seleção; troca de assunto atualizou a rota e retirou o contexto anterior.
-- Telas simuladas de 390 e 320 px: atalhos legíveis; cards começam fechados, abrir Lula mantém Flávio fechado; busca abre com perguntas e fundo desfocado. Não é teste em aparelho físico.
-- Fixture temporária: guia pendente bloqueou publicação com os demais estados liberados; referência de contexto inexistente bloqueou o build.
-- Ainda faltam conferência visual dos PDFs e revisão editorial; indicadores comparáveis não foram adicionados nesta rodada.
+## Earlier UI and health rounds
+
+- Earlier preview build: 181 blocks; JavaScript syntax and whitespace checks passed.
+- Layout was checked at simulated 320 px and 390 px widths, not on physical devices.
+- Search, menus, cards, and navigation were checked in the local browser.
+- The health round had 17 proposals and six thematic pairs; its three additions
+  remained under review. These are historical counts, not the current inventory.
+- Candidate filtering returned seven Flávio proposals; vaccine search narrowed
+  results; changing topic updated the route and removed the previous context.
+- At 390 px and 320 px, shortcuts were readable, cards started collapsed,
+  opening Lula's card kept Flávio's closed, and search opened over a blurred page.
+- An isolated fixture rejected publication with a pending guide even when other
+  states were approved; a nonexistent context reference also failed validation.
+- Visual inspection of the official PDFs and editorial approval remained pending.
+  No comparable outcome indicators were added in that round.
+
+There has been no complete WCAG audit or exhaustive browser testing. CI validates
+syntax and integrity, not factual truth. Each block retains sources, outstanding
+questions, and approval state in `src/content.json`.

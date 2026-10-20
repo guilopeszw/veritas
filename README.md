@@ -1,43 +1,76 @@
 # Veritas
 
-Informação eleitoral em português simples, com perfis, propostas comparáveis,
-fontes e contexto. Iniciativa independente e não oficial do Projeto Veritas.
+Independent, source-backed information about Brazil's presidential election.
+Veritas helps readers compare candidates, understand proposals, and inspect the
+evidence behind public claims. The website is written in plain Brazilian
+Portuguese; repository documentation is in English.
 
-**Prévia editorial em desenvolvimento.** Abrir o código não significa que os
-textos estejam aprovados ou que o site esteja publicado. Consulte os estados
-individuais em `src/content.json`, `aprovacoes.json` e `VERIFICACAO.md`.
+**Status: private repository · editorial preview · not publicly deployed.**
+The code is MIT-licensed. This does not imply editorial approval, verified
+completeness, or authorization to publish the website.
 
-## Rodar localmente
+## What the site provides
 
-Requisitos: Python 3.10+ e Node.js 20+. Sem dependências npm.
+- Candidate profiles, declared assets, official channels, and political records.
+- Side-by-side proposals grouped by the same policy topic, with search and filters.
+- Timelines, fact-checking, debate evidence, and international-policy context.
+- Comparison images formatted for Stories; public sharing remains gated by
+  content approval and program-coverage verification.
+
+## Run locally
+
+Requires **Python 3.10+** and **Node.js 20+**. No npm dependencies are needed.
 
 ```sh
+git clone https://github.com/guilopeszw/veritas.git
+cd veritas
 npm run check
 npm run build
 npm run preview
 ```
 
-Abra http://127.0.0.1:4173. A galeria da home responde ao mouse no desktop e ao
-deslize no celular. Texto e botões permanecem fora da área rolável.
+Repository access is required while it is private. Open
+[the local preview](http://127.0.0.1:4173). The homepage gallery supports desktop
+pointer interaction and mobile swiping, with text and controls outside the
+scrolling images.
 
-## Organização
+## Project structure
 
-- `src/app.js`: navegação, componentes, busca e compartilhamento.
-- `src/style.css`: identidade visual e responsividade.
-- `src/content.json`: dados, fontes e estados editoriais.
-- `src/assets/`: fotografias e recursos visuais.
-- `scripts/build.py`: validação, prévia e barreira de publicação.
-- `.github/`: CI, responsáveis por revisão e modelo de PR.
-- `dist/` e `public/`: saídas geradas, fora do Git.
+| Path | Purpose |
+| --- | --- |
+| `src/app.js` | Routing, components, search, and sharing |
+| `src/style.css` | Visual design and responsive layout |
+| `src/content.json` | Content, sources, and editorial/verification states |
+| `src/assets/` | Photographs and other visual assets |
+| `scripts/build.py` | Validation, preview generation, and publication gates |
+| `aprovacoes.json` | Approval configuration |
+| `.github/` | CI, review ownership, and contribution templates |
+| `docs/` | Editorial audit records and design proposals |
+| `dist/`, `public/` | Generated outputs, excluded from Git |
 
-## Contribuir e publicar
+## Evidence and publication
 
-Leia [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) e
-[ATTRIBUTIONS.md](ATTRIBUTIONS.md). O código é MIT; fotos têm licenças próprias.
-PRs executam somente validações, sem deploy. O repositório está temporariamente
-privado. O plano atual não permite revisor obrigatório no ambiente privado;
-essa proteção precisa ser resolvida antes de habilitar deploy. Ainda não existe
-hospedagem pública configurada. Consulte `SECURITY.md` para o estado verificado.
+Editorial approval and factual verification are separate. An official campaign
+program supports attribution of a promise; it does not establish feasibility,
+funding, effectiveness, or the truth of historical claims within it. Missing
+content in our database is not evidence that a candidate has no proposal.
 
-`npm run build:public` só funciona após aprovação editorial, conferência das
-fontes, cobertura completa e autorização de lançamento. Não contorne a barreira.
+`npm run build:public` requires approved and verified content, the required
+coverage checks, and launch authorization. Never bypass these gates or deploy
+the editorial `dist/` output. There is no deployment workflow or public hosting
+configured. See [security and deployment](SECURITY.md) for access-control limits.
+
+## Documentation
+
+- [Documentation index](docs/README.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Verification record](VERIFICACAO.md)
+- [Image attribution and licensing](ATTRIBUTIONS.md)
+- [Program coverage audit](docs/programas-cobertura-auditoria.md)
+- [Latest partial coverage review](docs/programas-cobertura-rodada-02.md)
+- [Electoral dashboard options](docs/electoral-dashboards.md)
+
+Audit reports are dated snapshots, not live approval certificates. Their older
+counts and findings must be reconciled with `src/content.json` before release.
+Photographs retain their individual licenses; the code license does not replace
+their attribution or reuse requirements.
