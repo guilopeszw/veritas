@@ -31,3 +31,9 @@ Publication and comparison-sharing approval remain blocked. Editorial approval m
 ## Newly mapped debate commitments
 
 The debt-auction/Pix and sex-offender-register promises now have separate reader cards, video locators and explicit limits. They remain outside the original frozen148-card denominator; adding a card after coding must not retroactively change that historical metric. Individual program coverage is being normalized separately.
+
+## Individual debate mapping update
+
+All 796 extracted inventory rows now have a recorded disposition: 923 derived units, of which 810 are retained actions, 76 merged references and 37 contextual/outcome exclusions. No unclassified inventory rows remain. Preliminary strict coverage is Lula 6/483 (1.24%) and Flávio 17/327 (5.20%). These replace card percentages in the local preview, not in a released publication.
+
+Ten ambiguous debate-to-program relationships remain excluded, not silently marked absent. Eight separately mapped debate commitments sit outside the frozen denominator. The complete ledger is `src/debate-atomic-audit.json`; method and limitations are in `docs/debate-atomic-audit.md`. Independent coding review, complete source-version/page authentication, and independent human audio listening are not completed. Publication remains blocked.

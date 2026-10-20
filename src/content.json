@@ -2188,7 +2188,7 @@
         "Flávio prometeu classificar facções e milícias como narcoterroristas, ampliar vagas nas prisões, atuar nas fronteiras, integrar câmeras e bancos de dados, reduzir a idade penal em crimes graves e buscar aprovação da castração química. Defendeu ainda penas maiores para crimes envolvendo celulares.",
         "Na saúde, prometeu integrar registros pelo CPF. Na economia e no trabalho, falou em manter o Bolsa Família, comprar dívidas com carência, oferecer crédito e qualificação, conectar pessoas a vagas e levar internet a escolas, hospitais e aldeias. São compromissos anunciados, não resultados demonstrados."
       ],
-      "context": "Os trechos foram confrontados com duas transcrições e imagens dos locutores. A contagem indica cards com ao menos uma medida abordada, não todas as medidas do programa.",
+      "context": "A prévia agora conta ações individuais dos programas. Os trechos foram cruzados com transcrição, reconhecimento automático do áudio, legendas e imagens dos interlocutores. Os percentuais ainda dependem de revisão antes da publicação.",
       "sources": [
         {
           "label": "Rádio Bandeirantes — gravação com os trechos marcados",
@@ -2256,7 +2256,7 @@
         "Lula prometeu criar o Ministério da Segurança se a PEC for aprovada, coordenar o combate ao crime com estados e municípios, apoiar a formação de professores e continuar aumentando o salário mínimo. Também apresentou uma meta para diagnóstico e início do tratamento do câncer, defendeu data centers, crédito à economia criativa e formação em engenharia, matemática e indústria digital.",
         "Defender ações anteriores não equivale a apresentar uma proposta nova. É preciso separar prestação de contas, continuidade prometida e nova medida."
       ],
-      "context": "Os trechos foram confrontados com duas transcrições e imagens dos locutores. A contagem indica cards com ao menos uma medida abordada, não todas as medidas do programa.",
+      "context": "A prévia agora conta ações individuais dos programas. Os trechos foram cruzados com transcrição, reconhecimento automático do áudio, legendas e imagens dos interlocutores. Os percentuais ainda dependem de revisão antes da publicação.",
       "sources": [
         {
           "label": "Rádio Bandeirantes — gravação com os trechos marcados",
@@ -13148,5 +13148,617 @@
       "verifiedAt": "2026-10-20",
       "verificationScope": "source-attributed-estimates-not-recount"
     }
-  ]
+  ],
+  "debateIndividualAudit": {
+    "status": "draft",
+    "publicationApproved": false,
+    "inventoryRowsRead": 796,
+    "transcriptRecordsRead": 367,
+    "counts": {
+      "lula": {
+        "inventoryRows": 459,
+        "normalizedRetainedActions": 483,
+        "strictMatchedActions": 6,
+        "matchedIds": [
+          "PT-058-01",
+          "PT-072-02",
+          "PT-105-01",
+          "PT-145-01",
+          "PT-149-01",
+          "PT-X029"
+        ],
+        "provisionalPercentage": 1.24,
+        "publicationApproved": false
+      },
+      "flavio": {
+        "inventoryRows": 337,
+        "normalizedRetainedActions": 327,
+        "strictMatchedActions": 17,
+        "matchedIds": [
+          "PL-001",
+          "PL-004:b",
+          "PL-006",
+          "PL-007",
+          "PL-010",
+          "PL-014",
+          "PL-017",
+          "PL-020",
+          "PL-064",
+          "PL-074",
+          "PL-138:a",
+          "PL-164:a",
+          "PL-172",
+          "PL-174:a",
+          "PL-174:b",
+          "PL-174:c",
+          "PL-178"
+        ],
+        "provisionalPercentage": 5.2,
+        "publicationApproved": false
+      }
+    },
+    "matches": [
+      {
+        "start": 467,
+        "end": 493,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=467s",
+        "readerParaphrase": "Criar o Ministério da Segurança Pública se a PEC da Segurança for aprovada.",
+        "note": "Condition retained; creation rather than generic crime rhetoric.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PT-058-01"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-058-01",
+        "candidate": "lula",
+        "pages": [
+          30
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 2659,
+        "end": 2684,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2659s",
+        "readerParaphrase": "Usar o Pé-de-Meia na formação de professores.",
+        "note": "Specific licensing-degree incentive; not all teacher policies.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PT-072-02"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-072-02",
+        "candidate": "lula",
+        "pages": [
+          32
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 5229,
+        "end": 5245,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
+        "readerParaphrase": "Oferecer crédito para a economia criativa.",
+        "note": "Credit instrument explicitly promised.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PT-105-01"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-105-01",
+        "candidate": "lula",
+        "pages": [
+          42
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 5195,
+        "end": 5236,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5195s",
+        "readerParaphrase": "Atrair data centers ao Brasil.",
+        "note": "Domestic data-center action; other AI measures not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PT-145-01"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-145-01",
+        "candidate": "lula",
+        "pages": [
+          54
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 5254,
+        "end": 5277,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5254s",
+        "readerParaphrase": "Formar jovens para a indústria digital.",
+        "note": "Specific digital skills; generic professional training row not double-counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PT-149-01"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-149-01",
+        "candidate": "lula",
+        "pages": [
+          55
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 3980,
+        "end": 4075,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3980s",
+        "readerParaphrase": "Continuar aumentando o salário mínimo.",
+        "note": "Explicit continuation; price-growth figures are not validated by counting.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PT-X029"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-X029",
+        "candidate": "lula",
+        "pages": [
+          74
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 290,
+        "end": 325,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=290s",
+        "readerParaphrase": "Classificar facções e milícias como narcoterroristas.",
+        "note": "Same designation action.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-001"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-001",
+        "candidate": "flavio",
+        "pages": [
+          13
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 308,
+        "end": 335,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=308s",
+        "readerParaphrase": "Retomar os territórios dominados por facções.",
+        "note": "Territorial-recovery action; equipment and police-personnel measures not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-004",
+          "PL-187"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-004:b",
+        "candidate": "flavio",
+        "pages": [
+          13,
+          47
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 6134,
+        "end": 6166,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6134s",
+        "readerParaphrase": "Reduzir para 14 anos a idade penal para crimes graves.",
+        "note": "Age14 and serious-crime condition retained.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-006"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-006",
+        "candidate": "flavio",
+        "pages": [
+          13
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "readerParaphrase": "Usar tropas de elite das Forças Armadas nas fronteiras.",
+        "note": "Same dedicated border-force instrument.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-007",
+          "PL-008"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-007",
+        "candidate": "flavio",
+        "pages": [
+          13,
+          14
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 376,
+        "end": 392,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=376s",
+        "readerParaphrase": "Criar mais de meio milhão de vagas nas prisões.",
+        "note": "Prison-place quantity belongs to one action; eliminating deficit not a second point.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-010",
+          "PL-013"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-010",
+        "candidate": "flavio",
+        "pages": [
+          14
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5907,
+        "end": 5928,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5907s",
+        "readerParaphrase": "Buscar aprovação da castração química de estupradores.",
+        "note": "Legislative dependency retained.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-014"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-014",
+        "candidate": "flavio",
+        "pages": [
+          14
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "readerParaphrase": "Usar a Marinha para fiscalizar contêineres no Porto de Santos.",
+        "note": "Port military monitoring action, narrower geographic example.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-017",
+          "PL-018"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-017",
+        "candidate": "flavio",
+        "pages": [
+          15
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5753,
+        "end": 5821,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5753s",
+        "readerParaphrase": "Integrar câmeras e bancos criminais com mais de um milhão de câmeras.",
+        "note": "System, quantity and monitored locations are one instrument.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-020",
+          "PL-021",
+          "PL-022"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-020",
+        "candidate": "flavio",
+        "pages": [
+          15
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5301,
+        "end": 5323,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5301s",
+        "readerParaphrase": "Conectar escolas, hospitais e aldeias indígenas à internet.",
+        "note": "Connectivity action; no claim of specific consumer-package delivery.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-064",
+          "PL-066",
+          "PL-121"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-064",
+        "candidate": "flavio",
+        "pages": [
+          24,
+          35,
+          36
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 3335,
+        "end": 3412,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+        "readerParaphrase": "Integrar prontuários das redes pública e privada pelo CPF.",
+        "note": "CPF, interoperability and history describe one record system.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-061",
+          "PL-074",
+          "PL-075",
+          "PL-076",
+          "PL-077"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-074",
+        "candidate": "flavio",
+        "pages": [
+          21,
+          26
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 3335,
+        "end": 3412,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+        "readerParaphrase": "Oferecer atendimento por telemedicina.",
+        "note": "Home medicine delivery remains unmentioned.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-060",
+          "PL-138"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-138:a",
+        "candidate": "flavio",
+        "pages": [
+          21,
+          38
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 4388,
+        "end": 4401,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=4388s",
+        "readerParaphrase": "Manter o Bolsa Família.",
+        "note": "Management and fraud measures in same source row are not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-164"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-164:a",
+        "candidate": "flavio",
+        "pages": [
+          42,
+          43
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5321,
+        "end": 5346,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
+        "readerParaphrase": "Conectar vagas de empresas aos trabalhadores por uma base de dados.",
+        "note": "Job-matching instrument; hiring subsidies are not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-172"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-172",
+        "candidate": "flavio",
+        "pages": [
+          44
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 2739,
+        "end": 2763,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+        "readerParaphrase": "Ajudar a abrir e formalizar o próprio negócio.",
+        "note": "Distinct administrative/formalization action.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-082",
+          "PL-174"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-174:a",
+        "candidate": "flavio",
+        "pages": [
+          27,
+          45,
+          46
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5354,
+        "end": 5367,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5354s",
+        "readerParaphrase": "Oferecer capacitação e orientação para empreendedores.",
+        "note": "Training/guidance action, distinct from credit.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-174",
+          "PL-175"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-174:b",
+        "candidate": "flavio",
+        "pages": [
+          45,
+          46
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5367,
+        "end": 5373,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
+        "readerParaphrase": "Oferecer financiamento barato para pequenos negócios.",
+        "note": "Credit action, distinct from training/formalization.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-174",
+          "PL-175"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-174:c",
+        "candidate": "flavio",
+        "pages": [
+          45,
+          46
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      },
+      {
+        "start": 5349,
+        "end": 5354,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5349s",
+        "readerParaphrase": "Usar a Caixa como Banco da Prosperidade.",
+        "note": "Integrated service-delivery platform; not every service counted again.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "exact-action",
+        "inventoryIds": [
+          "PL-178"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-178",
+        "candidate": "flavio",
+        "pages": [
+          46
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      }
+    ],
+    "otherCommitments": [
+      {
+        "candidate": "lula",
+        "readerCopy": "Fazer leilões de dívidas bancárias e oferecer um Pix de recomeço, apresentado como dinheiro que não precisaria ser devolvido.",
+        "start": 6012,
+        "end": 6047,
+        "programExactMatch": null,
+        "reason": "No exact debt-auction or non-loan Pix action in frozen program inventory.",
+        "status": "separate-debate-promise-not-denominator"
+      },
+      {
+        "candidate": "flavio",
+        "readerCopy": "Colocar em funcionamento o cadastro público de condenados por crimes sexuais.",
+        "start": 5821,
+        "end": 5844,
+        "programExactMatch": null,
+        "reason": "Not found in frozen inventory; existing law implementation rather than invention of registry.",
+        "status": "separate-debate-promise-not-denominator"
+      },
+      {
+        "candidate": "flavio",
+        "readerCopy": "Comprar dívidas dos bancos e dar seis meses sem pagamentos para pessoas e um ano para empresas.",
+        "start": 4432,
+        "end": 4550,
+        "programExactMatch": null,
+        "reason": "Credit and financial-guidance units are not debt purchasing and payment moratoria. Existing site card does not make it an official-program unit.",
+        "status": "already-carded-but-outside-program"
+      },
+      {
+        "candidate": "flavio",
+        "readerCopy": "Criar um Ministério da Prosperidade.",
+        "start": 2739,
+        "end": 2763,
+        "programExactMatch": null,
+        "reason": "Program describes repurposing Caixa into Banco da Prosperidade and says no new structure there; a new ministry is a distinct institutional promise.",
+        "status": "separate-institutional-promise-requires-reader-mapping"
+      },
+      {
+        "candidate": "flavio",
+        "readerCopy": "Fazer o pequeno negócio começar a pagar impostos apenas depois de receber renda.",
+        "start": 5372,
+        "end": 5379,
+        "programExactMatch": null,
+        "reason": "Broad tax reduction/simplification is not an exact tax-payment-trigger commitment.",
+        "status": "separate-tax-promise-requires-reader-mapping"
+      },
+      {
+        "candidate": "lula",
+        "readerCopy": "Buscar diagnóstico e início do tratamento de câncer em até 30 dias.",
+        "start": 4354,
+        "end": 4363,
+        "programExactMatch": null,
+        "reason": "Broader oncology investments do not specify this deadline.",
+        "status": "already-carded-specific-debate-target"
+      },
+      {
+        "candidate": "lula",
+        "readerCopy": "Exigir contrapartida de 10% dos dados de data centers para o governo.",
+        "start": 5195,
+        "end": 5236,
+        "programExactMatch": null,
+        "reason": "Wording must not be silently equated with local content or computing-capacity obligations.",
+        "status": "existing-card-needs-exact-distinction"
+      },
+      {
+        "candidate": "flavio",
+        "readerCopy": "Defender pena mínima de oito anos para crimes envolvendo celulares.",
+        "start": 5960,
+        "end": 5982,
+        "programExactMatch": null,
+        "reason": "Debate wording does not distinguish statutory theft/robbery/resale; program says quadruple theft/resale penalty.",
+        "status": "existing-card-no-forced-program-match"
+      }
+    ]
+  }
 }

@@ -69,6 +69,28 @@ if audit:
         assert all(m.get("verification") == "asr-caption-visual-corroborated" and m.get("coverageNote") for m in audit["matches"]), "Unverified or unexplained debate match"
     if args.public and (audit["status"] != "approved" or audit["verification"] != "checked"):
         raise SystemExit("Publicação bloqueada: análise do debate pendente")
+# Atomic coverage must reconcile against its complete, downloadable ledger.
+individual = data.get("debateIndividualAudit")
+if individual:
+    ledger = json.loads((ROOT / "src/debate-atomic-audit.json").read_text())
+    units = {u["id"]: u for u in ledger["units"]}
+    assert len(units) == len(ledger["units"]), "Duplicate individual proposal"
+    rows = ledger["rowAccounting"]
+    assert len(rows) == len({r["inventoryId"] for r in rows}) == ledger["inventoryRowsRead"], "Incomplete inventory accounting"
+    assert all(r["resultingUnitIds"] and all(uid in units for uid in r["resultingUnitIds"]) for r in rows), "Missing derived action"
+    for candidate in ("lula", "flavio"):
+        retained = [u for u in units.values() if u["candidate"] == candidate and u["disposition"] == "retained"]
+        matches = [u for u in retained if u.get("debateMatch")]
+        count = individual["counts"][candidate]
+        assert len(retained) == count["normalizedRetainedActions"], "Individual denominator mismatch"
+        assert len(matches) == count["strictMatchedActions"], "Individual numerator mismatch"
+        rendered = [m for m in individual["matches"] if m["candidate"] == candidate]
+        assert {m["id"] for m in rendered} == {m["id"] for m in matches} and len(rendered) == len(matches), "Rendered atomic evidence mismatch"
+        for match in rendered:
+            assert 0 <= match["start"] < match["end"] <= audit["videoDurationSeconds"], "Invalid individual timestamp"
+            assert match["pages"] and match["sourceUrl"].startswith("https://") and match["readerParaphrase"], "Missing individual provenance"
+    if args.public and not individual.get("publicationApproved"):
+        raise SystemExit("Publicação bloqueada: análise individual do debate pendente")
 # Crowd estimates retain their event and attribution; never silently publish drafts.
 for event in data.get("rallyCrowds", []):
     assert event.get("city") and event.get("date") and event.get("place") and event.get("limit"), "Incomplete crowd event"
