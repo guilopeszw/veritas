@@ -42,6 +42,9 @@ if audit:
     if args.public and (audit["status"] != "approved" or audit["verification"] != "checked"):
         raise SystemExit("Publicação bloqueada: análise do debate pendente")
 if args.public:
+    coverage = data.get("programCoverage", {})
+    if coverage.get("status") != "approved" or coverage.get("verification") != "checked":
+        raise SystemExit("Publicação bloqueada: cobertura dos programas oficiais pendente")
     pending = [b["id"] for b in data["blocks"] if b["status"] != "approved" or b.get("verification") != "checked"]
     pending += [f"guia:{topic}" for topic, guide in data.get("topicGuides", {}).items()
                 if guide.get("status") != "approved" or guide.get("verification") != "checked"]

@@ -7371,6 +7371,174 @@
         }
       ],
       "editorialNotes": "Consulta em 20/10/2026. Texto extraído do PDF oficial; solicitação de screenshot não devolveu imagem inspecionável nesta rodada. Não atribuir criação de CAPS, número de vagas ou novo tratamento específico. O documento agrupa saúde mental e condições neurológicas; preservar distinção clínica. Atribuição documental não comprova eficácia ou financiamento. Manter revisão pendente."
+    },
+    {
+      "id": "lula-turismo",
+      "candidate": "lula",
+      "topic": "infraestrutura",
+      "kind": "Proposta",
+      "title": "Turismo e divulgação do Brasil",
+      "summary": "Desenvolver destinos e roteiros turísticos e divulgar o Brasil em outros países.",
+      "paragraphs": [
+        "O programa propõe desenvolver destinos e roteiros turísticos e ampliar a promoção internacional do Brasil."
+      ],
+      "implications": [
+        {
+          "label": "O que isso significa",
+          "text": "É uma proposta para ampliar a atividade turística. O texto cadastrado não permite estimar quantos empregos ou visitantes adicionais ela geraria."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Lula",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=57",
+          "locator": "Página física 57"
+        }
+      ],
+      "status": "draft",
+      "verification": "pending",
+      "checkedAt": "20/10/2026",
+      "editorialNotes": "Inclusão a partir da auditoria textual dos programas oficiais em 20/10/2026. Conferência visual, contexto de execução e revisão editorial pendentes. Não certifica cobertura integral do tema."
+    },
+    {
+      "id": "lula-protecao-animal",
+      "candidate": "lula",
+      "topic": "ambiente",
+      "kind": "Proposta",
+      "title": "Proteção de animais",
+      "summary": "Ampliar o ProPatinhas, manter o SinPatinhas e combater maus-tratos.",
+      "paragraphs": [
+        "O programa prevê ampliar o ProPatinhas, dar continuidade ao SinPatinhas e combater maus-tratos contra animais."
+      ],
+      "implications": [
+        {
+          "label": "O que isso significa",
+          "text": "Proteção animal é uma medida específica: não se resume à preservação de espécies e ecossistemas. Ainda não reunimos as metas e o orçamento dessa ampliação."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Lula",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=71",
+          "locator": "Páginas físicas 71–72"
+        }
+      ],
+      "status": "draft",
+      "verification": "pending",
+      "checkedAt": "20/10/2026",
+      "editorialNotes": "Inclusão a partir da auditoria textual dos programas oficiais em 20/10/2026. Conferência visual, contexto de execução e revisão editorial pendentes. Não certifica cobertura integral do tema."
+    },
+    {
+      "id": "lula-pequenas-empresas-mercados",
+      "candidate": "lula",
+      "topic": "economia",
+      "kind": "Proposta",
+      "title": "Mais mercados para pequenas empresas",
+      "summary": "Ajudar pequenas empresas a vender para o governo e para outros países.",
+      "paragraphs": [
+        "O programa prevê ampliar a participação de pequenas empresas nas compras do governo e apoiar suas exportações."
+      ],
+      "implications": [
+        {
+          "label": "O que isso significa",
+          "text": "Vender ao governo e exportar são caminhos diferentes de obter crédito. O compromisso não garante contratos ou vendas para cada empresa; precisamos conferir os critérios de participação."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Lula",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=57",
+          "locator": "Página física 57"
+        }
+      ],
+      "status": "draft",
+      "verification": "pending",
+      "checkedAt": "20/10/2026",
+      "editorialNotes": "Inclusão a partir da auditoria textual dos programas oficiais em 20/10/2026. Conferência visual, contexto de execução e revisão editorial pendentes. Não certifica cobertura integral do tema."
+    },
+    {
+      "id": "flavio-agendamento-saude",
+      "candidate": "flavio",
+      "topic": "saude",
+      "kind": "Proposta",
+      "title": "Agendamento de consultas e exames",
+      "summary": "Usar inteligência artificial para encontrar vagas e agendar consultas e exames.",
+      "paragraphs": [
+        "O programa propõe usar inteligência artificial no agendamento de consultas e exames, buscando vagas disponíveis."
+      ],
+      "implications": [
+        {
+          "label": "O que isso significa",
+          "text": "Organizar vagas existentes é diferente de criar capacidade de atendimento. A proposta deve ser avaliada pelo tempo de espera e pelo acesso efetivo, não apenas pela adoção de tecnologia."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=26",
+          "locator": "Página física 26"
+        }
+      ],
+      "status": "draft",
+      "verification": "pending",
+      "checkedAt": "20/10/2026",
+      "editorialNotes": "Inclusão a partir da auditoria textual dos programas oficiais em 20/10/2026. Conferência visual, contexto de execução e revisão editorial pendentes. Não certifica cobertura integral do tema."
+    },
+    {
+      "id": "flavio-regularizacao-rural",
+      "candidate": "flavio",
+      "topic": "ambiente",
+      "kind": "Proposta",
+      "title": "Irrigação e títulos de propriedades rurais",
+      "summary": "Simplificar autorizações de irrigação e acelerar a titulação de pequenos proprietários rurais.",
+      "paragraphs": [
+        "O programa reúne duas medidas: simplificar as outorgas para irrigação e acelerar a titulação do pequeno proprietário rural."
+      ],
+      "implications": [
+        {
+          "label": "O que isso significa",
+          "text": "As medidas tratam de procedimentos distintos: uso de água e regularização da propriedade. Ainda precisamos detalhar quais regras seriam alteradas e quais órgãos participariam."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=27",
+          "locator": "Página física 27"
+        }
+      ],
+      "status": "draft",
+      "verification": "pending",
+      "checkedAt": "20/10/2026",
+      "editorialNotes": "Inclusão a partir da auditoria textual dos programas oficiais em 20/10/2026. Conferência visual, contexto de execução e revisão editorial pendentes. Não certifica cobertura integral do tema."
+    },
+    {
+      "id": "flavio-rastreabilidade-rural",
+      "candidate": "flavio",
+      "topic": "ambiente",
+      "kind": "Proposta",
+      "title": "Rastreabilidade da produção rural",
+      "summary": "Integrar cadastros e controles para acompanhar a origem dos produtos.",
+      "paragraphs": [
+        "O programa propõe integrar cadastros e controles usados no acompanhamento de cadeias produtivas."
+      ],
+      "implications": [
+        {
+          "label": "O que isso significa",
+          "text": "Rastrear significa acompanhar a origem e o caminho da produção. A integração depende de registros e de fiscalização; anunciar o sistema não comprova, por si só, que a produção está regular."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=28",
+          "locator": "Página física 28"
+        }
+      ],
+      "status": "draft",
+      "verification": "pending",
+      "checkedAt": "20/10/2026",
+      "editorialNotes": "Inclusão a partir da auditoria textual dos programas oficiais em 20/10/2026. Conferência visual, contexto de execução e revisão editorial pendentes. Não certifica cobertura integral do tema."
     }
   ],
   "rallyCities": [
@@ -9111,6 +9279,36 @@
         "id": "flavio-saude-mental",
         "candidate": "flavio",
         "title": "Saúde mental e apoio às famílias"
+      },
+      {
+        "id": "lula-turismo",
+        "candidate": "lula",
+        "title": "Turismo e divulgação do Brasil"
+      },
+      {
+        "id": "lula-protecao-animal",
+        "candidate": "lula",
+        "title": "Proteção de animais"
+      },
+      {
+        "id": "lula-pequenas-empresas-mercados",
+        "candidate": "lula",
+        "title": "Mais mercados para pequenas empresas"
+      },
+      {
+        "id": "flavio-agendamento-saude",
+        "candidate": "flavio",
+        "title": "Agendamento de consultas e exames"
+      },
+      {
+        "id": "flavio-regularizacao-rural",
+        "candidate": "flavio",
+        "title": "Irrigação e títulos de propriedades rurais"
+      },
+      {
+        "id": "flavio-rastreabilidade-rural",
+        "candidate": "flavio",
+        "title": "Rastreabilidade da produção rural"
       }
     ],
     "matches": [
@@ -9242,6 +9440,16 @@
         "summary": "Defender idade penal de 14 anos para crimes graves.",
         "verification": "caption-only"
       }
+    ]
+  },
+  "programCoverage": {
+    "status": "draft",
+    "verification": "pending",
+    "updatedAt": "2026-10-20",
+    "notes": "Seis lacunas incorporadas. Inventário integral de compromissos e conferência por tema ainda pendentes. Presença de dois cards não comprova completude.",
+    "auditReports": [
+      "docs/programas-cobertura-auditoria.md",
+      "docs/programas-cobertura-rodada-02.md"
     ]
   }
 }

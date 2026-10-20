@@ -57,3 +57,9 @@ A própria página 26 também documenta o prontuário único. O card hoje atribu
 - Fazer revisão visual das passagens citadas e revisão editorial das inserções antes de alterar status.
 
 Esta entrega é uma auditoria parcial com omissões comprovadas. Não afirma cobertura de 100%, não mede quantas propostas faltam no total e não muda `status`, `verification` ou permissões de publicação.
+
+## Incorporação na prévia — 20/10/2026
+
+As seis lacunas desta rodada foram cadastradas como rascunhos: `lula-turismo`, `lula-protecao-animal`, `lula-pequenas-empresas-mercados`, `flavio-agendamento-saude`, `flavio-regularizacao-rural` e `flavio-rastreabilidade-rural`. A base passou a 126 cards (68 de Lula e 58 de Flávio). Turismo ganhou comparação direta; isso não certifica completude dos demais temas.
+
+O build público e o compartilhamento público de comparações agora exigem também a conferência e aprovação de `programCoverage`, além da revisão dos textos. A prévia editorial continua disponível com marca de revisão. Teste isolado confirmou que aprovar os textos não contorna o bloqueio de cobertura.
