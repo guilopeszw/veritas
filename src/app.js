@@ -23,14 +23,30 @@ const topicName = id => topics.find(t=>t.id===id)?.name || "Contexto";
 function portrait(c, small=false){
   return `<span class="portrait ${small?"small":""}"><img class="${esc(c.id)}" src="${esc(c.photo)}" alt="Foto oficial de ${esc(c.name)}" width="120" height="150" loading="lazy"></span>`;
 }
-const heading = (label,title,intro="") => `<div class="page-head"><div class="breadcrumb"><a href="#/">Início</a> / ${["Perfil","Perfis","Sobre","Assuntos","Propostas"].includes(label)?esc(label):`<a href="#/assuntos">Assuntos</a> / ${esc(label)}`}</div><h1>${esc(title)}</h1>${intro?`<p>${esc(intro)}</p>`:""}</div>`;
+function breadcrumbs(title){
+  const [page,id]=location.hash.slice(2).split("/");
+  const path=[{title:"Início",route:""}];
+  const sections={"6x1":"Fim da escala 6x1",transparencia:"Abertura de sigilos",controversias:"Controvérsias",soberania:"Soberania nacional",debates:"Debates",debate:"Temas em debate",checagens:"É verdade?",manifestacoes:"Manifestações",entenda:"Economia explicada"};
+  if(page==="tema")title=topicName(id);
+  if(page==="tema")path.push({title:"Propostas",route:"propostas"});
+  else if(sections[page])path.push({title:"Assuntos",route:"assuntos"});
+  else if(page==="conteudo"){
+    const block=data.blocks.find(b=>b.id===id);
+    const parent={"Soberania nacional":"soberania","Políticas internacionais":"soberania","Economia explicada":"soberania","Debate":"debates","Checagem":"checagens","Escala 6x1":"6x1","Transparência":"transparencia","Controvérsia":"controversias","Manifestações":"manifestacoes","Tema em debate":"debate"}[block?.kind];
+    if(block?.kind==="Proposta"){path.push({title:"Propostas",route:"propostas"},{title:topicName(block.topic),route:`tema/${block.topic}`});}
+    else if(parent)path.push({title:"Assuntos",route:"assuntos"},{title:sections[parent],route:parent});
+    else if(block?.candidate)path.push({title:names[block.candidate],route:`perfil/${block.candidate}`});
+  }
+  return `<nav class="breadcrumb" aria-label="Caminho de navegação"><ol>${path.map(p=>`<li><a href="${href(p.route)}">${esc(p.title)}</a></li>`).join("")}<li aria-current="page">${esc(title)}</li></ol></nav>`;
+}
+const heading = (label,title,intro="") => `<div class="page-head">${breadcrumbs(title)}<h1>${esc(title)}</h1>${intro?`<p>${esc(intro)}</p>`:""}</div>`;
 function sourceList(sources=[]){
   return `<ul class="sources">${sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)} ↗</a>${s.locator?`<small>${esc(s.locator)}</small>`:""}</li>`).join("")}</ul>`;
 }
 function card(block){
   if(block.kind==="Checagem")return factCheckCard(block);
   if(block.kind!=="Proposta")return fullCard(block);
-  return `<details class="proposal-card" id="${esc(block.id)}" ${location.hash.startsWith("#/conteudo/")?"open":""}><summary><span class="proposal-author">${esc(names[block.candidate])}</span><h3>${esc(block.title)}</h3><p>${esc(block.summary)}</p><span class="proposal-toggle"><span class="when-closed">Entender a proposta</span><span class="when-open">Fechar detalhes</span></span><button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button></summary><div class="proposal-body">${fullCard(block,true)}</div></details>`;
+  return `<details class="proposal-card" id="${esc(block.id)}" ${location.hash.startsWith("#/conteudo/")?"open":""}><summary><span class="proposal-author">${esc(names[block.candidate])}</span><h3>${esc(block.title)}</h3><p>${esc(block.summary)}</p><span class="proposal-toggle"><span class="when-closed">Entender a proposta</span><span class="when-open">Fechar detalhes</span></span></summary><div class="proposal-body">${fullCard(block,true)}</div></details>`;
 }
 function assetList(block){
   const groups=block.assets.reduce((groups,a)=>{(groups[a.group]??=[]).push(a);return groups},{});
@@ -69,7 +85,7 @@ function fullCard(block,nested=false){
     ${block.implications?.length?`<section class="proposal-implications" aria-label="Implicações e condições"><h4>Na prática</h4><dl>${block.implications.map(item=>`<div><dt>${esc(item.label)}</dt><dd>${esc(item.text)}</dd></div>`).join("")}</dl></section>`:""}
     ${block.context?`<p class="context">${esc(block.context)}</p>`:""}
     ${block.relatedRoute?`<p><a class="text-link" href="${href(block.relatedRoute)}">${esc(block.relatedLabel||"Ver a evolução deste assunto")} ↗</a></p>`:""}
-    <div class="article-actions"><details><summary>Ver ${block.sources.length===1?"fonte":`${block.sources.length} fontes`}</summary>${sourceList(block.sources)}</details>${!nested?`<button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button>`:""}</div>
+    <div class="article-actions"><details><summary>Ver ${block.sources.length===1?"fonte":`${block.sources.length} fontes`}</summary>${sourceList(block.sources)}</details>${`<button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button>`}</div>
     ${data.mode==="review"?`<details class="editorial-notes"><summary>Revisão editorial</summary><p>${approved?"Texto aprovado":"Texto em revisão"} · ${esc(block.id)}</p><p>${esc(block.editorialNotes||(block.verification==="checked"?"Conferência documental concluída.":"Conferência documental ainda pendente. Este bloco não está liberado para publicação."))}</p></details>`:""}
     <div class="date">Consultado em ${esc(block.checkedAt||"20/10/2026")}${block.candidate?` · ${esc(block.actorLabel||names[block.candidate])}`:""}</div>
   </article>`;
@@ -86,7 +102,7 @@ function home(){
   <section class="section" aria-labelledby="candidatos-title"><div class="section-heading"><div><div class="eyebrow">UM PONTO DE PARTIDA</div><h2 id="candidatos-title">Quem são os candidatos</h2></div><a class="text-link" href="#/propostas">Comparar propostas ↗</a></div><div class="two-col">${candidate("lula")}${candidate("flavio")}</div></section>
   <section class="section start-guide" aria-labelledby="guide-title"><div><div class="eyebrow">DO SEU JEITO</div><h2 id="guide-title">Por onde começar?</h2><p>Três caminhos para entender a eleição.</p></div><div class="guide-steps"><details name="veritas-guide" open><summary><span>01</span> Conheça</summary><div><h3>Veja quem quer representar você.</h3><p>Explore a trajetória, os bens declarados e a atuação de cada candidato.</p><a href="#/inicio/candidatos-title">Conhecer os candidatos <span aria-hidden="true">→</span></a></div></details><details name="veritas-guide"><summary><span>02</span> Compare</summary><div><h3>O mesmo assunto, os dois lados.</h3><p>Busque temas que afetam sua vida e entenda o que cada um propõe mudar.</p><a href="#/propostas">Comparar propostas <span aria-hidden="true">→</span></a></div></details><details name="veritas-guide"><summary><span>03</span> Confira</summary><div><h3>Entenda o que está por trás de uma fala.</h3><p>Veja a conclusão, a explicação e a fonte das informações que circulam.</p><a href="#/checagens">Veja o que é verdade <span aria-hidden="true">→</span></a></div></details></div></section>
   <section class="section" aria-labelledby="acompanhe-title"><div class="section-heading"><div><div class="eyebrow">DA DECLARAÇÃO AO REGISTRO</div><h2 id="acompanhe-title">Acompanhe os temas em debate</h2><p>O que foi dito, quais atos estão documentados e o que ainda falta comprovar.</p></div></div>${dossierLinks()}</section>
-  <section class="section feature"><div><div class="eyebrow">SOBERANIA NACIONAL</div><h2>Como o Brasil se coloca<br>no mundo?</h2><p>Quem citou quais políticas, o que elas significam e quais resultados foram observados nos países de origem.</p><small class="landscape-credit"><a href="https://commons.wikimedia.org/wiki/File:Mar2024._Len%C3%A7%C3%B3is_Maranhenses,_Maranh%C3%A3o,_Brazil_Lencois_07.jpg" target="_blank" rel="noopener noreferrer">Lençóis Maranhenses · Ridiculopathy</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0</a> · recorte e degradê</small></div><div class="feature-links"><a href="#/soberania">Conheça as posições dos dois <span aria-hidden="true">↗</span></a>${data.blocks.filter(b=>b.kind==="Economia explicada").slice(1,3).map(b=>`<a href="${href(`conteudo/${b.id}`)}">${esc(b.title)}<span aria-hidden="true">↗</span></a>`).join("")}</div></section>
+  <section class="section feature"><div><div class="eyebrow">SOBERANIA NACIONAL</div><h2>Como o Brasil se coloca<br>no mundo?</h2><p>Quem citou quais políticas, o que elas significam e quais resultados foram observados nos países de origem.</p><small class="landscape-credit"><a href="https://commons.wikimedia.org/wiki/File:Mar2024._Len%C3%A7%C3%B3is_Maranhenses,_Maranh%C3%A3o,_Brazil_Lencois_07.jpg" target="_blank" rel="noopener noreferrer">Lençóis Maranhenses · Ridiculopathy</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener noreferrer">CC0 1.0</a> · recorte e degradê</small></div><div class="feature-links"><a href="#/soberania/posicoes">Conheça as posições dos dois <span aria-hidden="true">↗</span></a><a href="#/soberania/inflacao">Inflação menor não significa preços menores <span aria-hidden="true">↗</span></a><a href="#/soberania/impostos">Impostos, gastos e juros são decisões diferentes <span aria-hidden="true">↗</span></a></div></section>
   <section class="section"><div class="method-strip"><div><strong>01 · A fonte fica à vista</strong><p>Abra os documentos e confira de onde veio cada informação.</p></div><div><strong>02 · Proposta não é resultado</strong><p>Compromissos, fatos e interpretações são apresentados com contexto.</p></div><div><strong>03 · Lacunas são identificadas</strong><p>O que ainda não foi confirmado não aparece como conclusão.</p></div></div><p style="margin-top:25px"><a class="text-link" href="#/sobre">Conheça nossa metodologia ↗</a></p></section>
   ${data.mode==="review"?`<aside class="notice"><strong>Esta edição está em preparação.</strong> Os perfis ainda não incluem toda a cobertura acordada de histórico, mudanças de posição e debates. <a href="#/cobertura">Ver o estado da apuração</a>.</aside>`:""}`;
 }
@@ -125,7 +141,8 @@ function dossier(page){
   }else if(page==="transparencia"){
     content=`<div class="reading">${general.map(card).join("")}</div><div class="two-col">${["lula","flavio"].map(id=>`<section><h2 class="subheading">${esc(names[id])}</h2>${blocks.filter(b=>b.candidate===id).map(card).join("")||empty("Apuração em andamento.")}</section>`).join("")}</div>`;
   }else if(page==="soberania"){
-    content=`<div class="two-col">${["lula","flavio"].map(id=>`<section><h2 class="subheading">${esc(names[id])}</h2>${blocks.filter(b=>b.candidate===id).map(card).join("")||empty("Posições em apuração.")}</section>`).join("")}</div><section class="reading"><h2 class="subheading">Quem citou quais referências?</h2><p>O Veritas não recomenda voto. Aplicamos o mesmo critério aos dois: identificar a pessoa que falou, a medida citada e os efeitos conhecidos. Uma fala de assessor não será apresentada como fala do candidato.</p><p><strong>Lula:</strong> nesta apuração, documentamos posições sobre autonomia e parceiros internacionais. Não temos dados sobre uma proposta específica de importar uma política estrangeira nem sobre o uso da expressão “modelo Lula”.</p><p><strong>Flávio:</strong> a referência a Milei abaixo veio de Daniella Marques, de sua equipe; a declaração atribuída diretamente ao candidato trata de aproximação comercial com EUA e Argentina. Essas duas coisas não são equivalentes a copiar integralmente um modelo.</p><h2 class="subheading">Argentina e Estados Unidos: medidas e resultados</h2><p>As referências estrangeiras são examinadas por medida e período. Adaptar uma política não demonstra, por si só, perda de soberania.</p>${data.blocks.filter(b=>b.kind==="Políticas internacionais").map(card).join("")}</section>`;
+    const economics=id=>data.blocks.filter(b=>b.id===id).map(card).join("");
+    content=`<nav class="topic-guide-nav" aria-label="Nesta página"><a href="#/soberania/posicoes">Posições dos candidatos</a><a href="#/soberania/referencias">Referências internacionais</a><a href="#/soberania/inflacao">Inflação e poder de compra</a><a href="#/soberania/impostos">Impostos, gastos e juros</a></nav><section id="posicoes" class="sovereignty-section"><h2>Como cada candidato quer se relacionar com o mundo</h2><p>Compare os parceiros que cada um prioriza, o papel do investimento estrangeiro e o desenvolvimento da capacidade brasileira. Acordos e referências internacionais precisam ser examinados pelas medidas concretas.</p><div class="two-col">${["lula","flavio"].map(id=>`<section><h3>${esc(names[id])}</h3>${blocks.filter(b=>b.candidate===id).map(b=>card({...b,title:b.title.replace(/^(Lula|Flávio): /,"")})).join("")}</section>`).join("")}</div></section><section id="referencias" class="sovereignty-section reading"><h2>Quais políticas de outros países foram citadas?</h2><p>Uma declaração do candidato e uma fala de sua equipe são registros diferentes. Cada análise identifica a autoria, a medida e as fontes. Adaptar uma política não demonstra, por si só, perda de soberania.</p>${economics("eco-01")}${data.blocks.filter(b=>b.kind==="Políticas internacionais").map(card).join("")}</section><section id="inflacao" class="sovereignty-section reading"><h2>Inflação e poder de compra</h2><p>Para comparar experiências internacionais, é preciso olhar o que aconteceu com os preços e com a renda das pessoas.</p>${economics("eco-02")}${economics("eco-04")}</section><section id="impostos" class="sovereignty-section reading"><h2>Impostos, gastos e juros</h2><p>Entenda quais decisões cabem ao governo, ao Congresso e ao banco central antes de comparar propostas.</p>${economics("eco-03")}</section>`;
   }else{
     content=`<div class="reading">${blocks.map(card).join("")||empty("Os registros estão sendo reunidos.")}</div>`;
   }
@@ -195,7 +212,7 @@ function proposalResults(topic,query="",candidate=""){
     const body=rows.filter(r=>r.blocks[0]?.topic===t.id).map(r=>{
       if(!r.blocks.some(matches))return "";
       const displayed=r.blocks.filter(b=>(!candidate||b.candidate===candidate));count+=displayed.length;
-      return `<section class="proposal-comparison"><h3 class="comparison-label">${esc(r.label)}</h3><div class="proposal-grid">${["lula","flavio"].filter(id=>!candidate||id===candidate).map(id=>{const b=displayed.find(b=>b.candidate===id);return b?card(b):`<div class="proposal-gap"><strong>${esc(names[id])}</strong><p>Não temos uma proposta correspondente cadastrada para esta medida.</p></div>`;}).join("")}</div></section>`;
+      return `<section class="proposal-comparison" id="comparacao-${esc(r.blocks[0].id)}"><div class="comparison-heading"><h3 class="comparison-label">${esc(r.label)}</h3><button class="comparison-share" data-share-comparison="${esc(r.blocks.map(b=>b.id).join(","))}" data-comparison-title="${esc(r.label)}" aria-label="Compartilhar comparação: ${esc(r.label)}">${shareIcon}<span>Compartilhar comparação</span></button></div><div class="proposal-grid">${["lula","flavio"].filter(id=>!candidate||id===candidate).map(id=>{const b=displayed.find(b=>b.candidate===id);return b?card(b):`<div class="proposal-gap"><strong>${esc(names[id])}</strong><p>Não temos uma proposta correspondente cadastrada para esta medida.</p></div>`;}).join("")}</div></section>`;
     }).join("");
     return body?`<section class="proposal-group"><h2>${esc(t.name)}</h2>${body}</section>`:"";
   }).join("");
@@ -280,7 +297,7 @@ function route(){
   else if(page==="temas"||page==="assuntos"){html=subjectHub();title="Assuntos";}
   else if(page==="tema"||page==="propostas"){html=themes(id);title="Propostas";}
   else if(page==="sobre"){html=about();title="Sobre e metodologia";}
-  else if(["6x1","transparencia","controversias","soberania"].includes(page)){html=dossier(page);title=page==="6x1"?"Fim da escala 6x1":page==="transparencia"?"Abertura de sigilos":page==="controversias"?"Controvérsias":"Soberania nacional";}
+  else if(["6x1","transparencia","controversias","soberania"].includes(page)){html=dossier(page);if(page==="soberania")anchor=id;title=page==="6x1"?"Fim da escala 6x1":page==="transparencia"?"Abertura de sigilos":page==="controversias"?"Controvérsias":"Soberania nacional";}
   else if(page==="entenda"){html=heading("Entenda","Economia sem atalhos","Explicações gerais para ler propostas e comparar políticas. Estes textos não são checagens de falas específicas.")+`<div class="reading">${data.blocks.filter(b=>b.kind==="Economia explicada").map(card).join("")}</div>`;title="Entenda";}
   else if(page==="busca"){html=search(new URLSearchParams(query).get("q")||"");title="Busca";}
   else if(page==="cobertura"){html=coverage();title="Estado da cobertura";}
@@ -312,11 +329,48 @@ document.addEventListener("click",async event=>{
     root.scrollIntoView();
     return;
   }
+  const comparison=event.target.closest("[data-share-comparison]");
+  if(comparison){event.preventDefault();await openComparisonShare(comparison.dataset.shareComparison.split(","),comparison.dataset.comparisonTitle);return;}
   const button=event.target.closest("[data-share]");
   if(button)await openShare(button.dataset.share);
 });
 document.addEventListener('input',event=>{if(event.target.id!=="rally-filter")return;const query=normalized(event.target.value.trim());let count=0;document.querySelectorAll('[data-city]').forEach(row=>{row.hidden=!row.dataset.city.includes(query);if(!row.hidden)count++;});document.getElementById('rally-count').textContent=`${count} ${count===1?"localidade encontrada":"localidades encontradas"}`;});
 function notifyShare(message){const toast=document.getElementById('toast');toast.textContent=message;toast.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.hidden=true,6000);}
+async function openComparisonShare(ids,title){
+ const blocks=ids.map(id=>data.blocks.find(b=>b.id===id)).filter(Boolean);
+ const reviewed=blocks.length===2&&blocks.every(b=>b.status==="approved"&&b.verification==="checked");
+ if(data.mode!=="review"&&!reviewed){notifyShare("Esta comparação ainda precisa de revisão antes de ser compartilhada.");return;}
+ const url=new URL(location.href);url.hash=`/tema/${blocks[0].topic}/comparacao-${blocks[0].id}`;
+ document.getElementById("share-dialog")?.remove();
+ const dialog=document.createElement("dialog");dialog.id="share-dialog";dialog.className="share-dialog";
+ const preview=data.mode==="review";
+ dialog.innerHTML=`<form method="dialog"><button class="close-detail">Fechar ×</button></form><h2>${preview?"Prévia do Story":"Compartilhar comparação"}</h2><p>${esc(title)}</p>${preview?'<p class="notice">Demonstração editorial. A revisão e a cobertura dos programas ainda estão pendentes. Não publicar esta imagem como informação conferida.</p>':""}<canvas width="1080" height="1920" aria-label="Story comparando as propostas dos dois candidatos"></canvas><div class="share-options"><button data-download>${preview?"Baixar prévia editorial":"Baixar Story"}</button><button data-native>Compartilhar imagem</button><button data-copy>Copiar link</button></div><p class="context">No Instagram, adicione o adesivo Link com o endereço copiado. A imagem deixa 250 pixels livres no topo e na base para os controles dos Stories.${preview?" O endereço local só funciona neste computador.":""}</p>`;
+ document.body.append(dialog);dialog.showModal();
+ const canvas=dialog.querySelector("canvas"),ctx=canvas.getContext("2d");
+ ctx.fillStyle="#faf9f6";ctx.fillRect(0,0,1080,1920);
+ const wrap=(text,size,width)=>{ctx.font=`${size}px sans-serif`;const lines=[];let line="";for(const word of text.split(/\s+/)){const next=line?line+" "+word:word;if(ctx.measureText(next).width>width&&line){lines.push(line);line=word;}else line=next;}if(line)lines.push(line);return lines;};
+ const draw=(text,x,y,size,maxLines,width=888,bold=false)=>{let lines=wrap(text,size,width);while(lines.length>maxLines&&size>22){size--;lines=wrap(text,size,width);}if(lines.length>maxLines)throw new Error("Resumo muito longo para o Story. Revise o texto antes de exportar.");ctx.font=`${bold?"600 ":""}${size}px sans-serif`;ctx.fillStyle="#171717";lines.forEach((line,i)=>ctx.fillText(line,x,y+i*size*1.3));};
+ try{
+ draw("veritas.",96,296,48,1);draw(preview?"PRÉVIA EDITORIAL · NÃO PUBLICAR":"COMPARE AS PROPOSTAS",96,349,24,1);
+ draw(title,96,432,54,2);
+ for(const [index,candidate] of ["lula","flavio"].entries()){
+ const b=blocks.find(b=>b.candidate===candidate),y=570+index*430;
+ ctx.strokeStyle="#d8d5cf";ctx.beginPath();ctx.moveTo(96,y);ctx.lineTo(984,y);ctx.stroke();
+ draw(names[candidate],96,y+68,34,1,888,true);
+ draw(b?.summary||"Cobertura em conferência. Ainda não podemos afirmar que falta uma proposta sobre este ponto.",96,y+133,38,5);
+ if(b){const source=b.sources[0];draw("Fonte: "+new URL(source.url).hostname.replace(/^www\./,""),96,y+354,23,1);}
+ }
+ draw("Mesmo assunto. Confira os detalhes e as fontes.",96,1480,26,2);
+ draw(preview?"Prévia local · programas ainda em conferência":"Veja a comparação completa em "+url.hostname,96,1550,25,2);
+ draw("Preparado em "+new Intl.DateTimeFormat("pt-BR",{timeZone:"America/Fortaleza"}).format(new Date())+" · Projeto Veritas",96,1625,23,1);
+ }catch(error){dialog.querySelector(".share-options").remove();notifyShare(error.message);return;}
+ const blob=await new Promise(resolve=>canvas.toBlob(resolve,"image/png"));if(!blob)return;
+ const image=document.createElement("img");image.className="story-preview";image.alt="Story comparando as propostas dos dois candidatos";image.src=canvas.toDataURL("image/png");canvas.replaceWith(image);
+ const file=new File([blob],`veritas-comparacao-${blocks[0].id}${preview?"-previa":""}.png`,{type:"image/png"});
+ dialog.querySelector("[data-download]").onclick=()=>{const address=URL.createObjectURL(blob),link=document.createElement("a");link.href=address;link.download=file.name;link.click();setTimeout(()=>URL.revokeObjectURL(address),1000);};
+ const native=dialog.querySelector("[data-native]");native.hidden=preview||!navigator.canShare?.({files:[file]});native.onclick=async()=>{try{await navigator.share({files:[file],title});}catch(e){if(e.name!=="AbortError")notifyShare("Use Baixar Story para salvar a imagem.");}};
+ dialog.querySelector("[data-copy]").onclick=async()=>{try{await navigator.clipboard.writeText(url.href);notifyShare(preview?"Link local copiado. Só funciona neste computador.":"Link copiado.");}catch{notifyShare("Não foi possível copiar o link.");}};
+}
 async function openShare(id){
   const block=data.blocks.find(b=>b.id===id);if(!block)return;
   document.getElementById('share-dialog')?.remove();

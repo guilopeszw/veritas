@@ -208,3 +208,18 @@ body.sidebar-collapsed .floating-search>span{display:none}
 .proposal-card[open]>summary .proposal-toggle::before{content:"−"}
 
 .proposal-card:not([open])>summary{padding-bottom:24px}.proposal-card:not([open]) .proposal-toggle{padding-right:40px}.proposal-card:not([open])>summary>.share{bottom:14px}
+
+.proposal-card[open]>summary .proposal-toggle::before{content:"−";transform:none}
+.proposal-card>summary .proposal-toggle::before{transform:none;transition:none}
+@media(min-width:701px){
+.proposal-grid:not(:has(>.proposal-card[open])){align-items:stretch}
+.proposal-grid:not(:has(>.proposal-card[open]))>.proposal-card{align-self:stretch}
+.proposal-grid:not(:has(>.proposal-card[open]))>.proposal-card>summary{height:100%;box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-start}
+.proposal-grid:not(:has(>.proposal-card[open])) .proposal-toggle{margin-top:auto}
+}
+
+.breadcrumb ol{display:flex;align-items:center;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 20px;font-size:.8rem;line-height:1.6}.breadcrumb li{display:inline-flex;align-items:center;gap:8px;min-width:0}.breadcrumb li+li::before{content:"›";color:#999}.breadcrumb a{padding:5px 0;text-decoration:none;border-bottom:1px solid transparent}.breadcrumb a:hover{text-decoration:underline}.breadcrumb [aria-current="page"]{color:#555}.sovereignty-section{scroll-margin-top:80px;margin:40px 0}.sovereignty-section>p{max-width:76ch}.sovereignty-section>h2{font-size:1.65rem}.sovereignty-section .two-col{align-items:start}.sovereignty-section h3{font-size:1.15rem}@media(max-width:600px){.breadcrumb ol{font-size:.75rem;gap:5px}.breadcrumb li{gap:5px}.sovereignty-section{scroll-margin-top:90px}}
+
+.comparison-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding-top:20px;margin-bottom:16px}.comparison-heading .comparison-label{border:0;padding:0;margin:0}.comparison-share{display:flex;align-items:center;gap:8px;background:transparent;color:#171717;border:1px solid var(--line);border-radius:8px;min-height:44px;padding:8px 12px;font-size:.8rem}.comparison-share svg{width:18px;height:18px}.proposal-body>.article{position:relative;padding-bottom:56px}.proposal-comparison{scroll-margin-top:90px}@media(max-width:600px){.comparison-share span{display:none}.comparison-share{min-width:44px;justify-content:center}}
+
+.share-dialog .story-preview{display:block;width:min(270px,100%);height:auto;margin:20px auto;border:1px solid var(--line)}
