@@ -29,12 +29,12 @@ function breadcrumbs(title){
   const sections={"6x1":"Fim da escala 6x1",transparencia:"Abertura de sigilos",controversias:"Controvérsias",soberania:"Soberania nacional",debates:"Debates",debate:"Temas em debate",checagens:"É verdade?",manifestacoes:"Manifestações",entenda:"Economia explicada"};
   if(page==="tema")title=topicName(id);
   if(page==="tema")path.push({title:"Propostas",route:"propostas"});
-  else if(sections[page])path.push({title:"Assuntos",route:"assuntos"});
+  else if(sections[page])path.push({title:"Entenda a eleição",route:"assuntos"});
   else if(page==="conteudo"){
     const block=data.blocks.find(b=>b.id===id);
     const parent={"Soberania nacional":"soberania","Políticas internacionais":"soberania","Economia explicada":"soberania","Debate":"debates","Checagem":"checagens","Escala 6x1":"6x1","Transparência":"transparencia","Controvérsia":"controversias","Manifestações":"manifestacoes","Tema em debate":"debate"}[block?.kind];
     if(block?.kind==="Proposta"){path.push({title:"Propostas",route:"propostas"},{title:topicName(block.topic),route:`tema/${block.topic}`});}
-    else if(parent)path.push({title:"Assuntos",route:"assuntos"},{title:sections[parent],route:parent});
+    else if(parent)path.push({title:"Entenda a eleição",route:"assuntos"},{title:sections[parent],route:parent});
     else if(block?.candidate)path.push({title:names[block.candidate],route:`perfil/${block.candidate}`});
   }
   return `<nav class="breadcrumb" aria-label="Caminho de navegação"><ol>${path.map(p=>`<li><a href="${href(p.route)}">${esc(p.title)}</a></li>`).join("")}<li aria-current="page">${esc(title)}</li></ol></nav>`;
@@ -185,9 +185,9 @@ function factChecks(candidateId){
 }
 
 function subjectHub(){
-  const entries=[['tema/saude','Saúde','Propostas, políticas existentes e critérios para avaliar o atendimento.'],['checagens','É verdade?','Declarações, contexto e conclusões dos veículos.'],['6x1','Fim da escala 6x1','Acompanhe declarações, propostas e votos em uma trilha.'],['debates','Debates','Propostas apresentadas e checagens das falas.'],['manifestacoes','Manifestações','Público, resultados locais e ocorrências documentadas.'],['soberania','Soberania nacional','Quem citou quais políticas e o que elas significam.'],['transparencia','Abertura de sigilos','O que foi prometido e o que foi comprovado.'],['controversias','Controvérsias','Alegações, evidências, respostas e decisões.']];
+  const entries=[['checagens','É verdade?','Declarações, contexto e conclusões dos veículos.'],['6x1','Fim da escala 6x1','Acompanhe declarações, propostas e votos em uma trilha.'],['debates','Debates','Propostas apresentadas e checagens das falas.'],['manifestacoes','Manifestações','Público, resultados locais e ocorrências documentadas.'],['soberania','Soberania nacional','Quem citou quais políticas e o que elas significam.'],['transparencia','Abertura de sigilos','O que foi prometido e o que foi comprovado.'],['controversias','Controvérsias','Alegações, evidências, respostas e decisões.']];
   const explainers=data.blocks.filter(b=>b.kind==="Tema em debate");
-  return `${heading('Assuntos','O que você quer entender?','Escolha um assunto. As explicações, os registros e as fontes ficam juntos.')}<section class="subject-section"><h2>Em discussão</h2><div class="subject-list">${entries.map(([route,title,description])=>`<a href="${href(route)}"><div><h3>${title}</h3><p>${description}</p></div><span aria-hidden="true">↗</span></a>`).join('')}</div></section><section class="subject-section"><h2>Entenda o contexto</h2><div class="subject-list">${explainers.map(b=>`<a href="#/conteudo/${esc(b.id)}"><div><h3>${esc(b.shortTitle||b.title)}</h3><p>${esc(b.summary)}</p></div><span aria-hidden="true">↗</span></a>`).join('')}<a href="#/entenda"><div><h3>Economia explicada</h3><p>Inflação, impostos, gastos e juros em linguagem simples.</p></div><span aria-hidden="true">↗</span></a></div></section>`;
+  return `${heading('Contexto','Entenda a eleição','Acompanhe acontecimentos, posições e checagens que ajudam a entender a eleição.')}<section class="subject-section"><h2>Em discussão</h2><div class="subject-list">${entries.map(([route,title,description])=>`<a href="${href(route)}"><div><h3>${title}</h3><p>${description}</p></div><span aria-hidden="true">↗</span></a>`).join('')}</div></section><section class="subject-section"><h2>Entenda o contexto</h2><div class="subject-list">${explainers.map(b=>`<a href="#/conteudo/${esc(b.id)}"><div><h3>${esc(b.shortTitle||b.title)}</h3><p>${esc(b.summary)}</p></div><span aria-hidden="true">↗</span></a>`).join('')}<a href="#/entenda"><div><h3>Economia explicada</h3><p>Inflação, impostos, gastos e juros em linguagem simples.</p></div><span aria-hidden="true">↗</span></a></div></section>`;
 }
 function campaignTopics(){return subjectHub();}
 const proposalPairs = [
@@ -231,7 +231,7 @@ function proposalResults(topic,query="",candidate=""){
     const body=rows.filter(r=>r.blocks[0]?.topic===t.id).map(r=>{
       if(!r.blocks.some(matches))return "";
       const displayed=r.blocks.filter(b=>(!candidate||b.candidate===candidate));count+=displayed.length;
-      return `<section class="proposal-comparison" id="comparacao-${esc(r.blocks[0].id)}"><div class="comparison-heading"><h3 class="comparison-label">${esc(r.label)}</h3><button class="comparison-share" data-share-comparison="${esc(r.blocks.map(b=>b.id).join(","))}" data-comparison-title="${esc(r.label)}" aria-label="Compartilhar comparação: ${esc(r.label)}">${shareIcon}<span>Compartilhar comparação</span></button></div><div class="proposal-grid">${["lula","flavio"].filter(id=>!candidate||id===candidate).map(id=>{const b=displayed.find(b=>b.candidate===id);return b?card(b):`<div class="proposal-gap"><strong>${esc(names[id])}</strong><p>Comparação em conferência. Ainda estamos verificando as propostas deste candidato sobre este ponto.</p></div>`;}).join("")}</div></section>`;
+      return `<section class="proposal-comparison" id="comparacao-${esc(r.blocks[0].id)}"><div class="comparison-heading"><h3 class="comparison-label">${esc(r.label)}</h3><button class="comparison-share" data-share-comparison="${esc(r.blocks.map(b=>b.id).join(","))}" data-comparison-title="${esc(r.label)}" aria-label="Compartilhar comparação: ${esc(r.label)}" title="Compartilhar comparação: ${esc(r.label)}">${shareIcon}</button></div><div class="proposal-grid">${["lula","flavio"].filter(id=>!candidate||id===candidate).map(id=>{const b=displayed.find(b=>b.candidate===id);return b?card(b):`<div class="proposal-gap"><strong>${esc(names[id])}</strong><p>Comparação em conferência. Ainda estamos verificando as propostas deste candidato sobre este ponto.</p></div>`;}).join("")}</div></section>`;
     }).join("");
     return body?`<section class="proposal-group"><h2>${esc(t.name)}</h2>${body}</section>`:"";
   }).join("");
@@ -269,7 +269,7 @@ function coverage(){
   return `<div class="reading">${heading("Cobertura","O que esta edição cobre","A ausência de um bloco não indica que um fato não aconteceu. Indica que a apuração ainda não está concluída.")}<ul class="coverage-list">${[["Apresentação e biografias básicas","Textos aprovados"],["Explicações gerais de economia","Textos aprovados"],["Propostas e implicações",`${data.blocks.filter(b=>b.kind==="Proposta").length} blocos com fontes; expansão em revisão editorial`],["Atuação, resultados e controvérsias","Apuração pendente"],["Mudanças de posição","Registros e versões pendentes"],["Perguntas e respostas dos debates","Vídeo e timestamps pendentes"],["Efeitos de políticas internacionais citadas","Associação às falas e avaliação pendentes"]].map(([a,b])=>`<li><strong>${a}</strong><span>${b}</span></li>`).join("")}</ul><aside class="notice">A cobertura completa e a aprovação editorial são condições para o lançamento público. Esta prévia não representa a conclusão do produto.</aside></div>`;
 }
 function searchSuggestions(){
-  const entries=[['checagens','É verdade?','Declarações e contexto'],['propostas','Propostas','Compare os compromissos dos candidatos'],['assuntos','Temas em debate','IA, bets, Bolsa Família e outros assuntos'],['6x1','Linha do tempo · 6x1','Declarações e atos em ordem de data'],['debates','Debates','Propostas e checagens'],['manifestacoes','Manifestações','Público, votos locais e ocorrências'],['soberania','Soberania nacional','Referências e políticas internacionais'],['transparencia','Abertura de sigilos','Declarações e documentos disponíveis'],['controversias','Controvérsias','Alegações, evidências e respostas']];
+  const entries=[['checagens','É verdade?','Declarações e contexto'],['propostas','Propostas','Compare os compromissos dos candidatos'],['assuntos','Entenda a eleição','Contexto, acontecimentos e checagens'],['6x1','Linha do tempo · 6x1','Declarações e atos em ordem de data'],['debates','Debates','Propostas e checagens'],['manifestacoes','Manifestações','Público, votos locais e ocorrências'],['soberania','Soberania nacional','Referências e políticas internacionais'],['transparencia','Abertura de sigilos','Declarações e documentos disponíveis'],['controversias','Controvérsias','Alegações, evidências e respostas']];
   return `<nav class="search-questions" aria-label="Perguntas para começar"><p class="suggestion-label">O que você quer entender?</p><a href="#/tema/saude">Como pretendem melhorar o atendimento de saúde? ↗</a><a href="#/tema/economia">O que propõem para o salário e o custo de vida? ↗</a><a href="#/6x1">Quem fez o quê pelo fim da escala 6x1? ↗</a></nav><nav class="search-suggestions" aria-label="Sugestões de assuntos"><p class="suggestion-label">Explore por assunto</p>${entries.map(([route,title,description])=>`<a href="${href(route)}"><span><strong>${title}</strong><small>${description}</small></span><span aria-hidden="true">↗</span></a>`).join('')}</nav>`;
 }
 function openSearch(){
@@ -312,8 +312,8 @@ function route(){
   else if(page==="checagens"){html=factChecks(id==="todos"?undefined:id);title="É verdade?";}
   else if(page==="manifestacoes"){html=rallyCoverage();title="Manifestações";}
   else if(page==="debates"){html=debateCoverage();title="Análise dos debates";}
-  else if(page==="debate"){html=campaignTopics();title="Temas em debate";anchor=id;}
-  else if(page==="temas"||page==="assuntos"){html=subjectHub();title="Assuntos";}
+  else if(page==="debate"){html=campaignTopics();title="Entenda a eleição";anchor=id;}
+  else if(page==="temas"||page==="assuntos"){html=subjectHub();title="Entenda a eleição";}
   else if(page==="tema"||page==="propostas"){html=themes(id);title="Propostas";}
   else if(page==="sobre"){html=about();title="Sobre e metodologia";}
   else if(["6x1","transparencia","controversias","soberania"].includes(page)){html=dossier(page);if(page==="soberania")anchor=id;title=page==="6x1"?"Fim da escala 6x1":page==="transparencia"?"Abertura de sigilos":page==="controversias"?"Controvérsias":"Soberania nacional";}
