@@ -18,8 +18,19 @@ for block in data["blocks"]:
     assert block["status"] in ("approved", "draft")
     for source in block["sources"]:
         assert source["url"].startswith("https://"), f"Fonte inválida: {block['id']}"
+by_id = {block["id"]: block for block in data["blocks"]}
+for topic, guide in data.get("topicGuides", {}).items():
+    assert guide["title"] and guide["summary"] and guide["questions"], f"Guia incompleto: {topic}"
+    assert guide.get("status") in ("approved", "draft"), f"Revisão ausente: {topic}"
+    for item in guide.get("history", []):
+        block = by_id.get(item["blockId"])
+        assert block and block.get("topic") == topic, f"Referência inválida no guia: {topic}"
+        index = item["implicationIndex"]
+        assert isinstance(index, int) and 0 <= index < len(block.get("implications", [])), f"Contexto inválido: {topic}"
 if args.public:
     pending = [b["id"] for b in data["blocks"] if b["status"] != "approved" or b.get("verification") != "checked"]
+    pending += [f"guia:{topic}" for topic, guide in data.get("topicGuides", {}).items()
+                if guide.get("status") != "approved" or guide.get("verification") != "checked"]
     if data.get("rallyCities") and (data.get("rallyReview", {}).get("status") != "approved" or data.get("rallyReview", {}).get("verification") != "checked"):
         raise SystemExit("Publicação bloqueada: revisão dos resultados municipais pendente")
     if pending or not data.get("launchApproved") or not all(data["coverage"].values()):
