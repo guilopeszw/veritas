@@ -34,8 +34,10 @@ deslize no celular. Texto e botões permanecem fora da área rolável.
 
 Leia [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) e
 [ATTRIBUTIONS.md](ATTRIBUTIONS.md). O código é MIT; fotos têm licenças próprias.
-PRs executam somente validações, sem deploy. O ambiente de produção exige
-aprovação do mantenedor. Ainda não existe hospedagem pública configurada.
+PRs executam somente validações, sem deploy. O repositório está temporariamente
+privado. O plano atual não permite revisor obrigatório no ambiente privado;
+essa proteção precisa ser resolvida antes de habilitar deploy. Ainda não existe
+hospedagem pública configurada. Consulte `SECURITY.md` para o estado verificado.
 
 `npm run build:public` só funciona após aprovação editorial, conferência das
 fontes, cobertura completa e autorização de lançamento. Não contorne a barreira.

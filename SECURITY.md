@@ -7,13 +7,20 @@ instruções de exploração em issues públicas. O mantenedor é @guilopeszw.
 
 ## Modelo de acesso
 
-- Repositório público: qualquer pessoa pode ler e propor um PR; isso não concede escrita.
+- Repositório temporariamente privado, por solicitação do mantenedor em 20/10/2026.
+- A licença MIT permanece; tornar o repositório público novamente exige decisão do mantenedor.
 - `main` exige PR e o check `validate`, com revisão. O administrador conserva recuperação.
 - Force pushes e exclusão da branch principal são bloqueados.
 - Actions tem token somente de leitura. CI de PR não recebe segredos de produção.
 - Não usamos `pull_request_target`, runners próprios ou execução de código de forks com privilégios.
 - Não existe workflow de deploy nesta edição; GitHub Pages não está habilitado.
-- O ambiente `production` exige aprovação de @guilopeszw e aceita somente `main`.
+- O ambiente `production` aceita somente `main`. Após tornar o repositório privado,
+  o GitHub retirou o revisor obrigatório. A tentativa de restabelecê-lo retornou
+  HTTP 422: o plano não suporta essa proteção no repositório privado.
+- A publicação permanece bloqueada: não adicionar deploy automático enquanto
+  não houver um mecanismo efetivo de aprovação do mantenedor. Revalidar a proteção
+  do ambiente e da branch antes do primeiro lançamento; configuração armazenada
+  não substitui a verificação de que as regras são aplicadas.
 
 Não há garantia contra todo ataque. A conta administradora pode alterar as regras;
 proteja-a com passkey/2FA e revise colaboradores, tokens e logs periodicamente.
