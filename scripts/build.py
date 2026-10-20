@@ -27,6 +27,20 @@ for topic, guide in data.get("topicGuides", {}).items():
         assert block and block.get("topic") == topic, f"Referência inválida no guia: {topic}"
         index = item["implicationIndex"]
         assert isinstance(index, int) and 0 <= index < len(block.get("implications", [])), f"Contexto inválido: {topic}"
+audit = data.get("debateAudit")
+if audit:
+    catalog = {b["id"]: b for b in audit["catalog"]}
+    assert len(catalog) == len(audit["catalog"]), "Catálogo do debate duplicado"
+    assert set(catalog) == {b["id"] for b in data["blocks"] if b.get("kind") == "Proposta"}, "Catálogo do debate desatualizado"
+    seen = set()
+    for match in audit["matches"]:
+        block = catalog.get(match["blockId"])
+        assert block and block["candidate"] == match["candidate"], "Atribuição inválida no debate"
+        assert match["blockId"] not in seen, "Proposta duplicada na contagem"
+        seen.add(match["blockId"])
+        assert 0 <= match["start"] < match["end"] <= 6848, "Timestamp inválido"
+    if args.public and (audit["status"] != "approved" or audit["verification"] != "checked"):
+        raise SystemExit("Publicação bloqueada: análise do debate pendente")
 if args.public:
     pending = [b["id"] for b in data["blocks"] if b["status"] != "approved" or b.get("verification") != "checked"]
     pending += [f"guia:{topic}" for topic, guide in data.get("topicGuides", {}).items()

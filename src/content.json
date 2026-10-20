@@ -2259,7 +2259,7 @@
       ],
       "status": "draft",
       "verification": "pending",
-      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa."
+      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa. Em 20/10/2026, conferidos diretamente no Planalto: Constituição art. 228 (inimputabilidade abaixo de 18 anos), ECA arts. 112 e 122 (medidas socioeducativas e condições de internação). Esta conferência cobre o contexto legal, não certifica a transcrição nem a íntegra do programa."
     },
     {
       "id": "flavio-prontuario-cpf",
@@ -8503,5 +8503,745 @@
       "status": "draft",
       "verification": "pending"
     }
+  },
+  "debateAudit": {
+    "status": "draft",
+    "verification": "pending",
+    "date": "2026-10-20",
+    "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI",
+    "method": "minimum-caption-matches",
+    "corpusSegments": 903,
+    "catalog": [
+      {
+        "id": "lula-jornada",
+        "candidate": "lula",
+        "title": "Jornada de trabalho"
+      },
+      {
+        "id": "lula-renda",
+        "candidate": "lula",
+        "title": "Salário mínimo"
+      },
+      {
+        "id": "flavio-precos",
+        "candidate": "flavio",
+        "title": "Impostos e energia"
+      },
+      {
+        "id": "flavio-emprego",
+        "candidate": "flavio",
+        "title": "Contratação"
+      },
+      {
+        "id": "lula-saude",
+        "candidate": "lula",
+        "title": "Farmácia Popular"
+      },
+      {
+        "id": "flavio-saude",
+        "candidate": "flavio",
+        "title": "Atendimento de saúde"
+      },
+      {
+        "id": "lula-educacao",
+        "candidate": "lula",
+        "title": "Permanência na escola"
+      },
+      {
+        "id": "flavio-educacao",
+        "candidate": "flavio",
+        "title": "Alfabetização e escolas"
+      },
+      {
+        "id": "lula-seguranca",
+        "candidate": "lula",
+        "title": "Integração policial"
+      },
+      {
+        "id": "flavio-seguranca",
+        "candidate": "flavio",
+        "title": "Facções e prisões"
+      },
+      {
+        "id": "lula-integridade",
+        "candidate": "lula",
+        "title": "Integridade pública"
+      },
+      {
+        "id": "lula-digital",
+        "candidate": "lula",
+        "title": "Serviços públicos digitais"
+      },
+      {
+        "id": "flavio-stf",
+        "candidate": "flavio",
+        "title": "Decisões do STF"
+      },
+      {
+        "id": "flavio-estatais",
+        "candidate": "flavio",
+        "title": "Direção das estatais"
+      },
+      {
+        "id": "flavio-salario-minimo",
+        "candidate": "flavio",
+        "title": "Salário mínimo e reajuste das aposentadorias"
+      },
+      {
+        "id": "flavio-bolsa-familia-transicao",
+        "candidate": "flavio",
+        "title": "Bolsa Família após aumento de renda"
+      },
+      {
+        "id": "flavio-idade-penal",
+        "candidate": "flavio",
+        "title": "Idade penal para crimes graves"
+      },
+      {
+        "id": "flavio-prontuario-cpf",
+        "candidate": "flavio",
+        "title": "Histórico de saúde pelo CPF"
+      },
+      {
+        "id": "flavio-compra-dividas",
+        "candidate": "flavio",
+        "title": "Compra de dívidas junto aos bancos"
+      },
+      {
+        "id": "flavio-internet-servicos",
+        "candidate": "flavio",
+        "title": "Internet em escolas, hospitais e aldeias"
+      },
+      {
+        "id": "lula-institutos-federais",
+        "candidate": "lula",
+        "title": "Institutos federais"
+      },
+      {
+        "id": "lula-professores",
+        "candidate": "lula",
+        "title": "Formação de professores"
+      },
+      {
+        "id": "lula-saude-digital",
+        "candidate": "lula",
+        "title": "Prontuário e saúde digital"
+      },
+      {
+        "id": "lula-especialistas",
+        "candidate": "lula",
+        "title": "Consultas e cirurgias especializadas"
+      },
+      {
+        "id": "lula-moradia",
+        "candidate": "lula",
+        "title": "Moradia"
+      },
+      {
+        "id": "lula-regra-fiscal",
+        "candidate": "lula",
+        "title": "Regra para gastos públicos"
+      },
+      {
+        "id": "lula-cuidados",
+        "candidate": "lula",
+        "title": "Apoio a quem cuida"
+      },
+      {
+        "id": "lula-fomento-cultural",
+        "candidate": "lula",
+        "title": "Financiamento da cultura"
+      },
+      {
+        "id": "lula-agricultura-familiar",
+        "candidate": "lula",
+        "title": "Agricultura familiar"
+      },
+      {
+        "id": "lula-seguro-rural",
+        "candidate": "lula",
+        "title": "Seguro para perdas no campo"
+      },
+      {
+        "id": "lula-energia-renovavel",
+        "candidate": "lula",
+        "title": "Energia renovável e armazenamento"
+      },
+      {
+        "id": "lula-adaptacao-climatica",
+        "candidate": "lula",
+        "title": "Prevenção de desastres e clima"
+      },
+      {
+        "id": "lula-empregabilidade",
+        "candidate": "lula",
+        "title": "Vagas e qualificação profissional"
+      },
+      {
+        "id": "lula-impostos",
+        "candidate": "lula",
+        "title": "Impostos e distribuição da carga"
+      },
+      {
+        "id": "lula-protecao-renda",
+        "candidate": "lula",
+        "title": "Bolsa Família e proteção de renda"
+      },
+      {
+        "id": "lula-seguranca-constitucional",
+        "candidate": "lula",
+        "title": "Regras nacionais de segurança"
+      },
+      {
+        "id": "lula-trabalho-apps",
+        "candidate": "lula",
+        "title": "Trabalho por aplicativo"
+      },
+      {
+        "id": "lula-apostas",
+        "candidate": "lula",
+        "title": "Apostas e endividamento"
+      },
+      {
+        "id": "lula-industria",
+        "candidate": "lula",
+        "title": "Indústria e inovação"
+      },
+      {
+        "id": "flavio-mulheres-protecao",
+        "candidate": "flavio",
+        "title": "Proteção e atendimento às mulheres"
+      },
+      {
+        "id": "flavio-creches-cuidados",
+        "candidate": "flavio",
+        "title": "Creches e rede de cuidado"
+      },
+      {
+        "id": "flavio-saude-mulheres",
+        "candidate": "flavio",
+        "title": "Prevenção e saúde das mulheres"
+      },
+      {
+        "id": "flavio-ajuste-fiscal",
+        "candidate": "flavio",
+        "title": "Novo limite de gastos"
+      },
+      {
+        "id": "flavio-administracao",
+        "candidate": "flavio",
+        "title": "Ministérios e cargos públicos"
+      },
+      {
+        "id": "flavio-privatizacoes",
+        "candidate": "flavio",
+        "title": "Privatizações e concessões"
+      },
+      {
+        "id": "flavio-agro-alimentos",
+        "candidate": "flavio",
+        "title": "Produção agrícola e preço dos alimentos"
+      },
+      {
+        "id": "flavio-habitacao",
+        "candidate": "flavio",
+        "title": "Retomar Casa Verde e Amarela"
+      },
+      {
+        "id": "flavio-digital-estado",
+        "candidate": "flavio",
+        "title": "Serviços digitais e fila do INSS"
+      },
+      {
+        "id": "flavio-desmatamento",
+        "candidate": "flavio",
+        "title": "Desmatamento ilegal e bioeconomia"
+      },
+      {
+        "id": "flavio-agua-desastres",
+        "candidate": "flavio",
+        "title": "Água e prevenção de desastres"
+      },
+      {
+        "id": "flavio-minerais",
+        "candidate": "flavio",
+        "title": "Licenciamento e crédito para minerais críticos"
+      },
+      {
+        "id": "flavio-energia-infra",
+        "candidate": "flavio",
+        "title": "Gás, combustíveis e transmissão elétrica"
+      },
+      {
+        "id": "flavio-reforma-politica",
+        "candidate": "flavio",
+        "title": "Reeleição e regras do Judiciário"
+      },
+      {
+        "id": "flavio-cultura",
+        "candidate": "flavio",
+        "title": "Patrimônio e incentivos culturais"
+      },
+      {
+        "id": "flavio-esporte",
+        "candidate": "flavio",
+        "title": "Esporte escolar, feminino e paralímpico"
+      },
+      {
+        "id": "flavio-turismo",
+        "candidate": "flavio",
+        "title": "Turismo e ligações ferroviárias"
+      },
+      {
+        "id": "flavio-regional-saneamento",
+        "candidate": "flavio",
+        "title": "Água e saneamento no Nordeste"
+      },
+      {
+        "id": "flavio-fronteiras",
+        "candidate": "flavio",
+        "title": "Forças Armadas e interceptação nas fronteiras"
+      },
+      {
+        "id": "flavio-execucao-penal",
+        "candidate": "flavio",
+        "title": "Progressão de regime em crimes hediondos"
+      },
+      {
+        "id": "flavio-familias-vitimas",
+        "candidate": "flavio",
+        "title": "Apoio financeiro às famílias de vítimas"
+      },
+      {
+        "id": "flavio-tecnico-fies",
+        "candidate": "flavio",
+        "title": "Ensino técnico e financiamento estudantil"
+      },
+      {
+        "id": "flavio-cuidado-idosos",
+        "candidate": "flavio",
+        "title": "Medicamentos em casa e apoio a cuidadores"
+      },
+      {
+        "id": "flavio-antifraude-inss",
+        "candidate": "flavio",
+        "title": "Descontos e fraude no INSS"
+      },
+      {
+        "id": "flavio-negociacao-trabalho",
+        "candidate": "flavio",
+        "title": "Negociação direta e relações de trabalho"
+      },
+      {
+        "id": "flavio-reconhecimento-facial",
+        "candidate": "flavio",
+        "title": "Câmeras e reconhecimento facial"
+      },
+      {
+        "id": "flavio-reforma-tributaria",
+        "candidate": "flavio",
+        "title": "Rever benefícios e alíquotas dos tributos"
+      },
+      {
+        "id": "lula-creches",
+        "candidate": "lula",
+        "title": "Creches e infraestrutura escolar"
+      },
+      {
+        "id": "lula-alfabetizacao",
+        "candidate": "lula",
+        "title": "Alfabetização e recuperação da aprendizagem"
+      },
+      {
+        "id": "lula-ensino-superior",
+        "candidate": "lula",
+        "title": "Universidades e permanência estudantil"
+      },
+      {
+        "id": "lula-atencao-basica",
+        "candidate": "lula",
+        "title": "Equipes de saúde e Mais Médicos"
+      },
+      {
+        "id": "lula-saude-bucal",
+        "candidate": "lula",
+        "title": "Atendimento odontológico"
+      },
+      {
+        "id": "lula-vacinacao",
+        "candidate": "lula",
+        "title": "Vacinação e acesso à prevenção"
+      },
+      {
+        "id": "lula-cancer",
+        "candidate": "lula",
+        "title": "Diagnóstico e tratamento do câncer"
+      },
+      {
+        "id": "lula-saude-mulheres",
+        "candidate": "lula",
+        "title": "Saúde das mulheres e maternidade"
+      },
+      {
+        "id": "lula-saude-mental",
+        "candidate": "lula",
+        "title": "Saúde mental e atendimento comunitário"
+      },
+      {
+        "id": "lula-saneamento",
+        "candidate": "lula",
+        "title": "Água e esgoto"
+      },
+      {
+        "id": "lula-mobilidade",
+        "candidate": "lula",
+        "title": "Transporte coletivo e frota"
+      },
+      {
+        "id": "lula-esporte",
+        "candidate": "lula",
+        "title": "Esporte e formação de atletas"
+      },
+      {
+        "id": "lula-desmatamento",
+        "candidate": "lula",
+        "title": "Fiscalização ambiental e florestas"
+      },
+      {
+        "id": "lula-petroleo-combustiveis",
+        "candidate": "lula",
+        "title": "Petróleo e preços dos combustíveis"
+      },
+      {
+        "id": "lula-acesso-energia",
+        "candidate": "lula",
+        "title": "Conta de luz e acesso à energia"
+      },
+      {
+        "id": "lula-igualdade-salarial",
+        "candidate": "lula",
+        "title": "Igualdade salarial"
+      },
+      {
+        "id": "lula-fiscalizacao-trabalho",
+        "candidate": "lula",
+        "title": "Fiscalização e proteção no trabalho"
+      },
+      {
+        "id": "lula-previdencia",
+        "candidate": "lula",
+        "title": "Previdência para trajetórias de trabalho variadas"
+      },
+      {
+        "id": "lula-defesa-tecnologia",
+        "candidate": "lula",
+        "title": "Defesa e autonomia tecnológica"
+      },
+      {
+        "id": "flavio-expressao",
+        "candidate": "flavio",
+        "title": "Expressão e estruturas de fiscalização"
+      },
+      {
+        "id": "flavio-federalismo",
+        "candidate": "flavio",
+        "title": "Mais decisões e recursos locais"
+      },
+      {
+        "id": "flavio-empreendedorismo",
+        "candidate": "flavio",
+        "title": "Abrir empresa e acessar crédito"
+      },
+      {
+        "id": "flavio-defesa-exterior",
+        "candidate": "flavio",
+        "title": "Parceiros internacionais e tecnologia de defesa"
+      },
+      {
+        "id": "flavio-castracao-quimica",
+        "candidate": "flavio",
+        "title": "Castração química para condenados por crimes sexuais"
+      },
+      {
+        "id": "flavio-crimes-celulares",
+        "candidate": "flavio",
+        "title": "Penas maiores para crimes envolvendo celulares"
+      },
+      {
+        "id": "lula-integracao-regional",
+        "candidate": "lula",
+        "title": "Integração regional e parceiros comerciais"
+      },
+      {
+        "id": "lula-reforma-onu",
+        "candidate": "lula",
+        "title": "Reforma das instituições internacionais"
+      },
+      {
+        "id": "lula-ia-infraestrutura",
+        "candidate": "lula",
+        "title": "Inteligência artificial e infraestrutura digital"
+      },
+      {
+        "id": "lula-cameras-prisoes",
+        "candidate": "lula",
+        "title": "Câmeras corporais e execução das penas"
+      },
+      {
+        "id": "lula-adultos-conectividade",
+        "candidate": "lula",
+        "title": "Educação de adultos e escolas conectadas"
+      },
+      {
+        "id": "lula-industria-saude",
+        "candidate": "lula",
+        "title": "Produção nacional de medicamentos e tecnologias"
+      },
+      {
+        "id": "lula-audiovisual",
+        "candidate": "lula",
+        "title": "Audiovisual brasileiro nas plataformas"
+      },
+      {
+        "id": "lula-urbanizacao-periferias",
+        "candidate": "lula",
+        "title": "Urbanização de periferias e serviços urbanos"
+      },
+      {
+        "id": "lula-logistica",
+        "candidate": "lula",
+        "title": "Obras e concessões de transporte"
+      },
+      {
+        "id": "lula-minerais",
+        "candidate": "lula",
+        "title": "Minerais críticos e processamento no Brasil"
+      },
+      {
+        "id": "lula-pequenos-negocios",
+        "candidate": "lula",
+        "title": "Crédito para pequenos negócios"
+      },
+      {
+        "id": "lula-acesso-terra",
+        "candidate": "lula",
+        "title": "Acesso à terra e reforma agrária"
+      },
+      {
+        "id": "lula-biocombustiveis",
+        "candidate": "lula",
+        "title": "Biocombustíveis e novos usos"
+      },
+      {
+        "id": "lula-energia-nuclear",
+        "candidate": "lula",
+        "title": "Tecnologia nuclear para fins pacíficos"
+      },
+      {
+        "id": "lula-mercado-carbono",
+        "candidate": "lula",
+        "title": "Mercado de carbono e redução de emissões"
+      },
+      {
+        "id": "lula-negociacao-coletiva",
+        "candidate": "lula",
+        "title": "Negociação coletiva e representação no trabalho"
+      },
+      {
+        "id": "lula-cooperacao-tecnica",
+        "candidate": "lula",
+        "title": "Cooperação técnica com outros países"
+      },
+      {
+        "id": "lula-controle-armas",
+        "candidate": "lula",
+        "title": "Controle e rastreamento de armas"
+      },
+      {
+        "id": "lula-residuos",
+        "candidate": "lula",
+        "title": "Reciclagem e destinação de resíduos"
+      },
+      {
+        "id": "lula-biodiversidade",
+        "candidate": "lula",
+        "title": "Proteção da biodiversidade"
+      },
+      {
+        "id": "flavio-ganha-ganha",
+        "candidate": "flavio",
+        "title": "Pontuação e benefícios financeiros para mulheres"
+      },
+      {
+        "id": "flavio-mulheres-conexao-formacao",
+        "candidate": "flavio",
+        "title": "Internet, formação e emprego para mulheres"
+      },
+      {
+        "id": "flavio-claria",
+        "candidate": "flavio",
+        "title": "Aplicativo e inteligência artificial para atendimento às mulheres"
+      },
+      {
+        "id": "flavio-orientacao-financeira",
+        "candidate": "flavio",
+        "title": "Orientação sobre dívidas, poupança e apostas"
+      },
+      {
+        "id": "flavio-emendas",
+        "candidate": "flavio",
+        "title": "Transparência e controle das emendas parlamentares"
+      },
+      {
+        "id": "flavio-mobilidade",
+        "candidate": "flavio",
+        "title": "Financiamento de transporte coletivo"
+      },
+      {
+        "id": "flavio-atencao-basica",
+        "candidate": "flavio",
+        "title": "Atendimento nos postos de saúde"
+      },
+      {
+        "id": "flavio-vacinacao",
+        "candidate": "flavio",
+        "title": "Vacinação e produção de vacinas"
+      },
+      {
+        "id": "flavio-saude-mental",
+        "candidate": "flavio",
+        "title": "Saúde mental e apoio às famílias"
+      }
+    ],
+    "matches": [
+      {
+        "blockId": "flavio-seguranca",
+        "candidate": "flavio",
+        "start": 299,
+        "end": 392,
+        "summary": "Classificar facções e ampliar vagas nas prisões.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "lula-seguranca-constitucional",
+        "candidate": "lula",
+        "start": 467,
+        "end": 492,
+        "summary": "Criar ministério da Segurança, condicionado à PEC.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "lula-professores",
+        "candidate": "lula",
+        "start": 2667,
+        "end": 2684,
+        "summary": "Apoiar a formação de professores com o Pé-de-Meia.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-empreendedorismo",
+        "candidate": "flavio",
+        "start": 2739,
+        "end": 2763,
+        "summary": "Apoiar qualificação, abertura de empresas e crédito.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-prontuario-cpf",
+        "candidate": "flavio",
+        "start": 3335,
+        "end": 3388,
+        "summary": "Integrar o histórico dos pacientes pelo CPF.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "lula-renda",
+        "candidate": "lula",
+        "start": 4045,
+        "end": 4075,
+        "summary": "Continuar aumentando o salário mínimo.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "lula-cancer",
+        "candidate": "lula",
+        "start": 4354,
+        "end": 4363,
+        "summary": "Buscar diagnóstico e início do tratamento em 30 dias.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-compra-dividas",
+        "candidate": "flavio",
+        "start": 4432,
+        "end": 4543,
+        "summary": "Comprar dívidas e oferecer carência para pagamento.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "lula-ia-infraestrutura",
+        "candidate": "lula",
+        "start": 5204,
+        "end": 5229,
+        "summary": "Atrair data centers com contrapartida ao governo.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "lula-empregabilidade",
+        "candidate": "lula",
+        "start": 5254,
+        "end": 5277,
+        "summary": "Formar jovens em engenharia, matemática e indústria digital.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-internet-servicos",
+        "candidate": "flavio",
+        "start": 5309,
+        "end": 5323,
+        "summary": "Conectar escolas, hospitais e aldeias.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-fronteiras",
+        "candidate": "flavio",
+        "start": 5722,
+        "end": 5761,
+        "summary": "Usar Forças Armadas nas fronteiras e nos portos.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-reconhecimento-facial",
+        "candidate": "flavio",
+        "start": 5761,
+        "end": 5812,
+        "summary": "Integrar câmeras e bancos de dados no Smart Brasil.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-castracao-quimica",
+        "candidate": "flavio",
+        "start": 5914,
+        "end": 5941,
+        "summary": "Propor castração química com aprovação do Congresso.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-crimes-celulares",
+        "candidate": "flavio",
+        "start": 5968,
+        "end": 5982,
+        "summary": "Aumentar a pena mínima para crimes com celulares.",
+        "verification": "caption-only"
+      },
+      {
+        "blockId": "flavio-idade-penal",
+        "candidate": "flavio",
+        "start": 6143,
+        "end": 6159,
+        "summary": "Defender idade penal de 14 anos para crimes graves.",
+        "verification": "caption-only"
+      }
+    ]
   }
 }
