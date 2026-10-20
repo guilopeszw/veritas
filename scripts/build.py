@@ -20,6 +20,16 @@ for block in data["blocks"]:
     assert block["status"] in ("approved", "draft")
     for source in block["sources"]:
         assert source["url"].startswith("https://"), f"Fonte inválida: {block['id']}"
+# Candidate-specific context must never silently lose attribution or sources.
+for block in data["blocks"]:
+    groups = block.get("candidateContext", [])
+    assert len({group["candidate"] for group in groups}) == len(groups), f"Duplicate candidate context: {block['id']}"
+    for group in groups:
+        assert group["candidate"] in ("lula", "flavio"), f"Unknown candidate context: {block['id']}"
+        assert group.get("entries") or group.get("emptyState"), f"Unexplained context gap: {block['id']}"
+        for entry in group.get("entries", []):
+            assert entry.get("text") and entry.get("type") and entry.get("dateLabel"), f"Incomplete candidate context: {block['id']}"
+            assert entry.get("sources") and all(source["url"].startswith("https://") for source in entry["sources"]), f"Unsourced candidate context: {block['id']}"
 # Asset totals must reconcile exactly before any dashboard is generated.
 for block in data["blocks"]:
     if "assets" not in block:
