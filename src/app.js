@@ -30,7 +30,7 @@ function sourceList(sources=[]){
 function card(block){
   if(block.kind==="Checagem")return factCheckCard(block);
   if(block.kind!=="Proposta")return fullCard(block);
-  return `<details class="proposal-card" id="${esc(block.id)}" ${location.hash.startsWith("#/conteudo/")?"open":""}><summary><span class="proposal-tags"><span class="pill">${esc(names[block.candidate])}</span></span><h3>${esc(block.title)}</h3><p>${esc(block.summary)}</p><span class="proposal-toggle">O que propõe e o que pode mudar</span><button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button></summary><div class="proposal-body">${fullCard(block,true)}</div></details>`;
+  return `<details class="proposal-card" id="${esc(block.id)}" ${location.hash.startsWith("#/conteudo/")?"open":""}><summary><span class="proposal-author">${esc(names[block.candidate])}</span><h3>${esc(block.title)}</h3><p>${esc(block.summary)}</p><span class="proposal-toggle"><span class="when-closed">Entender a proposta</span><span class="when-open">Fechar detalhes</span></span><button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button></summary><div class="proposal-body">${fullCard(block,true)}</div></details>`;
 }
 function assetList(block){
   const groups=block.assets.reduce((groups,a)=>{(groups[a.group]??=[]).push(a);return groups},{});
@@ -58,7 +58,7 @@ const shareIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stro
 function fullCard(block,nested=false){
   const approved=block.status==="approved";
   return `<article class="article" id="${esc(block.id)}${nested?"-detail":""}">
-    <div class="article-top">${block.kind==="Escala 6x1"&&location.hash.startsWith("#/6x1")?"":`<span class="pill primary">${esc(block.kind||topicName(block.topic))}</span>`}${data.mode==="review"?`<span class="pill ${approved?"":"draft"}">${approved?"Texto aprovado":"Texto em revisão"}</span><span class="review-id">${esc(block.id)}</span>`:""}</div>
+
     ${block.attribution?`<p class="check-attribution">${esc(block.attribution)}${block.eventDate?` · ${esc(block.eventDate)}`:""}</p>`:""}<h3><a href="${href(`conteudo/${block.id}`)}">${esc(block.title)}</a></h3>
     ${block.statusSteps?`<ul class="status-steps">${block.statusSteps.map(s=>`<li><strong>${esc(s.label)}</strong><span>${esc(s.value)}</span></li>`).join("")}</ul>`:""}
     ${block.quote?`<blockquote><p>“${esc(block.quote)}”</p><cite>${esc(block.quoteAttribution||"Trecho do programa de governo")}</cite></blockquote>`:""}
@@ -70,7 +70,7 @@ function fullCard(block,nested=false){
     ${block.context?`<p class="context">${esc(block.context)}</p>`:""}
     ${block.relatedRoute?`<p><a class="text-link" href="${href(block.relatedRoute)}">${esc(block.relatedLabel||"Ver a evolução deste assunto")} ↗</a></p>`:""}
     <div class="article-actions"><details><summary>Ver ${block.sources.length===1?"fonte":`${block.sources.length} fontes`}</summary>${sourceList(block.sources)}</details>${!nested?`<button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button>`:""}</div>
-    ${data.mode==="review"&&(block.verification!=="checked"||block.editorialNotes)?`<details class="editorial-notes"><summary>Notas da revisão editorial</summary><p>${esc(block.editorialNotes||"Conferência documental ainda pendente. Este bloco não está liberado para publicação.")}</p></details>`:""}
+    ${data.mode==="review"?`<details class="editorial-notes"><summary>Revisão editorial</summary><p>${approved?"Texto aprovado":"Texto em revisão"} · ${esc(block.id)}</p><p>${esc(block.editorialNotes||(block.verification==="checked"?"Conferência documental concluída.":"Conferência documental ainda pendente. Este bloco não está liberado para publicação."))}</p></details>`:""}
     <div class="date">Consultado em ${esc(block.checkedAt||"20/10/2026")}${block.candidate?` · ${esc(block.actorLabel||names[block.candidate])}`:""}</div>
   </article>`;
 }
