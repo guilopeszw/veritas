@@ -61,7 +61,11 @@ if audit:
         assert block and block["candidate"] == match["candidate"], "Atribuição inválida no debate"
         assert match["blockId"] not in seen, "Proposta duplicada na contagem"
         seen.add(match["blockId"])
-        assert 0 <= match["start"] < match["end"] <= 6848, "Timestamp inválido"
+        assert 0 <= match["start"] < match["end"] <= audit.get("videoDurationSeconds", 6848), "Timestamp inválido"
+    if audit.get("verification") == "checked":
+        assert audit.get("verificationScope") and audit.get("audioReview") and audit.get("corpusReview"), "Missing debate verification method"
+        assert audit.get("notWholeProgramPercentage") is True, "Card metric must not claim whole-program coverage"
+        assert all(m.get("verification") == "asr-caption-visual-corroborated" and m.get("coverageNote") for m in audit["matches"]), "Unverified or unexplained debate match"
     if args.public and (audit["status"] != "approved" or audit["verification"] != "checked"):
         raise SystemExit("Publicação bloqueada: análise do debate pendente")
 if args.public:

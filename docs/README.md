@@ -58,3 +58,9 @@ uncertainty intact when editing or translating reports.
 - [Health closeout audit](health-closeout-audit.md)
 - [Rally tse verification](rally-tse-verification.md)
 - [Remaining source closeout](remaining-source-closeout.md)
+
+- [Debate media review, counts and timestamps](debate-audiovisual-review.md)
+- [Full transcript classification](debate-text-classification.md)
+- [Debate fact checks: primary evidence](debate-factchecks-primary.md)
+- [Remaining document follow-up](remaining-documents-followup.md)
+- [Context navigation separation](navigation-context-separation.md)

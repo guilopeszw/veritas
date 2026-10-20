@@ -4,19 +4,19 @@ This snapshot supersedes earlier numerical readiness summaries. It does not gran
 
 ## Content
 
-202 of 209 blocks have documented verification within their stated scope. Verification of a publisher's attributed report is not independent proof of an allegation. Historical court decisions do not certify the current status of every related proceeding.
+208 of 209 blocks have documented verification within their explicit scope. This is not a claim that every underlying allegation, payment or predicted effect has been independently proved. Final editorial approval is separate and remains required.
 
-Still pending:
+The remaining pending block is `flavio-imoveis-especie`: complete deed/payment/electoral-filing reconciliation was not obtained. The exact allegation of ten cash purchases is not asserted as fact. The itemized UOL report, defense and dated PET 10562 decision have been recovered; they do not replace the full transaction chain.
 
-- `lula-abertura-sigilos`
-- `flavio-cargo-camara`
-- `flavio-master-filme`
-- `debate-band-flavio-propostas`
-- `debate-band-lula-propostas`
-- `debate-band-checagens`
-- `flavio-imoveis-especie`
+New closures in this pass:
 
-The disclosure item still needs original delivery evidence; the employment, property and film-financing items require missing original documents or complete source material. Debate items require audiovisual confirmation of speakers and timestamps. Caption matches alone are insufficient to publish a final proposal-coverage percentage, especially while different video recordings may have different offsets.
+- Lula disclosure: filed petition and registration certificate read in published copy; conditional authorization, not released underlying records.
+- Flávio film: original July STF authorization and public docket through 19 October, with attributed defense; no independent payment audit or finding of guilt.
+- Câmara employment: administrative declaration reproduction, full BBC report, contemporary attendance rule and dated TSE interim order; no certification of actual daily attendance or final criminal conclusion.
+- Debate candidate summaries: local automatic audio transcription corroborated with captions, editorial transcript and visual speaker frames. No independent human listening. Twenty conservative card matches have timestamped links.
+- Two debate fact checks: official GDP series and B3 instrument definitions, with market observations attributed to Reuters/CNN; no full exchange-history replication.
+
+The debate card metric is **8/86 (9.3%) for Lula and 12/62 (19.4%) for Flávio**, at least one measure per grouped card. It is not a whole-program atomic-proposal percentage or attack-time percentage. See [evidence and limits](debate-audiovisual-review.md), [two fact checks](debate-factchecks-primary.md), and [document follow-up](remaining-documents-followup.md).
 
 ## Program inventory
 

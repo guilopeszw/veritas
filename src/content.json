@@ -894,24 +894,6 @@
       "verification": "checked",
       "candidateContext": [
         {
-          "candidate": "lula",
-          "entries": [
-            {
-              "type": "Proposta",
-              "dateLabel": "13/10/2026 · comparação publicada pela Agência Brasil",
-              "text": "O programa defende autonomia e comércio com diferentes parceiros, incluindo integração sul-americana. Isso descreve prioridades de política externa; não basta para definir um modelo econômico completo.",
-              "sources": [
-                {
-                  "label": "Agência Brasil — comparação dos programas",
-                  "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/lula-defende-sul-global-flavio-quer-proximidade-com-eua-e-israel",
-                  "locator": "13/10/2026; seções Defesa nacional, Sul Global, China e terras raras e Integração sul-americana"
-                }
-              ],
-              "blockId": "soberania-lula"
-            }
-          ]
-        },
-        {
           "candidate": "flavio",
           "entries": [
             {
@@ -926,6 +908,28 @@
                 }
               ],
               "blockId": "INT-01"
+            }
+          ]
+        },
+        {
+          "candidate": "lula",
+          "entries": [
+            {
+              "type": "Resposta no debate",
+              "dateLabel": "18/10/2026 · debate da Band",
+              "text": "Questionou a referência da equipe de Flávio a Milei, citando preocupação com pobreza e desemprego na Argentina. Em seguida, contrapôs o que chamou de “modelo Lula”, associado por ele a crescimento, emprego e inclusão social. Essa é a crítica e a defesa política feitas por Lula; não comprova, por si só, os resultados de cada modelo.",
+              "sources": [
+                {
+                  "label": "Aos Fatos — transcrição do debate",
+                  "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+                  "locator": "Troca entre os candidatos sobre Milei e “modelo Lula”."
+                },
+                {
+                  "label": "Band — resposta de Lula no debate",
+                  "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2427s",
+                  "locator": "40:27–41:40 nesta gravação; crítica à referência a Milei e contraposição ao “modelo Lula”."
+                }
+              ]
             }
           ]
         }
@@ -1389,11 +1393,6 @@
       "verificationScope": "attributed-report-and-context",
       "candidateContext": [
         {
-          "candidate": "lula",
-          "entries": [],
-          "emptyState": "Não temos uma declaração documentada de Lula sobre adotar essas reformas específicas de Milei."
-        },
-        {
           "candidate": "flavio",
           "entries": [
             {
@@ -1408,6 +1407,28 @@
                 }
               ],
               "blockId": "INT-01"
+            }
+          ]
+        },
+        {
+          "candidate": "lula",
+          "entries": [
+            {
+              "type": "Resposta no debate",
+              "dateLabel": "18/10/2026 · debate da Band",
+              "text": "Questionou a referência da equipe de Flávio a Milei, citando preocupação com pobreza e desemprego na Argentina. Em seguida, contrapôs o que chamou de “modelo Lula”, associado por ele a crescimento, emprego e inclusão social. Essa é a crítica e a defesa política feitas por Lula; não comprova, por si só, os resultados de cada modelo.",
+              "sources": [
+                {
+                  "label": "Aos Fatos — transcrição do debate",
+                  "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+                  "locator": "Troca entre os candidatos sobre Milei e “modelo Lula”."
+                },
+                {
+                  "label": "Band — resposta de Lula no debate",
+                  "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2427s",
+                  "locator": "40:27–41:40 nesta gravação; crítica à referência a Milei e contraposição ao “modelo Lula”."
+                }
+              ]
             }
           ]
         }
@@ -1442,11 +1463,6 @@
       "verificationScope": "primary-statistics",
       "candidateContext": [
         {
-          "candidate": "lula",
-          "entries": [],
-          "emptyState": "Não temos uma declaração documentada de Lula sobre estes indicadores argentinos de 2024."
-        },
-        {
           "candidate": "flavio",
           "entries": [
             {
@@ -1461,6 +1477,28 @@
                 }
               ],
               "blockId": "INT-01"
+            }
+          ]
+        },
+        {
+          "candidate": "lula",
+          "entries": [
+            {
+              "type": "Resposta no debate",
+              "dateLabel": "18/10/2026 · debate da Band",
+              "text": "Ao questionar a referência a Milei, Lula perguntou sobre pobreza e desemprego na Argentina. Ele não apresentou nessa fala os indicadores de 2024 explicados abaixo; os números são contexto adicional, não uma citação do candidato.",
+              "sources": [
+                {
+                  "label": "Aos Fatos — transcrição do debate",
+                  "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+                  "locator": "Troca entre os candidatos sobre Milei e “modelo Lula”."
+                },
+                {
+                  "label": "Band — resposta de Lula no debate",
+                  "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2427s",
+                  "locator": "40:27–41:40 nesta gravação; crítica à referência a Milei e contraposição ao “modelo Lula”."
+                }
+              ]
             }
           ]
         }
@@ -1495,24 +1533,6 @@
       "verificationScope": "attributed-report-and-context",
       "candidateContext": [
         {
-          "candidate": "lula",
-          "entries": [
-            {
-              "type": "Proposta",
-              "dateLabel": "13/10/2026 · comparação publicada pela Agência Brasil",
-              "text": "O programa defende diversificar parceiros comerciais e fortalecer a integração sul-americana, segundo a Agência Brasil. É uma posição geral sobre comércio; não temos uma resposta de Lula ao acordo específico proposto por Flávio.",
-              "sources": [
-                {
-                  "label": "Agência Brasil — comparação dos programas",
-                  "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/lula-defende-sul-global-flavio-quer-proximidade-com-eua-e-israel",
-                  "locator": "13/10/2026; seções Defesa nacional, Sul Global, China e terras raras e Integração sul-americana"
-                }
-              ],
-              "blockId": "soberania-lula"
-            }
-          ]
-        },
-        {
           "candidate": "flavio",
           "entries": [
             {
@@ -1529,6 +1549,11 @@
               "blockId": "INT-03"
             }
           ]
+        },
+        {
+          "candidate": "lula",
+          "entries": [],
+          "emptyState": "Não temos um comentário de Lula sobre essa declaração de Flávio."
         }
       ]
     },
@@ -1556,12 +1581,12 @@
       "id": "lula-abertura-sigilos",
       "candidate": "lula",
       "kind": "Transparência",
-      "title": "Autorização ao TSE é noticiada, condicionada à reciprocidade",
-      "summary": "Segundo a Agência Brasil, Lula enviou autorização ao TSE em 20 de outubro, condicionada a Flávio fazer o mesmo. Não temos os dados dos sigilos publicados.",
+      "title": "Pedido ao TSE autoriza abertura condicionada dos sigilos",
+      "summary": "A petição de 20 de outubro autoriza a abertura dos sigilos de Lula e familiares se Flávio fizer o mesmo. Não temos os dados dos sigilos publicados.",
       "paragraphs": [
         "No debate da Band de 18 de outubro, Lula propôs que os candidatos e seus familiares abrissem informações bancárias e telefônicas. A emissora registrou o desafio, e a CNN informou que ele sugeriu entregar as informações à Justiça antes do segundo turno.",
         "Em 19 de outubro, em Porto Alegre, Lula anunciou que entregaria ao TSE, no dia 20, autorização referente a ele e à família, incluindo os cinco filhos. A Agência Brasil registrou que ele pretendia que a Justiça investigasse e depois divulgasse os resultados.",
-        "Segundo a Agência Brasil, Lula enviou ao TSE em 20 de outubro um pedido que abrange os últimos oito anos e inclui Janja e seus cinco filhos. A autorização depende de Flávio adotar a mesma medida. O pedido busca divulgação pública; não temos a íntegra oficial do protocolo nem os dados bancários, fiscais ou telefônicos para consulta."
+        "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados."
       ],
       "context": "Autorização condicionada não equivale à divulgação dos dados. Situação atualizada em 20/10/2026.",
       "sources": [
@@ -1583,10 +1608,20 @@
           "label": "Agência Brasil — pedido condicionado, 20/10/2026",
           "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/tse-lula-autoriza-quebra-de-sigilo-bancario-se-flavio-fizer-o-mesmo",
           "locator": "Escopo de oito anos e condição de reciprocidade; reportagem, não íntegra do pedido."
+        },
+        {
+          "label": "Petição e certidão do TSE — cópia documental, 20/10/2026",
+          "url": "https://static.poder360.com.br/uploads/2026/10/peticao-lula-quebra-sigilos-tse-20out2026.pdf",
+          "locator": "Páginas 2–4: condição e escopo; capa e página 5: protocolo e autuação."
+        },
+        {
+          "label": "TSE PJe — consulta do documento original",
+          "url": "https://pje.tse.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26102010492798600000177556698",
+          "locator": "Identificador impresso na cópia. A consulta direta não carregou; conferência feita na cópia integral publicada."
         }
       ],
       "status": "draft",
-      "verification": "pending",
+      "verification": "checked",
       "statusSteps": [
         {
           "label": "Declaração",
@@ -1594,14 +1629,16 @@
         },
         {
           "label": "Autorização formal",
-          "value": "Protocolo condicionado noticiado pela Agência Brasil"
+          "value": "Petição e certidão de protocolo conferidas em cópia documental"
         },
         {
           "label": "Dados publicados",
           "value": "Não temos esses dados."
         }
       ],
-      "editorialNotes": "Atualização baseada em reportagem; conferir a íntegra do protocolo e seus termos antes da publicação."
+      "editorialNotes": "Cópia integral da petição e certidão conferida. Não certifica divulgação dos dados, deferimento judicial ou protocolo separado no STF. Datas introdutórias do relato da petição não usadas para validar o vídeo do debate.",
+      "verificationScope": "filed-petition-copy",
+      "checkedAt": "20/10/2026"
     },
     {
       "id": "flavio-abertura-sigilos",
@@ -1651,12 +1688,14 @@
       "id": "flavio-cargo-camara",
       "candidate": "flavio",
       "kind": "Controvérsia",
-      "title": "Cargo na Câmara e atividades no Rio: o que a reportagem documentou",
-      "summary": "A BBC levantou incompatibilidade entre atividades presenciais. Isso deve ser apresentado como apuração jornalística, não como condenação.",
+      "title": "Cargo na Câmara, faculdade e estágio: documentos e limites",
+      "summary": "Há registro do cargo ocupado por Flávio e reportagem sobre atividades simultâneas no Rio. Os documentos obtidos não comprovam ausência ao trabalho.",
       "paragraphs": [
-        "Em 23 de janeiro de 2019, a BBC News Brasil publicou que Flávio ocupou um cargo de 40 horas semanais na liderança do PPB, na Câmara dos Deputados em Brasília, entre 2000 e 2002, enquanto cursava Direito e fazia estágio no Rio de Janeiro. Segundo a reportagem, as atividades exigiam presença física e coincidiram por quase um ano.",
+        "Em 23 de janeiro de 2019, a BBC News Brasil publicou que Flávio ocupou um cargo na liderança do PPB, na Câmara dos Deputados em Brasília, enquanto cursava Direito e fazia estágio no Rio de Janeiro. A reportagem levantou questionamentos sobre a simultaneidade das atividades; isso não equivale a uma conclusão judicial de que ele não trabalhou.",
+        "A declaração do Departamento de Pessoal da Câmara reproduzida pela BBC registra o cargo de assistente técnico de gabinete, com jornada de 40 horas, de 21 de dezembro de 2000 a 27 de junho de 2002. O documento não mostra a frequência diária. A reportagem também aponta divergência entre as datas de estágio em dois currículos e ausência de registro formal de frequência nesse estágio.",
+        "O Ato da Mesa 11/1995 previa comunicação mensal da frequência dos cargos de natureza especial, a critério do titular. A proibição expressa de trabalho fora das dependências da Câmara encontrada no Ato 86/2006 é posterior ao período de Flávio no cargo e não pode ser aplicada retroativamente. Não temos as folhas individuais para afirmar quais dias ele trabalhou ou faltou.",
         "A BBC informou ter consultado registros da Câmara, do Diário Oficial e da declaração eleitoral, além de ouvir as instituições. A assessoria de Flávio disse à reportagem que não responderia aos questionamentos. Esse registro de 2019 não substitui uma resposta atual.",
-        "Em agosto de 2026, A TARDE noticiou uma decisão preliminar do TSE que suspendeu propaganda de Lula sobre o currículo de Flávio, por apresentação descontextualizada das acusações. A reportagem também menciona omissão do arquivamento de outra denúncia, ligada às rachadinhas. São episódios diferentes: a discussão sobre o emprego de Flávio em Brasília não é o caso dos assessores de seu gabinete na Alerj."
+        "Em decisão preliminar de 30 de agosto de 2026, Estela Aranha suspendeu uma propaganda da campanha de Lula sobre o currículo de Flávio. A decisão ressalvou que não estava julgando definitivamente a veracidade histórica dos episódios. A discussão sobre o emprego em Brasília é diferente do caso dos assessores do gabinete na Alerj."
       ],
       "sources": [
         {
@@ -1668,12 +1707,34 @@
           "label": "A TARDE — 31/08/2026",
           "url": "https://atarde.com.br/eleicoes/tse-barra-propaganda-de-lula-que-chama-flavio-de-funcionario-fantasma-1400272",
           "locator": "Decisão preliminar sobre apresentação das acusações em propaganda; verificar andamento atual."
+        },
+        {
+          "label": "BBC News Brasil no Terra — reportagem completa, 23/01/2019",
+          "url": "https://www.terra.com.br/noticias/brasil/como-flavio-bolsonaro-ocupou-um-cargo-na-camara-dos-deputados-enquanto-fazia-faculdade-e-estagio-no-rio,26fdf1c5ab79cd9d9b72bfbbc609e3eec57qbb7b.html",
+          "locator": "Inclui reprodução da declaração administrativa da Câmara; não é folha diária de frequência."
+        },
+        {
+          "label": "Câmara — Ato da Mesa 11/1995",
+          "url": "https://www2.camara.leg.br/legin/int/atomes/1995/atodamesa-11-29-marco-1995-321259-publicacaooriginal-1-cd-mesa.html",
+          "locator": "Art. 2: comunicação mensal de frequência dos cargos de natureza especial."
+        },
+        {
+          "label": "TSE — liminar de 30/08/2026 (cópia documental)",
+          "url": "https://static.poder360.com.br/uploads/2026/08/Decisao_TSE_suspende_comercial_de_Lula_criticando_curriculo_Flavio.pdf",
+          "locator": "Processo 0601755-93.2026.6.00.0000, documento 177410040; página 4: não julga definitivamente a veracidade histórica."
+        },
+        {
+          "label": "Câmara — Ato da Mesa 86/2006",
+          "url": "https://www2.camara.leg.br/legin/int/atomes/2006/atodamesa-86-12-setembro-2006-545511-normaatualizada-cd-mesa.html",
+          "locator": "Arts. 1, 10 e 11; vigência a partir de 03/10/2006, posterior ao período examinado."
         }
       ],
       "status": "draft",
-      "verification": "pending",
-      "editorialNotes": "Pendente: recuperar registros administrativos originais, resposta atual e íntegra/desfecho da ação eleitoral. Não titular “foi funcionário fantasma” como fato definitivamente estabelecido. A decisão sobre propaganda não é, por si, julgamento criminal do emprego.",
-      "context": ""
+      "verification": "checked",
+      "editorialNotes": "Conferidas reprodução da declaração administrativa, reportagem integral, regra de frequência de 1995 e liminar de 30/08/2026. Não certifica frequência diária, crime ou desfecho posterior da ação eleitoral. Não retroagir proibição de 2006 ao período 2000–2002.",
+      "context": "",
+      "verificationScope": "employment-declaration-publisher-report-and-dated-interim-order",
+      "checkedAt": "20/10/2026"
     },
     {
       "id": "flavio-master-filme",
@@ -1684,7 +1745,8 @@
       "paragraphs": [
         "Em maio de 2026, Flávio defendeu a busca de patrocínio privado com Daniel Vorcaro para Dark Horse, filme sobre Jair Bolsonaro. Segundo a Associated Press, ele negou receber dinheiro pessoalmente, oferecer vantagens indevidas ou intermediar negócios com o governo.",
         "Em 19 de maio, a Agência Brasil registrou que Flávio confirmou reunião com Vorcaro depois da primeira prisão do banqueiro, em novembro de 2025. Sua explicação foi que o encontro serviu para encerrar a participação do empresário no filme.",
-        "A Agência Brasil noticiou em julho autorização de André Mendonça para investigar os repasses. Em setembro, a AP reportou suspeitas sobre origem e destinação dos recursos. Flávio reiterou que se tratava de investimento privado e negou irregularidade. Investigar uma suspeita não equivale a comprovar crime.",
+        "Uma decisão de 25 de junho de 2026, na Petição 16.292, encaminhou o pedido de apuração a André Mendonça por relação com outros processos. Esse ato trata da distribuição do caso: as alegações reproduzidas nele não são conclusões do tribunal sobre os pagamentos.",
+        "Em 22 de julho de 2026, André Mendonça autorizou a Polícia Federal a investigar suspeitas de lavagem de dinheiro, evasão de divisas, corrupção e outros delitos no financiamento de Dark Horse, envolvendo Flávio e o Banco Master. A decisão acolheu um pedido da PF, sem oposição da Procuradoria-Geral da República. O caso passou a tramitar como Inquérito 5070 em agosto. A consulta pública registra movimentações em outubro, com envio ao relator no dia 19. A abertura da investigação não comprova crime.",
         "Em 16 de outubro, a Exame relatou novo pedido da PF de mais 90 dias para perícias e cooperação com os Estados Unidos. Na entrevista à Globo daquele dia, Flávio voltou a defender que o financiamento foi privado e lícito. Pedido de prorrogação não é decisão de culpa; não temos a íntegra dos autos e dos registros financeiros para conferir os pagamentos."
       ],
       "sources": [
@@ -1699,25 +1761,37 @@
           "locator": "Admissão do encontro e explicação do senador."
         },
         {
-          "label": "Agência Brasil — julho de 2026",
-          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mendonca-autoriza-pf-investigar-repasses-para-filme-sobre-bolsonaro",
-          "locator": "Notícia de autorização para instaurar inquérito; íntegra não carregou nesta consulta."
-        },
-        {
-          "label": "Associated Press — setembro de 2026",
-          "url": "https://apnews.com/article/f534de4498df7d8b509127fcee2b535d",
-          "locator": "Investigação e manifestação de Flávio sobre financiamento privado; busca retornou texto, abertura integral falhou."
-        },
-        {
           "label": "Exame — investigação e resposta de Flávio, 16/10/2026",
           "url": "https://exame.com/brasil/flavio-bolsonaro-defende-dinheiro-de-vorcaro-em-filme-sobre-o-pai-totalmente-licito/",
           "locator": "Entrevista à Globo e pedido de prorrogação da PF; reportagem, não autos."
+        },
+        {
+          "label": "STF — decisão na PET 16.292, 25/06/2026 (cópia)",
+          "url": "https://static.poder360.com.br/uploads/2026/06/fachin-mendonca-dark-horse-25jun2026.pdf",
+          "locator": "Páginas 5–6: redistribuição; não substitui a ordem posterior de investigação."
+        },
+        {
+          "label": "STF — decisão original de 22/07/2026",
+          "url": "https://portal.stf.jus.br/processos/downloadPeca.asp?id=15388880331&ext=.pdf",
+          "locator": "PET 16.369, duas páginas: objeto e autorização da investigação."
+        },
+        {
+          "label": "STF — PET 16.369",
+          "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7642290",
+          "locator": "Reautuação como INQ 5070 em 06/08/2026; não é arquivamento da investigação."
+        },
+        {
+          "label": "STF — andamento público do INQ 5070",
+          "url": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7661993",
+          "locator": "Movimentações de 16, 18 e 19/10/2026. O teor das petições de outubro não foi obtido."
         }
       ],
       "status": "draft",
-      "verification": "pending",
-      "editorialNotes": "Pendente: conferir autos e andamento até 20/10/2026, distinguir pedidos de patrocínio de pagamentos efetivos e conciliar valores divergentes nas fontes. Não publicar R$ 131 milhões e R$ 134 milhões como se fossem a mesma cifra documental. Não confundir apuração de repasses de Vorcaro com investigação paralela sobre emendas parlamentares.",
-      "context": ""
+      "verification": "checked",
+      "editorialNotes": "Conferidas decisão original de julho e tramitação pública até 19/10, com defesa atribuída às reportagens. Não certifica pagamentos, origem/destinação dos recursos, teor das petições de outubro ou existência de crime. Pedido de 90 dias continua expressamente atribuído à Exame.",
+      "context": "",
+      "verificationScope": "court-order-and-public-docket-with-attributed-defense",
+      "checkedAt": "20/10/2026"
     },
     {
       "id": "lula-master-reuniao",
@@ -2111,11 +2185,16 @@
       "title": "Propostas de Flávio identificadas no debate da Band",
       "summary": "Segurança, prontuário eletrônico, dívidas e conexão à internet aparecem na seleção de falas publicada pela emissora.",
       "paragraphs": [
-        "Na seleção da Band, Flávio propôs classificar facções e milícias como organizações narcoterroristas, criar mais de 500 mil vagas no sistema penitenciário e reduzir a idade penal para crimes graves. Na saúde, anunciou integração de informações de pacientes pelo CPF.",
-        "Na economia, prometeu comprar dívidas de pessoas junto aos bancos e ampliar a conexão à internet em escolas, hospitais e aldeias. São compromissos anunciados, não resultados demonstrados."
+        "Flávio prometeu classificar facções e milícias como narcoterroristas, ampliar vagas nas prisões, atuar nas fronteiras, integrar câmeras e bancos de dados, reduzir a idade penal em crimes graves e buscar aprovação da castração química. Defendeu ainda penas maiores para crimes envolvendo celulares.",
+        "Na saúde, prometeu integrar registros pelo CPF. Na economia e no trabalho, falou em manter o Bolsa Família, comprar dívidas com carência, oferecer crédito e qualificação, conectar pessoas a vagas e levar internet a escolas, hospitais e aldeias. São compromissos anunciados, não resultados demonstrados."
       ],
-      "context": "A seleção é parcial. Não permite medir o debate inteiro nem todos os custos, prazos e condições das medidas.",
+      "context": "Os trechos foram confrontados com duas transcrições e imagens dos locutores. A contagem indica cards com ao menos uma medida abordada, não todas as medidas do programa.",
       "sources": [
+        {
+          "label": "Rádio Bandeirantes — gravação com os trechos marcados",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI",
+          "locator": "Horários desta gravação apenas. Critério e links individuais na análise dos debates."
+        },
         {
           "label": "Band — seleção de falas do debate, 19/10/2026",
           "url": "https://www.band.com.br/politica/eleicoes/debate-na-band-veja-como-foi-o-1o-embate-entre-flavio-e-lula-em-frases"
@@ -2142,8 +2221,8 @@
         }
       ],
       "status": "draft",
-      "verification": "pending",
-      "editorialNotes": "Conferir vídeo e timestamps; cobertura integral e percentual ainda não calculados.",
+      "verification": "checked",
+      "editorialNotes": "Trechos confrontados com transcrição automática local do áudio, legendas, transcrição do Aos Fatos e imagens dos locutores. Não houve escuta humana independente. Contagem conservadora por card, não por medida de todo o programa; aprovação editorial pendente.",
       "implications": [
         {
           "label": "Idade penal",
@@ -2162,8 +2241,10 @@
           "text": "A Estratégia Nacional de Escolas Conectadas existe desde 2023. A novidade prometida precisa ser medida por locais adicionais atendidos, velocidade, equipamentos e manutenção. Não temos metas completas para escolas, hospitais e aldeias."
         }
       ],
-      "relatedRoute": "conteudo/flavio-narcoterrorismo-implicacoes",
-      "relatedLabel": "Entenda o pedido aos EUA, os efeitos e os limites legais"
+      "relatedRoute": "debates",
+      "relatedLabel": "Ver a contagem, os trechos e os horários",
+      "verificationScope": "caption-asr-concordance-and-visual-speaker-review",
+      "checkedAt": "20/10/2026"
     },
     {
       "id": "debate-band-lula-propostas",
@@ -2172,11 +2253,16 @@
       "title": "Propostas e histórico de Lula identificados no debate da Band",
       "summary": "Segurança, SUS, salário mínimo, indústria e formação profissional aparecem na seleção de falas publicada pela emissora.",
       "paragraphs": [
-        "Na seleção da Band, Lula defendeu a proposta de mudança constitucional sobre segurança pública e a recuperação do SUS. Na economia, destacou a valorização do salário mínimo e investimentos industriais; anunciou formação de jovens em engenharia e matemática.",
+        "Lula prometeu criar o Ministério da Segurança se a PEC for aprovada, coordenar o combate ao crime com estados e municípios, apoiar a formação de professores e continuar aumentando o salário mínimo. Também apresentou uma meta para diagnóstico e início do tratamento do câncer, defendeu data centers, crédito à economia criativa e formação em engenharia, matemática e indústria digital.",
         "Defender ações anteriores não equivale a apresentar uma proposta nova. É preciso separar prestação de contas, continuidade prometida e nova medida."
       ],
-      "context": "A seleção é parcial: não permite concluir que outros temas foram omitidos no debate inteiro.",
+      "context": "Os trechos foram confrontados com duas transcrições e imagens dos locutores. A contagem indica cards com ao menos uma medida abordada, não todas as medidas do programa.",
       "sources": [
+        {
+          "label": "Rádio Bandeirantes — gravação com os trechos marcados",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI",
+          "locator": "Horários desta gravação apenas. Critério e links individuais na análise dos debates."
+        },
         {
           "label": "Band — seleção de falas do debate, 19/10/2026",
           "url": "https://www.band.com.br/politica/eleicoes/debate-na-band-veja-como-foi-o-1o-embate-entre-flavio-e-lula-em-frases"
@@ -2195,8 +2281,8 @@
         }
       ],
       "status": "draft",
-      "verification": "pending",
-      "editorialNotes": "Conferir vídeo e timestamps; cobertura integral e percentual ainda não calculados.",
+      "verification": "checked",
+      "editorialNotes": "Trechos confrontados com transcrição automática local do áudio, legendas, transcrição do Aos Fatos e imagens dos locutores. Não houve escuta humana independente. Contagem conservadora por card, não por medida de todo o programa; aprovação editorial pendente.",
       "implications": [
         {
           "label": "O que muda",
@@ -2210,26 +2296,48 @@
           "label": "Histórico e limites",
           "text": "Parte da fala defende continuidade de políticas existentes. O painel do BNDES permite acompanhar o financiamento industrial, mas não prova sozinho seu efeito no emprego. Sem metas de execução e avaliação, não é possível transformar a promessa em uma previsão de resultado. As implicações do salário mínimo e da integração policial estão detalhadas nas respectivas propostas."
         }
-      ]
+      ],
+      "verificationScope": "caption-asr-concordance-and-visual-speaker-review",
+      "checkedAt": "20/10/2026",
+      "relatedRoute": "debates",
+      "relatedLabel": "Ver a contagem, os trechos e os horários"
     },
     {
       "id": "debate-band-checagens",
       "kind": "Debate",
-      "title": "Checagens do debate: exemplos e seus limites",
-      "summary": "O Aos Fatos confrontou declarações dos dois candidatos com registros e dados. A seleção de falas checadas não representa todo o debate.",
+      "title": "Crescimento e juros: duas falas conferidas",
+      "summary": "O PIB cresceu mais de 3% antes de 2023. Já os juros futuros caíram após o primeiro turno, mas a queda foi diferente em cada contrato.",
       "paragraphs": [
-        "O Aos Fatos contestou a afirmação de Lula de que o país só voltou a crescer acima de 3% quando ele retornou à Presidência. Também contestou a atribuição, feita por Flávio, de uma queda dos juros ao resultado eleitoral.",
-        "São exemplos do trabalho da agência, não uma auditoria própria concluída do Veritas. Quantidade de checagens não mede tempo de ataques, proporção de propostas ou taxa de veracidade de todas as falas. Consulte cada checagem e sua fundamentação na fonte."
+        "Lula disse que o país só voltou a crescer acima de 3% quando ele retornou à Presidência. A série oficial de crescimento real do PIB registra 3,97% em 2011 e 4,76% em 2021. Portanto, essa exclusividade é incorreta. Em 2021, houve recuperação após a queda de 2020; isso ajuda a entender o resultado, mas não elimina o crescimento registrado.",
+        "Flávio associou a queda dos juros futuros ao resultado do primeiro turno. A cobertura de mercado registrou queda após a eleição; a ressalva é que os contratos, com vencimentos diferentes, não caíram todos na mesma proporção. Por isso, falar em uma única queda de 2% simplifica movimentos diferentes. Porcentagem e pontos percentuais também não são a mesma medida.",
+        "O primeiro exemplo foi confrontado com a série oficial do Banco Central. No segundo, conferimos a explicação da B3 sobre os contratos e o relato de mercado da Reuters, publicado pela CNN; não reproduzimos toda a série diária da bolsa. Juros futuros não são automaticamente os juros cobrados no empréstimo de uma família. Esses dois exemplos não medem a veracidade de todas as falas do debate."
       ],
       "sources": [
         {
           "label": "Aos Fatos — checagens do debate da Band, 18/10/2026",
           "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/"
+        },
+        {
+          "label": "Banco Central — crescimento real anual do PIB, série 7326",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json",
+          "locator": "2011: 3,97%; 2021: 4,76%. Série consultada em 20/10/2026."
+        },
+        {
+          "label": "B3 — como funciona o contrato de juros futuros",
+          "url": "https://b3.com.br/pt_br/produtos-e-servicos/negociacao/juros/futuro-de-taxa-media-de-depositos-interfinanceiros-de-um-dia.htm",
+          "locator": "Contrato com vencimento definido, cotado por taxa anualizada."
+        },
+        {
+          "label": "Reuters via CNN — mercado após o primeiro turno, 05/10/2026",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-tem-forte-queda-apos-flavio-ficar-a-frente-no-1o-turno/",
+          "locator": "Observação de mercado às 9h37; vencimentos de janeiro de 2028 e 2035 com movimentos diferentes."
         }
       ],
       "status": "draft",
-      "verification": "pending",
-      "editorialNotes": "Síntese atribuída à agência. Conferência independente dos registros de cada checagem pendente; transcrição integral não ficou disponível na leitura consultada."
+      "verification": "checked",
+      "editorialNotes": "PIB confrontado com série oficial 7326. Juros: definição primária B3 e cotações atribuídas à Reuters/CNN; sem replicação completa de ajustes diários da B3. Corrigido resumo anterior que sugeria negar toda reação eleitoral. Transcrição Aos Fatos recuperada, sem transferir seus offsets ao vídeo do rádio.",
+      "verificationScope": "official-gdp-series-and-attributed-market-report",
+      "checkedAt": "20/10/2026"
     },
     {
       "id": "atos-paulista-lula",
@@ -8355,6 +8463,7 @@
       "paragraphs": [
         "Em 2022, o UOL publicou levantamento sobre 107 imóveis negociados por integrantes da família Bolsonaro, dos quais ao menos 51 teriam sido comprados total ou parcialmente em espécie. Esses números se referem à família e a décadas de transações, não somente a Flávio.",
         "A reportagem foi contestada judicialmente. A defesa da campanha argumentou que o levantamento misturava pessoas e períodos e que pagar em espécie, por si só, não configura ilegalidade.",
+        "Em 24 de setembro de 2022, André Mendonça rejeitou o pedido específico da Petição 10.562 por falta de elementos suficientes e de individualização das condutas. A decisão não equivale a uma auditoria de todas as transações e não encerra automaticamente outros casos.",
         "Em reportagem de 2020 sobre operações de Flávio, o UOL registrou que, em 2010, ele havia declarado 10% do valor financiado de salas comerciais, totalizando R$ 268.221,75. O veículo relatou questionamentos do Ministério Público sobre a origem dos recursos. Uma declaração de participação não comprova a forma de pagamento nem resolve uma acusação.",
         "À reportagem de 2020, a defesa negou irregularidades e contestou a denúncia, apontando problemas de procedimento, de narrativa e de cálculo.",
         "Não temos uma relação documental de exatamente dez imóveis comprados em espécie por Flávio, nem o cruzamento integral de cada bem com as declarações de cada eleição. Não apresentamos esse número como fato."
@@ -8371,13 +8480,23 @@
         {
           "label": "UOL — salas comerciais e questionamentos do MP, 2020",
           "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/11/14/flavio-bolsonaro-12-salas-comerciais.htm-media/"
+        },
+        {
+          "label": "UOL — metodologia e documentos do levantamento, 09/09/2022",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2022/09/09/como-rastreamos-que-o-cla-bolsonaro-pagou-com-dinheiro-vivo-51-imoveis.htm",
+          "locator": "Distingue operações familiares, depósitos e cheques; não comprova dez compras exclusivamente em dinheiro por Flávio."
+        },
+        {
+          "label": "STF — decisão na PET 10.562, 24/09/2022 (cópia)",
+          "url": "https://static.poder360.com.br/2022/09/Decisao-Mendonca-nega-acao-imoveis-Bolsonaro-24set2022.pdf",
+          "locator": "Páginas 7–11: rejeição desse pedido específico por insuficiência de elementos."
         }
       ],
       "context": "Relatos e acusações não equivalem a condenação. Este bloco ainda depende de conferência das escrituras e da situação processual das operações citadas.",
       "status": "draft",
       "verification": "pending",
       "checkedAt": "20/10/2026",
-      "editorialNotes": "Novo bloco para revisão editorial. Conferir registros primários e situação atual antes de publicar."
+      "editorialNotes": "Metodologia completa do UOL e decisão histórica recuperadas. Pendentes: reconciliação de cada operação com escrituras, pagamentos e declarações eleitorais. Não afirmar dez imóveis em dinheiro vivo."
     },
     {
       "id": "lula-canais",
@@ -11684,10 +11803,10 @@
   },
   "debateAudit": {
     "status": "draft",
-    "verification": "pending",
+    "verification": "checked",
     "date": "2026-10-20",
     "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI",
-    "method": "minimum-caption-matches",
+    "method": "conservative-card-coverage",
     "corpusSegments": 903,
     "catalog": [
       {
@@ -11903,7 +12022,7 @@
       {
         "id": "flavio-ajuste-fiscal",
         "candidate": "flavio",
-        "title": "Novo limite de gastos"
+        "title": "Regras para os gastos e a dívida pública"
       },
       {
         "id": "flavio-administracao",
@@ -12435,74 +12554,110 @@
       {
         "blockId": "flavio-seguranca",
         "candidate": "flavio",
-        "start": 299,
+        "start": 290,
         "end": 392,
-        "summary": "Classificar facções e ampliar vagas nas prisões.",
-        "verification": "caption-only"
+        "summary": "Classificar facções e milícias como narcoterroristas e construir mais de 500 mil vagas nas prisões.",
+        "coverageNote": "O card reúne outras medidas; a contagem não significa que todas foram explicadas.",
+        "verification": "asr-caption-visual-corroborated"
+      },
+      {
+        "blockId": "lula-seguranca",
+        "candidate": "lula",
+        "start": 458,
+        "end": 493,
+        "summary": "Coordenar União, estados e prefeituras no enfrentamento do crime organizado.",
+        "coverageNote": "É parte do card de integração policial; não cobre todas as medidas cadastradas.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "lula-seguranca-constitucional",
         "candidate": "lula",
         "start": 467,
-        "end": 492,
-        "summary": "Criar ministério da Segurança, condicionado à PEC.",
-        "verification": "caption-only"
+        "end": 493,
+        "summary": "Criar o Ministério da Segurança Pública se o Senado aprovar a PEC da Segurança.",
+        "coverageNote": "A criação foi apresentada como condicionada à aprovação da PEC.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "lula-professores",
         "candidate": "lula",
-        "start": 2667,
+        "start": 2659,
         "end": 2684,
-        "summary": "Apoiar a formação de professores com o Pé-de-Meia.",
-        "verification": "caption-only"
+        "summary": "Usar o Pé-de-Meia na formação de professores e atrair estudantes com bom desempenho no Enem.",
+        "coverageNote": "É a promessa apresentada no debate, não comprovação de que o programa começaria do zero.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-empreendedorismo",
         "candidate": "flavio",
         "start": 2739,
         "end": 2763,
-        "summary": "Apoiar qualificação, abertura de empresas e crédito.",
-        "verification": "caption-only"
+        "summary": "Oferecer qualificação, formalização e financiamento por meio do Ministério da Prosperidade.",
+        "coverageNote": "Promessa repetida em outros momentos; o card é contado uma única vez.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-prontuario-cpf",
         "candidate": "flavio",
         "start": 3335,
-        "end": 3388,
-        "summary": "Integrar o histórico dos pacientes pelo CPF.",
-        "verification": "caption-only"
+        "end": 3412,
+        "summary": "Conectar os registros de saúde das redes pública e privada pelo CPF e oferecer telemedicina.",
+        "coverageNote": "Não foram detalhadas todas as regras de execução e proteção dos dados.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "lula-renda",
         "candidate": "lula",
-        "start": 4045,
+        "start": 3980,
         "end": 4075,
-        "summary": "Continuar aumentando o salário mínimo.",
-        "verification": "caption-only"
+        "summary": "Continuar aumentando o salário mínimo para ampliar o poder de compra.",
+        "coverageNote": "Contamos a continuidade prometida, não apenas o relato de aumentos anteriores.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "lula-cancer",
         "candidate": "lula",
         "start": 4354,
         "end": 4363,
-        "summary": "Buscar diagnóstico e início do tratamento em 30 dias.",
-        "verification": "caption-only"
+        "summary": "Buscar diagnóstico e início do tratamento de câncer em até 30 dias.",
+        "coverageNote": "A fala apresenta uma meta em construção, não um prazo já garantido para todos.",
+        "verification": "asr-caption-visual-corroborated"
+      },
+      {
+        "blockId": "flavio-bolsa-familia-transicao",
+        "candidate": "flavio",
+        "start": 4388,
+        "end": 4401,
+        "summary": "Manter o Bolsa Família e seu reajuste.",
+        "coverageNote": "Não explica a transição de dois anos após aumento da renda que também consta do card.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-compra-dividas",
         "candidate": "flavio",
         "start": 4432,
-        "end": 4543,
-        "summary": "Comprar dívidas e oferecer carência para pagamento.",
-        "verification": "caption-only"
+        "end": 4550,
+        "summary": "Comprar dívidas dos bancos e dar seis meses de carência a pessoas e um ano a empresas.",
+        "coverageNote": "Reduções de parcelas e juros foram prometidas; não são resultados comprovados.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "lula-ia-infraestrutura",
         "candidate": "lula",
-        "start": 5204,
-        "end": 5229,
-        "summary": "Atrair data centers com contrapartida ao governo.",
-        "verification": "caption-only"
+        "start": 5195,
+        "end": 5236,
+        "summary": "Atrair data centers e exigir contrapartida para o governo brasileiro.",
+        "coverageNote": "O trecho não cobre todo o plano de inteligência artificial do card.",
+        "verification": "asr-caption-visual-corroborated"
+      },
+      {
+        "blockId": "lula-fomento-cultural",
+        "candidate": "lula",
+        "start": 5229,
+        "end": 5245,
+        "summary": "Disponibilizar crédito para atividades da economia criativa.",
+        "coverageNote": "Apenas essa parte do card de financiamento cultural foi abordada.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "lula-empregabilidade",
@@ -12510,57 +12665,95 @@
         "start": 5254,
         "end": 5277,
         "summary": "Formar jovens em engenharia, matemática e indústria digital.",
-        "verification": "caption-only"
+        "coverageNote": "Não foram explicadas todas as ações de emprego reunidas no card.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-internet-servicos",
         "candidate": "flavio",
-        "start": 5309,
+        "start": 5301,
         "end": 5323,
-        "summary": "Conectar escolas, hospitais e aldeias.",
-        "verification": "caption-only"
+        "summary": "Levar conexão à internet a escolas, hospitais e aldeias indígenas.",
+        "coverageNote": "A fala não apresenta um cronograma completo de implantação.",
+        "verification": "asr-caption-visual-corroborated"
+      },
+      {
+        "blockId": "flavio-emprego",
+        "candidate": "flavio",
+        "start": 5323,
+        "end": 5355,
+        "summary": "Conectar informações do governo e das empresas para mostrar vagas próximas à pessoa.",
+        "coverageNote": "Não cobre os incentivos de contratação de jovens e maiores de 50 anos reunidos no card.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-fronteiras",
         "candidate": "flavio",
         "start": 5722,
         "end": 5761,
-        "summary": "Usar Forças Armadas nas fronteiras e nos portos.",
-        "verification": "caption-only"
+        "summary": "Usar tropas de elite nas fronteiras e a Marinha na fiscalização de contêineres em Santos.",
+        "coverageNote": "A fala é uma proposta de atuação, não prova de resultado na segurança.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-reconhecimento-facial",
         "candidate": "flavio",
-        "start": 5761,
-        "end": 5812,
-        "summary": "Integrar câmeras e bancos de dados no Smart Brasil.",
-        "verification": "caption-only"
+        "start": 5753,
+        "end": 5821,
+        "summary": "Criar o Smart Brasil, integrando câmeras e bancos de dados com estados e municípios.",
+        "coverageNote": "Não detalha todas as salvaguardas ou custos da medida.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-castracao-quimica",
         "candidate": "flavio",
-        "start": 5914,
-        "end": 5941,
-        "summary": "Propor castração química com aprovação do Congresso.",
-        "verification": "caption-only"
+        "start": 5907,
+        "end": 5928,
+        "summary": "Buscar aprovação da castração química para estupradores no Congresso.",
+        "coverageNote": "A dependência de aprovação legislativa faz parte da promessa.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-crimes-celulares",
         "candidate": "flavio",
-        "start": 5968,
+        "start": 5960,
         "end": 5982,
-        "summary": "Aumentar a pena mínima para crimes com celulares.",
-        "verification": "caption-only"
+        "summary": "Defender pena mínima de oito anos em crimes envolvendo celulares.",
+        "coverageNote": "A expressão do debate não distingue os tipos penais; não é apresentada como descrição da lei atual.",
+        "verification": "asr-caption-visual-corroborated"
       },
       {
         "blockId": "flavio-idade-penal",
         "candidate": "flavio",
-        "start": 6143,
-        "end": 6159,
-        "summary": "Defender idade penal de 14 anos para crimes graves.",
-        "verification": "caption-only"
+        "start": 6134,
+        "end": 6166,
+        "summary": "Reduzir para 14 anos a idade penal em crimes graves.",
+        "coverageNote": "Repetições e referências a outras idades não geram novos pontos na contagem.",
+        "verification": "asr-caption-visual-corroborated"
       }
-    ]
+    ],
+    "verificationScope": "caption-asr-concordance-and-visual-speaker-review",
+    "audioReview": "Transcrição automática local do áudio confrontada com legendas, transcrição do Aos Fatos e imagens dos locutores. Não houve escuta humana independente.",
+    "corpusReview": "903 segmentos do vídeo e 367 registros da transcrição do Aos Fatos lidos integralmente. Os horários do Aos Fatos não foram transferidos para o vídeo.",
+    "metricLabel": "Cards com pelo menos uma medida abordada",
+    "catalogFrozenAt": "2026-10-20",
+    "notWholeProgramPercentage": true,
+    "excludedCount": 14,
+    "unmappedCommitments": [
+      {
+        "candidate": "lula",
+        "start": 6012,
+        "end": 6047,
+        "summary": "Compra de dívidas e transferência para recomeçar a vida. Sem correspondência exata no catálogo congelado."
+      },
+      {
+        "candidate": "flavio",
+        "start": 5821,
+        "end": 5844,
+        "summary": "Cadastro nacional de pessoas condenadas por crimes sexuais contra crianças. Sem correspondência exata no catálogo congelado."
+      }
+    ],
+    "videoDurationSeconds": 6855.16
   },
   "programCoverage": {
     "status": "draft",
