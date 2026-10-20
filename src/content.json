@@ -282,7 +282,7 @@
       "kind": "Proposta",
       "verification": "pending",
       "paragraphs": [
-        "O programa propõe ampliar Saúde da Família e contratar exames privados em horários livres para atender quem espera."
+        "O programa propõe contratar exames privados em horários livres para atender pacientes do SUS que estão esperando."
       ],
       "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. Correção documental desta rodada registrada em docs/fact-check-saude.md; não libera publicação.",
       "implications": [
@@ -7275,6 +7275,102 @@
         "url": "https://divulgacandcontas.tse.jus.br/divulga/#/candidato/BR/BR/20322002026/280002551544/2026/BR",
         "locator": "No registro oficial, abra “Sites do Candidato”. Consulta em 20/10/2026."
       }
+    },
+    {
+      "candidate": "flavio",
+      "topic": "saude",
+      "kind": "Proposta",
+      "context": "",
+      "status": "draft",
+      "verification": "pending",
+      "id": "flavio-atencao-basica",
+      "title": "Atendimento nos postos de saúde",
+      "summary": "Ampliar as equipes de Saúde da Família.",
+      "paragraphs": [
+        "O programa prevê ampliar a Estratégia Saúde da Família."
+      ],
+      "implications": [
+        {
+          "label": "O que precisa acontecer",
+          "text": "A expansão depende de equipes contratadas, locais de atendimento e continuidade do acompanhamento. Anunciar novas vagas não significa que elas já estejam ocupadas."
+        },
+        {
+          "label": "Como acompanhar",
+          "text": "A promessa deve ser acompanhada por orçamento executado, oferta de atendimento e acesso dos pacientes. Não temos metas detalhadas de execução para esta medida."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=37",
+          "locator": "Página física 37 do PDF; compromisso de campanha, não resultado entregue"
+        }
+      ],
+      "editorialNotes": "Consulta em 20/10/2026. Texto extraído do PDF oficial; solicitação de screenshot não devolveu imagem inspecionável nesta rodada. Desmembramento de medida hoje incluída em flavio-saude. Remover a frase sobre Saúde da Família desse card ao integrar, para evitar duplicação. Atribuição documental não comprova eficácia ou financiamento. Manter revisão pendente."
+    },
+    {
+      "candidate": "flavio",
+      "topic": "saude",
+      "kind": "Proposta",
+      "context": "",
+      "status": "draft",
+      "verification": "pending",
+      "id": "flavio-vacinacao",
+      "title": "Vacinação e produção de vacinas",
+      "summary": "Manter a vacinação e incentivar a fabricação nacional.",
+      "paragraphs": [
+        "O plano inclui imunização e incentivo à produção de vacinas no Brasil."
+      ],
+      "implications": [
+        {
+          "label": "O que precisa acontecer",
+          "text": "O acesso depende de compra, distribuição, equipes e aplicação das doses. Apoiar a produção não garante, por si só, disponibilidade para todas as pessoas."
+        },
+        {
+          "label": "Como acompanhar",
+          "text": "A promessa deve ser acompanhada por orçamento executado, oferta de atendimento e acesso dos pacientes. Não temos metas detalhadas de execução para esta medida."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=37",
+          "locator": "Página física 37 do PDF; compromisso de campanha, não resultado entregue"
+        }
+      ],
+      "editorialNotes": "Consulta em 20/10/2026. Texto extraído do PDF oficial; solicitação de screenshot não devolveu imagem inspecionável nesta rodada. Compromisso de manutenção; não atribuir meta de aumento de cobertura. Produção mencionada apenas para vacinas: não equiparar a uma política completa de medicamentos e equipamentos. Atribuição documental não comprova eficácia ou financiamento. Manter revisão pendente."
+    },
+    {
+      "candidate": "flavio",
+      "topic": "saude",
+      "kind": "Proposta",
+      "context": "",
+      "status": "draft",
+      "verification": "pending",
+      "id": "flavio-saude-mental",
+      "title": "Saúde mental e apoio às famílias",
+      "summary": "Ampliar o cuidado em saúde mental perto de casa.",
+      "paragraphs": [
+        "O plano menciona depressão, ansiedade, crianças com TDAH e apoio a idosos com Alzheimer e seus cuidadores."
+      ],
+      "implications": [
+        {
+          "label": "O que precisa acontecer",
+          "text": "Ampliar atendimento exige profissionais, encaminhamento e acompanhamento contínuo. Citar diferentes condições não define uma única forma de tratamento nem garante acesso imediato."
+        },
+        {
+          "label": "Como acompanhar",
+          "text": "A promessa deve ser acompanhada por orçamento executado, oferta de atendimento e acesso dos pacientes. Não temos metas detalhadas de execução para esta medida."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Programa apresentado ao TSE — Flávio Bolsonaro",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=39",
+          "locator": "Página física 39 do PDF; compromisso de campanha, não resultado entregue"
+        }
+      ],
+      "editorialNotes": "Consulta em 20/10/2026. Texto extraído do PDF oficial; solicitação de screenshot não devolveu imagem inspecionável nesta rodada. Não atribuir criação de CAPS, número de vagas ou novo tratamento específico. O documento agrupa saúde mental e condições neurológicas; preservar distinção clínica. Atribuição documental não comprova eficácia ou financiamento. Manter revisão pendente."
     }
   ],
   "rallyCities": [
@@ -8374,5 +8470,38 @@
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     }
-  ]
+  ],
+  "topicGuides": {
+    "saude": {
+      "title": "Saúde",
+      "summary": "Compare propostas para consultas, exames e remédios. Entenda como funcionariam e o que já existe.",
+      "history": [
+        {
+          "title": "Farmácia Popular: gratuidade e acesso",
+          "blockId": "lula-saude",
+          "implicationIndex": 0
+        },
+        {
+          "title": "Hospitais privados já atendem pelo SUS",
+          "blockId": "flavio-saude",
+          "implicationIndex": 1
+        },
+        {
+          "title": "Saúde das mulheres: uma política anterior à campanha",
+          "blockId": "flavio-saude-mulheres",
+          "implicationIndex": 1
+        }
+      ],
+      "evaluation": "Uma promessa precisa virar atendimento. Para acompanhar a execução, estas perguntas ajudam a distinguir anúncio de resultado:",
+      "questions": [
+        "A espera por consulta, exame e tratamento diminuiu?",
+        "Há equipes e serviços disponíveis onde os pacientes moram?",
+        "Os medicamentos chegam com regularidade a quem precisa?",
+        "O recurso anunciado foi usado e o atendimento foi realizado?"
+      ],
+      "dataLimit": "Ainda não temos uma série de indicadores comparáveis reunida nesta página. As perguntas acima são critérios de acompanhamento, não resultados medidos.",
+      "status": "draft",
+      "verification": "pending"
+    }
+  }
 }
