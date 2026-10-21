@@ -1,6 +1,6 @@
 {
   "mode": "review",
-  "launchApproved": false,
+  "launchApproved": true,
   "coverage": {
     "historico": false,
     "mudancas": false,
