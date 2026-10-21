@@ -13663,31 +13663,31 @@
     },
     {
       "id": "cidade",
-      "src": "assets/brasil/rio-pao-de-acucar.jpg",
+      "src": "assets/brasil/recife-ceu-azul.jpg",
       "label": "Cidades",
-      "place": "Vista panorâmica do Rio de Janeiro",
-      "author": "Wilfredor",
-      "source": "https://commons.wikimedia.org/wiki/File:Rio_de_Janeiro_skyline_and_Sugarloaf_Mountain_at_sunset,_Brazil_4.jpg",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "place": "Marco Zero, Recife · Pernambuco",
+      "author": "Walber Moura",
+      "source": "https://commons.wikimedia.org/wiki/File:Recife_-_Marco_Zero.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "id": "mercado",
-      "src": "assets/brasil/mercado-hq.jpg",
-      "label": "Trabalho",
-      "place": "Feira de São Cristóvão, Rio de Janeiro",
-      "author": "Wilfredor",
-      "source": "https://commons.wikimedia.org/wiki/File:Market_vendors_in_Rio_de_Janeiro,_Brazil.jpg",
-      "license": "CC0 1.0",
-      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "src": "assets/brasil/pelourinho-salvador.jpg",
+      "label": "Cultura",
+      "place": "Largo do Pelourinho, Salvador, Bahia",
+      "author": "Paul R. Burley",
+      "source": "https://commons.wikimedia.org/wiki/File:Largo_do_Pelourinho_Salvador_2019-9754_(cropped).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "id": "universidade",
-      "src": "assets/brasil/campus-hq.jpg",
+      "src": "assets/brasil/ufpr-ceu-azul.jpg",
       "label": "Educação",
-      "place": "Jardins do P1, UFRRJ, Seropédica",
-      "author": "Leone Melo",
-      "source": "https://commons.wikimedia.org/wiki/File:UFRRJ_-_Dentro_do_P1.jpg",
+      "place": "Universidade Federal do Paraná · Curitiba",
+      "author": "Boaventuravinicius",
+      "source": "https://commons.wikimedia.org/wiki/File:UFPR_vista_frontal.jpg",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
     }

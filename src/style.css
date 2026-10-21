@@ -305,11 +305,11 @@ body.sidebar-collapsed .floating-search>span{display:none}
 .article,.proposal-card{position:relative}.article:has(>.save-reading){padding-top:56px}.proposal-card>summary{position:relative;padding-top:56px!important}.save-reading{position:absolute!important;top:10px;right:10px;bottom:auto!important;margin:0;padding:10px;min-width:44px;min-height:44px;width:44px;height:44px;border:0;background:transparent;border-radius:50%;z-index:1}.save-reading svg{width:22px;height:22px;display:block}.save-reading[aria-pressed=true] svg{fill:currentColor}.save-reading:hover{background:var(--wash)}.daily-home-links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.daily-home-links a{padding:22px;border:1px solid var(--line);border-radius:12px;color:inherit;display:flex;align-items:center;justify-content:space-between;gap:16px;text-decoration:none}.daily-home-links a:hover{background:var(--wash)}@media(max-width:600px){.daily-home-links{grid-template-columns:1fr}.daily-home-links a{min-height:64px;padding:18px}}
 
 /* Four visible everyday pillars; no carousel or repeated home photographs. */
-.feature.daily-pillars{background:#202020;grid-template-columns:.8fr 1.2fr;gap:32px}
+.feature.daily-pillars{background:linear-gradient(35deg,#153e77 0%,#153e77 38%,#d8c66f 78%,#718558 100%);grid-template-columns:.8fr 1.2fr;gap:32px}
 .pillar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-width:0}
 .pillar-link{position:relative;isolation:isolate;display:flex;align-items:end;min-height:210px;padding:20px;border-radius:14px;overflow:hidden;text-decoration:none;gap:12px}
 .pillar-link img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:saturate(1.12) contrast(1.04);transition:transform .3s ease}
-.pillar-link::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent,#000d);z-index:-1}
+.pillar-link::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(38,56,46,.08) 20%,rgba(15,25,19,.92) 100%);z-index:-1}
 .pillar-link>span:first-of-type{display:grid;gap:8px;min-width:0}.pillar-link strong{font-size:1.15rem}.pillar-link span span{font-size:.86rem;line-height:1.45}.pillar-arrow{margin-left:auto;flex-shrink:0}
 .pillar-link:hover img{transform:scale(1.035)}.pillar-link:focus-visible{outline:3px solid white;outline-offset:3px}
 @media(max-width:850px){.feature.daily-pillars{grid-template-columns:1fr}.pillar-link{min-height:190px}}
@@ -341,3 +341,29 @@ body:has(#notifications-dialog[open]){overflow:hidden}
 .notifications-dialog .notification-list::-webkit-scrollbar-thumb{background:#bcbcbc;border-radius:6px}
 .notifications-dialog>footer{padding:12px 0 0;gap:8px;justify-content:space-between}
 .notifications-dialog>footer button,.notifications-dialog>footer a{font-size:.8rem}
+
+/* Reveal CTA direction without shifting its label. */
+.hover-arrow{display:inline-block;opacity:0;transform:translateX(-4px);transition:opacity .18s ease,transform .18s ease}a:hover .hover-arrow,a:focus-visible .hover-arrow{opacity:1;transform:translateX(0)}@media(prefers-reduced-motion:reduce){.hover-arrow{transition:none;transform:none}}
+
+/* Proportional hover motion; outer cards own the effect for nested controls. */
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ :where(a,button,summary,[role="button"]){transition:scale .2s cubic-bezier(.2,.7,.3,1);transform-origin:center;}
+ :where(a){display:inline-block;}
+ :where(a,button,summary,[role="button"]):hover{scale:1.025;}
+ :is(.candidate,.article,.proposal-card,.pillar-link,.rally-event,.topic-context,.topic-history-item,.update-entry,.proposal-gap){transition:scale .22s cubic-bezier(.2,.7,.3,1);transform-origin:center;}
+ :is(.candidate,.article,.proposal-card,.pillar-link,.rally-event,.topic-context,.topic-history-item,.update-entry,.proposal-gap):hover{scale:1.008;}
+ :is(.candidate,.article,.proposal-card,.pillar-link,.rally-event,.topic-context,.topic-history-item,.update-entry,.proposal-gap):hover :is(a,button,summary,[role="button"],.article,.proposal-card,.pillar-link,.topic-context,.topic-history-item){scale:1;}
+ .pillar-link:hover img{transform:none;}
+}
+/* The light corner stays behind photographs, with a darker reading area. */
+.feature.daily-pillars{background-image:url("assets/grain.svg"),linear-gradient(90deg,rgba(9,24,43,.32),transparent 72%),linear-gradient(35deg,#153e77 0%,#153e77 38%,#d8c66f 78%,#718558 100%);background-size:256px 256px,cover,cover;background-repeat:repeat,no-repeat,no-repeat;}
+/* Shared blue/olive photographic treatment, below text and hit targets. */
+.daily-pillars .pillar-link img{filter:saturate(.78) contrast(1.08) brightness(.95);}
+.daily-pillars .pillar-link::after{content:none;}
+.daily-pillars .pillar-link::before{background:linear-gradient(180deg,transparent 10%,rgba(0,0,0,.85) 100%);}
+
+
+/* Keep the vendor cart in frame, with the shared treatment retained. */
+.daily-pillars .pillar-link:first-child img{object-position:50% 70%;}
+
+@media(max-width:850px){.feature.daily-pillars{background-image:url("assets/grain.svg"),linear-gradient(180deg,rgba(9,24,43,.52),transparent 420px),linear-gradient(35deg,#153e77 0%,#153e77 38%,#d8c66f 78%,#718558 100%);}}
