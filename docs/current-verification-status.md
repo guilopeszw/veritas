@@ -1,3 +1,5 @@
+> Current debate figures (second full source-based pass): Lula 6/476 = 1.26%; Flávio 16/302 = 5.30%. One partial mention each is excluded. See `debate-atomic-audit.md`; earlier figures below are historical. Publication remains unapproved.
+
 # Current verification status — 20 October 2026
 
 This snapshot supersedes earlier numerical readiness summaries. It does not grant editorial approval or authorize deployment.
@@ -37,3 +39,9 @@ The debt-auction/Pix and sex-offender-register promises now have separate reader
 All 796 extracted inventory rows now have a recorded disposition: 923 derived units, of which 810 are retained actions, 76 merged references and 37 contextual/outcome exclusions. No unclassified inventory rows remain. Preliminary strict coverage is Lula 6/483 (1.24%) and Flávio 17/327 (5.20%). These replace card percentages in the local preview, not in a released publication.
 
 Ten ambiguous debate-to-program relationships remain excluded, not silently marked absent. Eight separately mapped debate commitments sit outside the frozen denominator. The complete ledger is `src/debate-atomic-audit.json`; method and limitations are in `docs/debate-atomic-audit.md`. Independent coding review, complete source-version/page authentication, and independent human audio listening are not completed. Publication remains blocked.
+
+## Superseding second-pass result — 20 October 2026
+
+Source-text comparison and full action-label second pass are complete within the documented method. Current direct coverage: Lula 6/476 = 1.26%; Flávio 16/302 = 5.30%. One partial reference per candidate is visible separately, outside the numerator. All 796 original rows remain accounted; the final 933-entry ledger has 778 retained, 105 merged, 50 excluded entries. Two omitted source actions were recovered. Nine debate-only commitments are separately mapped. Earlier counts above are historical and superseded.
+
+Remaining limitations are concrete: PDF binary/visual authentication could not be performed because direct retrieval returns HTTP 403; there was no independent human audio listening or blinded dual-coder study. Indexed official text and transcript corroboration are completed, not pending. Final editorial publication approval remains false.

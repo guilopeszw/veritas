@@ -78,6 +78,11 @@ if individual:
     rows = ledger["rowAccounting"]
     assert len(rows) == len({r["inventoryId"] for r in rows}) == ledger["inventoryRowsRead"], "Incomplete inventory accounting"
     assert all(r["resultingUnitIds"] and all(uid in units for uid in r["resultingUnitIds"]) for r in rows), "Missing derived action"
+    assert {uid for row in rows for uid in row["resultingUnitIds"]} == set(units), "Unaccounted derived action"
+    for unit in units.values():
+        assert unit["disposition"] in ("retained", "merged", "excluded-context-or-goal")
+        if unit["disposition"] == "merged":
+            assert unit.get("mergedInto") and all(target in units and target != unit["id"] for target in unit["mergedInto"]), "Invalid merge target"
     for candidate in ("lula", "flavio"):
         retained = [u for u in units.values() if u["candidate"] == candidate and u["disposition"] == "retained"]
         matches = [u for u in retained if u.get("debateMatch")]
@@ -86,8 +91,16 @@ if individual:
         assert len(matches) == count["strictMatchedActions"], "Individual numerator mismatch"
         rendered = [m for m in individual["matches"] if m["candidate"] == candidate]
         assert {m["id"] for m in rendered} == {m["id"] for m in matches} and len(rendered) == len(matches), "Rendered atomic evidence mismatch"
-        for match in rendered:
+        partial = [u for u in retained if u.get("partialDebateMatch")]
+        displayed_partial = [m for m in individual.get("partialMatches", []) if m["candidate"] == candidate]
+        assert {m["id"] for m in displayed_partial} == {u["id"] for u in partial}, "Partial evidence mismatch"
+        assert len(partial) == count.get("partialMatchedActions", 0), "Partial count mismatch"
+        assert not {u["id"] for u in partial} & {u["id"] for u in matches}, "Action counted as direct and partial"
+        for match in rendered + displayed_partial:
             assert 0 <= match["start"] < match["end"] <= audit["videoDurationSeconds"], "Invalid individual timestamp"
+            source_unit = units[match["id"]]
+            source_match = source_unit.get("debateMatch") or source_unit["partialDebateMatch"]
+            assert match["pages"] == source_unit["pages"] and match["start"] == source_match["start"] and match["end"] == source_match["end"], "Stale rendered evidence"
             assert match["pages"] and match["sourceUrl"].startswith("https://") and match["readerParaphrase"], "Missing individual provenance"
     if args.public and not individual.get("publicationApproved"):
         raise SystemExit("Publicação bloqueada: análise individual do debate pendente")

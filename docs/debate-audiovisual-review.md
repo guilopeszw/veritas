@@ -69,3 +69,11 @@ Full media and transcripts remain in the local working directory; they are not r
 ## Follow-up: previously unmapped promises
 
 Added `lula-renegociacao-pix` and `flavio-cadastro-crimes-sexuais` as debate-origin proposal cards. The debt measure is now paired with Flávio’s debt-purchase card in the comparison. The registry card distinguishes implementation from creation: Law15035/2024 already provides the legal basis. The candidate’s allegation of non-operation is not asserted as independently proved. These additions do not enter the frozen148-card denominator or imply inclusion in the official program inventory.
+
+## Second textual evidence review — 20 October 2026
+
+All 367 narrative transcript records were reread in order, with records 302–324 reread after a truncated output. The 23 originally matched ASR intervals were reread and compared with the independent Aos Fatos narrative and YouTube captions. The supplemental Band excerpt covering the first economic response was also reread. Its broad digital/green/creative-economy aspirations do not specify additional interventions beyond separately mapped later passages.
+
+The source JSON hashes match the preceding evidence manifest. This is text-to-audio-transcription corroboration, not human listening. Automatic text errors remain possible; paraphrases and approximate interval links are used instead of asserted verbatim quotes.
+
+Two changes are material: the territorial-recovery statement is now partial because the public-service coupling is omitted; the university-expansion statement at 6299–6305 seconds is also partial because the public-network/interiorization scope is not specified. Both sit outside the direct-match percentage. Flávio's explicit future implementation of the anti-faction law at 5961.96–5965.26 seconds is now separately recorded; it does not add a distinct program match.

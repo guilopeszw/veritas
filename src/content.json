@@ -13157,7 +13157,7 @@
     "counts": {
       "lula": {
         "inventoryRows": 459,
-        "normalizedRetainedActions": 483,
+        "normalizedRetainedActions": 476,
         "strictMatchedActions": 6,
         "matchedIds": [
           "PT-058-01",
@@ -13167,16 +13167,16 @@
           "PT-149-01",
           "PT-X029"
         ],
-        "provisionalPercentage": 1.24,
-        "publicationApproved": false
+        "provisionalPercentage": 1.26,
+        "publicationApproved": false,
+        "partialMatchedActions": 1
       },
       "flavio": {
         "inventoryRows": 337,
-        "normalizedRetainedActions": 327,
-        "strictMatchedActions": 17,
+        "normalizedRetainedActions": 302,
+        "strictMatchedActions": 16,
         "matchedIds": [
           "PL-001",
-          "PL-004:b",
           "PL-006",
           "PL-007",
           "PL-010",
@@ -13193,8 +13193,9 @@
           "PL-174:c",
           "PL-178"
         ],
-        "provisionalPercentage": 5.2,
-        "publicationApproved": false
+        "provisionalPercentage": 5.3,
+        "publicationApproved": false,
+        "partialMatchedActions": 1
       }
     },
     "matches": [
@@ -13211,8 +13212,13 @@
           "PT-058-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-058-01",
+        "atomicId": "PT-058-01",
         "candidate": "lula",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          30
+        ],
+        "id": "PT-058-01",
         "pages": [
           30
         ],
@@ -13231,10 +13237,15 @@
           "PT-072-02"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-072-02",
+        "atomicId": "PT-072-02",
         "candidate": "lula",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          33
+        ],
+        "id": "PT-072-02",
         "pages": [
-          32
+          33
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
       },
@@ -13251,8 +13262,13 @@
           "PT-105-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-105-01",
+        "atomicId": "PT-105-01",
         "candidate": "lula",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          42
+        ],
+        "id": "PT-105-01",
         "pages": [
           42
         ],
@@ -13271,8 +13287,13 @@
           "PT-145-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-145-01",
+        "atomicId": "PT-145-01",
         "candidate": "lula",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          54
+        ],
+        "id": "PT-145-01",
         "pages": [
           54
         ],
@@ -13291,8 +13312,13 @@
           "PT-149-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-149-01",
+        "atomicId": "PT-149-01",
         "candidate": "lula",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          55
+        ],
+        "id": "PT-149-01",
         "pages": [
           55
         ],
@@ -13311,8 +13337,13 @@
           "PT-X029"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-X029",
+        "atomicId": "PT-X029",
         "candidate": "lula",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          74
+        ],
+        "id": "PT-X029",
         "pages": [
           74
         ],
@@ -13331,32 +13362,15 @@
           "PL-001"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-001",
+        "atomicId": "PL-001",
         "candidate": "flavio",
-        "pages": [
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
           13
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
-      },
-      {
-        "start": 308,
-        "end": 335,
-        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=308s",
-        "readerParaphrase": "Retomar os territórios dominados por facções.",
-        "note": "Territorial-recovery action; equipment and police-personnel measures not counted.",
-        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-        "status": "draft-atomic-coding",
-        "relationship": "exact-action",
-        "inventoryIds": [
-          "PL-004",
-          "PL-187"
-        ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-004:b",
-        "candidate": "flavio",
+        "id": "PL-001",
         "pages": [
-          13,
-          47
+          13
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
       },
@@ -13373,8 +13387,13 @@
           "PL-006"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-006",
+        "atomicId": "PL-006",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          13
+        ],
+        "id": "PL-006",
         "pages": [
           13
         ],
@@ -13394,8 +13413,14 @@
           "PL-008"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-007",
+        "atomicId": "PL-007",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          13,
+          14
+        ],
+        "id": "PL-007",
         "pages": [
           13,
           14
@@ -13416,8 +13441,13 @@
           "PL-013"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-010",
+        "atomicId": "PL-010",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          14
+        ],
+        "id": "PL-010",
         "pages": [
           14
         ],
@@ -13436,8 +13466,13 @@
           "PL-014"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-014",
+        "atomicId": "PL-014",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          14
+        ],
+        "id": "PL-014",
         "pages": [
           14
         ],
@@ -13457,8 +13492,13 @@
           "PL-018"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-017",
+        "atomicId": "PL-017",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          15
+        ],
+        "id": "PL-017",
         "pages": [
           15
         ],
@@ -13479,8 +13519,13 @@
           "PL-022"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-020",
+        "atomicId": "PL-020",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          15
+        ],
+        "id": "PL-020",
         "pages": [
           15
         ],
@@ -13501,12 +13546,17 @@
           "PL-121"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-064",
+        "atomicId": "PL-064",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          24,
+          35
+        ],
+        "id": "PL-064",
         "pages": [
           24,
-          35,
-          36
+          35
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
       },
@@ -13527,8 +13577,14 @@
           "PL-077"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-074",
+        "atomicId": "PL-074",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          21,
+          26
+        ],
+        "id": "PL-074",
         "pages": [
           21,
           26
@@ -13549,8 +13605,14 @@
           "PL-138"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-138:a",
+        "atomicId": "PL-138:a",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          21,
+          38
+        ],
+        "id": "PL-138:a",
         "pages": [
           21,
           38
@@ -13570,11 +13632,15 @@
           "PL-164"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-164:a",
+        "atomicId": "PL-164:a",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          42
+        ],
+        "id": "PL-164:a",
         "pages": [
-          42,
-          43
+          42
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
       },
@@ -13591,8 +13657,13 @@
           "PL-172"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-172",
+        "atomicId": "PL-172",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          44
+        ],
+        "id": "PL-172",
         "pages": [
           44
         ],
@@ -13612,8 +13683,15 @@
           "PL-174"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-174:a",
+        "atomicId": "PL-174:a",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          27,
+          45,
+          46
+        ],
+        "id": "PL-174:a",
         "pages": [
           27,
           45,
@@ -13635,8 +13713,14 @@
           "PL-175"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-174:b",
+        "atomicId": "PL-174:b",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          45,
+          46
+        ],
+        "id": "PL-174:b",
         "pages": [
           45,
           46
@@ -13657,8 +13741,14 @@
           "PL-175"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-174:c",
+        "atomicId": "PL-174:c",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          45,
+          46
+        ],
+        "id": "PL-174:c",
         "pages": [
           45,
           46
@@ -13678,8 +13768,13 @@
           "PL-178"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PL-178",
+        "atomicId": "PL-178",
         "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          46
+        ],
+        "id": "PL-178",
         "pages": [
           46
         ],
@@ -13758,7 +13853,110 @@
         "programExactMatch": null,
         "reason": "Debate wording does not distinguish statutory theft/robbery/resale; program says quadruple theft/resale penalty.",
         "status": "existing-card-no-forced-program-match"
+      },
+      {
+        "candidate": "flavio",
+        "readerCopy": "Colocar em prática a Lei Antifacção.",
+        "start": 5961,
+        "end": 5973,
+        "programExactMatch": null,
+        "reason": "Future implementation is explicit, but does not identify a unique frozen program action beyond already counted measures. No extra numerator credit.",
+        "status": "mapped-separate-debate-position"
       }
-    ]
+    ],
+    "partialMatches": [
+      {
+        "start": 6299,
+        "end": 6305,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6299s",
+        "readerParaphrase": "Fazer mais escolas, universidades e cursos.",
+        "readerScope": "Defendeu ampliar universidades, sem especificar a rede pública e a interiorização previstas no programa.",
+        "verification": "second-textual-review-against-narrative-transcript-and-local-ASR",
+        "relationship": "partial",
+        "atomicId": "PT-075-05",
+        "candidate": "lula",
+        "inventoryIds": [
+          "PT-075-05"
+        ],
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "programPages": [
+          33
+        ],
+        "id": "PT-075-05",
+        "pages": [
+          33
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+      },
+      {
+        "start": 308,
+        "end": 335,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=308s",
+        "readerParaphrase": "Retomar os territórios dominados por facções.",
+        "note": "Territorial-recovery action; equipment and police-personnel measures not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "partial",
+        "inventoryIds": [
+          "PL-004",
+          "PL-187"
+        ],
+        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "readerScope": "Falou em retomar territórios, mas não explicou a ligação com serviços públicos prevista no programa.",
+        "atomicId": "PL-004:b",
+        "candidate": "flavio",
+        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "programPages": [
+          13,
+          47
+        ],
+        "id": "PL-004:b",
+        "pages": [
+          13,
+          47
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+      }
+    ],
+    "sourceReview": {
+      "date": "2026-10-20",
+      "method": "fresh-official-TSE-indexed-text-comparison",
+      "pt": {
+        "pages": 84,
+        "lines": 2373,
+        "indexedTextSha256": "93b9719de1266ecbe0171f898591b1f8ecf21ec944b4bea72daeed5e451a8d8c"
+      },
+      "pl": {
+        "pages": 76,
+        "lines": 2300,
+        "indexedTextSha256": "452126ab841aaca25f7f43c83d42799f166ca5dfe960fe1044ceb9ba7c51eebf"
+      },
+      "textDifferences": 0,
+      "inventoryPageBoundsChecked": 796,
+      "binaryPdfVerified": false,
+      "visualPagesVerified": false,
+      "limitation": "Direct PDF retrieval returned HTTP403 HTML. Indexed text is independently rechecked; this is not binary or image authentication."
+    },
+    "reviewStatus": "source-text-and-classification-reviewed",
+    "secondReview": {
+      "classification": "all-original-923-derived-entries-reviewed-against-source-text",
+      "transcriptRecordsRead": 367,
+      "originalMatchedIntervalsRead": 23,
+      "additionalPartialInterval": [
+        6299,
+        6305
+      ],
+      "humanListening": false,
+      "publicationApproved": false,
+      "ptEntriesReviewed": 512,
+      "plEntriesReviewed": 411,
+      "sourceGapsRecovered": 2,
+      "reviewType": "PT separate source reviewer; PL original coder source-based self-review; parent transcript review",
+      "resultCounts": {
+        "retained": 778,
+        "merged": 105,
+        "excluded-context-or-goal": 50
+      }
+    }
   }
 }
