@@ -1,0 +1,47 @@
+[
+  {
+    "id": "saude",
+    "src": "assets/brasil/pilar-saude.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Unidade_b%C3%A1sica_de_sa%C3%BAde_de_Tel%C3%AAmaco_Borba.jpg",
+    "author": "Simplus Menegati",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "place": "Unidade Básica de Saúde em Telêmaco Borba, Paraná",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Unidade_b%C3%A1sica_de_sa%C3%BAde_de_Tel%C3%AAmaco_Borba.jpg/1920px-Unidade_b%C3%A1sica_de_sa%C3%BAde_de_Tel%C3%AAmaco_Borba.jpg",
+    "width": 1920,
+    "height": 1110,
+    "bytes": 498489,
+    "modification": "Wikimedia thumbnail; site may apply crop, gradient and color filter",
+    "checkedAt": "2026-10-21"
+  },
+  {
+    "id": "alimentacao",
+    "src": "assets/brasil/pilar-alimentacao.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Com%C3%A9rcio_de_frutas,_legumes,_verduras,_tub%C3%A9rculos_e_feij%C3%A3o_verde_-_20250524_093146.jpg",
+    "author": "GajAmérica",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "place": "Feira livre de Jacobina, Bahia",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Com%C3%A9rcio_de_frutas%2C_legumes%2C_verduras%2C_tub%C3%A9rculos_e_feij%C3%A3o_verde_-_20250524_093146.jpg/1920px-Com%C3%A9rcio_de_frutas%2C_legumes%2C_verduras%2C_tub%C3%A9rculos_e_feij%C3%A3o_verde_-_20250524_093146.jpg",
+    "width": 1920,
+    "height": 1140,
+    "bytes": 798531,
+    "modification": "Wikimedia thumbnail; site may apply crop, gradient and color filter",
+    "checkedAt": "2026-10-21"
+  },
+  {
+    "id": "moradia",
+    "src": "assets/brasil/pilar-moradia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Minha_casa,_Minha_Vida_BRASIL.JPG",
+    "author": "Almanaque Lusofonista",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-author",
+    "place": "Casa popular em Capitão de Campos, Piauí",
+    "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Minha_casa%2C_Minha_Vida_BRASIL.JPG/1920px-Minha_casa%2C_Minha_Vida_BRASIL.JPG",
+    "width": 1920,
+    "height": 1433,
+    "bytes": 644633,
+    "modification": "Wikimedia thumbnail; site may apply crop, gradient and color filter",
+    "checkedAt": "2026-10-21"
+  }
+]

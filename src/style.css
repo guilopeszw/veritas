@@ -304,9 +304,17 @@ body.sidebar-collapsed .floating-search>span{display:none}
 
 .article,.proposal-card{position:relative}.article:has(>.save-reading){padding-top:56px}.proposal-card>summary{position:relative;padding-top:56px!important}.save-reading{position:absolute!important;top:10px;right:10px;bottom:auto!important;margin:0;padding:10px;min-width:44px;min-height:44px;width:44px;height:44px;border:0;background:transparent;border-radius:50%;z-index:1}.save-reading svg{width:22px;height:22px;display:block}.save-reading[aria-pressed=true] svg{fill:currentColor}.save-reading:hover{background:var(--wash)}.daily-home-links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.daily-home-links a{padding:22px;border:1px solid var(--line);border-radius:12px;color:inherit;display:flex;align-items:center;justify-content:space-between;gap:16px;text-decoration:none}.daily-home-links a:hover{background:var(--wash)}@media(max-width:600px){.daily-home-links{grid-template-columns:1fr}.daily-home-links a{min-height:64px;padding:18px}}
 
-/* Reuse the home postcard layout, with a photograph of market workers. */
-.feature.daily-home{background-image:linear-gradient(90deg,#000000b8,#00000068),url('assets/brasil/trabalho-carteira.jpg');background-position:center}
-@media(max-width:600px){.feature.daily-home{background-image:linear-gradient(#0009,#000a),url('assets/brasil/trabalho-carteira.jpg')}}
+/* Four visible everyday pillars; no carousel or repeated home photographs. */
+.feature.daily-pillars{background:#202020;grid-template-columns:.8fr 1.2fr;gap:32px}
+.pillar-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-width:0}
+.pillar-link{position:relative;isolation:isolate;display:flex;align-items:end;min-height:210px;padding:20px;border-radius:14px;overflow:hidden;text-decoration:none;gap:12px}
+.pillar-link img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;filter:saturate(1.12) contrast(1.04);transition:transform .3s ease}
+.pillar-link::before{content:"";position:absolute;inset:0;background:linear-gradient(transparent,#000d);z-index:-1}
+.pillar-link>span:first-of-type{display:grid;gap:8px;min-width:0}.pillar-link strong{font-size:1.15rem}.pillar-link span span{font-size:.86rem;line-height:1.45}.pillar-arrow{margin-left:auto;flex-shrink:0}
+.pillar-link:hover img{transform:scale(1.035)}.pillar-link:focus-visible{outline:3px solid white;outline-offset:3px}
+@media(max-width:850px){.feature.daily-pillars{grid-template-columns:1fr}.pillar-link{min-height:190px}}
+@media(max-width:440px){.pillar-grid{grid-template-columns:1fr}.pillar-link{min-height:180px}}
+@media(prefers-reduced-motion:reduce){.pillar-link img{transition:none}.pillar-link:hover img{transform:none}}
 
 /* Notifications remain separate from the public change history. */
 [data-notifications]{position:relative}

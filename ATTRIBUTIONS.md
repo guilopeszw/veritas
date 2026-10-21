@@ -20,3 +20,9 @@ The code is MIT-licensed; photographs retain the individual licenses below. Imag
 - License: [CC BY 3.0 BR](https://creativecommons.org/licenses/by/3.0/br/).
 - Presentation: CSS crop and dark gradient; original image bytes retained.
 - Use is illustrative and does not imply endorsement.
+
+## Everyday-life pillars
+
+- [Unidade Básica de Saúde em Telêmaco Borba, Paraná](https://commons.wikimedia.org/wiki/File:Unidade_b%C3%A1sica_de_sa%C3%BAde_de_Tel%C3%AAmaco_Borba.jpg) — Simplus Menegati; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). CSS crop, gradient and color filtering; adapted presentation retains the listed license.
+- [Feira livre de Jacobina, Bahia](https://commons.wikimedia.org/wiki/File:Com%C3%A9rcio_de_frutas,_legumes,_verduras,_tub%C3%A9rculos_e_feij%C3%A3o_verde_-_20250524_093146.jpg) — GajAmérica; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). CSS crop, gradient and color filtering; adapted presentation retains the listed license.
+- [Casa popular em Capitão de Campos, Piauí](https://commons.wikimedia.org/wiki/File:Minha_casa,_Minha_Vida_BRASIL.JPG) — Almanaque Lusofonista; [Public domain](https://commons.wikimedia.org/wiki/Template:PD-author). CSS crop, gradient and color filtering; adapted presentation retains the listed license.
