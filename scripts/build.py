@@ -11,7 +11,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser()
 parser.add_argument("--public", action="store_true")
+parser.add_argument("--release-review", action="store_true", help="Build a local, filtered release candidate without granting approval")
 args = parser.parse_args()
+assert not (args.public and args.release_review), "Choose public or release review, not both"
 data = json.loads((ROOT / "src/content.json").read_text())
 ids = [b["id"] for b in data["blocks"]]
 assert len(ids) == len(set(ids)), "IDs duplicados"
@@ -130,10 +132,26 @@ if args.public:
     data["mode"] = "public"
 else:
     data["mode"] = "review"
-dest = ROOT / ("public" if args.public else "dist")
+if args.release_review:
+    data["blocks"] = [b for b in data["blocks"] if b.get("verification") == "checked"]
+    for key in ("debateAudit", "debateIndividualAudit", "programCoverage"):
+        data.pop(key, None)
+    for block in data["blocks"]:
+        if block["id"] in ("debate-band-flavio-propostas", "debate-band-lula-propostas"):
+            block["context"] = "Síntese das propostas identificadas nas fontes indicadas. Não representa uma contagem completa de todas as propostas ou de todas as falas do debate."
+            block.pop("relatedRoute", None)
+            block.pop("relatedLabel", None)
+    data["mode"] = "release-review"
+    data["releaseScope"] = "checked-content-without-pending-coverage-metrics"
+    assert not data["launchApproved"]
+    assert all(b["verification"] == "checked" for b in data["blocks"])
+dest = ROOT / ("release-review" if args.release_review else "public" if args.public else "dist")
+# Recreate the derived candidate so removed evidence cannot survive from an older build.
+if args.release_review and dest.exists():
+    shutil.rmtree(dest)
 dest.mkdir(exist_ok=True)
 for path in (ROOT / "src").iterdir():
-    if path.is_file() and path.name != "content.json":
+    if path.is_file() and path.name != "content.json" and not (args.release_review and path.name == "debate-atomic-audit.json"):
         shutil.copy2(path, dest / path.name)
     elif path.is_dir() and path.name == "assets":
         shutil.copytree(path, dest / path.name, dirs_exist_ok=True)
@@ -162,7 +180,7 @@ else:
     scripts = '<script type="application/json" id="embedded-content">' + payload + '</script><script type="module">' + (dest / "app.js").read_text() + "</script>"
     standalone = standalone.replace('<script type="module" src="app.js"></script>', scripts)
     standalone = standalone.replace("assets/brasil-wave-clean.svg", "data:image/svg+xml;base64," + flag)
-    (ROOT.parent / "veritas-preview.html").write_text(standalone)
+    (ROOT.parent / ("veritas-release-review.html" if args.release_review else "veritas-preview.html")).write_text(standalone)
 print(f"{len(data['blocks'])} blocos validados. Modo: {data['mode']}. Saída: {dest}")
 
 # Asset fingerprints prevent an older UI from surviving a new local build.
