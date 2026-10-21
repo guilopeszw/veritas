@@ -1,19 +1,11 @@
 # Release review candidate — 20 October 2026
 
-Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --release-review`; serve `release-review/` on loopback port 4174. The full editorial preview remains in `dist/` on port 4173.
+Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --release-review`.
 
-## Scope
+211 checked blocks within their documented scope; final editorial approval remains pending. The property block contains only TSE declarations, a limited deed excerpt and the official 2025 financing judgment. Its broader transaction investigation is excluded and preserved in research notes and Git history.
 
-211 checked content blocks; editorial approval is still required. Excluded: both debate percentage datasets, downloadable atomic audit, official-program completeness metadata and comparison Story controls. Debate summaries no longer link to the excluded counts. Coverage copy describes a selection, not exhaustive coverage. Health guide and seven attributed rally estimate records remain included. Data retains source approval states without manufacturing approvals.
+Excluded: both debate percentage datasets, atomic audit download, completeness metadata and comparison Story controls. No complete-program or full-property-audit claim is made. Build validation and exclusion assertions passed. No deployment performed; launchApproved remains false.
 
-## Validation
+Candidate content SHA-256: `245499aaa3931971a7632e30f4a02858b74927d4b608e98d7b5ed0804a72dac7`
 
-Build and syntax checks pass. The property controversy is included as attributed historical reporting with the defense position and dated court decision; five TSE filing years and a published 2021 deed excerpt now provide itemized values. The underlying transaction audit remains incomplete. Debate view contains no coverage percentages or links to excluded counts. The atomic audit is not copied into this output. No deployment was performed, launchApproved remains false, and the existing public build retains its approval gates.
-
-Candidate content SHA-256: `70fb8f61aa22b0dd2960c42e3ee1cb1ec38ac26845185ac968172c6e0c9a7fa6`
-
-## Owner review
-
-Review the candidate text and presentation at the local URL. Approval applies to this limited scope, not the withheld evidence. A subsequent public build must explicitly reconcile that approval with this candidate and preserve the exclusions; `--release-review` is not a deployment bypass.
-
-Property follow-up adds selected reproductions from the rejected 2020 complaint, dated seller/repayment reporting, the official 2025 financing judgment and missing documents by operation. These do not certify full ownership/payment reconciliation.
+See current-verification-status.md for the remaining publication steps. Approval applies only to this specific filtered edition and must be reconciled with the public build before deployment.
