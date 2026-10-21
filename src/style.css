@@ -367,3 +367,12 @@ body:has(#notifications-dialog[open]){overflow:hidden}
 .daily-pillars .pillar-link:first-child img{object-position:50% 70%;}
 
 @media(max-width:850px){.feature.daily-pillars{background-image:url("assets/grain.svg"),linear-gradient(180deg,rgba(9,24,43,.52),transparent 420px),linear-gradient(35deg,#153e77 0%,#153e77 38%,#d8c66f 78%,#718558 100%);}}
+
+/* Keep the hero CTA label centered without reserving space for a hidden arrow. */
+.brazil-hero-actions .button{position:relative;justify-content:center;gap:0;padding-inline:36px}
+.brazil-hero-actions .button .hero-cta-label{transition:transform .22s ease}
+.brazil-hero-actions .button .hover-arrow{position:absolute;left:14px;opacity:0;transform:translateX(-6px)}
+@media(hover:hover) and (pointer:fine){.brazil-hero-actions .button:hover .hero-cta-label{transform:translateX(10px)}.brazil-hero-actions .button:hover .hover-arrow{opacity:1;transform:translateX(0)}}
+.brazil-hero-actions .button:focus-visible .hero-cta-label{transform:translateX(10px)}
+.brazil-hero-actions .button:focus-visible .hover-arrow{opacity:1;transform:translateX(0)}
+@media(prefers-reduced-motion:reduce){.brazil-hero-actions .button .hero-cta-label,.brazil-hero-actions .button .hover-arrow{transition:none}}
