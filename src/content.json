@@ -8586,7 +8586,9 @@
           "url": "https://open.spotify.com/SHOW/0VHUNM3XLD6CGI3LRTTGBB",
           "platform": "Spotify",
           "primary": false,
-          "title": "Spotify — canal declarado"
+          "title": "Spotify — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "tiktok",
@@ -8705,7 +8707,9 @@
           "url": "https://music.amazon.com.br/PODCASTS/FF48DCC6-34FF-453A-92B9-9D27161A646D/PODCAS",
           "platform": "Amazon Music",
           "primary": false,
-          "title": "Amazon Music — canal declarado"
+          "title": "Amazon Music — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "PORTAVOZDOLULA.COM",
@@ -8726,7 +8730,9 @@
           "url": "https://@lulaoficialbluesky.bsky.social",
           "platform": "Site",
           "primary": false,
-          "title": "lulaoficialbluesky.bsky.social"
+          "title": "lulaoficialbluesky.bsky.social",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "instagram",
@@ -8824,7 +8830,9 @@
           "url": "https://www.kwai.com/u/@podeespalhar/Cu4CfgOx",
           "platform": "Kwai",
           "primary": false,
-          "title": "Kwai — canal declarado"
+          "title": "Kwai — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "facebook",
@@ -8852,7 +8860,9 @@
           "url": "https://www.deezer.com/ES/SHOW/3728967",
           "platform": "Deezer",
           "primary": false,
-          "title": "Deezer — canal declarado"
+          "title": "Deezer — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "youtube",
@@ -8915,7 +8925,9 @@
           "url": "https://open.spotify.com/SHOW/5YNKXGHBJDP3RWY6Q2M2SX?SI=C1CDAF95D0384616",
           "platform": "Spotify",
           "primary": false,
-          "title": "Spotify — canal declarado"
+          "title": "Spotify — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "facebook",
@@ -9063,7 +9075,9 @@
           "url": "https://open.spotify.com/SHOW/2CW9CIKXJIB5C6UEN4KOCI?SI=635C7F1C3E7B4521",
           "platform": "Spotify",
           "primary": false,
-          "title": "Spotify — canal declarado"
+          "title": "Spotify — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "flickr",
@@ -9098,14 +9112,18 @@
           "url": "https://www.whatsapp.com/CHANNEL/0029VABZCGR3RZZKEWERCG0O",
           "platform": "WhatsApp",
           "primary": false,
-          "title": "WhatsApp — canal declarado"
+          "title": "WhatsApp — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "HTTPS://FLEEKUS.COM/B/FLAVIO-BOLSONARO",
           "url": "https://fleekus.com/B/FLAVIO-BOLSONARO",
           "platform": "Fleekus",
           "primary": false,
-          "title": "Fleekus — canal declarado"
+          "title": "Fleekus — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "FBTV22.COM.BR",
@@ -9224,14 +9242,18 @@
           "url": "https://www.youtube.com/@tv.celular",
           "platform": "YouTube",
           "primary": false,
-          "title": "TV Celular"
+          "title": "TV Celular",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "deezer",
           "url": "https://deezer.page.link/KAWHIOWDYSWL1A9Q7",
           "platform": "Deezer",
           "primary": false,
-          "title": "Deezer — canal declarado"
+          "title": "Deezer — canal declarado",
+          "linkStatus": "unavailable",
+          "linkCheckedAt": "2026-10-20"
         },
         {
           "label": "HTTPS://GETTR.COM/USER/FLAVIOBOLSONARO",

@@ -36,7 +36,9 @@ permissions, a reviewed workflow, and effective release protection.
 ## First release
 
 Permission to open-source the code does not approve content or launch.
-`python3 scripts/build.py --public` rejects unapproved or unverified content,
-incomplete required coverage, or missing `launchApproved`. The program-coverage
-gate is separate from individual card approvals. Only the generated `public/`
+`python3 scripts/build.py --public` applies the same filter as `--release-review`,
+excluding pending debate metrics, program-completeness metadata and atomic downloads.
+It requires the exact filtered content hash approved in `src/release-approval.json`
+and separate `launchApproved`. Approval of one filtered edition does not approve
+the full research corpus. A content change invalidates the approved hash. Only the generated `public/`
 output may be used for a future release; never deploy `dist/` as a workaround.

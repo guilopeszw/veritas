@@ -6,6 +6,8 @@ Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --rel
 
 Excluded: both debate percentage datasets, atomic audit download, completeness metadata and comparison Story controls. No complete-program or full-property-audit claim is made. Build validation and exclusion assertions passed. No deployment performed; launchApproved remains false.
 
-Candidate content SHA-256: `245499aaa3931971a7632e30f4a02858b74927d4b608e98d7b5ed0804a72dac7`
+Candidate content SHA-256: `b079fbcccef2c932c2743ac8c2f00e3b5fabc707ab8c35f6d776a0908ddcd479`
 
-See current-verification-status.md for the remaining publication steps. Approval applies only to this specific filtered edition and must be reconciled with the public build before deployment.
+Editorial approval digest (canonical filtered content): `225cbff273cda4f4e161cc593a3ae2d5eba63fc0d5c5ee47ce737c6f64030da4`.
+
+Public and local review builds now share the same filter. The public build additionally requires this exact editorial digest in src/release-approval.json and launchApproved. Neither approval has been granted. See final-validation.md for the checks and limitations.

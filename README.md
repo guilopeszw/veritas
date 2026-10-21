@@ -55,8 +55,9 @@ program supports attribution of a promise; it does not establish feasibility,
 funding, effectiveness, or the truth of historical claims within it. Missing
 content in our database is not evidence that a candidate has no proposal.
 
-`npm run build:public` requires approved and verified content, the required
-coverage checks, and launch authorization. Never bypass these gates or deploy
+`npm run build:public` uses the same checked-content filter as release review.
+It requires approval of the exact filtered content hash in `src/release-approval.json`
+and separate launch authorization. Excluded coverage metrics are not published. Never bypass these gates or deploy
 the editorial `dist/` output. There is no deployment workflow or public hosting
 configured. See [security and deployment](SECURITY.md) for access-control limits.
 

@@ -18,3 +18,5 @@ jobs:
           persist-credentials: false
       - run: node --check src/app.js
       - run: python3 scripts/build.py
+      - run: python3 scripts/build.py --release-review
+      - run: python3 scripts/test_release.py

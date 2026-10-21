@@ -18,8 +18,9 @@ These deferred investigations do not need to be completed to review this narrowe
 ## Before publication
 
 1. Owner reviews the exact current candidate text and presentation. Source approval flags currently remain five approved / 206 draft; earlier approvals have not been bulk-applied to revised text.
-2. Reconcile that explicit approval with the filtered release manifest and existing public-build gates. This is implementation work after approval, not authorization to deploy now.
-3. Run the final public-package checks on the approved artifact: excluded data absent, links/navigation/mobile behavior, no review-only labels, production address and deployment access controls. Existing local builds pass; a final deployable public package has not yet been approved or validated.
-4. Owner authorizes publication of that package. launchApproved remains false; no deployment performed.
+2. Record editorial approval of the exact canonical filtered-content digest only after explicit owner approval. No bulk changes to individual draft flags are needed.
+3. Owner authorizes publication separately and confirms the production destination. No hosting or deployment workflow is configured.
+
+Completed: shared public/review filtering; isolated public-package regression tests; approval/stale-hash/launch gates; removed-data cleanup; mobile route checks; inactive channel links disabled with original declarations preserved. Automated access restrictions and a TJRJ timeout are not classified as dead sources. See final-validation.md. launchApproved remains false.
 
 Do not describe this as a complete audit of all proposals, transactions or debate coverage. No new audiovisual validation is claimed.

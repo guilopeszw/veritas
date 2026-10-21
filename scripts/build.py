@@ -7,6 +7,7 @@ from decimal import Decimal
 from urllib.parse import urlparse
 import shutil
 from pathlib import Path
+from release_scope import filtered_content, content_digest, require_public_approval
 
 ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser()
@@ -15,6 +16,8 @@ parser.add_argument("--release-review", action="store_true", help="Build a local
 args = parser.parse_args()
 assert not (args.public and args.release_review), "Choose public or release review, not both"
 data = json.loads((ROOT / "src/content.json").read_text())
+if args.public or args.release_review:
+    data = filtered_content(data)
 ids = [b["id"] for b in data["blocks"]]
 assert len(ids) == len(set(ids)), "IDs duplicados"
 for block in data["blocks"]:
@@ -116,42 +119,28 @@ for event in data.get("rallyCrowds", []):
     for estimate in event["estimates"]:
         assert all(estimate.get(k) for k in ("value", "author", "method", "kind", "observedAt", "publishedRange", "countingMethod")), "Unattributed crowd estimate"
         assert estimate.get("source", {}).get("url", "").startswith("https://"), "Missing crowd source"
-    if args.public and (event.get("status") != "approved" or event.get("verification") != "checked"):
+    if args.public and event.get("verification") != "checked":
         raise SystemExit("Publicação bloqueada: estimativas de público pendentes de revisão")
+if args.public or args.release_review:
+    assert all(b.get("verification") == "checked" for b in data["blocks"])
+    assert all(g.get("verification") == "checked" for g in data.get("topicGuides", {}).values())
+    assert not data.get("rallyCities") or data.get("rallyReview", {}).get("verification") == "checked"
+    assert all(e.get("verification") == "checked" for e in data.get("rallyCrowds", []))
+    print("Filtered content approval SHA-256:", content_digest(data))
 if args.public:
-    coverage = data.get("programCoverage", {})
-    if coverage.get("status") != "approved" or coverage.get("verification") != "checked":
-        raise SystemExit("Publicação bloqueada: cobertura dos programas oficiais pendente")
-    pending = [b["id"] for b in data["blocks"] if b["status"] != "approved" or b.get("verification") != "checked"]
-    pending += [f"guia:{topic}" for topic, guide in data.get("topicGuides", {}).items()
-                if guide.get("status") != "approved" or guide.get("verification") != "checked"]
-    if data.get("rallyCities") and (data.get("rallyReview", {}).get("status") != "approved" or data.get("rallyReview", {}).get("verification") != "checked"):
-        raise SystemExit("Publicação bloqueada: revisão dos resultados municipais pendente")
-    if pending or not data.get("launchApproved") or not all(data["coverage"].values()):
-        raise SystemExit(f"Publicação bloqueada: cobertura/aprovação incompleta; blocos pendentes: {', '.join(pending)}")
+    require_public_approval(data, json.loads((ROOT / "src/release-approval.json").read_text()))
     data["mode"] = "public"
+elif args.release_review:
+    data["mode"] = "release-review"
 else:
     data["mode"] = "review"
-if args.release_review:
-    data["blocks"] = [b for b in data["blocks"] if b.get("verification") == "checked"]
-    for key in ("debateAudit", "debateIndividualAudit", "programCoverage"):
-        data.pop(key, None)
-    for block in data["blocks"]:
-        if block["id"] in ("debate-band-flavio-propostas", "debate-band-lula-propostas"):
-            block["context"] = "Síntese das propostas identificadas nas fontes indicadas. Não representa uma contagem completa de todas as propostas ou de todas as falas do debate."
-            block.pop("relatedRoute", None)
-            block.pop("relatedLabel", None)
-    data["mode"] = "release-review"
-    data["releaseScope"] = "checked-content-without-pending-coverage-metrics"
-    assert not data["launchApproved"]
-    assert all(b["verification"] == "checked" for b in data["blocks"])
 dest = ROOT / ("release-review" if args.release_review else "public" if args.public else "dist")
 # Recreate the derived candidate so removed evidence cannot survive from an older build.
-if args.release_review and dest.exists():
+if (args.release_review or args.public) and dest.exists():
     shutil.rmtree(dest)
 dest.mkdir(exist_ok=True)
 for path in (ROOT / "src").iterdir():
-    if path.is_file() and path.name != "content.json" and not (args.release_review and path.name == "debate-atomic-audit.json"):
+    if path.is_file() and path.name not in ("content.json", "release-approval.json") and not ((args.release_review or args.public) and path.name == "debate-atomic-audit.json"):
         shutil.copy2(path, dest / path.name)
     elif path.is_dir() and path.name == "assets":
         shutil.copytree(path, dest / path.name, dirs_exist_ok=True)
