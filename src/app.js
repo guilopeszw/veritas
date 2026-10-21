@@ -171,7 +171,7 @@ function rallyComparePanel(){
 function rallyCrowdEstimates(){
  const events=data.rallyCrowds||[];
  if(!events.length)return '';
- return `<section class="rally-crowds" aria-labelledby="rally-crowds-title"><h2 id="rally-crowds-title">Todos os atos com estimativas</h2><div class="rally-controls"><label>Candidato<select id="rally-candidate"><option value="">Os dois candidatos</option><option value="lula">Lula</option><option value="flavio">Flávio Bolsonaro</option></select></label><label>Cidade<select id="rally-city"><option value="">Todas as cidades</option>${[...new Set(events.map(e=>e.city))].sort((a,b)=>a.localeCompare(b,'pt-BR')).map(c=>`<option>${esc(c)}</option>`).join('')}</select></label></div><p id="rally-visible-count" aria-live="polite">${events.length} atos cadastrados</p><div id="rally-event-list">${events.map(e=>`<div data-rally-candidate="${e.candidate}" data-rally-city="${esc(e.city)}">${rallyEventCard(e)}</div>`).join('')}</div><p class="context">Não somamos estimativas do mesmo ato. Não temos números para todos os eventos; falta de dados não significa público zero. Consulta: 20/10/2026.</p></section>`;
+ return `<section class="rally-crowds" aria-labelledby="rally-crowds-title"><h2 id="rally-crowds-title">Todos os atos com estimativas</h2><div class="rally-controls"><label>Candidato<select id="rally-candidate"><option value="">Os dois candidatos</option><option value="lula">Lula</option><option value="flavio">Flávio Bolsonaro</option></select></label><label>Cidade<select id="rally-city"><option value="">Todas as cidades</option>${[...new Set(events.map(e=>e.city))].sort((a,b)=>a.localeCompare(b,'pt-BR')).map(c=>`<option>${esc(c)}</option>`).join('')}</select></label></div><p id="rally-visible-count" aria-live="polite">${events.length} atos cadastrados</p><div id="rally-event-list">${["lula","flavio"].map(candidate=>`<section class="rally-candidate-group" data-rally-group="${candidate}"><h3>Atos de apoio a ${esc(names[candidate])}</h3>${events.filter(e=>e.candidate===candidate).map(e=>`<div data-rally-candidate="${e.candidate}" data-rally-city="${esc(e.city)}">${rallyEventCard(e)}</div>`).join('')}</section>`).join('')}</div><p class="context">Não somamos estimativas do mesmo ato. Não temos números para todos os eventos; falta de dados não significa público zero. Consulta: 20/10/2026.</p></section>`;
 }
 function rallyCoverage(){
   const rows=data.rallyCities||[];
@@ -382,6 +382,7 @@ document.addEventListener('change',event=>{
  if(['rally-candidate','rally-city'].includes(event.target.id)){
   const c=document.getElementById('rally-candidate').value,city=document.getElementById('rally-city').value;let count=0;
   document.querySelectorAll('[data-rally-candidate]').forEach(el=>{el.hidden=!!((c&&el.dataset.rallyCandidate!==c)||(city&&el.dataset.rallyCity!==city));if(!el.hidden)count++;});
+  document.querySelectorAll('[data-rally-group]').forEach(group=>{group.hidden=![...group.querySelectorAll('[data-rally-candidate]')].some(el=>!el.hidden);});
   document.getElementById('rally-visible-count').textContent=count?`${count} ${count===1?'ato encontrado':'atos encontrados'}`:'Não temos atos com estimativas para esta seleção.';
  }
 });
