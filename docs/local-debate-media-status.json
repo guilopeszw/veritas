@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-21",
+  "status": "local-media-available-audio-input-unsupported",
+  "files": {
+    "debate-original.wav": {
+      "bytes": 1316188102,
+      "sha256": "e7b05b8fa905e8bfba1f37bca63980470f9877460750af67304fd4e357cb1967"
+    },
+    "debate-video.mp4": {
+      "bytes": 206609303,
+      "sha256": "e953667b51e76927d46cc921727858f5892a4f7217403f5dc4c2803706c1114a"
+    },
+    "debate-band-full.webm": {
+      "bytes": 87514383,
+      "sha256": "5a866e5087991399a710d908827d54ba9e34c59f96369b378435e561ca9ebd45"
+    }
+  },
+  "limitation": "This session rejects audio input. Existing ASR and captions are not a fresh direct-listening audit. No percentage approved."
+}
