@@ -8494,6 +8494,11 @@
           "label": "STF — decisão na PET 10.562, 24/09/2022 (cópia)",
           "url": "https://static.poder360.com.br/2022/09/Decisao-Mendonca-nega-acao-imoveis-Bolsonaro-24set2022.pdf",
           "locator": "Páginas 7–11: rejeição desse pedido específico por insuficiência de elementos."
+        },
+        {
+          "label": "Lupa — checagem da metodologia do UOL, 09/09/2022",
+          "url": "https://www.agencialupa.org/jornalismo/2022/09/09/dinheiro-vivo-uol/",
+          "locator": "Corrobora que o levantamento não se baseia apenas na expressão moeda corrente; não substitui o cruzamento de cada operação pelo Veritas."
         }
       ],
       "context": "Relatos e acusações não equivalem a condenação. Este bloco ainda depende de conferência das escrituras e da situação processual das operações citadas.",
@@ -10653,7 +10658,7 @@
         }
       ],
       "crowd": "Não temos estimativa de público para este ato.",
-      "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado. Os textos divergem na quantidade absoluta de votos de Flávio (628.721 e 628.271), embora tragam o mesmo percentual; não exibimos totais absolutos antes da conferência. Os textos divergem na quantidade absoluta de votos de Flávio (628.721 e 628.271), embora tragam o mesmo percentual; não exibimos totais absolutos antes da conferência.",
+      "notes": "Percentuais conferidos no arquivo oficial do TSE do 1º turno de 2026, gerado em 20/10/2026. Soma dos votos válidos por zona, incluindo registros de voto em trânsito. Público de rua não representa amostra do eleitorado. Os textos divergem na quantidade absoluta de votos de Flávio (628.721 e 628.271), embora tragam o mesmo percentual; não exibimos totais absolutos antes da conferência.",
       "verification": "checked",
       "verifiedAt": "2026-10-20",
       "municipalityCode": "75353",
@@ -11590,8 +11595,14 @@
       "acts": [
         {
           "candidate": "flavio",
-          "date": "2026-10-15",
-          "source": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-flavio-encheram-ruas-em-pelo-menos-16-cidades/"
+          "date": null,
+          "source": "https://www.poder360.com.br/poder-eleicoes-2026/atos-pro-flavio-encheram-ruas-em-pelo-menos-16-cidades/",
+          "reportedDates": [
+            "2026-10-15",
+            "2026-10-10"
+          ],
+          "dateLabel": "Data divergente na fonte",
+          "dateVerification": "pending-source-conflict"
         }
       ],
       "sources": [
@@ -11855,7 +11866,7 @@
   "rallyReview": {
     "status": "draft",
     "verification": "checked",
-    "notes": "Percentuais e vencedores de 43 localidades conferidos no arquivo oficial do TSE; atos atribuídos às reportagens indicadas. Público e votos não estabelecem relação causal. Estimativas de público separadas por ato, autoria e método; não constituem recontagem pelo Veritas. Estimativas de público separadas por ato, autoria e método; não constituem recontagem pelo Veritas.",
+    "notes": "Percentuais e vencedores de 43 localidades conferidos no arquivo oficial do TSE; atos atribuídos às reportagens indicadas. Público e votos não estabelecem relação causal. Estimativas de público separadas por ato, autoria e método; não constituem recontagem pelo Veritas.",
     "verifiedAt": "2026-10-20"
   },
   "heroPhotos": [
@@ -11930,7 +11941,9 @@
       ],
       "dataLimit": "Ainda não temos uma série de indicadores comparáveis reunida nesta página. As perguntas acima são critérios de acompanhamento, não resultados medidos.",
       "status": "draft",
-      "verification": "pending"
+      "verification": "checked",
+      "verificationScope": "Navigation and explanatory headings checked against the three already-verified referenced block excerpts; questions are evaluation criteria, not measured outcomes.",
+      "verifiedAt": "2026-10-20"
     }
   },
   "debateAudit": {
