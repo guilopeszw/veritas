@@ -10,8 +10,10 @@ Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --rel
 
 Build and syntax checks pass. The property controversy is included as attributed historical reporting with the defense position and dated court decision; five TSE filing years and a published 2021 deed excerpt now provide itemized values. The underlying transaction audit remains incomplete. Debate view contains no coverage percentages or links to excluded counts. The atomic audit is not copied into this output. No deployment was performed, launchApproved remains false, and the existing public build retains its approval gates.
 
-Candidate content SHA-256: `ac6d5ddd7e393789deec5cad038140666783efdb34d90e6425a098b39934400b`
+Candidate content SHA-256: `4af6fffa9be801ce91f6d421876f1351b2d4138a41ffa5c3708d6aad5ba2741d`
 
 ## Owner review
 
 Review the candidate text and presentation at the local URL. Approval applies to this limited scope, not the withheld evidence. A subsequent public build must explicitly reconcile that approval with this candidate and preserve the exclusions; `--release-review` is not a deployment bypass.
+
+Property follow-up adds selected reproductions from the rejected 2020 complaint, dated seller/repayment reporting, the official 2025 financing judgment and missing documents by operation. These do not certify full ownership/payment reconciliation.

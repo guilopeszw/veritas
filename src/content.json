@@ -8520,14 +8520,42 @@
         {
           "label": "Poder360 — compra da casa e resposta de Flávio, 02/03/2021",
           "url": "https://www.poder360.com.br/governo/flavio-bolsonaro-nega-irregularidades-em-compra-de-mansao-por-r-6-milhoes/"
+        },
+        {
+          "label": "Folha — nota da vendedora sobre pagamentos, 03/03/2021",
+          "url": "https://www1.folha.uol.com.br/amp/poder/2021/03/ex-proprietario-diz-que-flavio-bolsonaro-ainda-deve-r-18-milhao-de-mansao-de-r-6-milhoes.shtml",
+          "locator": "Declaração da RVA reproduzida na reportagem; não são os comprovantes bancários completos."
+        },
+        {
+          "label": "Congresso em Foco — quitação e respostas de Flávio e BRB, 04/07/2024",
+          "url": "https://www.congressoemfoco.com.br/noticia/29101/flavio-bolsonaro-quita-mansao-com-seis-pagamentos-extras-de-r-34-milhoes",
+          "locator": "Relato atribuído ao Estadão e manifestações das partes. Não usamos os valores de compra e principal desta notícia, que divergem da escritura."
+        },
+        {
+          "label": "TJDFT — Acórdão 2050598, 25/09/2025",
+          "url": "https://jurisdf.tjdft.jus.br/acordaos/ce06eb53-898f-4094-9221-5e0360970b10",
+          "locator": "Processo 0709818-28.2021.8.07.0001. Ementa e decisão oficial; publicação em 08/10/2025."
+        },
+        {
+          "label": "MP-RJ — denúncia de 2020, cópia publicada pela Veja",
+          "url": "https://veja.abril.com.br/wp-content/uploads/2020/11/Denuncia-Flavio-Bolsonaro-completa.pdf",
+          "locator": "Páginas 25 e 29: cronologia relatada; 31: tabela de cheques; 34–35: reproduções de cheques e caixa; 36–37: valores da Barra. Peça de acusação posteriormente rejeitada, não sentença. As escrituras completas do Anexo V não estão nesta cópia."
+        },
+        {
+          "label": "STF — anulação de relatórios financeiros, 30/11/2021",
+          "url": "https://noticias.stf.jus.br/postsnoticias/2a-turma-decide-que-provas-contra-flavio-bolsonaro-no-caso-das-chamadas-rachadinhas-sao-ilegais/"
+        },
+        {
+          "label": "Agência Brasil — rejeição da denúncia no TJRJ, 16/05/2022",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2022-05/justica-do-rio-arquiva-processo-de-caso-de-supostas-rachadinhas"
         }
       ],
-      "context": "Não some os valores de eleições diferentes: um bem pode reaparecer e outros podem ter sido vendidos. As declarações do TSE não comprovam a forma de pagamento. Faltam as escrituras completas, matrículas e comprovantes para cruzar todas as operações. Não afirmamos que Flávio comprou dez imóveis em dinheiro vivo.",
+      "context": "A conferência das operações está incompleta. Documentos eleitorais, reproduções bancárias, relatos das partes e conclusões da acusação têm alcances diferentes. Não somamos bens de anos diferentes nem afirmamos que Flávio comprou dez imóveis em dinheiro vivo. As lacunas estão listadas por operação acima.",
       "status": "draft",
       "verification": "checked",
       "checkedAt": "20/10/2026",
-      "editorialNotes": "Expanded 20/10/2026 after direct TSE ZIP checks and visual inspection of a published deed excerpt. See docs/flavio-property-crosscheck.md for candidate IDs, values and limits. The 2026 house identity is only compatible by locality, not conclusively joined by registry number. Historical filings are not current holdings. Full transaction audit and final editorial approval remain pending.",
-      "verificationScope": "Attributed reporting and dated judicial decision; directly parsed TSE asset declarations for 2010/2014/2016/2018/2026; visually inspected 2021 deed excerpts. No complete title/payment reconciliation.",
+      "editorialNotes": "Expanded 20/10/2026 after direct TSE ZIP checks and visual inspection of a published deed excerpt. See docs/flavio-property-crosscheck.md for candidate IDs, values and limits. The 2026 house identity is only compatible by locality, not conclusively joined by registry number. Historical filings are not current holdings. Full transaction audit and final editorial approval remain pending. Follow-up in docs/flavio-deeds-followup.md: inspected two cheque facsimiles and teller records, kept cash-provider attribution as prosecution inference, added annulment/rejection context and per-operation missing documents. No newly certified ownership or guilt finding.",
+      "verificationScope": "Attributed reporting and dated judicial decision; directly parsed TSE asset declarations for 2010/2014/2016/2018/2026; visually inspected 2021 deed excerpts. No complete title/payment reconciliation. Follow-up: official TJDFT 2050598 ementa; selected facsimiles in the rejected 2020 complaint; attributed 2021 seller statement and 2024 repayment reporting. Complete registry and payment audit still pending.",
       "transactionAudit": "pending",
       "implicationsTitle": "Imóveis: valores e documentos",
       "implications": [
@@ -8542,6 +8570,18 @@
         {
           "label": "Resposta sobre a compra de 2021",
           "text": "Segundo o Poder360, Flávio negou irregularidades e disse que vendeu um imóvel no Rio e uma franquia para pagar a entrada. Essa é a explicação dele; não substitui os comprovantes da origem e da transferência do dinheiro."
+        },
+        {
+          "label": "Casa de Brasília · Pagamentos relatados em março de 2021",
+          "text": "Em nota reproduzida pela Folha em 3 de março de 2021, a vendedora RVA informou três transferências que somavam R$ 1,09 milhão, além do financiamento, e disse que ainda havia saldo a pagar. A escritura declarava recebida a parcela de recursos próprios. Temos o relato da nota, mas não os comprovantes completos para reconciliar essa diferença. O saldo relatado em 2021 não deve ser apresentado como dívida atual."
+        },
+        {
+          "label": "Casa de Brasília · Quitação relatada em 2024",
+          "text": "Em julho de 2024, o Congresso em Foco, citando o Estadão, noticiou a quitação antecipada com seis pagamentos extras de cerca de R$ 3,4 milhões. O veículo reproduziu manifestação do BRB de que o contrato estava quitado e a resposta de Flávio de que os recursos eram lícitos. Não temos os comprovantes de cada pagamento nem o documento de baixa da garantia para uma conferência independente."
+        },
+        {
+          "label": "Financiamento · Decisão judicial de 2025",
+          "text": "Em 25 de setembro de 2025, a 4ª Turma Cível do TJDFT manteve, por unanimidade, a improcedência da ação popular contra o financiamento. O tribunal considerou que os documentos de renda e a análise de crédito atendiam às normas do BRB e não demonstravam violação à moralidade administrativa ou desvio de finalidade. Conferimos a ementa oficial do Acórdão 2050598. A decisão não substitui os comprovantes que faltam neste levantamento."
         },
         {
           "label": "2018 · Apartamento e sala comercial na Barra da Tijuca",
@@ -8562,6 +8602,34 @@
         {
           "label": "2010 · Participações em salas comerciais — R$ 268.311,75",
           "text": "São duas entradas de 10%, por R$ 103.592,50 e R$ 164.719,25. As descrições enumeram quatro salas em um grupo e sete no outro. O percentual de 10% não significa dez imóveis, e a soma representa as participações declaradas, não o preço integral das salas."
+        },
+        {
+          "label": "Copacabana · Compras e vendas descritas na denúncia de 2020",
+          "text": "O MP-RJ descreveu duas compras em novembro de 2012, por R$ 140 mil e R$ 170 mil, e vendas por R$ 550 mil em 2014 e R$ 573 mil em 2013. A denúncia remete às escrituras, mas não contém suas íntegras. Essa cronologia não permite apresentar os apartamentos como patrimônio atual nem tratar a ausência na declaração de 2014 como omissão."
+        },
+        {
+          "label": "Copacabana · Cheques e depósitos: o que as reproduções mostram",
+          "text": "Na página 34, conferimos reproduções de dois cheques de R$ 117,5 mil e R$ 92,5 mil. A tabela do MP relaciona quatro cheques, somando R$ 310 mil. As páginas 34–35 reproduzem registros de R$ 638,4 mil em depósitos em espécie na conta do intermediário. A ligação desse dinheiro a pagamentos adicionais do casal é uma inferência da acusação; os registros não identificam Flávio como fornecedor do dinheiro vivo."
+        },
+        {
+          "label": "Barra · Pagamentos ainda sem conciliação completa",
+          "text": "A denúncia descreve compra em 2014 por R$ 2,55 milhões. A soma dos pagamentos relacionados supera esse valor em R$ 7.813,04; o financiamento mencionado também difere do desembolso listado. Faltam os contratos e extratos para explicar as diferenças."
+        },
+        {
+          "label": "A denúncia de 2020 não é uma condenação",
+          "text": "Flávio negou irregularidades. Em 2021, o STF anulou quatro dos cinco relatórios financeiros que embasaram a denúncia. Em 2022, o TJRJ rejeitou a denúncia após a anulação das provas e o pedido do Ministério Público. Ler suas reproduções não torna as acusações provadas nem restaura a validade judicial das provas."
+        },
+        {
+          "label": "O que falta · Casa de Brasília",
+          "text": "Matrícula atualizada e escritura completa, comprovantes de toda a entrada, documentos que liguem a venda do imóvel e da franquia aos pagamentos, extrato de evolução do financiamento e baixa da garantia. Sem a matrícula, o cruzamento com a descrição genérica de 2026 permanece incompleto."
+        },
+        {
+          "label": "O que falta · Apartamentos do Rio",
+          "text": "Em Copacabana, as escrituras de compra e venda citadas no Anexo V da investigação e a identificação da origem de cada pagamento. Na Barra, escritura e contrato de financiamento para conciliar os valores. Em Laranjeiras, contrato e histórico de pagamentos da construtora. Também faltam as matrículas que permitam ligar cada unidade às participações declaradas ao TSE."
+        },
+        {
+          "label": "O que falta · Salas comerciais",
+          "text": "Contratos, cessões de participação, matrículas e recibos de cada sala. A declaração de 10% de participação não comprova o pagamento integral do imóvel nem a forma como foi pago."
         }
       ]
     },

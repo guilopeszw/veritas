@@ -54,3 +54,18 @@ São os valores das declarações de cada ano. Não some essa lista para calcula
 4. The specific primary source and attribution behind each cash allegation; no basis here for “ten properties bought in cash.”
 
 The existing historical PET10.562 summary remains a decision about that petition, not a property-by-property clearance. The full transaction audit remains pending. This round does establish fresh primary-source checking of the five electoral filings and visual checking of the limited 2021 deed excerpts.
+
+## Follow-up: Lago Sul payment evidence — 20 October 2026
+
+- [Folha, 3 March 2021](https://www1.folha.uol.com.br/amp/poder/2021/03/ex-proprietario-diz-que-flavio-bolsonaro-ainda-deve-r-18-milhao-de-mansao-de-r-6-milhoes.shtml) reproduces the seller RVA's statement: three transfers totaling BRL1.09m, plus bank financing, and an outstanding balance at that date. This is a seller statement reported by a newspaper, not independently inspected transfer receipts. The 2021 balance must not be called a current debt.
+- [Crusoé, 3 March 2021](https://crusoe.com.br/diario/dos-quase-r-6-mi-que-flavio-pagou-por-mansao-r-1-780-000-estao-sem-explicacao/) says the seller supplied receipts and reproduces his note in text. No individual bank receipt facsimiles were accessible in the article. Its quoted totals contain a ten-cent inconsistency, so do not independently certify its exact settlement arithmetic.
+- [Congresso em Foco, 4 July 2024](https://www.congressoemfoco.com.br/noticia/29101/flavio-bolsonaro-quita-mansao-com-seis-pagamentos-extras-de-r-34-milhoes) attributes early repayment to Estadão and quotes BRB saying the contract was settled. No attached receipts. Do not reuse its purchase-price/principal figures, which differ from the deed excerpt. The original Estadão page could not be fetched; no bypass attempted.
+- [TJDFT, Acórdão2050598](https://jurisdf.tjdft.jus.br/acordaos/ce06eb53-898f-4094-9221-5e0360970b10), process0709818-28.2021.8.07.0001, judged25September2025, published8October2025: official ementa and disposition read in JurisDF browser. The court unanimously upheld rejection of the popular action; accepted income documents and internal credit review, interest-rate limits and collateral valuation did not establish administrative impropriety. This is a direct court-source check, not a new independent review of private bank receipts or complete property title history.
+
+### Missing documents by operation
+
+1. Lago Sul: full current registry certificate, complete deed and any amendments, all entry-payment receipts, documents connecting the claimed Rio property/franchise sale proceeds to payments, loan repayment ledger and discharge instrument. Existing general2026TSEdescription does not independently provide the registry identity.
+2. Historical Rio apartments: complete dated acquisition/disposal deeds and current registry chain; proof linking each TSE description and percentage to a specific unit; settlement receipts. Do not infer ownership today from historical filings.
+3. Commercial-room interests: each unit's contract, assignments, registry history and payment schedule. A10% filing entry is not proof of a cash purchase or the whole property's price.
+
+Searches found a political dossier linking to the TJDFT judgment; it was used only as a pointer. The official court text, not that dossier's interpretation, supports the court summary. No authenticated full current registry certificate was obtained, and no fees or access-restricted systems were used.

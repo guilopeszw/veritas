@@ -17,7 +17,7 @@ This is the current snapshot. Historical counts belong in Git history and source
 | --- | --- | --- |
 | Debate audiovisual evidence | No direct human listening; recording has cuts and timestamps are approximate | Keep percentages provisional and publication approval false. A reviewer must listen with context and check completeness, not only positive matches. See debate-listening-queue.md. |
 | Official program files | Indexed text available; binary/visual authentication and version history unavailable | Program coverage remains pending. Do not certify a complete authenticated official-version comparison. |
-| flavio-imoveis-especie | Five TSE filing years and 2021 deed excerpt checked; full deed/payment identity reconciliation unavailable | Historical reporting and itemized official filing values included in local final review. The house deed excerpt distinguishes own resources from financing; no proof that own resources means cash. Full transaction audit remains pending. |
+| flavio-imoveis-especie | Five TSE filing years, 2021 deed excerpt and 2025 financing judgment checked; full registry/payment reconciliation unavailable | Itemized filings and dated payment reporting included with explicit evidence limits. The official 2025 TJDFT financing ruling is included. Full current registry certificates and complete payment chains remain missing. |
 | São Gonçalo rally date | Poder360 says 15 October; embedded post says 10 October | Exact displayed date removed. UI now says the source dates conflict. No date was inferred. |
 | Violence at rallies | No comprehensive comparable incident census | Show only attributed documented episodes; do not produce a comparative violence total. |
 
