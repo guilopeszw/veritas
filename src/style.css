@@ -275,3 +275,15 @@ body.sidebar-collapsed .floating-search>span{display:none}
  .rally-table td::before{content:attr(data-label);display:block;font-weight:600;font-size:.85rem;margin-bottom:4px}
  .rally-table .sources a{display:inline-block;padding:8px 0;min-height:44px}
 }
+
+.rally-comparison{margin:40px 0}.rally-comparison-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}.rally-comparison-grid>section{min-width:0}.rally-comparison label,.rally-controls label{display:block;font-weight:600}.rally-comparison select,.rally-controls select{width:100%;min-height:48px;padding:12px 36px 12px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);font-size:1rem;margin-top:8px}.rally-comparison .rally-estimate-grid{grid-template-columns:minmax(0,1fr)}.rally-shortcuts,.rally-controls{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}.rally-controls label{flex:1;min-width:180px}.rally-shortcuts button{border:1px solid var(--line);border-radius:10px;padding:12px 16px;min-height:48px;background:var(--paper);color:var(--ink);text-align:left}.rally-shortcuts button:hover{background:var(--wash)}
+@media(max-width:800px){
+ body.sidebar-collapsed{padding-left:0}
+ .app-sidebar,.sidebar-collapsed .app-sidebar{position:sticky;top:0;inset-inline:auto;transform:none;width:100%;z-index:60;background:var(--paper);border-radius:0;border-bottom:1px solid var(--line);padding:12px 76px 12px 16px;gap:0;min-height:72px}
+ .sidebar-toggle{margin-right:0}
+ body .app-sidebar .floating-search,body.sidebar-collapsed .app-sidebar .floating-search{position:absolute;top:14px;right:16px;width:44px;height:44px;min-height:44px;border:1px solid var(--line);border-radius:50%;box-shadow:none;padding:0;margin:0}
+ .app-sidebar.is-open{max-height:80dvh;overflow-y:auto}
+ .rally-comparison-grid{grid-template-columns:minmax(0,1fr)}
+ .rally-shortcuts{flex-direction:column}.rally-controls{display:grid;grid-template-columns:minmax(0,1fr)}
+ html{scroll-padding-top:90px}
+}
