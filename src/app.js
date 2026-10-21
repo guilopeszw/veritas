@@ -319,6 +319,35 @@ function search(query=""){
   return `${heading("Busca","Encontre uma informação","Busque por candidato, assunto ou palavra. A busca consulta somente o conteúdo desta edição.")}<form class="search-form" id="search-form" role="search"><label class="skip" for="query">Termo de busca</label><input id="query" name="q" type="search" value="${esc(query)}" placeholder="Ex.: saúde, emprego, inflação" maxlength="150"><button class="button" type="submit">Buscar</button></form>${searchSuggestions()}<div aria-live="polite">${q?`<p class="results-count">${matches.length} ${matches.length===1?"resultado":"resultados"} para “${esc(query)}”</p>${matches.map(card).join("")||`<div class="empty">Não encontramos esse termo. Tente outra palavra ou <a href="#/temas">explore os assuntos</a>.</div>`}`:`<div class="notice">Sugestões: <a href="#/busca?q=saúde">saúde</a>, <a href="#/busca?q=inflação">inflação</a>, <a href="#/busca?q=emprego">emprego</a>.</div>`}</div>`;
 }
 const notFound=()=>`${heading("Página não encontrada","Não encontramos esta página.","O endereço pode ter mudado ou o conteúdo ainda não estar disponível.")}<a class="button" href="#/">Voltar ao início</a>`;
+// Preserve each dossier's selection while navigating within the local session.
+const dossierCandidateFilters = new Map();
+function installCandidateFilter(page){
+  if(!["6x1","transparencia","controversias","soberania","debates"].includes(page))return;
+  const items=data.blocks.flatMap(block=>{
+    const node=document.getElementById(block.id);
+    if(!node)return [];
+    const candidates=[...new Set([block.candidate,...(block.candidateContext||[]).map(x=>x.candidate)].filter(Boolean))];
+    return [{node:node.closest(".trail-step")||node,candidates}];
+  });
+  if(!items.some(item=>item.candidates.length))return;
+  const nav=document.createElement("nav");
+  nav.className="candidate-filter";nav.setAttribute("aria-label","Filtrar por candidato");
+  nav.innerHTML=[["","Todos"],["lula","Lula"],["flavio","Flávio Bolsonaro"]].map(([id,label])=>`<button type="button" data-candidate-filter="${id}" aria-pressed="false">${label}</button>`).join("");
+  const count=document.createElement("p");count.className="candidate-filter-count";count.setAttribute("aria-live","polite");
+  root.querySelector(".page-head").after(nav);nav.after(count);
+  const apply=value=>{
+    dossierCandidateFilters.set(page,value);
+    nav.querySelectorAll("button").forEach(button=>button.setAttribute("aria-pressed",String(button.dataset.candidateFilter===value)));
+    items.forEach(item=>{item.node.hidden=Boolean(value&&item.candidates.length&&!item.candidates.includes(value));});
+    root.querySelectorAll(".two-col > section").forEach(section=>{
+      const children=items.filter(item=>section.contains(item.node));
+      if(children.length)section.hidden=children.every(item=>item.node.hidden);
+    });
+    count.textContent=`${items.filter(item=>!item.node.hidden).length} registros · Conteúdos sobre os dois candidatos e explicações gerais permanecem visíveis.`;
+  };
+  nav.addEventListener("click",event=>{const button=event.target.closest("[data-candidate-filter]");if(button)apply(button.dataset.candidateFilter);});
+  apply(dossierCandidateFilters.get(page)||"");
+}
 function route(){
   const raw=location.hash.slice(1)||"/";
   const [path,query]=raw.split("?");
@@ -346,6 +375,7 @@ function route(){
   else if(page==="conteudo"){const block=data.blocks.find(b=>b.id===id);const back={"Checagem":"checagens","Manifestações":"manifestacoes","Debate":"debates","Tema em debate":"debate","Políticas internacionais":"soberania","Soberania nacional":"soberania","Escala 6x1":"6x1","Transparência":"transparencia","Controvérsia":"controversias"}[block?.kind];html=block?`<div class="reading">${heading("Documento",block.title)}${card(block)}<a class="text-link" href="${back?href(back):block.candidate?href(`perfil/${block.candidate}`):"#/entenda"}">← Voltar ao contexto</a></div>`:notFound();title=block?.title||"Conteúdo não encontrado";}
   else html=notFound();
   root.innerHTML=html;
+  installCandidateFilter(page);
   document.title=`${title} — Veritas`;
   document.querySelectorAll(".header nav a,.section-nav a").forEach(a=>{
     const key=a.hash.slice(2);

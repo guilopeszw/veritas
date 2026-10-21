@@ -289,3 +289,11 @@ body.sidebar-collapsed .floating-search>span{display:none}
 }
 
 .rally-view-switch{display:flex;gap:8px;margin:24px 0;flex-wrap:wrap}.rally-view-switch button{padding:12px 18px;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}.rally-view-switch button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+
+/* Dossier candidate filters: native buttons, touch-sized, no horizontal scroll. */
+.candidate-filter{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.candidate-filter button{min-height:44px;padding:10px 16px;border:1px solid #ddd;border-radius:24px;background:#fff;color:#111;font:inherit;cursor:pointer}
+.candidate-filter button[aria-pressed="true"]{background:#111;color:#fff;border-color:#111}
+.candidate-filter-count{font-size:.85rem;margin-bottom:24px;color:#555}
+#main [hidden]{display:none!important}
+.two-col:has(>section[hidden]){grid-template-columns:minmax(0,1fr)}
