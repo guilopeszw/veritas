@@ -8554,7 +8554,7 @@
       "status": "draft",
       "verification": "checked",
       "checkedAt": "20/10/2026",
-      "editorialNotes": "Expanded 20/10/2026 after direct TSE ZIP checks and visual inspection of a published deed excerpt. See docs/flavio-property-crosscheck.md for candidate IDs, values and limits. The 2026 house identity is only compatible by locality, not conclusively joined by registry number. Historical filings are not current holdings. Full transaction audit and final editorial approval remain pending. Follow-up in docs/flavio-deeds-followup.md: inspected two cheque facsimiles and teller records, kept cash-provider attribution as prosecution inference, added annulment/rejection context and per-operation missing documents. No newly certified ownership or guilt finding.",
+      "editorialNotes": "Expanded 20/10/2026 after direct TSE ZIP checks and visual inspection of a published deed excerpt. See docs/flavio-property-crosscheck.md for candidate IDs, values and limits. The 2026 house identity is only compatible by locality, not conclusively joined by registry number. Historical filings are not current holdings. Full transaction audit and final editorial approval remain pending. Follow-up in docs/flavio-deeds-followup.md: inspected two cheque facsimiles and teller records, kept cash-provider attribution as prosecution inference, added annulment/rejection context and per-operation missing documents. No newly certified ownership or guilt finding. Further focused search: no new full registry certificates or original payment receipts located publicly. Missing-document entries now distinguish not-found from restricted and spell out the blocked conclusions. No payment or external document request made.",
       "verificationScope": "Attributed reporting and dated judicial decision; directly parsed TSE asset declarations for 2010/2014/2016/2018/2026; visually inspected 2021 deed excerpts. No complete title/payment reconciliation. Follow-up: official TJDFT 2050598 ementa; selected facsimiles in the rejected 2020 complaint; attributed 2021 seller statement and 2024 repayment reporting. Complete registry and payment audit still pending.",
       "transactionAudit": "pending",
       "implicationsTitle": "Imóveis: valores e documentos",
@@ -8621,15 +8621,19 @@
         },
         {
           "label": "O que falta · Casa de Brasília",
-          "text": "Matrícula atualizada e escritura completa, comprovantes de toda a entrada, documentos que liguem a venda do imóvel e da franquia aos pagamentos, extrato de evolução do financiamento e baixa da garantia. Sem a matrícula, o cruzamento com a descrição genérica de 2026 permanece incompleto."
+          "text": "Não localizamos cópia pública da matrícula atualizada, da escritura completa com eventuais alterações, de todos os recibos da entrada e do extrato de quitação com a baixa da garantia. Temos trechos da escritura e relatos de pagamentos. Sem os documentos completos, não concluímos o vínculo entre a casa e a descrição genérica do TSE, o saldo atual da garantia nem a origem de toda a entrada. Também faltam os documentos que conectem as vendas do imóvel do Rio e da franquia ao dinheiro usado na compra."
         },
         {
           "label": "O que falta · Apartamentos do Rio",
-          "text": "Em Copacabana, as escrituras de compra e venda citadas no Anexo V da investigação e a identificação da origem de cada pagamento. Na Barra, escritura e contrato de financiamento para conciliar os valores. Em Laranjeiras, contrato e histórico de pagamentos da construtora. Também faltam as matrículas que permitam ligar cada unidade às participações declaradas ao TSE."
+          "text": "Copacabana: não localizamos a íntegra do Anexo V do PIC/MPRJ 2018.00452470, citado na denúncia como fonte das certidões e escrituras. Sem ele, não conferimos diretamente toda a sequência de compradores, vendedores e registros. Os cheques e registros reproduzidos não identificam a origem de todo o dinheiro em espécie. Barra: faltam escritura, contrato e extrato do financiamento para explicar as diferenças entre preço, pagamentos e desembolso. Laranjeiras: faltam contrato e histórico completo de pagamentos da construtora para ligar os depósitos às parcelas."
         },
         {
           "label": "O que falta · Salas comerciais",
-          "text": "Contratos, cessões de participação, matrículas e recibos de cada sala. A declaração de 10% de participação não comprova o pagamento integral do imóvel nem a forma como foi pago."
+          "text": "Não localizamos cópia pública dos contratos, cessões, matrículas e recibos completos de cada sala. Sem eles, não reconciliamos a quantidade de unidades citada nas reportagens com as participações do TSE, nem verificamos o preço integral e a forma de pagamento de cada operação. Os 10% declarados não comprovam compra integral ou pagamento em dinheiro vivo."
+        },
+        {
+          "label": "Disponibilidade dos documentos",
+          "text": "Cópia pública não localizada significa que não encontramos o documento completo nas fontes abertas consultadas. Não significa que ele não exista, seja necessariamente sigiloso ou que sua ausência comprove irregularidade. Certidões de cartório podem ser solicitadas pelos canais oficiais; não adquirimos documentos pagos. A conferência integral continua pendente."
         }
       ]
     },

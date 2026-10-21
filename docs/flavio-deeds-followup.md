@@ -64,3 +64,22 @@ O MP relatou uma compra por R$2,55milhões em2014, com cheques, transferências 
 | Barra Prime | Complete developer replies/receipts, all unit/share deeds, resolution of12rooms vs11enumerated TSE units |
 
 No new accusation should be labelled independently proved. This round upgrades precise document availability, not guilt or full-audit status.
+
+
+## Focused public-document search follow-up
+
+20 October 2026, subsequent search: exact PIC number with “Anexo V” / “certidões”, Copacabana deed/registry terms, the related accounting-action number, and banking precautionary-action number were searched. No paid certificate order or contact request was made.
+
+New public source found: [MPRJ's own 16-page procedural report](https://www.mprj.mp.br/documents/20184/540394/procedimento_mprj_2018.00452470.pdf). It describes six volumes (two main files and four appendices) but is **not the full file or Annex V**. Page6 expressly calls COAF RIFs confidential; that statement concerns RIFs and does not establish that every property deed or Annex V is currently restricted. Therefore classify the missing full property documents as **public copy not located**, not “confirmed secret.”
+
+A further [177-page court filing bundle hosted by O Antagonista](https://cdn.oantagonista.com/uploads/2020/04/MBL3.pdf) was downloaded and its page thumbnails visually screened. It includes pleadings, press attachments and an earlier MP banking-disclosure request; no complete property registry/deed annex was identified in that screening. It must not be represented as Annex V or a new full receipt audit. Duplicate complaint mirrors likewise did not supply the missing annex.
+
+### Precise document locators for continuation
+
+- **Copacabana certificates/notarial acts:** Annex V, PIC/MPRJ2018.00452470, cited by2020complaint p25 note47 and p26 note50. Complete public copy not located. Note50 also includes comparison properties owned by a third party: do not assign their registry numbers to Flávio's apartments.
+- **Copacabana teller records:** PA/MPRJ2019.00461047, folios145–173, attached to precautionary action0087086-40.2019.8.19.0001, cited p34 note60. Only reproduced excerpts previously checked; full folio set not located publicly.
+- **Barra seller testimony:** PIC/MPRJ2018.00452470, folios1573–1576, cited p36 note64. Complete testimony not located publicly.
+- **Laranjeiras developer information:** same PIC, folios646–666, p20 note38. Complete contract/payment ledger not located publicly.
+- **Barra Prime developer replies:** same PIC, folios1005–1011,1070–1325,1327,1444–1453,1540–1541; p17 note24. Detailed cash/check information specifically points to1071–1072. Full replies not located publicly.
+
+**Conclusion remains blocked:** this search did not provide the complete deeds, registry chains or full payment files needed to establish each property's present ownership, reconcile all sale/purchase/financing amounts, or independently attribute cash origin. It produced precise file locators and an official procedural report, not new proof of the property-payment allegations. Availability may change; no finding of permanent unavailability or confirmed restriction is made.

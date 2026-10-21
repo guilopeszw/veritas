@@ -10,7 +10,7 @@ Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --rel
 
 Build and syntax checks pass. The property controversy is included as attributed historical reporting with the defense position and dated court decision; five TSE filing years and a published 2021 deed excerpt now provide itemized values. The underlying transaction audit remains incomplete. Debate view contains no coverage percentages or links to excluded counts. The atomic audit is not copied into this output. No deployment was performed, launchApproved remains false, and the existing public build retains its approval gates.
 
-Candidate content SHA-256: `4af6fffa9be801ce91f6d421876f1351b2d4138a41ffa5c3708d6aad5ba2741d`
+Candidate content SHA-256: `70fb8f61aa22b0dd2960c42e3ee1cb1ec38ac26845185ac968172c6e0c9a7fa6`
 
 ## Owner review
 

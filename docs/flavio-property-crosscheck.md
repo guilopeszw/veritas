@@ -69,3 +69,11 @@ The existing historical PET10.562 summary remains a decision about that petition
 3. Commercial-room interests: each unit's contract, assignments, registry history and payment schedule. A10% filing entry is not proof of a cash purchase or the whole property's price.
 
 Searches found a political dossier linking to the TJDFT judgment; it was used only as a pointer. The official court text, not that dossier's interpretation, supports the court summary. No authenticated full current registry certificate was obtained, and no fees or access-restricted systems were used.
+
+## Further availability check — 20 October 2026
+
+Focused searches for the Lago Sul full registry/deed PDF and seller transfer receipts returned reporting and the already known excerpts, not a new complete certificate or original receipt. Therefore availability is **public copy not located**, not **confirmed secret**. No full private loan file was accessed. The missing-document copy now explicitly names which conclusions cannot be reached.
+
+The [ONR certificate manual](https://registradores.onr.org.br/Downloads/manuais2021/SAEC_CertidaoDigital.pdf) describes the official certificate service; [ONR's explanation of CNM validation](https://cnm.onr.org.br/termoResponsabilidade.php) distinguishes validating a registry code from certifying registry contents. The official [ONR service report](https://www.onr.org.br/pedidos-de-certidoes-digitais-ultrapassam-a-marca-de-3-milhoes-no-primeiro-quadrimestre-de-2024/) documents both charged and free requests. No assertion that this specific applicant/property qualifies for a free certificate was made. No fee, request, contact or sign-in was performed; the zero-cost boundary remains intact.
+
+No new property ownership, payment-origin or guilt conclusion follows from this search. Reports that a journalist holds a complete document do not mean the complete file is openly downloadable.
