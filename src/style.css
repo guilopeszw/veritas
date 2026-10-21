@@ -287,3 +287,5 @@ body.sidebar-collapsed .floating-search>span{display:none}
  .rally-shortcuts{flex-direction:column}.rally-controls{display:grid;grid-template-columns:minmax(0,1fr)}
  html{scroll-padding-top:90px}
 }
+
+.rally-view-switch{display:flex;gap:8px;margin:24px 0;flex-wrap:wrap}.rally-view-switch button{padding:12px 18px;min-height:48px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}.rally-view-switch button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
