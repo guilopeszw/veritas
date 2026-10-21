@@ -15,6 +15,8 @@ def filtered_content(source):
             block["context"] = "Síntese das propostas identificadas nas fontes indicadas. Não representa uma contagem completa de todas as propostas ou de todas as falas do debate."
             block.pop("relatedRoute", None)
             block.pop("relatedLabel", None)
+    included = {b["id"] for b in data["blocks"]}
+    data["readerUpdates"] = [u for u in data.get("readerUpdates", []) if not u.get("blockIds") or set(u["blockIds"]).issubset(included)]
     data["releaseScope"] = "checked-content-without-pending-coverage-metrics"
     return data
 

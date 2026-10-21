@@ -4,6 +4,7 @@ import base64
 import hashlib
 import json
 from decimal import Decimal
+from datetime import date
 from urllib.parse import urlparse
 import shutil
 from pathlib import Path
@@ -20,6 +21,14 @@ if args.public or args.release_review:
     data = filtered_content(data)
 ids = [b["id"] for b in data["blocks"]]
 assert len(ids) == len(set(ids)), "IDs duplicados"
+updates = data.get("readerUpdates", [])
+assert len({u["id"] for u in updates}) == len(updates), "Duplicate update ID"
+for update in updates:
+    date.fromisoformat(update["date"])
+    assert update.get("title") and update.get("description") and update.get("type"), "Incomplete update"
+    assert set(update.get("blockIds", [])).issubset(ids), "Update refers to missing content"
+    if update["type"] == "Correção":
+        assert all(update.get(key) for key in ("before", "after", "reason", "blockIds")), "Correction requires before, after, reason and affected content"
 for block in data["blocks"]:
     assert block["title"] and block["sources"], f"Bloco sem título/fontes: {block['id']}"
     assert block["status"] in ("approved", "draft")

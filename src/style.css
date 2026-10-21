@@ -297,3 +297,7 @@ body.sidebar-collapsed .floating-search>span{display:none}
 .candidate-filter-count{font-size:.85rem;margin-bottom:24px;color:#555}
 #main [hidden]{display:none!important}
 .two-col:has(>section[hidden]){grid-template-columns:minmax(0,1fr)}
+
+/* Quiet, touch-friendly personal reading tools. */
+.reader-links{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 28px}.reader-links a{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border:1px solid var(--line);border-radius:24px;text-decoration:none;color:inherit}.reader-links a:hover{background:var(--wash)}
+.save-reading{position:static!important;display:inline-flex;align-items:center;min-height:44px;margin:12px 0 0;padding:8px 12px;border:1px solid var(--line);border-radius:20px;background:transparent;color:inherit;font:inherit;font-size:.85rem}.save-reading[aria-pressed=true]{background:var(--wash)}.block-history{border-top:1px solid var(--line);padding:14px 0;margin-top:16px;font-size:.85rem}.block-history summary{cursor:pointer;min-height:32px}.proposal-card>.block-history{margin:16px 24px}.daily-questions>section,.update-entry{padding:24px 0;border-bottom:1px solid var(--line)}.update-entry h2{font-size:1.35rem}.update-entry a{display:block;padding:8px 0}.daily-questions .proposal-grid{margin-top:20px}@media(max-width:600px){.reader-links{gap:8px}.reader-links a{font-size:.85rem;padding:8px 12px}.daily-questions .proposal-grid{grid-template-columns:1fr}.daily-questions h2{font-size:1.4rem}}

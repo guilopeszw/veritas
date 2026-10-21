@@ -11,6 +11,10 @@ root = Path(__file__).resolve().parent.parent
 source = json.loads((root / "src/content.json").read_text())
 filtered = filtered_content(source)
 assert all(key not in filtered for key in ("debateAudit", "debateIndividualAudit", "programCoverage"))
+excluded_example=copy.deepcopy(source)
+excluded_example["blocks"][0]["verification"]="pending"
+excluded_example["readerUpdates"]=[{"id":"pending", "blockIds":[excluded_example["blocks"][0]["id"]]}]
+assert filtered_content(excluded_example)["readerUpdates"] == []
 assert source.get("debateAudit"), "Source investigation must remain intact"
 assert all(b["verification"] == "checked" for b in filtered["blocks"])
 for approval, launch in (({}, False), ({"approvedContentSha256": content_digest(filtered)}, False), ({"approvedContentSha256": "stale"}, True)):

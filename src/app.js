@@ -20,6 +20,59 @@ const topics = [
 ];
 const href = route => `#/${route}`;
 const topicName = id => topics.find(t=>t.id===id)?.name || "Contexto";
+// Personal reading state stays on this device; blocked storage falls back to this tab.
+const readerMemory = {};
+let readerStorageAvailable = true;
+function readerRead(key, fallback){
+ try { const raw=localStorage.getItem("veritas:"+key); return raw===null?fallback:JSON.parse(raw); }
+ catch { readerStorageAvailable=false; return readerMemory[key]??fallback; }
+}
+function readerWrite(key,value){
+ readerMemory[key]=value;
+ try { localStorage.setItem("veritas:"+key,JSON.stringify(value)); }
+ catch { readerStorageAvailable=false; }
+}
+let savedIds=readerRead("saved",[]);
+if(!Array.isArray(savedIds))savedIds=[];
+let seenUpdates=readerRead("seen-updates",[]);
+if(!Array.isArray(seenUpdates))seenUpdates=[];
+function readerLinks(){
+ const count=(data.readerUpdates||[]).filter(u=>!seenUpdates.includes(u.id)).length;
+ return `<nav class="reader-links" aria-label="Sua leitura"><a href="#/perguntas">Perguntas do cotidiano</a><a href="#/salvos">Salvos</a><a href="#/novidades">Novidades${count?` (${count})`:""}</a></nav>`;
+}
+function blockHistory(block){
+ const events=(data.readerUpdates||[]).filter(u=>u.blockIds?.includes(block.id));
+ return `<details class="block-history"><summary>Histórico deste conteúdo</summary>${events.map(u=>`<p><time datetime="${esc(u.date)}">${esc(u.date.split('-').reverse().join('/'))}</time> · ${esc(u.type)}</p><p>${esc(u.description)}</p>${u.before?`<p><strong>Antes:</strong> ${esc(u.before)}</p>`:""}${u.after?`<p><strong>Depois:</strong> ${esc(u.after)}</p>`:""}${u.reason?`<p><strong>Motivo:</strong> ${esc(u.reason)}</p>`:""}`).join("")||"<p>Ainda não há alterações registradas para este conteúdo.</p>"}<a href="#/correcoes">Ver o registro completo</a></details>`;
+}
+function installReaderControls(){
+ for(const block of data.blocks){
+  const node=document.getElementById(block.id);if(!node||node.querySelector('[data-save]'))continue;
+  const button=document.createElement('button');button.className='save-reading';button.dataset.save=block.id;
+  const active=savedIds.includes(block.id);button.setAttribute('aria-pressed',String(active));
+  button.setAttribute('aria-label',`${active?'Remover dos salvos':'Salvar para depois'}: ${block.title}`);
+  button.textContent=active?'✓ Salvo':'＋ Salvar';
+  if(node.matches('details.proposal-card'))node.querySelector('summary').append(button);else node.append(button);
+  node.insertAdjacentHTML('beforeend',blockHistory(block));
+ }
+}
+function savedPage(){
+ const blocks=data.blocks.filter(b=>savedIds.includes(b.id));
+ return `${heading("Salvos","Para ler depois","Sua lista fica neste navegador, sem cadastro. Limpar os dados do navegador apaga os salvos. Não há sincronização entre aparelhos.")}${readerLinks()}${readerStorageAvailable?'':'<p role="status">O navegador bloqueou o armazenamento. Os salvos duram apenas enquanto esta aba estiver aberta.</p>'}<p role="status">${blocks.length} ${blocks.length===1?"item disponível":"itens disponíveis"}</p>${blocks.length?'<button data-clear-saved>Limpar minha lista</button>':'<p>Use “Salvar” nos conteúdos que quiser voltar a ler.</p><a href="#/propostas">Explorar propostas →</a>'}<div class="reading">${blocks.map(card).join("")}</div>`;
+}
+function updatesPage(historyOnly=false){
+ const entries=data.readerUpdates||[];
+ const unread=entries.filter(u=>!seenUpdates.includes(u.id));
+ return `${heading("Atualizações",historyOnly?"Histórico de alterações":"O que há de novo",historyOnly?"Registro a partir desta edição. Mudanças de conteúdo não significam novas checagens, salvo quando isso estiver indicado.":"Novidades desde sua última visita neste navegador. Na primeira visita, mostramos o registro disponível.")}${readerLinks()}${!historyOnly?`<p role="status">${unread.length} novidades não lidas</p><button data-read-updates ${unread.length?'':'disabled'}>Marcar novidades como lidas</button>`:''}<div class="reading">${entries.map(u=>`<article class="update-entry"><p><time datetime="${esc(u.date)}">${esc(u.date.split('-').reverse().join('/'))}</time> · ${esc(u.type)}${!historyOnly&&!seenUpdates.includes(u.id)?' · Não lida':''}</p><h2>${esc(u.title)}</h2><p>${esc(u.description)}</p>${u.before?`<p><strong>Antes:</strong> ${esc(u.before)}</p>`:''}${u.after?`<p><strong>Depois:</strong> ${esc(u.after)}</p>`:''}${u.reason?`<p><strong>Motivo:</strong> ${esc(u.reason)}</p>`:''}${u.blockIds?.length&&u.blockIds.length<=5?u.blockIds.filter(id=>data.blocks.some(b=>b.id===id)).map(id=>`<a href="#/conteudo/${esc(id)}">${esc(data.blocks.find(b=>b.id===id).title)} →</a>`).join(''):''}</article>`).join('')}</div>`;
+}
+const dailyQuestions=[
+ {title:"O que propõem para o meu salário?",ids:["lula-renda","flavio-salario-minimo"]},
+ {title:"Como pretendem diminuir a espera no SUS?",ids:["lula-especialistas","flavio-saude"]},
+ {title:"Como pretendem organizar meu histórico de saúde?",ids:["lula-saude-digital","flavio-prontuario-cpf"]},
+ {title:"Que limites querem colocar nos gastos do governo?",ids:["lula-regra-fiscal","flavio-ajuste-fiscal"]}
+];
+function questionsPage(){
+ return `${heading("Propostas","O que muda na sua vida?","Comece por uma pergunta. Os resumos mostram compromissos, não resultados garantidos.")}${readerLinks()}<div class="daily-questions">${dailyQuestions.map((q,i)=>`<section><h2>${esc(q.title)}</h2><div class="proposal-grid">${q.ids.map(id=>data.blocks.find(b=>b.id===id)).filter(Boolean).map(card).join('')}</div></section>`).join('')}<section><h2>Como essas propostas seriam pagas?</h2><p>Abra “Na prática” e as fontes de cada proposta para conferir o que está documentado sobre execução e financiamento. O site não calcula custos que os documentos não informam. Uma promessa não garante que exista dinheiro reservado para ela.</p><a href="#/propostas">Ver todas as propostas e suas condições →</a></section></div>`;
+}
 function portrait(c, small=false){
   return `<span class="portrait ${small?"small":""}"><img class="${esc(c.id)}" src="${esc(c.photo)}" alt="Foto oficial de ${esc(c.name)}" width="120" height="150" loading="lazy"></span>`;
 }
@@ -112,7 +165,7 @@ function empty(message){
   return `<div class="empty"><strong>Apuração em andamento</strong><p>${esc(message)}</p></div>`;
 }
 function home(){
-  return `<section class="hero brazil-hero" aria-labelledby="hero-title"><div class="brazil-accordion" role="group" aria-label="Paisagens do Brasil — selecione uma imagem">${data.heroPhotos.map((p,i)=>`<button class="brazil-panel ${i===0?"is-active":""}" data-hero-panel="${i}" aria-pressed="${i===0}" aria-label="Ver ${esc(p.place)}"><img src="${esc(p.src)}" alt="" ${i===0?'fetchpriority="high"':'loading="eager"'} decoding="async"></button>`).join("")}</div><div class="brazil-hero-shade" aria-hidden="true"></div><div class="brazil-hero-copy"><div class="eyebrow">INFORMAÇÃO PARA A SUA ESCOLHA</div><h1 id="hero-title">Conheça quem quer <br>governar o Brasil.</h1><p>Compare trajetórias e propostas. Entenda o que está em jogo, com explicações claras e fontes à vista.</p><div class="brazil-hero-actions"><a class="button" href="#/inicio/candidatos-title">Conhecer os candidatos <span aria-hidden="true">↓</span></a><a href="#/propostas">Comparar propostas ↗</a></div></div></section><details class="hero-photo-credits"><summary>Sobre as imagens</summary><p>Paisagens brasileiras. As imagens não representam apoio dos autores ou das instituições a candidatos ou ao Veritas. Recorte, compressão e filtro de cor uniforme aplicados na apresentação.</p><ul>${data.heroPhotos.map(p=>`<li><a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">${esc(p.place)}</a> — ${esc(p.author)} · <a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.license)}</a>. A adaptação visual desta fotografia mantém essa licença.</li>`).join("")}</ul></details>
+  return `${readerLinks()}<section class="hero brazil-hero" aria-labelledby="hero-title"><div class="brazil-accordion" role="group" aria-label="Paisagens do Brasil — selecione uma imagem">${data.heroPhotos.map((p,i)=>`<button class="brazil-panel ${i===0?"is-active":""}" data-hero-panel="${i}" aria-pressed="${i===0}" aria-label="Ver ${esc(p.place)}"><img src="${esc(p.src)}" alt="" ${i===0?'fetchpriority="high"':'loading="eager"'} decoding="async"></button>`).join("")}</div><div class="brazil-hero-shade" aria-hidden="true"></div><div class="brazil-hero-copy"><div class="eyebrow">INFORMAÇÃO PARA A SUA ESCOLHA</div><h1 id="hero-title">Conheça quem quer <br>governar o Brasil.</h1><p>Compare trajetórias e propostas. Entenda o que está em jogo, com explicações claras e fontes à vista.</p><div class="brazil-hero-actions"><a class="button" href="#/inicio/candidatos-title">Conhecer os candidatos <span aria-hidden="true">↓</span></a><a href="#/propostas">Comparar propostas ↗</a></div></div></section><details class="hero-photo-credits"><summary>Sobre as imagens</summary><p>Paisagens brasileiras. As imagens não representam apoio dos autores ou das instituições a candidatos ou ao Veritas. Recorte, compressão e filtro de cor uniforme aplicados na apresentação.</p><ul>${data.heroPhotos.map(p=>`<li><a href="${esc(p.source)}" target="_blank" rel="noopener noreferrer">${esc(p.place)}</a> — ${esc(p.author)} · <a href="${esc(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.license)}</a>. A adaptação visual desta fotografia mantém essa licença.</li>`).join("")}</ul></details>
   <section class="section" aria-labelledby="candidatos-title"><div class="section-heading"><div><div class="eyebrow">UM PONTO DE PARTIDA</div><h2 id="candidatos-title">Quem são os candidatos</h2></div><a class="text-link" href="#/propostas">Comparar propostas ↗</a></div><div class="two-col">${candidate("lula")}${candidate("flavio")}</div></section>
   <section class="section start-guide" aria-labelledby="guide-title"><div><div class="eyebrow">DO SEU JEITO</div><h2 id="guide-title">Por onde começar?</h2><p>Três caminhos para entender a eleição.</p></div><div class="guide-steps"><details name="veritas-guide" open><summary><span>01</span> Conheça</summary><div><h3>Veja quem quer representar você.</h3><p>Explore a trajetória, os bens declarados e a atuação de cada candidato.</p><a href="#/inicio/candidatos-title">Conhecer os candidatos <span aria-hidden="true">→</span></a></div></details><details name="veritas-guide"><summary><span>02</span> Compare</summary><div><h3>O mesmo assunto, os dois lados.</h3><p>Busque temas que afetam sua vida e entenda o que cada um propõe mudar.</p><a href="#/propostas">Comparar propostas <span aria-hidden="true">→</span></a></div></details><details name="veritas-guide"><summary><span>03</span> Confira</summary><div><h3>Entenda o que está por trás de uma fala.</h3><p>Veja a conclusão, a explicação e a fonte das informações que circulam.</p><a href="#/checagens">Veja o que é verdade <span aria-hidden="true">→</span></a></div></details></div></section>
   <section class="section" aria-labelledby="acompanhe-title"><div class="section-heading"><div><div class="eyebrow">DA DECLARAÇÃO AO REGISTRO</div><h2 id="acompanhe-title">Acompanhe os temas em debate</h2><p>O que foi dito, quais atos estão documentados e o que ainda falta comprovar.</p></div></div>${dossierLinks()}</section>
@@ -204,7 +257,7 @@ function factChecks(candidateId){
 }
 
 function subjectHub(){
-  const entries=[['checagens','É verdade?','Declarações, contexto e conclusões dos veículos.'],['6x1','Fim da escala 6x1','Acompanhe declarações, propostas e votos em uma trilha.'],['debates','Debates','Propostas apresentadas e checagens das falas.'],['manifestacoes','Manifestações','Público, resultados locais e ocorrências documentadas.'],['soberania','Soberania nacional','Quem citou quais políticas e o que elas significam.'],['transparencia','Abertura de sigilos','O que foi prometido e o que foi comprovado.'],['controversias','Controvérsias','Alegações, evidências, respostas e decisões.']];
+  const entries=[['perguntas','Perguntas do cotidiano','Compare a partir do que afeta sua vida'],['salvos','Salvos','Sua lista neste aparelho'],['novidades','Novidades','Acompanhe as alterações'],['checagens','É verdade?','Declarações, contexto e conclusões dos veículos.'],['6x1','Fim da escala 6x1','Acompanhe declarações, propostas e votos em uma trilha.'],['debates','Debates','Propostas apresentadas e checagens das falas.'],['manifestacoes','Manifestações','Público, resultados locais e ocorrências documentadas.'],['soberania','Soberania nacional','Quem citou quais políticas e o que elas significam.'],['transparencia','Abertura de sigilos','O que foi prometido e o que foi comprovado.'],['controversias','Controvérsias','Alegações, evidências, respostas e decisões.']];
   const explainers=data.blocks.filter(b=>b.kind==="Tema em debate");
   return `${heading('Contexto','Entenda a eleição','Acompanhe acontecimentos, posições e checagens que ajudam a entender a eleição.')}<section class="subject-section"><h2>Em discussão</h2><div class="subject-list">${entries.map(([route,title,description])=>`<a href="${href(route)}"><div><h3>${title}</h3><p>${description}</p></div><span aria-hidden="true">↗</span></a>`).join('')}</div></section><section class="subject-section"><h2>Entenda o contexto</h2><div class="subject-list">${explainers.map(b=>`<a href="#/conteudo/${esc(b.id)}"><div><h3>${esc(b.shortTitle||b.title)}</h3><p>${esc(b.summary)}</p></div><span aria-hidden="true">↗</span></a>`).join('')}<a href="#/entenda"><div><h3>Economia explicada</h3><p>Inflação, impostos, gastos e juros em linguagem simples.</p></div><span aria-hidden="true">↗</span></a></div></section>`;
 }
@@ -272,18 +325,19 @@ function themes(id){
   if(id&&!topics.some(t=>t.id===id))return notFound();
   const guide=data.topicGuides?.[id];
   const intro=guide?`${heading("Propostas",guide.title,guide.summary)}<nav class="topic-guide-nav" aria-label="Nesta página">${[["comparar","Comparar propostas"],["historico","O que já existe"],["efeitos","Como avaliar"],["fontes","Fontes"]].map(([anchor,label])=>`<a href="#/tema/${esc(id)}/${anchor}">${label}</a>`).join("")}</nav>`:heading("Propostas","Propostas, lado a lado.","Compare os resumos. Abra um card para entender a proposta e o que ela pode mudar na sua vida.");
-  return `${intro}<section class="proposal-controls" id="comparar" aria-label="Buscar e filtrar propostas"><h2 class="proposal-search-title">Pesquisar e filtrar propostas</h2><label for="proposal-query">Pesquisar nas propostas</label><input id="proposal-query" type="search" placeholder="Ex.: salário mínimo, hospitais, educação"><div class="proposal-filters"><label>Assunto<select id="proposal-topic"><option value="">Todos os assuntos</option>${topics.map(t=>`<option value="${t.id}" ${id===t.id?"selected":""}>${esc(t.name)}</option>`).join("")}</select></label><label>Candidato<select id="proposal-candidate"><option value="">Os dois candidatos</option><option value="lula">Lula</option><option value="flavio">Flávio Bolsonaro</option></select></label><button type="button" id="proposal-reset">Limpar filtros</button></div></section><p class="context">Cada grupo reúne medidas sobre o mesmo assunto. Os compromissos podem ter alcance e condições diferentes.</p><div id="proposal-results">${proposalResults(id||"")}</div>${topicGuideSections(id)}`;
+  return `${intro}${readerLinks()}<section class="proposal-controls" id="comparar" aria-label="Buscar e filtrar propostas"><h2 class="proposal-search-title">Pesquisar e filtrar propostas</h2><label for="proposal-query">Pesquisar nas propostas</label><input id="proposal-query" type="search" placeholder="Ex.: salário mínimo, hospitais, educação"><div class="proposal-filters"><label>Assunto<select id="proposal-topic"><option value="">Todos os assuntos</option>${topics.map(t=>`<option value="${t.id}" ${id===t.id?"selected":""}>${esc(t.name)}</option>`).join("")}</select></label><label>Candidato<select id="proposal-candidate"><option value="">Os dois candidatos</option><option value="lula">Lula</option><option value="flavio">Flávio Bolsonaro</option></select></label><button type="button" id="proposal-reset">Limpar filtros</button></div></section><p class="context">Cada grupo reúne medidas sobre o mesmo assunto. Os compromissos podem ter alcance e condições diferentes.</p><div id="proposal-results">${proposalResults(id||"")}</div>${topicGuideSections(id)}`;
 }
 function updateProposalResults(){
  const results=document.getElementById("proposal-results");if(!results)return;
  results.innerHTML=proposalResults(document.getElementById("proposal-topic").value,document.getElementById("proposal-query").value,document.getElementById("proposal-candidate").value);
+ installReaderControls();
 }
 document.addEventListener("input",e=>{if(e.target.id==="proposal-query")updateProposalResults();});
 document.addEventListener("change",e=>{if(e.target.id==="proposal-topic"){location.hash=e.target.value?`#/tema/${e.target.value}`:"#/propostas";}else if(e.target.id==="proposal-candidate")updateProposalResults();});
 document.addEventListener("click",e=>{if(e.target.id==="proposal-reset"){document.getElementById("proposal-query").value="";document.getElementById("proposal-candidate").value="";if(location.hash.startsWith("#/tema/")){location.hash="#/propostas";}else{document.getElementById("proposal-topic").value="";updateProposalResults();}}});
 
 function about(){
-  return `<div class="reading">${heading("Sobre","Informação que você pode conferir.","O Projeto Veritas é uma iniciativa independente e não oficial, sem vínculo político declarado.")}<h2>Para que existe</h2><p>Tornar informações eleitorais mais fáceis de entender e conferir. Reunimos trajetória, propostas e documentos para que você explore os perfis e compare os assuntos que fazem parte da sua vida.</p><h2>Como selecionamos as informações</h2><p>Usamos os mesmos critérios para todos os candidatos: impacto na população, relevância para o cargo e qualidade da documentação. Isso não exige a mesma quantidade de críticas ou elogios.</p><p>Priorizamos documentos originais, registros públicos e falas completas. Fontes de campanha são identificadas como tal; sua existência não comprova a eficácia de uma proposta.</p><h2>Como tratamos afirmações</h2><ul><li><strong>Propostas:</strong> mostram intenções, não resultados garantidos.</li><li><strong>Acusações e decisões:</strong> investigação, acusação formal e decisão judicial são situações diferentes. Importam datas, recursos e a manifestação da pessoa citada.</li><li><strong>Mudanças de posição:</strong> exigem registros datados. A sequência de acontecimentos não comprova uma motivação.</li><li><strong>Economia:</strong> um resultado posterior a uma medida não é automaticamente causado por ela.</li></ul><h2>Revisão e transparência</h2><p>O responsável pelo Projeto Veritas revisa o conteúdo antes da publicação. Cada bloco informa fontes e data de consulta. Quando não temos dados, informamos essa ausência.</p><p>O Veritas não atribui nota geral aos candidatos nem recomenda voto. Não é um site da Justiça Eleitoral, de partido ou de candidatura.</p><h2>Correções e cobertura</h2><p>Correções relevantes serão registradas publicamente. O feedback é recebido pelas redes do responsável pelo projeto; esta edição não disponibiliza canal de contato próprio.</p><p><a href="#/cobertura">Consultar o estado da cobertura</a> · <a href="#/correcoes">Ver atualizações e correções</a></p><h2>Privacidade</h2><p>Esta implementação não exige cadastro e não utiliza ferramentas de publicidade ou rastreamento de audiência. Ao abrir fontes externas, aplicam-se as condições dos respectivos sites. As condições da hospedagem serão informadas antes da publicação.</p></div>`;
+  return `<div class="reading">${heading("Sobre","Informação que você pode conferir.","O Projeto Veritas é uma iniciativa independente e não oficial, sem vínculo político declarado.")}<h2>Para que existe</h2><p>Tornar informações eleitorais mais fáceis de entender e conferir. Reunimos trajetória, propostas e documentos para que você explore os perfis e compare os assuntos que fazem parte da sua vida.</p><h2>Como selecionamos as informações</h2><p>Usamos os mesmos critérios para todos os candidatos: impacto na população, relevância para o cargo e qualidade da documentação. Isso não exige a mesma quantidade de críticas ou elogios.</p><p>Priorizamos documentos originais, registros públicos e falas completas. Fontes de campanha são identificadas como tal; sua existência não comprova a eficácia de uma proposta.</p><h2>Como tratamos afirmações</h2><ul><li><strong>Propostas:</strong> mostram intenções, não resultados garantidos.</li><li><strong>Acusações e decisões:</strong> investigação, acusação formal e decisão judicial são situações diferentes. Importam datas, recursos e a manifestação da pessoa citada.</li><li><strong>Mudanças de posição:</strong> exigem registros datados. A sequência de acontecimentos não comprova uma motivação.</li><li><strong>Economia:</strong> um resultado posterior a uma medida não é automaticamente causado por ela.</li></ul><h2>Revisão e transparência</h2><p>O responsável pelo Projeto Veritas revisa o conteúdo antes da publicação. Cada bloco informa fontes e data de consulta. Quando não temos dados, informamos essa ausência.</p><p>O Veritas não atribui nota geral aos candidatos nem recomenda voto. Não é um site da Justiça Eleitoral, de partido ou de candidatura.</p><h2>Correções e cobertura</h2><p>Correções relevantes serão registradas publicamente. O feedback é recebido pelas redes do responsável pelo projeto; esta edição não disponibiliza canal de contato próprio.</p><p><a href="#/cobertura">Consultar o estado da cobertura</a> · <a href="#/correcoes">Ver atualizações e correções</a></p><h2>Privacidade</h2><p>Esta implementação não exige cadastro e não utiliza ferramentas de publicidade ou rastreamento de audiência. Salvos e novidades usam apenas o armazenamento deste navegador, sem envio ao servidor e sem sincronização entre aparelhos. Ao abrir fontes externas, aplicam-se as condições dos respectivos sites. As condições da hospedagem serão informadas antes da publicação.</p></div>`;
 }
 function coverage(){
  if(data.releaseScope)return `<div class="reading">${heading("Cobertura","O que esta edição reúne","Uma seleção de informações com fontes. Não é um levantamento completo de todas as propostas ou acontecimentos.")}<p>Esta edição reúne perfis, propostas selecionadas, posições, checagens e estimativas de público atribuídas às suas fontes.</p><p>Percentuais de cobertura dos programas no debate e conteúdos com conferência documental pendente estão fora desta edição. A ausência de um registro não significa que o candidato não apresentou uma proposta ou que um fato não aconteceu.</p><p>As comparações de público preservam as diferenças de método e não estabelecem qual foi o maior ato de toda a campanha. Não há um levantamento completo e comparável de violência nos eventos.</p></div>`;
@@ -371,10 +425,13 @@ function route(){
   else if(page==="entenda"){html=heading("Entenda","Economia sem atalhos","Explicações gerais para ler propostas e comparar políticas. Estes textos não são checagens de falas específicas.")+`<div class="reading">${data.blocks.filter(b=>b.kind==="Economia explicada").map(card).join("")}</div>`;title="Entenda";}
   else if(page==="busca"){html=search(new URLSearchParams(query).get("q")||"");title="Busca";}
   else if(page==="cobertura"){html=coverage();title="Estado da cobertura";}
-  else if(page==="correcoes"){html=`<div class="reading">${heading("Correções","Um registro aberto.","Atualizações relevantes serão registradas com data, texto anterior, alteração e motivo.")}<div class="notice">Ainda não há correções de conteúdo publicado. O site está em preparação; os textos aprovados e as pendências estão na <a href="#/cobertura">página de cobertura</a>.</div></div>`;title="Atualizações e correções";}
+  else if(page==="correcoes"||page==="novidades"){html=updatesPage(page==="correcoes");title="Atualizações e histórico";}
+  else if(page==="salvos"){html=savedPage();title="Salvos";}
+  else if(page==="perguntas"){html=questionsPage();title="Perguntas do cotidiano";}
   else if(page==="conteudo"){const block=data.blocks.find(b=>b.id===id);const back={"Checagem":"checagens","Manifestações":"manifestacoes","Debate":"debates","Tema em debate":"debate","Políticas internacionais":"soberania","Soberania nacional":"soberania","Escala 6x1":"6x1","Transparência":"transparencia","Controvérsia":"controversias"}[block?.kind];html=block?`<div class="reading">${heading("Documento",block.title)}${card(block)}<a class="text-link" href="${back?href(back):block.candidate?href(`perfil/${block.candidate}`):"#/entenda"}">← Voltar ao contexto</a></div>`:notFound();title=block?.title||"Conteúdo não encontrado";}
   else html=notFound();
   root.innerHTML=html;
+  installReaderControls();
   installCandidateFilter(page);
   document.title=`${title} — Veritas`;
   document.querySelectorAll(".header nav a,.section-nav a").forEach(a=>{
@@ -504,6 +561,7 @@ try{
   }
   document.getElementById("review-banner").hidden=!["review","release-review"].includes(data.mode);
   if(data.mode==="release-review")document.getElementById("review-banner").textContent="REVISÃO FINAL LOCAL · Conteúdos pendentes excluídos · Ainda não publicado";
+  readerWrite("seen-updates",(data.readerUpdates||[]).map(u=>u.id));
   window.addEventListener("hashchange",route);
   route();
 }catch{
@@ -545,4 +603,18 @@ document.addEventListener('click',event=>{
  document.getElementById('rally-all-panel').hidden=compare;
  document.getElementById('rally-compare-panel').hidden=!compare;
  document.querySelectorAll('[data-rally-view]').forEach(el=>el.setAttribute('aria-pressed',String(el===button)));
+});
+
+// Delegation also covers cards rebuilt by proposal filters.
+root.addEventListener('click',event=>{
+ const save=event.target.closest('[data-save]');
+ if(save){event.preventDefault();event.stopPropagation();const id=save.dataset.save;
+  savedIds=savedIds.includes(id)?savedIds.filter(x=>x!==id):[...savedIds,id];readerWrite('saved',savedIds);
+  const active=savedIds.includes(id);save.setAttribute('aria-pressed',String(active));save.textContent=active?'✓ Salvo':'＋ Salvar';
+  save.setAttribute('aria-label',`${active?'Remover dos salvos':'Salvar para depois'}: ${data.blocks.find(b=>b.id===id)?.title||''}`);
+  if(location.hash==='#/salvos')route();
+  if(!readerStorageAvailable)notifyShare('Salvo apenas nesta aba: o navegador bloqueou o armazenamento.');
+ }
+ if(event.target.closest('[data-clear-saved]')){savedIds=[];readerWrite('saved',savedIds);route();}
+ if(event.target.closest('[data-read-updates]')){seenUpdates=(data.readerUpdates||[]).map(u=>u.id);readerWrite('seen-updates',seenUpdates);route();}
 });
