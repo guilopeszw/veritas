@@ -17,8 +17,10 @@ The owner retains administrator bypass for explicitly authorized direct commits.
 
 CI uses a read-only token and a pinned checkout action without persisted credentials.
 There is no deployment workflow, privileged fork workflow, or GitHub Pages deployment.
-The production environment is restricted to `main`; its approval configuration must
-be verified after repository visibility changes and before enabling any deploy workflow.
+The production environment is restricted to `main` and requires approval by
+@guilopeszw. Owner self-approval and administrator bypass remain available. This
+protects future jobs that reference that environment; it does not govern manual
+Cloudflare uploads. No deployment workflow exists.
 
 Cloudflare Pages project `eleicoesveritas` uses manual upload, without a Git connection.
 No site deployment has been made. The selected domain is `eleicoesveritas.com.br`.

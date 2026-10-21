@@ -18,8 +18,10 @@ commits diretos expressamente autorizados.
 
 A validação automática usa token somente de leitura e checkout fixado por hash,
 sem persistir credenciais. Não há workflow de deploy ou publicação por GitHub Pages.
-O ambiente `production` aceita apenas `main`; a aprovação deve ser conferida após
-mudanças de visibilidade e antes de habilitar qualquer workflow de publicação.
+O ambiente `production` aceita apenas `main` e exige aprovação de @guilopeszw.
+O proprietário pode aprovar sua própria execução e mantém a exceção administrativa.
+Essa regra protege futuros jobs que usem esse ambiente; não controla uploads manuais
+na Cloudflare. Não existe workflow de deploy.
 
 O projeto Cloudflare Pages `eleicoesveritas` usa envio manual, sem integração Git.
 Ainda não houve deploy. O domínio escolhido é `eleicoesveritas.com.br`. A lista de
