@@ -4,7 +4,7 @@ This is the current snapshot. Historical counts belong in Git history and source
 
 ## Verified scope
 
-- 210 of 211 content blocks are marked checked within their documented scope. Attributed reporting is not an independent audit of all underlying claims.
+- 211 of 211 content blocks are marked checked within their documented scope. Attributed reporting is not an independent audit of all underlying claims.
 - The health guide's three references and headings have been reconciled with their checked source blocks. Its questions are monitoring criteria, not measured outcomes. Editorial status remains draft.
 - All 796 frozen program extraction rows are accounted for. The 933-entry ledger contains 778 retained actions, 105 merged entries and 50 goal/context exclusions.
 - Current direct debate coverage: Lula 6/476 = 1.26%; Flávio 16/302 = 5.30%. One partial mention per candidate is excluded. Nine debate-only commitments remain outside the program denominator.
@@ -17,7 +17,7 @@ This is the current snapshot. Historical counts belong in Git history and source
 | --- | --- | --- |
 | Debate audiovisual evidence | No direct human listening; recording has cuts and timestamps are approximate | Keep percentages provisional and publication approval false. A reviewer must listen with context and check completeness, not only positive matches. See debate-listening-queue.md. |
 | Official program files | Indexed text available; binary/visual authentication and version history unavailable | Program coverage remains pending. Do not certify a complete authenticated official-version comparison. |
-| flavio-imoveis-especie | Full deed/payment/electoral-filing reconciliation unavailable | Remains pending. The exact ten-property cash allegation is not asserted. Lupa corroborates the published methodology, not the missing transaction chain. |
+| flavio-imoveis-especie | Full deed/payment/electoral-filing reconciliation unavailable | Narrow historical reporting summary checked and included in local final review. Underlying transaction audit remains pending; no exact ten-property allegation is asserted. |
 | São Gonçalo rally date | Poder360 says 15 October; embedded post says 10 October | Exact displayed date removed. UI now says the source dates conflict. No date was inferred. |
 | Violence at rallies | No comprehensive comparable incident census | Show only attributed documented episodes; do not produce a comparative violence total. |
 

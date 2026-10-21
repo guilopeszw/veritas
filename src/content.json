@@ -8462,34 +8462,16 @@
       "id": "flavio-imoveis-especie",
       "candidate": "flavio",
       "kind": "Controvérsia",
-      "title": "Imóveis e pagamentos em espécie: o alcance das reportagens",
-      "summary": "Reportagens sobre a família Bolsonaro e operações atribuídas a Flávio têm recortes diferentes.",
+      "title": "Imóveis e dinheiro vivo: reportagens e resposta judicial",
+      "summary": "O que foi publicado sobre Flávio, sua negativa de irregularidades e a decisão do STF em 2022.",
       "paragraphs": [
-        "Em 2022, o UOL publicou levantamento sobre 107 imóveis negociados por integrantes da família Bolsonaro, dos quais ao menos 51 teriam sido comprados total ou parcialmente em espécie. Esses números se referem à família e a décadas de transações, não somente a Flávio.",
-        "A reportagem foi contestada judicialmente. A defesa da campanha argumentou que o levantamento misturava pessoas e períodos e que pagar em espécie, por si só, não configura ilegalidade.",
-        "Em 24 de setembro de 2022, André Mendonça rejeitou o pedido específico da Petição 10.562 por falta de elementos suficientes e de individualização das condutas. A decisão não equivale a uma auditoria de todas as transações e não encerra automaticamente outros casos.",
-        "Em reportagem de 2020 sobre operações de Flávio, o UOL registrou que, em 2010, ele havia declarado 10% do valor financiado de salas comerciais, totalizando R$ 268.221,75. O veículo relatou questionamentos do Ministério Público sobre a origem dos recursos. Uma declaração de participação não comprova a forma de pagamento nem resolve uma acusação.",
-        "À reportagem de 2020, a defesa negou irregularidades e contestou a denúncia, apontando problemas de procedimento, de narrativa e de cálculo.",
-        "Não temos uma relação documental de exatamente dez imóveis comprados em espécie por Flávio, nem o cruzamento integral de cada bem com as declarações de cada eleição. Não apresentamos esse número como fato."
+        "Em 2022, o UOL levantou 107 imóveis negociados por integrantes da família Bolsonaro desde 1990. Segundo a reportagem, ao menos 51 foram comprados total ou parcialmente em dinheiro vivo. Esses números são da família, não somente de Flávio.",
+        "Sobre Flávio, a checagem da Lupa de 9 de setembro de 2022 cita dois exemplos do levantamento: uma compra em dinheiro vivo que, segundo a reportagem, ele admitiu; e R$ 52 mil em depósitos não identificados usados para pagar parcelas do financiamento de um apartamento. São relatos atribuídos às fontes, não uma auditoria independente dessas operações pelo Veritas.",
+        "Flávio negou irregularidades, conforme a reportagem reproduzida na decisão do STF. A forma de pagamento, isoladamente, não permite concluir que houve crime.",
+        "Em 24 de setembro de 2022, André Mendonça negou seguimento à Petição 10.562. O ministro considerou que o pedido, baseado em reportagem e sem documentos que a corroborassem nos autos, não tinha elementos mínimos nem individualizava as condutas. Essa decisão trata daquele pedido; não é uma auditoria de todas as compras.",
+        "Os imóveis citados em reportagens históricas podem ter sido vendidos. Essa relação não é a lista de bens declarados ao TSE em uma eleição específica."
       ],
       "sources": [
-        {
-          "label": "UOL — levantamento sobre a família, 2022",
-          "url": "https://noticias.uol.com.br/ultimas-noticias/redacao/2022/08/30/cla-bolsonaro-acumula-patrimonio-pagando-em-dinheiro-vivo.htm"
-        },
-        {
-          "label": "Petição da campanha — contestação, 2022",
-          "url": "https://static.poder360.com.br/2022/09/acao-bolsonaro-tse-video-lula-imoveis-dinheiro.pdf"
-        },
-        {
-          "label": "UOL — salas comerciais e questionamentos do MP, 2020",
-          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/11/14/flavio-bolsonaro-12-salas-comerciais.htm-media/"
-        },
-        {
-          "label": "UOL — metodologia e documentos do levantamento, 09/09/2022",
-          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2022/09/09/como-rastreamos-que-o-cla-bolsonaro-pagou-com-dinheiro-vivo-51-imoveis.htm",
-          "locator": "Distingue operações familiares, depósitos e cheques; não comprova dez compras exclusivamente em dinheiro por Flávio."
-        },
         {
           "label": "STF — decisão na PET 10.562, 24/09/2022 (cópia)",
           "url": "https://static.poder360.com.br/2022/09/Decisao-Mendonca-nega-acao-imoveis-Bolsonaro-24set2022.pdf",
@@ -8501,11 +8483,13 @@
           "locator": "Corrobora que o levantamento não se baseia apenas na expressão moeda corrente; não substitui o cruzamento de cada operação pelo Veritas."
         }
       ],
-      "context": "Relatos e acusações não equivalem a condenação. Este bloco ainda depende de conferência das escrituras e da situação processual das operações citadas.",
+      "context": "Não temos o cruzamento completo das escrituras, pagamentos e declarações eleitorais. Por isso, não afirmamos que Flávio comprou dez imóveis em dinheiro vivo nem apresentamos essas reportagens como prova de corrupção.",
       "status": "draft",
-      "verification": "pending",
+      "verification": "checked",
       "checkedAt": "20/10/2026",
-      "editorialNotes": "Metodologia completa do UOL e decisão histórica recuperadas. Pendentes: reconciliação de cada operação com escrituras, pagamentos e declarações eleitorais. Não afirmar dez imóveis em dinheiro vivo."
+      "editorialNotes": "Scope narrowed on 20/10/2026: Lupa reporting attribution and PET 10.562 decision checked. Removed the 2020 commercial-room account. Full deed/payment/filing reconciliation remains unavailable; no exact ten-property allegation or current comprehensive procedural status is asserted. Final editorial approval remains pending.",
+      "verificationScope": "Attributed historical reporting and dated judicial decision only; not an independent transaction audit.",
+      "transactionAudit": "pending"
     },
     {
       "id": "lula-canais",
