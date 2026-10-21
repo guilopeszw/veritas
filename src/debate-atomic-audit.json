@@ -15,17 +15,16 @@
     "lula": {
       "inventoryRows": 461,
       "normalizedRetainedActions": 478,
-      "strictMatchedActions": 5,
+      "strictMatchedActions": 4,
       "matchedIds": [
         "PT-058-01",
         "PT-072-02",
-        "PT-105-01",
         "PT-149-01",
         "PT-X029"
       ],
-      "provisionalPercentage": 1.05,
+      "provisionalPercentage": 0.84,
       "publicationApproved": false,
-      "partialMatchedActions": 2
+      "partialMatchedActions": 3
     },
     "flavio": {
       "inventoryRows": 337,
@@ -13925,6 +13924,26 @@
           "PT-072-02"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+      },
+      "humanReview": {
+        "id": "PT-072-02",
+        "candidate": "lula",
+        "start": 2659,
+        "end": 2684,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2659s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "A fala diz sobre pé-de-meia professor, para assegurar que os melhores alunos do ENEM possam se tornar professores no futuro. Uma medida para incentivar o avanço da educação no país e profissionalizar mais pessoas",
+        "reviewedAt": "2026-10-21T13:09:09.918Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirmed. Debate says create teacher aid; PDF page33 says continue licensing aid. Preserve this distinction; no new separate action.",
+        "requiresClarification": false
       }
     },
     {
@@ -14081,6 +14100,26 @@
         "readerScope": "Defendeu ampliar universidades, sem especificar a rede pública e a interiorização previstas no programa.",
         "verification": "second-textual-review-against-narrative-transcript-and-local-ASR",
         "relationship": "partial"
+      },
+      "humanReview": {
+        "id": "PT-075-05",
+        "candidate": "lula",
+        "start": 6299,
+        "end": 6305,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6299s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:25:22.089Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. More universities does not specify public-network decentralization.",
+        "requiresClarification": false
       }
     },
     {
@@ -15364,19 +15403,44 @@
       "sourceProvenance": "Official TSE indexed text corroborated against recovered archival PDF extraction; archive hashes verified 2026-10-21. Direct TSE binary/version identity is not established.",
       "conditions": [],
       "disposition": "retained",
-      "debateMatch": {
+      "humanReview": {
+        "id": "PT-105-01",
+        "candidate": "lula",
         "start": 5229,
         "end": 5245,
         "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
-        "readerParaphrase": "Oferecer crédito para a economia criativa.",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Isso foi explicado no ponto anterior (Atrair data centers ao Brasil.). Também cita economia verde",
+        "reviewedAt": "2026-10-21T13:19:25.295Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner note references data centers, but this action is creative-business credit. ASR5240–5243 says resources to lend, matching program page42. Explicit owner clarification of this distinct action is still required.",
+        "requiresClarification": false,
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        }
+      },
+      "partialDebateMatch": {
+        "start": 5229,
+        "end": 5245,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
+        "readerParaphrase": "Apoiar a economia criativa, sem mecanismo de crédito confirmado na revisão.",
         "note": "Credit instrument explicitly promised.",
         "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
         "status": "draft-atomic-coding",
-        "relationship": "exact-action",
+        "relationship": "partial-action",
         "inventoryIds": [
           "PT-105-01"
         ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+        "partialScope": "Owner clarification reports general government support, not a clear credit instrument; ASR lending wording conflicts. Conservatively retain only partial thematic coverage pending reconciliation."
       }
     },
     {
@@ -16623,6 +16687,26 @@
           "PT-145-01"
         ],
         "partialScope": "Excerpt mentions data centers, not the full bundled national data-center, cloud and AI ecosystem action."
+      },
+      "humanReview": {
+        "id": "PT-145-01",
+        "candidate": "lula",
+        "start": 5195,
+        "end": 5236,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5195s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula cita economia digital (data centers) para produzir banco de dados. Cada data center no brasil terá que deixar 10% dos dado nas mãos do governo brasileiro. Além disso, há previsão de 500 bilhões de reais investidos nisso. Também fala da economia criativa, permitindo que a sociedade brasileira se mobilize no que precise e que o governo brasileiro irá ajudar da maneira que puder (sem explicar como)",
+        "reviewedAt": "2026-10-21T13:18:48.778Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner confirms data-center reference; partial match retained because program page54 bundles data centers, cloud and domestic AI. Investment forecast and 10% statement are attributed claims, not verified outcomes.",
+        "requiresClarification": false
       }
     },
     {
@@ -16818,6 +16902,26 @@
           "PT-149-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+      },
+      "humanReview": {
+        "id": "PT-149-01",
+        "candidate": "lula",
+        "start": 5254,
+        "end": 5277,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5254s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula fala sobre a formação de profissionais com ênfase na industria digital (engenharia e matemática). Ele quer transformar o Brasil em um país altamente desenvolvido e nos tirar do título do país emergente por meio do incentivo à profissionalização de jovens na área digital.",
+        "reviewedAt": "2026-10-21T13:20:30.652Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
       }
     },
     {
@@ -21313,6 +21417,26 @@
           "PT-X029"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+      },
+      "humanReview": {
+        "id": "PT-X029",
+        "candidate": "lula",
+        "start": 3980,
+        "end": 4075,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3980s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula fala sobre o aumento do poder de compra do salário mínimo (citando poder de compra de cestas básicas). Lula diz que o PIB é resultado do crescimento do país e que o salário mínimo e, especificamente, o salário mínimo de aposentados precisa ser reajustado de acordo com o PIB e precisamos respeitar e valorizar os aposentados e pensionistas. Lula promete continuar aumentando o salário mínimo e brigar muito para diminuir a inflação (culpando a guerra do Irã, de Trump, e a guerra da Ucrânia).",
+        "reviewedAt": "2026-10-21T13:14:42.085Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirms continued wage increases. Claims about purchasing power, wars and inflation are not validated by this coverage match. Existing statutory cap remains in the card.",
+        "requiresClarification": false
       }
     },
     {
@@ -21435,7 +21559,12 @@
         "reviewer": "site-owner",
         "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
         "incorporation": "audio-confirmed-coverage-unchanged",
-        "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        "incorporationNote": "Owner confirmed listening; final publication remains unapproved.",
+        "resolution": {
+          "status": "resolved-with-conservative-scope",
+          "reason": "Resolved by scope: the matched action is designation of factions, not enactment of an anti-faction law. ASR332.66 references an already approved law; owner note is preserved but is not used to create an additional future commitment. No claim about legal enactment is newly verified."
+        },
+        "requiresClarification": false
       }
     },
     {
@@ -21577,7 +21706,12 @@
         "reviewer": "site-owner",
         "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
         "incorporation": "confirmed-by-reviewer-partial-coverage-retained",
-        "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match."
+        "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match.",
+        "resolution": {
+          "status": "resolved-with-conservative-scope",
+          "reason": "Resolved by scope: the80-year imprisonment comment occurs337.8–342.16s, outside the primary308–335s interval. It does not establish public-service delivery in reclaimed territories. Retain partial match and exclude sentence-length comment from this action."
+        },
+        "requiresClarification": false
       }
     },
     {
@@ -21664,6 +21798,26 @@
           "PL-006"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+      },
+      "humanReview": {
+        "id": "PL-006",
+        "candidate": "flavio",
+        "start": 6134,
+        "end": 6166,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6134s",
+        "status": "pending",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        },
+        "requiresClarification": false
       }
     },
     {
@@ -21715,7 +21869,27 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-007",
+        "candidate": "flavio",
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Argentina, Bolívia e vários países da américa central. ele diz que as forças armadas vão tomar conta das fronteiras de verdade (forças armadas e marinha).",
+        "reviewedAt": "2026-10-21T13:22:58.800Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "id": "PL-008",
@@ -21914,6 +22088,26 @@
           "PL-014"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+      },
+      "humanReview": {
+        "id": "PL-014",
+        "candidate": "flavio",
+        "start": 5907,
+        "end": 5928,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5907s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele disse que ele irá aprovar, junto do congresso nacional.",
+        "reviewedAt": "2026-10-21T13:24:39.588Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Congressional approval remains a condition, not a unilateral presidential act.",
+        "requiresClarification": false
       }
     },
     {
@@ -22018,6 +22212,32 @@
           "PL-018"
         ],
         "partialScope": "Excerpt mentions Navy at Santos, not the full permanent Navy/Air Force deployment at ports and airports."
+      },
+      "humanReview": {
+        "id": "PL-017",
+        "candidate": "flavio",
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "status": "uncertain",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele diz que vai usar IA e criar o smart brasil (que nem o smart sampa). Não cita nada sobre permanencia mas afirma que haverá fiscalização dos portos sim",
+        "reviewedAt": "2026-10-21T13:23:47.788Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. Ports excerpt omits permanent deployment and airport scope. Owner uncertainty preserved; this is not audio approval.",
+        "requiresClarification": false,
+        "resolution": {
+          "status": "partial-classification-resolved",
+          "reason": "Owner explicitly confirms port monitoring and absence of permanence. ASR5755.38 and program p15 support partial coverage only; permanent Navy/Air Force deployment across ports and airports is not established. Owner uncertain status remains unchanged.",
+          "start": 5755,
+          "end": 5761
+        }
       }
     },
     {
@@ -22121,7 +22341,27 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-020",
+        "candidate": "flavio",
+        "start": 5753,
+        "end": 5821,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5753s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:24:10.816Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "id": "PL-021",
@@ -23476,7 +23716,32 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-064",
+        "candidate": "flavio",
+        "start": 5301,
+        "end": 5323,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5301s",
+        "status": "uncertain",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:21:31.383Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Owner uncertainty preserved; this is not audio approval.",
+        "requiresClarification": false,
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        }
+      }
     },
     {
       "id": "PL-065",
@@ -23790,7 +24055,27 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-074",
+        "candidate": "flavio",
+        "start": 3335,
+        "end": 3412,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele diz que quer levar o padrão do Hospital Albert Einstein para o SUS. Criando um prontuário único eletrônico para a rede privada e publica. Investindo na telemedicina e assegurando que é o futuro da medicina no país. Além de um roteamento de qual é a unidade de saúde apropriada para pronto-atendimento",
+        "reviewedAt": "2026-10-21T13:12:14.025Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirms CPF-linked public/private records. Program safeguards are not assumed spoken.",
+        "requiresClarification": false
+      }
     },
     {
       "id": "PL-075",
@@ -25449,7 +25734,33 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-138:a",
+        "candidate": "flavio",
+        "start": 3335,
+        "end": 3412,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "a promessa foi citada no ponto anterior (Integrar prontuários das redes pública e privada pelo CPF.)",
+        "reviewedAt": "2026-10-21T13:12:49.411Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner note describes records, while this unit is telemedicine. Previous PL-074 owner note and ASR3354–3362 corroborate telemedicine, but this item needs explicit reviewer clarification. Do not treat its checkbox as resolved.",
+        "requiresClarification": false,
+        "resolution": {
+          "status": "resolved-from-existing-human-note-and-text",
+          "reason": "Owner PL-074 note explicitly confirms telemedicine in the same3335–3412 interval. ASR3354.68–3361.86 and program pp21,38 agree. Original PL-138:a note preserved; no new listening claimed.",
+          "start": 3354,
+          "end": 3362
+        }
+      }
     },
     {
       "id": "PL-138:b",
@@ -26235,6 +26546,26 @@
           "PL-164"
         ],
         "partialScope": "Maintaining Bolsa Família covers one program, not the full object of maintaining existing social programs."
+      },
+      "humanReview": {
+        "id": "PL-164:a",
+        "candidate": "flavio",
+        "start": 4388,
+        "end": 4401,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=4388s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele promete manter reajuste do bolsa família e diz que tem um plano para resolver dívidas dos brasileiros. Alegando que os juros irão cair quando ele se tornar presidente (sem explicar como ou por que)",
+        "reviewedAt": "2026-10-21T13:17:07.960Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Correction checked against ASR4393–4398: maintain Bolsa Familia adjustment, not every social benefit. Partial coverage retained. Debt/interest comments are outside this interval and are not added to this action.",
+        "requiresClarification": false
       }
     },
     {
@@ -26464,7 +26795,27 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-172",
+        "candidate": "flavio",
+        "start": 5321,
+        "end": 5346,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
+        "status": "pending",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Governa conecta com recursos humanos para mostrar oportunidades de empresas que paguem melhor do que você tem hoje",
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        },
+        "requiresClarification": false
+      }
     },
     {
       "id": "PL-173",
@@ -26533,6 +26884,26 @@
           "PL-174"
         ],
         "partialScope": "Helping a person formalize a business does not explicitly promise simplifying administrative procedures."
+      },
+      "humanReview": {
+        "id": "PL-174:a",
+        "candidate": "flavio",
+        "start": 2739,
+        "end": 2763,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele vai criar o Ministério da Prosperidade para ajudar a se qualificar e preparar para abrir sua própria empresa. Citando inclusive mulheres que podem se \"formalizar\" e ter um financiamento barato para poder levar dignidade para a casa",
+        "reviewedAt": "2026-10-21T13:10:21.364Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirmed; helping formalization does not establish simplification of administrative procedures. Partial coverage retained.",
+        "requiresClarification": false
       }
     },
     {
@@ -26584,7 +26955,27 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-174:b",
+        "candidate": "flavio",
+        "start": 5354,
+        "end": 5367,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5354s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:22:06.594Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "id": "PL-174:c",
@@ -26635,7 +27026,27 @@
           ],
           "conditions": []
         }
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-174:c",
+        "candidate": "flavio",
+        "start": 5367,
+        "end": 5373,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Não explica como, só diz que terá",
+        "reviewedAt": "2026-10-21T13:22:14.851Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. The excerpt does not state rates or financing conditions; no implementation detail inferred.",
+        "requiresClarification": false
+      }
     },
     {
       "id": "PL-175:a",
@@ -26772,6 +27183,26 @@
           "PL-178"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned."
+      },
+      "humanReview": {
+        "id": "PL-178",
+        "candidate": "flavio",
+        "start": 5349,
+        "end": 5354,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5349s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:21:58.945Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
       }
     },
     {
@@ -31604,8 +32035,7 @@
   "releaseBlockers": [
     "Final editorial approval remains false.",
     "Second classification review scope and exclusions must be read with the operational denominator, not presented as an official TSE proposal count.",
-    "Archival PDFs recovered and text corroborated; direct TSE binary/version identity is not established.",
-    "Audio review uses independent textual sources and local ASR, not human listening."
+    "Owner reviewed the24 selected intervals; exhaustive human review of the entire recording is not established. Percentages describe the current mapped inventory, not speech time or all possible debate mentions."
   ],
   "unmappedDebateCommitments": [
     {
@@ -31843,27 +32273,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
       "programPages": [
         33
-      ]
-    },
-    {
-      "start": 5229,
-      "end": 5245,
-      "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
-      "readerParaphrase": "Oferecer crédito para a economia criativa.",
-      "note": "Credit instrument explicitly promised.",
-      "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-      "status": "draft-atomic-coding",
-      "relationship": "exact-action",
-      "inventoryIds": [
-        "PT-105-01"
       ],
-      "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-      "atomicId": "PT-105-01",
-      "candidate": "lula",
-      "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-      "programPages": [
-        42
-      ]
+      "humanReview": {
+        "id": "PT-072-02",
+        "candidate": "lula",
+        "start": 2659,
+        "end": 2684,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2659s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "A fala diz sobre pé-de-meia professor, para assegurar que os melhores alunos do ENEM possam se tornar professores no futuro. Uma medida para incentivar o avanço da educação no país e profissionalizar mais pessoas",
+        "reviewedAt": "2026-10-21T13:09:09.918Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirmed. Debate says create teacher aid; PDF page33 says continue licensing aid. Preserve this distinction; no new separate action.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 5254,
@@ -31883,7 +32313,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
       "programPages": [
         55
-      ]
+      ],
+      "humanReview": {
+        "id": "PT-149-01",
+        "candidate": "lula",
+        "start": 5254,
+        "end": 5277,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5254s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula fala sobre a formação de profissionais com ênfase na industria digital (engenharia e matemática). Ele quer transformar o Brasil em um país altamente desenvolvido e nos tirar do título do país emergente por meio do incentivo à profissionalização de jovens na área digital.",
+        "reviewedAt": "2026-10-21T13:20:30.652Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 3980,
@@ -31903,7 +32353,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
       "programPages": [
         74
-      ]
+      ],
+      "humanReview": {
+        "id": "PT-X029",
+        "candidate": "lula",
+        "start": 3980,
+        "end": 4075,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3980s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula fala sobre o aumento do poder de compra do salário mínimo (citando poder de compra de cestas básicas). Lula diz que o PIB é resultado do crescimento do país e que o salário mínimo e, especificamente, o salário mínimo de aposentados precisa ser reajustado de acordo com o PIB e precisamos respeitar e valorizar os aposentados e pensionistas. Lula promete continuar aumentando o salário mínimo e brigar muito para diminuir a inflação (culpando a guerra do Irã, de Trump, e a guerra da Ucrânia).",
+        "reviewedAt": "2026-10-21T13:14:42.085Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirms continued wage increases. Claims about purchasing power, wars and inflation are not validated by this coverage match. Existing statutory cap remains in the card.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 290,
@@ -31941,7 +32411,12 @@
         "reviewer": "site-owner",
         "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
         "incorporation": "audio-confirmed-coverage-unchanged",
-        "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        "incorporationNote": "Owner confirmed listening; final publication remains unapproved.",
+        "resolution": {
+          "status": "resolved-with-conservative-scope",
+          "reason": "Resolved by scope: the matched action is designation of factions, not enactment of an anti-faction law. ASR332.66 references an already approved law; owner note is preserved but is not used to create an additional future commitment. No claim about legal enactment is newly verified."
+        },
+        "requiresClarification": false
       }
     },
     {
@@ -31962,7 +32437,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         13
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-006",
+        "candidate": "flavio",
+        "start": 6134,
+        "end": 6166,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6134s",
+        "status": "pending",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        },
+        "requiresClarification": false
+      }
     },
     {
       "start": 5722,
@@ -31984,7 +32479,27 @@
       "programPages": [
         13,
         14
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-007",
+        "candidate": "flavio",
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Argentina, Bolívia e vários países da américa central. ele diz que as forças armadas vão tomar conta das fronteiras de verdade (forças armadas e marinha).",
+        "reviewedAt": "2026-10-21T13:22:58.800Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 376,
@@ -32044,7 +32559,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         14
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-014",
+        "candidate": "flavio",
+        "start": 5907,
+        "end": 5928,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5907s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele disse que ele irá aprovar, junto do congresso nacional.",
+        "reviewedAt": "2026-10-21T13:24:39.588Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Congressional approval remains a condition, not a unilateral presidential act.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 5753,
@@ -32066,7 +32601,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         15
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-020",
+        "candidate": "flavio",
+        "start": 5753,
+        "end": 5821,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5753s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:24:10.816Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 5301,
@@ -32089,7 +32644,32 @@
       "programPages": [
         24,
         35
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-064",
+        "candidate": "flavio",
+        "start": 5301,
+        "end": 5323,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5301s",
+        "status": "uncertain",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:21:31.383Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Owner uncertainty preserved; this is not audio approval.",
+        "requiresClarification": false,
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        }
+      }
     },
     {
       "start": 3335,
@@ -32114,7 +32694,27 @@
       "programPages": [
         21,
         26
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-074",
+        "candidate": "flavio",
+        "start": 3335,
+        "end": 3412,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele diz que quer levar o padrão do Hospital Albert Einstein para o SUS. Criando um prontuário único eletrônico para a rede privada e publica. Investindo na telemedicina e assegurando que é o futuro da medicina no país. Além de um roteamento de qual é a unidade de saúde apropriada para pronto-atendimento",
+        "reviewedAt": "2026-10-21T13:12:14.025Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirms CPF-linked public/private records. Program safeguards are not assumed spoken.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 3335,
@@ -32136,7 +32736,33 @@
       "programPages": [
         21,
         38
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-138:a",
+        "candidate": "flavio",
+        "start": 3335,
+        "end": 3412,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "a promessa foi citada no ponto anterior (Integrar prontuários das redes pública e privada pelo CPF.)",
+        "reviewedAt": "2026-10-21T13:12:49.411Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner note describes records, while this unit is telemedicine. Previous PL-074 owner note and ASR3354–3362 corroborate telemedicine, but this item needs explicit reviewer clarification. Do not treat its checkbox as resolved.",
+        "requiresClarification": false,
+        "resolution": {
+          "status": "resolved-from-existing-human-note-and-text",
+          "reason": "Owner PL-074 note explicitly confirms telemedicine in the same3335–3412 interval. ASR3354.68–3361.86 and program pp21,38 agree. Original PL-138:a note preserved; no new listening claimed.",
+          "start": 3354,
+          "end": 3362
+        }
+      }
     },
     {
       "start": 5321,
@@ -32156,7 +32782,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         44
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-172",
+        "candidate": "flavio",
+        "start": 5321,
+        "end": 5346,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
+        "status": "pending",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Governa conecta com recursos humanos para mostrar oportunidades de empresas que paguem melhor do que você tem hoje",
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        },
+        "requiresClarification": false
+      }
     },
     {
       "start": 5354,
@@ -32178,7 +32824,27 @@
       "programPages": [
         45,
         46
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-174:b",
+        "candidate": "flavio",
+        "start": 5354,
+        "end": 5367,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5354s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:22:06.594Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 5367,
@@ -32200,7 +32866,27 @@
       "programPages": [
         45,
         46
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-174:c",
+        "candidate": "flavio",
+        "start": 5367,
+        "end": 5373,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Não explica como, só diz que terá",
+        "reviewedAt": "2026-10-21T13:22:14.851Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. The excerpt does not state rates or financing conditions; no implementation detail inferred.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 5349,
@@ -32220,7 +32906,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         46
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-178",
+        "candidate": "flavio",
+        "start": 5349,
+        "end": 5354,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5349s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:21:58.945Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+        "requiresClarification": false
+      }
     }
   ],
   "partialMatches": [
@@ -32240,7 +32946,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
       "programPages": [
         33
-      ]
+      ],
+      "humanReview": {
+        "id": "PT-075-05",
+        "candidate": "lula",
+        "start": 6299,
+        "end": 6305,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6299s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "",
+        "reviewedAt": "2026-10-21T13:25:22.089Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. More universities does not specify public-network decentralization.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 308,
@@ -32281,7 +33007,12 @@
         "reviewer": "site-owner",
         "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
         "incorporation": "confirmed-by-reviewer-partial-coverage-retained",
-        "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match."
+        "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match.",
+        "resolution": {
+          "status": "resolved-with-conservative-scope",
+          "reason": "Resolved by scope: the80-year imprisonment comment occurs337.8–342.16s, outside the primary308–335s interval. It does not establish public-service delivery in reclaimed territories. Retain partial match and exclude sentence-length comment from this action."
+        },
+        "requiresClarification": false
       }
     },
     {
@@ -32302,7 +33033,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
       "programPages": [
         54
-      ]
+      ],
+      "humanReview": {
+        "id": "PT-145-01",
+        "candidate": "lula",
+        "start": 5195,
+        "end": 5236,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5195s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula cita economia digital (data centers) para produzir banco de dados. Cada data center no brasil terá que deixar 10% dos dado nas mãos do governo brasileiro. Além disso, há previsão de 500 bilhões de reais investidos nisso. Também fala da economia criativa, permitindo que a sociedade brasileira se mobilize no que precise e que o governo brasileiro irá ajudar da maneira que puder (sem explicar como)",
+        "reviewedAt": "2026-10-21T13:18:48.778Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner confirms data-center reference; partial match retained because program page54 bundles data centers, cloud and domestic AI. Investment forecast and 10% statement are attributed claims, not verified outcomes.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 5722,
@@ -32323,7 +33074,33 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         15
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-017",
+        "candidate": "flavio",
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "status": "uncertain",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele diz que vai usar IA e criar o smart brasil (que nem o smart sampa). Não cita nada sobre permanencia mas afirma que haverá fiscalização dos portos sim",
+        "reviewedAt": "2026-10-21T13:23:47.788Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. Ports excerpt omits permanent deployment and airport scope. Owner uncertainty preserved; this is not audio approval.",
+        "requiresClarification": false,
+        "resolution": {
+          "status": "partial-classification-resolved",
+          "reason": "Owner explicitly confirms port monitoring and absence of permanence. ASR5755.38 and program p15 support partial coverage only; permanent Navy/Air Force deployment across ports and airports is not established. Owner uncertain status remains unchanged.",
+          "start": 5755,
+          "end": 5761
+        }
+      }
     },
     {
       "start": 4388,
@@ -32343,7 +33120,27 @@
       "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
       "programPages": [
         42
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-164:a",
+        "candidate": "flavio",
+        "start": 4388,
+        "end": 4401,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=4388s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele promete manter reajuste do bolsa família e diz que tem um plano para resolver dívidas dos brasileiros. Alegando que os juros irão cair quando ele se tornar presidente (sem explicar como ou por que)",
+        "reviewedAt": "2026-10-21T13:17:07.960Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Correction checked against ASR4393–4398: maintain Bolsa Familia adjustment, not every social benefit. Partial coverage retained. Debt/interest comments are outside this interval and are not added to this action.",
+        "requiresClarification": false
+      }
     },
     {
       "start": 2739,
@@ -32366,7 +33163,72 @@
         27,
         45,
         46
-      ]
+      ],
+      "humanReview": {
+        "id": "PL-174:a",
+        "candidate": "flavio",
+        "start": 2739,
+        "end": 2763,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele vai criar o Ministério da Prosperidade para ajudar a se qualificar e preparar para abrir sua própria empresa. Citando inclusive mulheres que podem se \"formalizar\" e ter um financiamento barato para poder levar dignidade para a casa",
+        "reviewedAt": "2026-10-21T13:10:21.364Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Listening confirmed; helping formalization does not establish simplification of administrative procedures. Partial coverage retained.",
+        "requiresClarification": false
+      }
+    },
+    {
+      "start": 5229,
+      "end": 5245,
+      "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
+      "readerParaphrase": "Apoiar a economia criativa, sem mecanismo de crédito confirmado na revisão.",
+      "note": "Credit instrument explicitly promised.",
+      "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+      "status": "draft-atomic-coding",
+      "relationship": "partial-action",
+      "inventoryIds": [
+        "PT-105-01"
+      ],
+      "partialScope": "Owner clarification reports general government support, not a clear credit instrument; ASR lending wording conflicts. Conservatively retain only partial thematic coverage pending reconciliation.",
+      "atomicId": "PT-105-01",
+      "candidate": "lula",
+      "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+      "programPages": [
+        42
+      ],
+      "humanReview": {
+        "id": "PT-105-01",
+        "candidate": "lula",
+        "start": 5229,
+        "end": 5245,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Isso foi explicado no ponto anterior (Atrair data centers ao Brasil.). Também cita economia verde",
+        "reviewedAt": "2026-10-21T13:19:25.295Z",
+        "reviewer": "site-owner",
+        "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+        "incorporation": "observation-checked-coverage-unchanged",
+        "incorporationNote": "Owner note references data centers, but this action is creative-business credit. ASR5240–5243 says resources to lend, matching program page42. Explicit owner clarification of this distinct action is still required.",
+        "requiresClarification": false,
+        "chatConfirmation": {
+          "date": "2026-10-21",
+          "confirmed": true,
+          "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+        }
+      }
     }
   ],
   "remainingSemanticChoices": {
@@ -32733,7 +33595,7 @@
     }
   },
   "sourceReview": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "method": "fresh-official-TSE-indexed-text-comparison",
     "pt": {
       "pages": 84,
@@ -32747,9 +33609,9 @@
     },
     "textDifferences": 0,
     "inventoryPageBoundsChecked": 796,
-    "binaryPdfVerified": false,
+    "binaryPdfVerified": true,
     "visualPagesVerified": false,
-    "limitation": "Archived PDFs are available and hashes verified against archive metadata. Direct TSE byte/version identity and a full visual page audit remain unverified.",
+    "limitation": "Both archived PDFs exactly match the official TSE CDN snapshot downloaded on 21 October 2026. This does not establish immutable registration history or a full visual page audit.",
     "archivalPdfReview": {
       "date": "2026-10-21",
       "archive": "https://painel.labhdufop.org/permanencia-escolar/dashboard/planos-governo-2026-dataset-v1.1.zip",
@@ -32784,6 +33646,21 @@
           14
         ]
       }
+    },
+    "officialBinaryReview": {
+      "checkedAt": "2026-10-21T13:49:48.312476+00:00",
+      "officialIndex": "https://dadosabertos.tse.jus.br/pt_BR/dataset/candidatos-2026",
+      "resourceLabel": "BR - Proposta de governo (Presidente)",
+      "downloadUrl": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+      "httpStatus": 200,
+      "bytes": 18275613,
+      "sha256": "a76d41884bd004c67399bb7a754cb706588e200d253595cfd99e3b33c2c01c34",
+      "lastModified": "Wed, 21 Oct 2026 06:49:21 GMT",
+      "matchedArchivedPrograms": [
+        "PT",
+        "PL"
+      ],
+      "limit": "Identity with this official downloaded snapshot, not an immutable original registration version or semantic completeness certification."
     }
   },
   "currentPageCorrections": {
@@ -32996,9 +33873,285 @@
     }
   },
   "humanReviewProgress": {
-    "reviewedIntervals": 4,
+    "reviewedIntervals": 24,
     "totalIntervals": 24,
     "fullRecordingReviewed": false,
-    "publicationApproved": false
+    "publicationApproved": false,
+    "clarificationRequired": [],
+    "pendingIntervals": []
+  },
+  "fullTextRecheck": {
+    "reviewedAt": "2026-10-21",
+    "scope": "Sequential reading of every original ASR segment0–2123; targeted concordance with narrative transcript and raw captions; complete100-segment supplemental economic ASR read. No claim of audiovisual listening.",
+    "sourceHashes": {
+      "work/debate-asr/debate-original.json": "6136fd76cbfd6aac27ef82b884b2ae317fd07d88a3ea557fdbc0babdcde7671f",
+      "work/debate-asr/debate-band-full.json": "ebc8b17fc13de5c3f9b5ec69e79fcdaa54a91c494bdc26ddabbc4e34875e2973",
+      "work/aosfatos-band-escriba.json": "ea8ce337bf223152a54baf8b58ee933ca190463220af766e262272603349bb2b",
+      "work/debate-youtube-captions.json": "623f14e1fa5350c6d6c197bd745fe7cb336135bb804c5f38dcc18b03cbd46d8d"
+    },
+    "originalDurationSeconds": 6854.62,
+    "originalSegmentsRead": 2124,
+    "supplementalSegmentsRead": 100,
+    "publicationApproved": false,
+    "newStrictMatchesPromoted": 0,
+    "findings": [
+      {
+        "id": "supplement-pf-autonomy",
+        "candidate": "flavio",
+        "start": 1548.8,
+        "end": 1564.3,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1548s",
+        "asrQuote": "vocês voltarão a ter autonomia, vocês voltarão a ser valorizados",
+        "classification": "Separate institutional pledge; no concrete staffing/budget/legal mechanism. Not equivalent to all police support actions. Missing specific debate position on site and ledger.",
+        "suggestedBlock": "new:flavio-pf-autonomia",
+        "narrativeRecord": 90,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      },
+      {
+        "id": "supplement-stf-appointments",
+        "candidate": "flavio",
+        "start": 1518,
+        "end": 1535,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+        "asrQuote": "ministro do Supremo não vai ser com esse critério que ele fez, não",
+        "classification": "Negative appointment criterion amid accusations; no explicit quarantine period or appointment procedure. Context for existing STF card, not exact program match.",
+        "suggestedBlock": "flavio-stf",
+        "narrativeRecord": 90,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      },
+      {
+        "id": "supplement-temporary-leave",
+        "candidate": "lula",
+        "start": 3733.5,
+        "end": 3795.1,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3733s",
+        "asrQuote": "continuar permitindo que as pessoas que têm bom comportamento possam sair",
+        "classification": "Policy position with exclusions for heinous crimes, rape and violence against women. No legislative route announced. ASR incorrectly says injusto at3745: narrative says justo. Missing Lula counterpart to existing historical Flavio card.",
+        "suggestedBlock": "new:lula-saidas-posicao",
+        "narrativeRecord": 251,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      },
+      {
+        "id": "supplement-security-cooperation",
+        "candidate": "flavio",
+        "start": 5690.3,
+        "end": 5725.6,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+        "asrQuote": "cooperação entre diversos países de todas as Américas para trocar informação ... asfixia financeira",
+        "classification": "Specific international cooperation defense; existing site covers May statement but not this debate excerpt. Does not establish request for troops. Do not map every sanctions instrument.",
+        "suggestedBlock": "flavio-narcoterrorismo-implicacoes",
+        "narrativeRecord": 323,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      },
+      {
+        "id": "supplement-6x1-retention",
+        "candidate": "flavio",
+        "start": 2344.1,
+        "end": 2365.5,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+        "asrQuote": "É óbvio que não. É só mais uma mentira sua. ... Você trabalhador tá garantido comigo.",
+        "classification": "Answer rejecting repeal after Lula asks if he will undo end of6x1. Later3805.7–3837.1 explains changed vote. Preserve exact question/answer context; absence of policy implementation detail.",
+        "suggestedBlock": "flavio-6x1-anuncio",
+        "narrativeRecord": null,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      },
+      {
+        "id": "supplement-purchasing-power",
+        "candidate": "lula",
+        "start": 3981,
+        "end": 3986.8,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+        "asrQuote": "Eu quero chegar a 2,5 ou 3 cesta básica",
+        "classification": "Purchasing-power target within existing wage position; not a new instrument and no independent claim this goal will be reached.",
+        "suggestedBlock": "lula-renda",
+        "narrativeRecord": null,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      },
+      {
+        "id": "supplement-state-enterprises",
+        "candidate": "lula",
+        "start": 6544.1,
+        "end": 6583,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6544s",
+        "asrQuote": "Eu quero empresa estatal forte e produtiva",
+        "classification": "General stance; comments that BR can be bought after2029 are not an explicit purchase commitment. Do not manufacture renationalization promise.",
+        "suggestedBlock": "existing energy/state-enterprise context",
+        "narrativeRecord": 353,
+        "status": "textually-corroborated-not-new-human-audio-approval"
+      }
+    ],
+    "limits": [
+      {
+        "interval": "original~551s",
+        "issue": "Abrupt jump from economic question to end of Lula answer, also present in original-video captions. Supplemental debate-band-full ASR420–839.96 uses a different clock; missing economic passage including MEI support appears at704.24–710.04 supplemental seconds and narrative records17–18. Do not use that timestamp as original-video link. It states discussing incentives, not a defined tax/credit commitment."
+      },
+      {
+        "interval": "original~4799–5033s",
+        "issue": "ASR repeats station ID dozens of times during interval. Repetition is not candidate speech. Without checking audio cannot prove no candidate content in that span."
+      }
+    ],
+    "conclusion": "No defensible automatic new strict program match; seven positions/parameters merit editorial inclusion, with no approval fabricated. Entire original text reviewed, but not entire audiovisual recording certified."
+  },
+  "supplementHumanReview": {
+    "snapshot": {
+      "schemaVersion": 1,
+      "ledgerSha256": "a72d15643faed05576e2c030bf63434e5556a3697a0331a963a3e1f99fc98b02",
+      "exportedAt": "2026-10-21T14:02:59.116Z",
+      "publicationApproved": false,
+      "reviews": [
+        {
+          "id": "supplement-stf-appointments",
+          "candidate": "flavio",
+          "start": 1518,
+          "end": 1535,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele acusa Lula de roubar a autoria de quem prendeu Vorcaro. Ele diz que o critério de Lula para indicar pessoas para cargos políticos é ter amizade.",
+          "reviewedAt": "2026-10-21T13:55:15.034Z"
+        },
+        {
+          "id": "supplement-pf-autonomy",
+          "candidate": "flavio",
+          "start": 1548.8,
+          "end": 1564.3,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1548s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele diz que Lula tirou a autonomia da Polícia Federal e que, com Flávio, eles voltarão a ter autonomia. Não explicou como.",
+          "reviewedAt": "2026-10-21T13:56:03.050Z"
+        },
+        {
+          "id": "supplement-6x1-retention",
+          "candidate": "flavio",
+          "start": 2344.1,
+          "end": 2365.5,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Flávio diz que é mentira que ele é contra o fim da escala 6x1. Lula diz que o PL disse que ele é contra, mas Flávio acusa lula de mentir.",
+          "reviewedAt": "2026-10-21T13:57:11.208Z"
+        },
+        {
+          "id": "supplement-temporary-leave",
+          "candidate": "lula",
+          "start": 3733.5,
+          "end": 3795.1,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3733s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula diz que isso é justo que a pessoa tenha a \"saidinha\" da prisão com base no bom comportamento e reabilitação/recuperação dentro das prisões. Que crimes graves (estupro, violência, assassinato, etc..) não tem direito da saidinha",
+          "reviewedAt": "2026-10-21T13:58:30.534Z"
+        },
+        {
+          "id": "supplement-purchasing-power",
+          "candidate": "lula",
+          "start": 3981,
+          "end": 3986.8,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Atualmente: 2.2 cestas básicas\nMeta para o futuro: 2.5 à 3 cestas básicas",
+          "reviewedAt": "2026-10-21T13:59:23.076Z"
+        },
+        {
+          "id": "supplement-security-cooperation",
+          "candidate": "flavio",
+          "start": 5690.3,
+          "end": 5725.6,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Estados Unidos, Argentina, Bolívia, \"vários países da América Central\"",
+          "reviewedAt": "2026-10-21T14:00:17.181Z"
+        },
+        {
+          "id": "supplement-state-enterprises",
+          "candidate": "lula",
+          "start": 6544.1,
+          "end": 6583,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6544s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula defende que as estatais não precisam ser privatizadas, mas sim ser fortes e lucrativas. Que a privatização da BR está prejudicando o país e o povo. Ele não fala sobre querer comprar de volta a BR, mas fala sobre como o valor de venda será multiplicado por 3 para poder comprar novamente, o que só torna possível que seja recomprada a partir de 2029.",
+          "reviewedAt": "2026-10-21T14:01:59.019Z"
+        }
+      ]
+    },
+    "snapshotSha256": "a45416108d281408932e4cd32ae941200713dd2e22de65e1a12daf165918abc3",
+    "incorporated": [
+      {
+        "id": "supplement-stf-appointments",
+        "blockId": "debate-supplement-stf-appointments",
+        "originalStatus": "correction",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      },
+      {
+        "id": "supplement-pf-autonomy",
+        "blockId": "debate-supplement-pf-autonomy",
+        "originalStatus": "correction",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      },
+      {
+        "id": "supplement-6x1-retention",
+        "blockId": "debate-supplement-6x1-retention",
+        "originalStatus": "confirmed",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      },
+      {
+        "id": "supplement-temporary-leave",
+        "blockId": "debate-supplement-temporary-leave",
+        "originalStatus": "confirmed",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      },
+      {
+        "id": "supplement-purchasing-power",
+        "blockId": "debate-supplement-purchasing-power",
+        "originalStatus": "correction",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      },
+      {
+        "id": "supplement-security-cooperation",
+        "blockId": "debate-supplement-security-cooperation",
+        "originalStatus": "correction",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      },
+      {
+        "id": "supplement-state-enterprises",
+        "blockId": "debate-supplement-state-enterprises",
+        "originalStatus": "correction",
+        "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+      }
+    ],
+    "publicationApproved": false,
+    "pendingClarifications": []
   }
 }

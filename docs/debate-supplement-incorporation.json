@@ -1,0 +1,162 @@
+{
+  "snapshot": {
+    "schemaVersion": 1,
+    "ledgerSha256": "a72d15643faed05576e2c030bf63434e5556a3697a0331a963a3e1f99fc98b02",
+    "exportedAt": "2026-10-21T14:02:59.116Z",
+    "publicationApproved": false,
+    "reviews": [
+      {
+        "id": "supplement-stf-appointments",
+        "candidate": "flavio",
+        "start": 1518,
+        "end": 1535,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele acusa Lula de roubar a autoria de quem prendeu Vorcaro. Ele diz que o critério de Lula para indicar pessoas para cargos políticos é ter amizade.",
+        "reviewedAt": "2026-10-21T13:55:15.034Z"
+      },
+      {
+        "id": "supplement-pf-autonomy",
+        "candidate": "flavio",
+        "start": 1548.8,
+        "end": 1564.3,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1548s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Ele diz que Lula tirou a autonomia da Polícia Federal e que, com Flávio, eles voltarão a ter autonomia. Não explicou como.",
+        "reviewedAt": "2026-10-21T13:56:03.050Z"
+      },
+      {
+        "id": "supplement-6x1-retention",
+        "candidate": "flavio",
+        "start": 2344.1,
+        "end": 2365.5,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Flávio diz que é mentira que ele é contra o fim da escala 6x1. Lula diz que o PL disse que ele é contra, mas Flávio acusa lula de mentir.",
+        "reviewedAt": "2026-10-21T13:57:11.208Z"
+      },
+      {
+        "id": "supplement-temporary-leave",
+        "candidate": "lula",
+        "start": 3733.5,
+        "end": 3795.1,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3733s",
+        "status": "confirmed",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula diz que isso é justo que a pessoa tenha a \"saidinha\" da prisão com base no bom comportamento e reabilitação/recuperação dentro das prisões. Que crimes graves (estupro, violência, assassinato, etc..) não tem direito da saidinha",
+        "reviewedAt": "2026-10-21T13:58:30.534Z"
+      },
+      {
+        "id": "supplement-purchasing-power",
+        "candidate": "lula",
+        "start": 3981,
+        "end": 3986.8,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Atualmente: 2.2 cestas básicas\nMeta para o futuro: 2.5 à 3 cestas básicas",
+        "reviewedAt": "2026-10-21T13:59:23.076Z"
+      },
+      {
+        "id": "supplement-security-cooperation",
+        "candidate": "flavio",
+        "start": 5690.3,
+        "end": 5725.6,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Estados Unidos, Argentina, Bolívia, \"vários países da América Central\"",
+        "reviewedAt": "2026-10-21T14:00:17.181Z"
+      },
+      {
+        "id": "supplement-state-enterprises",
+        "candidate": "lula",
+        "start": 6544.1,
+        "end": 6583,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6544s",
+        "status": "correction",
+        "checks": [
+          0,
+          1,
+          2
+        ],
+        "notes": "Lula defende que as estatais não precisam ser privatizadas, mas sim ser fortes e lucrativas. Que a privatização da BR está prejudicando o país e o povo. Ele não fala sobre querer comprar de volta a BR, mas fala sobre como o valor de venda será multiplicado por 3 para poder comprar novamente, o que só torna possível que seja recomprada a partir de 2029.",
+        "reviewedAt": "2026-10-21T14:01:59.019Z"
+      }
+    ]
+  },
+  "snapshotSha256": "a45416108d281408932e4cd32ae941200713dd2e22de65e1a12daf165918abc3",
+  "incorporated": [
+    {
+      "id": "supplement-stf-appointments",
+      "blockId": "debate-supplement-stf-appointments",
+      "originalStatus": "correction",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    },
+    {
+      "id": "supplement-pf-autonomy",
+      "blockId": "debate-supplement-pf-autonomy",
+      "originalStatus": "correction",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    },
+    {
+      "id": "supplement-6x1-retention",
+      "blockId": "debate-supplement-6x1-retention",
+      "originalStatus": "confirmed",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    },
+    {
+      "id": "supplement-temporary-leave",
+      "blockId": "debate-supplement-temporary-leave",
+      "originalStatus": "confirmed",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    },
+    {
+      "id": "supplement-purchasing-power",
+      "blockId": "debate-supplement-purchasing-power",
+      "originalStatus": "correction",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    },
+    {
+      "id": "supplement-security-cooperation",
+      "blockId": "debate-supplement-security-cooperation",
+      "originalStatus": "correction",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    },
+    {
+      "id": "supplement-state-enterprises",
+      "blockId": "debate-supplement-state-enterprises",
+      "originalStatus": "correction",
+      "resolution": "Incorporated with speech-only scope; allegations, current-value claims and contractual statements are attributed, not independently verified."
+    }
+  ],
+  "publicationApproved": false,
+  "pendingClarifications": []
+}

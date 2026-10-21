@@ -123,13 +123,24 @@
           "label": "Lei 15.077/2024 — limite de reajuste",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15077.htm",
           "locator": "Art. 4"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3980s",
+          "locator": "Intervalo 3980–4075 segundos. Escuta confirmada pelo revisor em 21/10/2026."
+        },
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+          "locator": "3981–3986.8 segundos na gravação original. Revisão humana em 21/10/2026."
         }
       ],
       "status": "draft",
       "kind": "Proposta",
       "verification": "checked",
       "paragraphs": [
-        "O programa promete manter a política de valorização do mínimo para distribuir renda e combater a pobreza."
+        "O programa promete manter a política de valorização do mínimo para distribuir renda e combater a pobreza.",
+        "No debate de 18/10/2026: Lula afirma que, em seu governo, o salário mínimo compra 2,2 cestas básicas e apresenta como meta futura chegar a 2,5 ou 3. O valor de 2,2 é uma afirmação do candidato; a escuta confirma que ele o disse, não valida o cálculo. Os valores de 2,5 a 3 são uma meta, não um resultado já alcançado."
       ],
       "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal.",
       "implications": [
@@ -165,7 +176,44 @@
           74
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PT-X029",
+          "candidate": "lula",
+          "start": 3980,
+          "end": 4075,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3980s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula fala sobre o aumento do poder de compra do salário mínimo (citando poder de compra de cestas básicas). Lula diz que o PIB é resultado do crescimento do país e que o salário mínimo e, especificamente, o salário mínimo de aposentados precisa ser reajustado de acordo com o PIB e precisamos respeitar e valorizar os aposentados e pensionistas. Lula promete continuar aumentando o salário mínimo e brigar muito para diminuir a inflação (culpando a guerra do Irã, de Trump, e a guerra da Ucrânia).",
+          "reviewedAt": "2026-10-21T13:14:42.085Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirms continued wage increases. Claims about purchasing power, wars and inflation are not validated by this coverage match. Existing statutory cap remains in the card.",
+          "requiresClarification": false
+        },
+        {
+          "id": "supplement-purchasing-power",
+          "candidate": "lula",
+          "start": 3981,
+          "end": 3986.8,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Atualmente: 2.2 cestas básicas\nMeta para o futuro: 2.5 à 3 cestas básicas",
+          "reviewedAt": "2026-10-21T13:59:23.076Z"
+        }
+      ]
     },
     {
       "id": "flavio-precos",
@@ -859,6 +907,11 @@
         {
           "label": "Constituição, art. 60",
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+          "locator": "1518–1535 segundos na gravação original. Revisão humana em 21/10/2026."
         }
       ],
       "status": "draft",
@@ -869,7 +922,8 @@
         "O programa inclui revisão de ações constitucionais, restrições envolvendo parentes e mudanças no CNJ e no CNMP, conselhos de controle do Judiciário e do Ministério Público.",
         "A revisão também alcançaria quem pode apresentar ações de controle constitucional. O plano impediria parentes até o terceiro grau e seus escritórios de atuar no tribunal do magistrado. Propõe ampliar a presença da sociedade civil no CNJ e no CNMP e limitar atividades que considera de natureza legislativa.",
         "Propõe acabar com o julgamento criminal inicial no STF nos casos abrangidos pela mudança de competência defendida pelo programa.",
-        "Também pretende mudar o alcance das ADPFs, ações usadas para questionar violações de preceitos fundamentais da Constituição."
+        "Também pretende mudar o alcance das ADPFs, ações usadas para questionar violações de preceitos fundamentais da Constituição.",
+        "No debate de 18/10/2026: Flávio acusa Lula de usar amizade como critério para indicações e diz que não adotaria esse critério. A fala aparece em meio a acusações sobre a atuação da Polícia Federal. Isso registra a crítica feita no debate, não comprova favorecimento nas indicações. O trecho não detalha um procedimento alternativo de nomeação."
       ],
       "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
       "implications": [
@@ -901,7 +955,24 @@
           66
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "supplement-stf-appointments",
+          "candidate": "flavio",
+          "start": 1518,
+          "end": 1535,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele acusa Lula de roubar a autoria de quem prendeu Vorcaro. Ele diz que o critério de Lula para indicar pessoas para cargos políticos é ter amizade.",
+          "reviewedAt": "2026-10-21T13:55:15.034Z"
+        }
+      ]
     },
     {
       "id": "flavio-estatais",
@@ -1463,7 +1534,8 @@
       "summary": "Flávio disse que votaria pelo fim da 6x1 e que o governo deveria compensar os custos para empresas.",
       "paragraphs": [
         "Flávio disse que votaria pelo fim da 6x1 e que o governo deveria compensar os custos para empresas.",
-        "Ele manteve a preferência por maior liberdade para combinar jornadas. Justificou o voto favorável como uma forma de acompanhar a vontade da maioria dos trabalhadores."
+        "Ele manteve a preferência por maior liberdade para combinar jornadas. Justificou o voto favorável como uma forma de acompanhar a vontade da maioria dos trabalhadores.",
+        "No debate de 18/10/2026: Lula pergunta se Flávio apresentaria uma proposta para desfazer o fim da escala 6x1. Flávio responde que não e acusa Lula de mentir. Lula menciona uma posição do PL; Flávio rejeita a acusação. A troca registra o posicionamento no debate e deve ser lida junto ao histórico de mudanças de posição, não como prova de que ele sempre defendeu a medida."
       ],
       "context": "Ao justificar o apoio, Flávio citou a vontade da maioria dos trabalhadores. Essa fala é compatível com a interpretação de que houve pressão popular, mas não temos dados que comprovem que ela causou a mudança de posição.",
       "sources": [
@@ -1471,10 +1543,32 @@
           "label": "CNN Brasil: anúncio de voto",
           "url": "https://www.cnnbrasil.com.br/politica/flavio-diz-que-votara-por-fim-da-6x1-e-que-governo-devera-pagar-a-conta/",
           "locator": "13/10/2026; declarações após visita ao pai"
+        },
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+          "locator": "2344.1–2365.5 segundos na gravação original. Revisão humana em 21/10/2026."
         }
       ],
       "status": "draft",
-      "verification": "checked"
+      "verification": "checked",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-6x1-retention",
+          "candidate": "flavio",
+          "start": 2344.1,
+          "end": 2365.5,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Flávio diz que é mentira que ele é contra o fim da escala 6x1. Lula diz que o PL disse que ele é contra, mas Flávio acusa lula de mentir.",
+          "reviewedAt": "2026-10-21T13:57:11.208Z"
+        }
+      ]
     },
     {
       "id": "flavio-6x1-voto",
@@ -2381,7 +2475,7 @@
         "Flávio prometeu classificar facções e milícias como narcoterroristas, ampliar vagas nas prisões, atuar nas fronteiras, integrar câmeras e bancos de dados, reduzir a idade penal em crimes graves e buscar aprovação da castração química. Defendeu ainda penas maiores para crimes envolvendo celulares.",
         "Na saúde, prometeu integrar registros pelo CPF. Na economia e no trabalho, falou em manter o Bolsa Família, comprar dívidas com carência, oferecer crédito e qualificação, conectar pessoas a vagas e levar internet a escolas, hospitais e aldeias. São compromissos anunciados, não resultados demonstrados."
       ],
-      "context": "A prévia agora conta ações individuais dos programas. Os trechos foram cruzados com transcrição, reconhecimento automático do áudio, legendas e imagens dos interlocutores. Os percentuais ainda dependem de revisão antes da publicação.",
+      "context": "Seleção de falas e propostas, com fontes e horários. Os trechos revisados não certificam que todas as propostas do debate foram identificadas.",
       "sources": [
         {
           "label": "Rádio Bandeirantes — gravação com os trechos marcados",
@@ -2449,7 +2543,7 @@
         "Lula prometeu criar o Ministério da Segurança se a PEC for aprovada, coordenar o combate ao crime com estados e municípios, apoiar a formação de professores e continuar aumentando o salário mínimo. Também apresentou uma meta para diagnóstico e início do tratamento do câncer, defendeu data centers, crédito à economia criativa e formação em engenharia, matemática e indústria digital.",
         "Defender ações anteriores não equivale a apresentar uma proposta nova. É preciso separar prestação de contas, continuidade prometida e nova medida."
       ],
-      "context": "A prévia agora conta ações individuais dos programas. Os trechos foram cruzados com transcrição, reconhecimento automático do áudio, legendas e imagens dos interlocutores. Os percentuais ainda dependem de revisão antes da publicação.",
+      "context": "Seleção de falas e propostas, com fontes e horários. Os trechos revisados não certificam que todas as propostas do debate foram identificadas.",
       "sources": [
         {
           "label": "Rádio Bandeirantes — gravação com os trechos marcados",
@@ -3050,7 +3144,8 @@
       "paragraphs": [
         "Há uma decisão dos Estados Unidos além da promessa eleitoral: o ato oficial publicado em 5 de junho de 2026 designa PCC e CV como organizações terroristas estrangeiras. Uma eventual mudança na legislação brasileira é outra decisão, com outro alcance.",
         "Na prática, segundo o serviço de pesquisa do Congresso americano (CRS), essas designações podem ampliar processos por apoio material consciente, restrições migratórias e bloqueio de patrimônio sob alcance americano. O enquadramento SDGT também pode gerar sanções a instituições financeiras estrangeiras que conscientemente facilitem transações significativas com os alvos. Isso busca dificultar o financiamento das facções, mas não demonstra, por si só, redução de crimes.",
-        "Cooperação policial, sanções financeiras e operação militar são medidas diferentes. O CRS trata autorização de força como discussão legislativa separada. No Brasil, o artigo 49, II, exige autorização do Congresso para permitir trânsito ou permanência de forças estrangeiras, com exceções específicas da LC 90, como treinamento, visitas e salvamento. Rotular uma facção não substitui essas regras."
+        "Cooperação policial, sanções financeiras e operação militar são medidas diferentes. O CRS trata autorização de força como discussão legislativa separada. No Brasil, o artigo 49, II, exige autorização do Congresso para permitir trânsito ou permanência de forças estrangeiras, com exceções específicas da LC 90, como treinamento, visitas e salvamento. Rotular uma facção não substitui essas regras.",
+        "No debate de 18/10/2026: Flávio descreve o Escudo das Américas como cooperação para trocar informações e sufocar financeiramente as facções. Cita Estados Unidos, Argentina, Bolívia e países da América Central. Esse trecho registra defesa de cooperação e combate ao financiamento. Não contém, por si só, pedido de envio de tropas estrangeiras ao Brasil nem demonstra os resultados dessa cooperação."
       ],
       "sources": [
         {
@@ -3076,6 +3171,11 @@
         {
           "label": "UOL — crítica de Lula à classificação, 29/05/2026",
           "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/05/29/lula-eua-pcc-cv-organizacoes-terroristas.ghtm"
+        },
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+          "locator": "5690.3–5725.6 segundos na gravação original. Revisão humana em 21/10/2026."
         }
       ],
       "status": "draft",
@@ -3118,6 +3218,23 @@
               "blockId": "flavio-narcoterrorismo-implicacoes"
             }
           ]
+        }
+      ],
+      "debateHumanReviews": [
+        {
+          "id": "supplement-security-cooperation",
+          "candidate": "flavio",
+          "start": 5690.3,
+          "end": 5725.6,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Estados Unidos, Argentina, Bolívia, \"vários países da América Central\"",
+          "reviewedAt": "2026-10-21T14:00:17.181Z"
         }
       ]
     },
@@ -3333,7 +3450,7 @@
       "title": "Histórico de saúde pelo CPF",
       "summary": "Reunir o histórico de saúde de cada paciente pelo CPF para consulta entre serviços de saúde.",
       "paragraphs": [
-        "Na seleção da Band, Flávio anunciou a integração de informações de saúde pelo CPF.",
+        "No debate, Flávio propôs reunir pelo CPF os registros das redes municipal, estadual, federal e privada. Também anunciou atendimento por telemedicina e orientação sobre qual unidade de saúde procurar.",
         "O prontuário seria integrado ao Gov.br e compartilhável entre redes pública e privada, com consultas, exames, vacinas e receitas. O programa exige consentimento, proteção de dados, sigilo médico e segurança. Também propõe completar a digitalização do SUS."
       ],
       "implications": [
@@ -3372,11 +3489,16 @@
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=26",
           "locator": "Páginas físicas 26. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+          "locator": "Intervalo 3335–3412 segundos. Escuta confirmada pelo revisor em 21/10/2026."
         }
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa.",
+      "editorialNotes": "Trecho 3335–3412 conferido pelo revisor em 21/10/2026. A confirmação da fala não comprova resultados nem aprovação editorial final.",
       "programMeasureIds": [
         "PL-075",
         "PL-076",
@@ -3391,7 +3513,29 @@
           26
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-074",
+          "candidate": "flavio",
+          "start": 3335,
+          "end": 3412,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele diz que quer levar o padrão do Hospital Albert Einstein para o SUS. Criando um prontuário único eletrônico para a rede privada e publica. Investindo na telemedicina e assegurando que é o futuro da medicina no país. Além de um roteamento de qual é a unidade de saúde apropriada para pronto-atendimento",
+          "reviewedAt": "2026-10-21T13:12:14.025Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirms CPF-linked public/private records. Program safeguards are not assumed spoken.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "flavio-compra-dividas",
@@ -3539,7 +3683,8 @@
       "summary": "Manter o salário mínimo da profissão e apoiar a formação de professores com bolsas.",
       "paragraphs": [
         "Manter o piso docente e apoiar a formação com Pé-de-Meia Licenciatura e Bolsa Mais Professores.",
-        "A Bolsa Mais Professores seria usada para incentivar a permanência de docentes nas regiões e áreas do conhecimento que precisam deles."
+        "A Bolsa Mais Professores seria usada para incentivar a permanência de docentes nas regiões e áreas do conhecimento que precisam deles.",
+        "No debate, Lula disse que criaria um Pé-de-Meia para incentivar bons alunos do Enem a se tornarem professores. No programa escrito, a medida aparece como continuidade do Pé-de-Meia Licenciatura, que já existe."
       ],
       "context": "",
       "status": "draft",
@@ -3561,12 +3706,17 @@
       "sources": [
         {
           "label": "TSE — programa oficial de Lula",
-          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=32",
+          "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=33",
           "locator": "Páginas físicas 33. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Capes — funcionamento do Pé-de-Meia Licenciaturas",
           "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/pe-de-meia-licenciaturas"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2659s",
+          "locator": "Intervalo 2659–2684 segundos. Escuta confirmada pelo revisor em 21/10/2026."
         }
       ],
       "editorialNotes": "Consulta em 20/10/2026. Ampliação de cobertura; não é inventário integral do programa. Resumo e implicações aguardam revisão editorial.",
@@ -3579,7 +3729,29 @@
         ],
         "scope": "proposal-attribution-only"
       },
-      "checkedAt": "21/10/2026"
+      "checkedAt": "21/10/2026",
+      "debateHumanReviews": [
+        {
+          "id": "PT-072-02",
+          "candidate": "lula",
+          "start": 2659,
+          "end": 2684,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2659s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "A fala diz sobre pé-de-meia professor, para assegurar que os melhores alunos do ENEM possam se tornar professores no futuro. Uma medida para incentivar o avanço da educação no país e profissionalizar mais pessoas",
+          "reviewedAt": "2026-10-21T13:09:09.918Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirmed. Debate says create teacher aid; PDF page33 says continue licensing aid. Preserve this distinction; no new separate action.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "lula-saude-digital",
@@ -5796,6 +5968,11 @@
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=13",
           "locator": "Páginas físicas 13, 14, 15. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+          "locator": "Intervalo 5722–5761 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
@@ -5814,7 +5991,29 @@
           15
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-007",
+          "candidate": "flavio",
+          "start": 5722,
+          "end": 5761,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Argentina, Bolívia e vários países da américa central. ele diz que as forças armadas vão tomar conta das fronteiras de verdade (forças armadas e marinha).",
+          "reviewedAt": "2026-10-21T13:22:58.800Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "flavio-execucao-penal",
@@ -6175,6 +6374,11 @@
         {
           "label": "ANPD — balanço da agenda regulatória",
           "url": "https://www.gov.br/anpd/pt-br/assuntos/processo_regulatorio/agenda-regulatoria-1/agenda-regulatoria-2025-2026/balanco-agenda-regulatoria-2025-2026-02-2025.pdf"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5753s",
+          "locator": "Intervalo 5753–5821 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
@@ -6191,7 +6395,29 @@
           15
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-020",
+          "candidate": "flavio",
+          "start": 5753,
+          "end": 5821,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5753s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:24:10.816Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "flavio-reforma-tributaria",
@@ -6402,6 +6628,11 @@
         {
           "label": "Planalto — Lei 14.914/2024, assistência estudantil",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14914.htm"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6299s",
+          "locator": "Intervalo 6299–6305 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
@@ -6417,7 +6648,29 @@
           43
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PT-075-05",
+          "candidate": "lula",
+          "start": 6299,
+          "end": 6305,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6299s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:25:22.089Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. More universities does not specify public-network decentralization.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "lula-atencao-basica",
@@ -7463,6 +7716,21 @@
         {
           "label": "Lei 13.874/2019 — liberdade econômica",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+          "locator": "Intervalo 2739–2763 segundos. Escuta confirmada pelo revisor em 21/10/2026."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5354s",
+          "locator": "Intervalo 5354–5367 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
+          "locator": "Intervalo 5367–5373 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
@@ -7483,7 +7751,69 @@
           63
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-174:a",
+          "candidate": "flavio",
+          "start": 2739,
+          "end": 2763,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele vai criar o Ministério da Prosperidade para ajudar a se qualificar e preparar para abrir sua própria empresa. Citando inclusive mulheres que podem se \"formalizar\" e ter um financiamento barato para poder levar dignidade para a casa",
+          "reviewedAt": "2026-10-21T13:10:21.364Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirmed; helping formalization does not establish simplification of administrative procedures. Partial coverage retained.",
+          "requiresClarification": false
+        },
+        {
+          "id": "PL-174:b",
+          "candidate": "flavio",
+          "start": 5354,
+          "end": 5367,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5354s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:22:06.594Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        },
+        {
+          "id": "PL-174:c",
+          "candidate": "flavio",
+          "start": 5367,
+          "end": 5373,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Não explica como, só diz que terá",
+          "reviewedAt": "2026-10-21T13:22:14.851Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. The excerpt does not state rates or financing conditions; no implementation detail inferred.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "flavio-defesa-exterior",
@@ -7588,6 +7918,11 @@
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=14",
           "locator": "Páginas físicas 14. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5907s",
+          "locator": "Intervalo 5907–5928 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
@@ -7601,7 +7936,29 @@
           14
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-014",
+          "candidate": "flavio",
+          "start": 5907,
+          "end": 5928,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5907s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele disse que ele irá aprovar, junto do congresso nacional.",
+          "reviewedAt": "2026-10-21T13:24:39.588Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Congressional approval remains a condition, not a unilateral presidential act.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "flavio-crimes-celulares",
@@ -7807,6 +8164,11 @@
           "label": "MCTI/CGEE — Plano Brasileiro de Inteligência Artificial, edição de 2025",
           "url": "https://www.cgee.org.br/documents/10195/11009772/CGEE_PBIA.PDF",
           "locator": "Plano 2024–2028; página impressa 67 (física 69), infraestrutura de alto desempenho."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5254s",
+          "locator": "Intervalo 5254–5277 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
@@ -7822,7 +8184,29 @@
           82
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PT-149-01",
+          "candidate": "lula",
+          "start": 5254,
+          "end": 5277,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5254s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula fala sobre a formação de profissionais com ênfase na industria digital (engenharia e matemática). Ele quer transformar o Brasil em um país altamente desenvolvido e nos tirar do título do país emergente por meio do incentivo à profissionalização de jovens na área digital.",
+          "reviewedAt": "2026-10-21T13:20:30.652Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "lula-cameras-prisoes",
@@ -8701,6 +9085,11 @@
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=19",
           "locator": "Páginas físicas 19, 20, 46. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5349s",
+          "locator": "Intervalo 5349–5354 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
@@ -8722,7 +9111,29 @@
           46
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-178",
+          "candidate": "flavio",
+          "start": 5349,
+          "end": 5354,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5349s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:21:58.945Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
+      ]
     },
     {
       "id": "flavio-mulheres-conexao-formacao",
@@ -11368,6 +11779,293 @@
       "verificationScope": "attributed-debate-commitment-not-implementation",
       "editorialNotes": "Compromisso do debate, separado do inventário congelado dos programas oficiais. Sem escuta humana independente. Aprovação editorial pendente.",
       "proposalOrigin": "debate-2026-10-18"
+    },
+    {
+      "id": "debate-supplement-stf-appointments",
+      "candidate": "flavio",
+      "kind": "Debate",
+      "title": "Critérios para indicar ministros do STF",
+      "summary": "Critica indicações por amizade, sem apresentar uma nova regra neste trecho.",
+      "paragraphs": [
+        "Flávio acusa Lula de usar amizade como critério para indicações e diz que não adotaria esse critério. A fala aparece em meio a acusações sobre a atuação da Polícia Federal.",
+        "Isso registra a crítica feita no debate, não comprova favorecimento nas indicações. O trecho não detalha um procedimento alternativo de nomeação."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+          "locator": "1518–1535 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-stf-appointments",
+          "candidate": "flavio",
+          "start": 1518,
+          "end": 1535,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1518s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele acusa Lula de roubar a autoria de quem prendeu Vorcaro. Ele diz que o critério de Lula para indicar pessoas para cargos políticos é ter amizade.",
+          "reviewedAt": "2026-10-21T13:55:15.034Z"
+        }
+      ]
+    },
+    {
+      "id": "debate-supplement-pf-autonomy",
+      "candidate": "flavio",
+      "kind": "Debate",
+      "title": "Autonomia da Polícia Federal",
+      "summary": "Promete devolver autonomia à PF, mas não explica como.",
+      "paragraphs": [
+        "Flávio afirma que o governo Lula retirou autonomia da Polícia Federal e promete que, com ele, a instituição voltaria a ter autonomia e valorização.",
+        "A perda de autonomia é uma acusação do candidato, não uma conclusão desta conferência. Neste trecho, ele não explica quais mudanças legais, administrativas ou orçamentárias faria."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1548s",
+          "locator": "1548.8–1564.3 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-pf-autonomy",
+          "candidate": "flavio",
+          "start": 1548.8,
+          "end": 1564.3,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=1548s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele diz que Lula tirou a autonomia da Polícia Federal e que, com Flávio, eles voltarão a ter autonomia. Não explicou como.",
+          "reviewedAt": "2026-10-21T13:56:03.050Z"
+        }
+      ]
+    },
+    {
+      "id": "debate-supplement-6x1-retention",
+      "candidate": "flavio",
+      "kind": "Debate",
+      "title": "Posição sobre o fim da escala 6x1",
+      "summary": "Rejeita a acusação de que desfaria o fim da escala 6x1.",
+      "paragraphs": [
+        "Lula pergunta se Flávio apresentaria uma proposta para desfazer o fim da escala 6x1. Flávio responde que não e acusa Lula de mentir.",
+        "Lula menciona uma posição do PL; Flávio rejeita a acusação. A troca registra o posicionamento no debate e deve ser lida junto ao histórico de mudanças de posição, não como prova de que ele sempre defendeu a medida."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+          "locator": "2344.1–2365.5 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-6x1-retention",
+          "candidate": "flavio",
+          "start": 2344.1,
+          "end": 2365.5,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2344s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Flávio diz que é mentira que ele é contra o fim da escala 6x1. Lula diz que o PL disse que ele é contra, mas Flávio acusa lula de mentir.",
+          "reviewedAt": "2026-10-21T13:57:11.208Z"
+        }
+      ]
+    },
+    {
+      "id": "debate-supplement-temporary-leave",
+      "candidate": "lula",
+      "kind": "Debate",
+      "title": "Posição sobre saídas temporárias",
+      "summary": "Defende saídas ligadas ao bom comportamento e à recuperação, com exclusões por crime.",
+      "paragraphs": [
+        "Lula considera justo permitir visitas à família para pessoas com bom comportamento e em recuperação no sistema prisional. Defende a reabilitação como finalidade da prisão.",
+        "Na fala, exclui crimes hediondos, estupro, violência contra a mulher e crimes muito violentos. Trata-se da posição expressa no debate: este resumo não descreve as regras legais vigentes nem anuncia uma mudança legislativa que ele não apresentou."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3733s",
+          "locator": "3733.5–3795.1 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-temporary-leave",
+          "candidate": "lula",
+          "start": 3733.5,
+          "end": 3795.1,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3733s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula diz que isso é justo que a pessoa tenha a \"saidinha\" da prisão com base no bom comportamento e reabilitação/recuperação dentro das prisões. Que crimes graves (estupro, violência, assassinato, etc..) não tem direito da saidinha",
+          "reviewedAt": "2026-10-21T13:58:30.534Z"
+        }
+      ]
+    },
+    {
+      "id": "debate-supplement-purchasing-power",
+      "candidate": "lula",
+      "kind": "Debate",
+      "title": "Meta para o poder de compra do mínimo",
+      "summary": "Diz querer chegar a duas e meia ou três cestas básicas.",
+      "paragraphs": [
+        "Lula afirma que, em seu governo, o salário mínimo compra 2,2 cestas básicas e apresenta como meta futura chegar a 2,5 ou 3.",
+        "O valor de 2,2 é uma afirmação do candidato; a escuta confirma que ele o disse, não valida o cálculo. Os valores de 2,5 a 3 são uma meta, não um resultado já alcançado."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+          "locator": "3981–3986.8 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-purchasing-power",
+          "candidate": "lula",
+          "start": 3981,
+          "end": 3986.8,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3981s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Atualmente: 2.2 cestas básicas\nMeta para o futuro: 2.5 à 3 cestas básicas",
+          "reviewedAt": "2026-10-21T13:59:23.076Z"
+        }
+      ]
+    },
+    {
+      "id": "debate-supplement-security-cooperation",
+      "candidate": "flavio",
+      "kind": "Debate",
+      "title": "Cooperação internacional contra facções",
+      "summary": "Defende troca de informações e combate ao financiamento das facções.",
+      "paragraphs": [
+        "Flávio descreve o Escudo das Américas como cooperação para trocar informações e sufocar financeiramente as facções. Cita Estados Unidos, Argentina, Bolívia e países da América Central.",
+        "Esse trecho registra defesa de cooperação e combate ao financiamento. Não contém, por si só, pedido de envio de tropas estrangeiras ao Brasil nem demonstra os resultados dessa cooperação."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+          "locator": "5690.3–5725.6 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-security-cooperation",
+          "candidate": "flavio",
+          "start": 5690.3,
+          "end": 5725.6,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5690s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Estados Unidos, Argentina, Bolívia, \"vários países da América Central\"",
+          "reviewedAt": "2026-10-21T14:00:17.181Z"
+        }
+      ]
+    },
+    {
+      "id": "debate-supplement-state-enterprises",
+      "candidate": "lula",
+      "kind": "Debate",
+      "title": "Posição sobre empresas estatais",
+      "summary": "Defende estatais fortes e produtivas e critica privatizações.",
+      "paragraphs": [
+        "Lula defende empresas estatais fortes e produtivas e afirma que privatizações prejudicaram o país e a população. Critica a privatização da BR e da Eletrobras.",
+        "Ele menciona condições e custos para uma eventual recompra e cita 2029 ao falar da BR, mas não assume neste trecho um compromisso explícito de recomprá-la. A conferência da fala não comprova essas condições contratuais ou seus valores."
+      ],
+      "context": "Posição atribuída ao candidato. Confirmar a fala não comprova suas acusações, cálculos ou efeitos.",
+      "sources": [
+        {
+          "label": "Rádio Bandeirantes — trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6544s",
+          "locator": "6544.1–6583 segundos na gravação original. Revisão humana em 21/10/2026."
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "human-reviewed-speech-attribution-only",
+      "checkedAt": "21/10/2026",
+      "editorialNotes": "Correções da revisão complementar incorporadas; aprovação editorial final e publicação permanecem pendentes.",
+      "debateHumanReviews": [
+        {
+          "id": "supplement-state-enterprises",
+          "candidate": "lula",
+          "start": 6544.1,
+          "end": 6583,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6544s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula defende que as estatais não precisam ser privatizadas, mas sim ser fortes e lucrativas. Que a privatização da BR está prejudicando o país e o povo. Ele não fala sobre querer comprar de volta a BR, mas fala sobre como o valor de venda será multiplicado por 3 para poder comprar novamente, o que só torna possível que seja recomprada a partir de 2029.",
+          "reviewedAt": "2026-10-21T14:01:59.019Z"
+        }
+      ]
     }
   ],
   "rallyCities": [
@@ -13996,7 +14694,7 @@
     "status": "draft",
     "verification": "pending",
     "updatedAt": "2026-10-20",
-    "notes": "Inventário textual reconciliado: 796 registros vinculados a 145 cards, sem lacunas nesse inventário. Registros não equivalem a propostas únicas. A conferência de versões e a aprovação editorial para publicação continuam pendentes; a reconciliação não certifica resultados futuros ou afirmações históricas.",
+    "notes": "Inventário textual reconciliado e ações revisadas. Os PDFs usados são idênticos aos obtidos no acervo oficial de dados abertos do TSE em 21/10/2026. Isso confirma a versão consultada, não resultados futuros nem o histórico de todas as versões. Aprovação editorial final permanece pendente.",
     "auditReports": [
       "docs/programas-cobertura-auditoria.md",
       "docs/programas-cobertura-rodada-02.md",
@@ -14007,7 +14705,22 @@
     ],
     "inventoryMappingComplete": true,
     "inventoryRows": 796,
-    "mappedCards": 145
+    "mappedCards": 145,
+    "officialBinaryReview": {
+      "checkedAt": "2026-10-21T13:49:48.312476+00:00",
+      "officialIndex": "https://dadosabertos.tse.jus.br/pt_BR/dataset/candidatos-2026",
+      "resourceLabel": "BR - Proposta de governo (Presidente)",
+      "downloadUrl": "https://cdn.tse.jus.br/estatistica/sead/odsele/proposta_governo/proposta_governo_2026_BR.zip",
+      "httpStatus": 200,
+      "bytes": 18275613,
+      "sha256": "a76d41884bd004c67399bb7a754cb706588e200d253595cfd99e3b33c2c01c34",
+      "lastModified": "Wed, 21 Oct 2026 06:49:21 GMT",
+      "matchedArchivedPrograms": [
+        "PT",
+        "PL"
+      ],
+      "limit": "Identity with this official downloaded snapshot, not an immutable original registration version or semantic completeness certification."
+    }
   },
   "rallyCrowds": [
     {
@@ -14254,17 +14967,16 @@
       "lula": {
         "inventoryRows": 461,
         "normalizedRetainedActions": 478,
-        "strictMatchedActions": 5,
+        "strictMatchedActions": 4,
         "matchedIds": [
           "PT-058-01",
           "PT-072-02",
-          "PT-105-01",
           "PT-149-01",
           "PT-X029"
         ],
-        "provisionalPercentage": 1.05,
+        "provisionalPercentage": 0.84,
         "publicationApproved": false,
-        "partialMatchedActions": 2
+        "partialMatchedActions": 3
       },
       "flavio": {
         "inventoryRows": 337,
@@ -14352,29 +15064,27 @@
           33
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Continue licensing-degree aid"
-      },
-      {
-        "start": 5229,
-        "end": 5245,
-        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
-        "readerParaphrase": "Oferecer crédito para a economia criativa.",
-        "note": "Credit instrument explicitly promised.",
-        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-        "status": "draft-atomic-coding",
-        "relationship": "exact-action",
-        "inventoryIds": [
-          "PT-105-01"
-        ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "id": "PT-105-01",
-        "atomicId": "PT-105-01",
-        "candidate": "lula",
-        "pages": [
-          42
-        ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Creative-business credit"
+        "action": "Continue licensing-degree aid",
+        "humanReview": {
+          "id": "PT-072-02",
+          "candidate": "lula",
+          "start": 2659,
+          "end": 2684,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2659s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "A fala diz sobre pé-de-meia professor, para assegurar que os melhores alunos do ENEM possam se tornar professores no futuro. Uma medida para incentivar o avanço da educação no país e profissionalizar mais pessoas",
+          "reviewedAt": "2026-10-21T13:09:09.918Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirmed. Debate says create teacher aid; PDF page33 says continue licensing aid. Preserve this distinction; no new separate action.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 5254,
@@ -14396,7 +15106,27 @@
           55
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Train digital specialists"
+        "action": "Train digital specialists",
+        "humanReview": {
+          "id": "PT-149-01",
+          "candidate": "lula",
+          "start": 5254,
+          "end": 5277,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5254s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula fala sobre a formação de profissionais com ênfase na industria digital (engenharia e matemática). Ele quer transformar o Brasil em um país altamente desenvolvido e nos tirar do título do país emergente por meio do incentivo à profissionalização de jovens na área digital.",
+          "reviewedAt": "2026-10-21T13:20:30.652Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 3980,
@@ -14418,7 +15148,27 @@
           74
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Continue real minimum-wage appreciation policy"
+        "action": "Continue real minimum-wage appreciation policy",
+        "humanReview": {
+          "id": "PT-X029",
+          "candidate": "lula",
+          "start": 3980,
+          "end": 4075,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3980s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula fala sobre o aumento do poder de compra do salário mínimo (citando poder de compra de cestas básicas). Lula diz que o PIB é resultado do crescimento do país e que o salário mínimo e, especificamente, o salário mínimo de aposentados precisa ser reajustado de acordo com o PIB e precisamos respeitar e valorizar os aposentados e pensionistas. Lula promete continuar aumentando o salário mínimo e brigar muito para diminuir a inflação (culpando a guerra do Irã, de Trump, e a guerra da Ucrânia).",
+          "reviewedAt": "2026-10-21T13:14:42.085Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirms continued wage increases. Claims about purchasing power, wars and inflation are not validated by this coverage match. Existing statutory cap remains in the card.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 290,
@@ -14458,7 +15208,12 @@
           "reviewer": "site-owner",
           "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
           "incorporation": "audio-confirmed-coverage-unchanged",
-          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved.",
+          "resolution": {
+            "status": "resolved-with-conservative-scope",
+            "reason": "Resolved by scope: the matched action is designation of factions, not enactment of an anti-faction law. ASR332.66 references an already approved law; owner note is preserved but is not used to create an additional future commitment. No claim about legal enactment is newly verified."
+          },
+          "requiresClarification": false
         }
       },
       {
@@ -14481,7 +15236,27 @@
           13
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Punish serious crimes committed by people over 14"
+        "action": "Punish serious crimes committed by people over 14",
+        "humanReview": {
+          "id": "PL-006",
+          "candidate": "flavio",
+          "start": 6134,
+          "end": 6166,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6134s",
+          "status": "pending",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "chatConfirmation": {
+            "date": "2026-10-21",
+            "confirmed": true,
+            "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+          },
+          "requiresClarification": false
+        }
       },
       {
         "start": 5722,
@@ -14505,7 +15280,27 @@
           14
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Create National Border System with Army, Navy and Air Force"
+        "action": "Create National Border System with Army, Navy and Air Force",
+        "humanReview": {
+          "id": "PL-007",
+          "candidate": "flavio",
+          "start": 5722,
+          "end": 5761,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Argentina, Bolívia e vários países da américa central. ele diz que as forças armadas vão tomar conta das fronteiras de verdade (forças armadas e marinha).",
+          "reviewedAt": "2026-10-21T13:22:58.800Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 376,
@@ -14569,7 +15364,27 @@
           14
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Seek chemical castration for convicted rapists and child abusers"
+        "action": "Seek chemical castration for convicted rapists and child abusers",
+        "humanReview": {
+          "id": "PL-014",
+          "candidate": "flavio",
+          "start": 5907,
+          "end": 5928,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5907s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele disse que ele irá aprovar, junto do congresso nacional.",
+          "reviewedAt": "2026-10-21T13:24:39.588Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Congressional approval remains a condition, not a unilateral presidential act.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 5753,
@@ -14593,7 +15408,27 @@
           15
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "National facial-recognition system linked to criminal databases"
+        "action": "National facial-recognition system linked to criminal databases",
+        "humanReview": {
+          "id": "PL-020",
+          "candidate": "flavio",
+          "start": 5753,
+          "end": 5821,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5753s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:24:10.816Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 5301,
@@ -14618,7 +15453,32 @@
           35
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Expand connection in schools and communities"
+        "action": "Expand connection in schools and communities",
+        "humanReview": {
+          "id": "PL-064",
+          "candidate": "flavio",
+          "start": 5301,
+          "end": 5323,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5301s",
+          "status": "uncertain",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:21:31.383Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Owner uncertainty preserved; this is not audio approval.",
+          "requiresClarification": false,
+          "chatConfirmation": {
+            "date": "2026-10-21",
+            "confirmed": true,
+            "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+          }
+        }
       },
       {
         "start": 3335,
@@ -14645,7 +15505,27 @@
           26
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "CPF-linked integrated records"
+        "action": "CPF-linked integrated records",
+        "humanReview": {
+          "id": "PL-074",
+          "candidate": "flavio",
+          "start": 3335,
+          "end": 3412,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele diz que quer levar o padrão do Hospital Albert Einstein para o SUS. Criando um prontuário único eletrônico para a rede privada e publica. Investindo na telemedicina e assegurando que é o futuro da medicina no país. Além de um roteamento de qual é a unidade de saúde apropriada para pronto-atendimento",
+          "reviewedAt": "2026-10-21T13:12:14.025Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirms CPF-linked public/private records. Program safeguards are not assumed spoken.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 3335,
@@ -14669,7 +15549,33 @@
           38
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Provide telehealth"
+        "action": "Provide telehealth",
+        "humanReview": {
+          "id": "PL-138:a",
+          "candidate": "flavio",
+          "start": 3335,
+          "end": 3412,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=3335s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "a promessa foi citada no ponto anterior (Integrar prontuários das redes pública e privada pelo CPF.)",
+          "reviewedAt": "2026-10-21T13:12:49.411Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner note describes records, while this unit is telemedicine. Previous PL-074 owner note and ASR3354–3362 corroborate telemedicine, but this item needs explicit reviewer clarification. Do not treat its checkbox as resolved.",
+          "requiresClarification": false,
+          "resolution": {
+            "status": "resolved-from-existing-human-note-and-text",
+            "reason": "Owner PL-074 note explicitly confirms telemedicine in the same3335–3412 interval. ASR3354.68–3361.86 and program pp21,38 agree. Original PL-138:a note preserved; no new listening claimed.",
+            "start": 3354,
+            "end": 3362
+          }
+        }
       },
       {
         "start": 5321,
@@ -14691,7 +15597,27 @@
           44
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "National job database linked to employers’ HR"
+        "action": "National job database linked to employers’ HR",
+        "humanReview": {
+          "id": "PL-172",
+          "candidate": "flavio",
+          "start": 5321,
+          "end": 5346,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
+          "status": "pending",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Governa conecta com recursos humanos para mostrar oportunidades de empresas que paguem melhor do que você tem hoje",
+          "chatConfirmation": {
+            "date": "2026-10-21",
+            "confirmed": true,
+            "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+          },
+          "requiresClarification": false
+        }
       },
       {
         "start": 5354,
@@ -14715,7 +15641,27 @@
           46
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Provide entrepreneurial training and guidance"
+        "action": "Provide entrepreneurial training and guidance",
+        "humanReview": {
+          "id": "PL-174:b",
+          "candidate": "flavio",
+          "start": 5354,
+          "end": 5367,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5354s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:22:06.594Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 5367,
@@ -14739,7 +15685,27 @@
           46
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Provide small-business credit"
+        "action": "Provide small-business credit",
+        "humanReview": {
+          "id": "PL-174:c",
+          "candidate": "flavio",
+          "start": 5367,
+          "end": 5373,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Não explica como, só diz que terá",
+          "reviewedAt": "2026-10-21T13:22:14.851Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. The excerpt does not state rates or financing conditions; no implementation detail inferred.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 5349,
@@ -14761,7 +15727,27 @@
           46
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Integrate Caixa services in a physical and digital Banco da Prosperidade platform"
+        "action": "Integrate Caixa services in a physical and digital Banco da Prosperidade platform",
+        "humanReview": {
+          "id": "PL-178",
+          "candidate": "flavio",
+          "start": 5349,
+          "end": 5354,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5349s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:21:58.945Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness.",
+          "requiresClarification": false
+        }
       }
     ],
     "otherCommitments": [
@@ -14863,7 +15849,27 @@
           33
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Expand and decentralize higher education"
+        "action": "Expand and decentralize higher education",
+        "humanReview": {
+          "id": "PT-075-05",
+          "candidate": "lula",
+          "start": 6299,
+          "end": 6305,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6299s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "",
+          "reviewedAt": "2026-10-21T13:25:22.089Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. More universities does not specify public-network decentralization.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 5195,
@@ -14885,7 +15891,27 @@
           54
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Domestic datacenter and cloud and AI ecosystem"
+        "action": "Domestic datacenter and cloud and AI ecosystem",
+        "humanReview": {
+          "id": "PT-145-01",
+          "candidate": "lula",
+          "start": 5195,
+          "end": 5236,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5195s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Lula cita economia digital (data centers) para produzir banco de dados. Cada data center no brasil terá que deixar 10% dos dado nas mãos do governo brasileiro. Além disso, há previsão de 500 bilhões de reais investidos nisso. Também fala da economia criativa, permitindo que a sociedade brasileira se mobilize no que precise e que o governo brasileiro irá ajudar da maneira que puder (sem explicar como)",
+          "reviewedAt": "2026-10-21T13:18:48.778Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner confirms data-center reference; partial match retained because program page54 bundles data centers, cloud and domestic AI. Investment forecast and 10% statement are attributed claims, not verified outcomes.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 308,
@@ -14928,7 +15954,12 @@
           "reviewer": "site-owner",
           "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
           "incorporation": "confirmed-by-reviewer-partial-coverage-retained",
-          "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match."
+          "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match.",
+          "resolution": {
+            "status": "resolved-with-conservative-scope",
+            "reason": "Resolved by scope: the80-year imprisonment comment occurs337.8–342.16s, outside the primary308–335s interval. It does not establish public-service delivery in reclaimed territories. Retain partial match and exclude sentence-length comment from this action."
+          },
+          "requiresClarification": false
         }
       },
       {
@@ -14952,7 +15983,33 @@
           15
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Deploy Navy and Air Force special troops to monitor ports and airports"
+        "action": "Deploy Navy and Air Force special troops to monitor ports and airports",
+        "humanReview": {
+          "id": "PL-017",
+          "candidate": "flavio",
+          "start": 5722,
+          "end": 5761,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+          "status": "uncertain",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele diz que vai usar IA e criar o smart brasil (que nem o smart sampa). Não cita nada sobre permanencia mas afirma que haverá fiscalização dos portos sim",
+          "reviewedAt": "2026-10-21T13:23:47.788Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. Ports excerpt omits permanent deployment and airport scope. Owner uncertainty preserved; this is not audio approval.",
+          "requiresClarification": false,
+          "resolution": {
+            "status": "partial-classification-resolved",
+            "reason": "Owner explicitly confirms port monitoring and absence of permanence. ASR5755.38 and program p15 support partial coverage only; permanent Navy/Air Force deployment across ports and airports is not established. Owner uncertain status remains unchanged.",
+            "start": 5755,
+            "end": 5761
+          }
+        }
       },
       {
         "start": 4388,
@@ -14974,7 +16031,27 @@
           42
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Maintain existing social programs"
+        "action": "Maintain existing social programs",
+        "humanReview": {
+          "id": "PL-164:a",
+          "candidate": "flavio",
+          "start": 4388,
+          "end": 4401,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=4388s",
+          "status": "correction",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele promete manter reajuste do bolsa família e diz que tem um plano para resolver dívidas dos brasileiros. Alegando que os juros irão cair quando ele se tornar presidente (sem explicar como ou por que)",
+          "reviewedAt": "2026-10-21T13:17:07.960Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Correction checked against ASR4393–4398: maintain Bolsa Familia adjustment, not every social benefit. Partial coverage retained. Debt/interest comments are outside this interval and are not added to this action.",
+          "requiresClarification": false
+        }
       },
       {
         "start": 2739,
@@ -14999,7 +16076,74 @@
           46
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Simplify business creation and formalization"
+        "action": "Simplify business creation and formalization",
+        "humanReview": {
+          "id": "PL-174:a",
+          "candidate": "flavio",
+          "start": 2739,
+          "end": 2763,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele vai criar o Ministério da Prosperidade para ajudar a se qualificar e preparar para abrir sua própria empresa. Citando inclusive mulheres que podem se \"formalizar\" e ter um financiamento barato para poder levar dignidade para a casa",
+          "reviewedAt": "2026-10-21T13:10:21.364Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Listening confirmed; helping formalization does not establish simplification of administrative procedures. Partial coverage retained.",
+          "requiresClarification": false
+        }
+      },
+      {
+        "start": 5229,
+        "end": 5245,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
+        "readerParaphrase": "Apoiar a economia criativa, sem mecanismo de crédito confirmado na revisão.",
+        "note": "Credit instrument explicitly promised.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "partial-action",
+        "inventoryIds": [
+          "PT-105-01"
+        ],
+        "partialScope": "Owner clarification reports general government support, not a clear credit instrument; ASR lending wording conflicts. Conservatively retain only partial thematic coverage pending reconciliation.",
+        "id": "PT-105-01",
+        "atomicId": "PT-105-01",
+        "candidate": "lula",
+        "pages": [
+          42
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Creative-business credit",
+        "humanReview": {
+          "id": "PT-105-01",
+          "candidate": "lula",
+          "start": 5229,
+          "end": 5245,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5229s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Isso foi explicado no ponto anterior (Atrair data centers ao Brasil.). Também cita economia verde",
+          "reviewedAt": "2026-10-21T13:19:25.295Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Owner note references data centers, but this action is creative-business credit. ASR5240–5243 says resources to lend, matching program page42. Explicit owner clarification of this distinct action is still required.",
+          "requiresClarification": false,
+          "chatConfirmation": {
+            "date": "2026-10-21",
+            "confirmed": true,
+            "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
+          }
+        }
       }
     ],
     "sourceReview": {
@@ -15043,10 +16187,12 @@
       }
     },
     "humanReviewProgress": {
-      "reviewedIntervals": 4,
+      "reviewedIntervals": 24,
       "totalIntervals": 24,
       "fullRecordingReviewed": false,
-      "publicationApproved": false
+      "publicationApproved": false,
+      "clarificationRequired": [],
+      "pendingIntervals": []
     }
   },
   "readerUpdates": [
