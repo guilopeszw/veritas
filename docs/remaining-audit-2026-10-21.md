@@ -1,40 +1,31 @@
-# Remaining program and debate audit — 21 October 2026
+# Current proposal and debate validation status
 
-Status: source and ledger repairs completed; audiovisual certification remains open. No publication or approval changes.
+Updated 21 October 2026. Nothing published; final editorial and launch approvals remain unset. This file replaces the preceding status snapshot.
 
-## Completed in this pass
+## Completed
 
-Reopened the [PT official TSE program](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt) and [PL official TSE program](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl). The current index exposes 84 and 76 physical pages respectively. This pass read targeted source passages, not every page anew.
+- Recovered 84-page PT and 76-page PL archival PDFs, verified archive hashes and corroborated substantive text against the official TSE index. Direct TSE immutable byte/version identity remains unavailable; the archive origin is disclosed.
+- Read the existing 778 retained action-to-card mappings: 476 Lula actions and 302 Flávio actions. Corrected omitted/implicit reader summaries and page-boundary locators.
+- Added two newly found PT actions to the inventory openly: audience-formation programs and municipal urban-investment technical/financial capacity. Current ledger: 798 source rows, 780 retained actions (478 Lula,302 Flávio).
+- Reviewed all50 contextual exclusions and105 merged references against their source clauses; no additional independently implementable action was identified as wrongly excluded.
+- Reviewed all24 candidate debate mappings against PDF passages and local ASR text. Four broad/partial mentions were removed from strict coverage; 18 direct and6 partial matches remain.
+- Draft coverage is Lula5/478 (1.05%) and Flávio13/302 (4.30%). These are shares of catalogued actions, not speaking time. They remain excluded from release review and public builds.
 
-Validated the current ledger against the current cards: 796 distinct source rows, 933 distinct derived entries, 778 retained actions, 105 merged references and 50 contextual exclusions. Every row resolves to known units; every retained unit has an existing card. The retained units refer to 144 distinct cards. This is structural reconciliation, not proof that every clause is faithfully displayed. The older 145 figure refers to the broader inventory mapping, while 146 is the current program-attribution card set; these scopes must not be conflated.
+## Human-specific remaining work
 
-Ran the existing atomic-audit assertions from scripts/build.py without rebuilding or deploying. Passed: unique IDs, exhaustive row accounting, valid merges, unchanged denominator/numerator correspondence, separate partial matches and timestamp bounds.
+1. Listen to the24 timestamped excerpts and their surrounding context; confirm speaker, wording, numeric claims, qualifications and boundaries. This session cannot receive audio input. ASR/transcript agreement is not listening. Use [the checklist](debate-listening-checklist.md).
+2. Review the full debate recording, including the supplemental recording covering the early cut, for missed actionable promises. Positive excerpts alone cannot certify the numerator's completeness.
+3. Owner final editorial approval of the corrected content and operational coverage definition, followed by separate authorization to publish. No approval or deploy is implied by passing tests.
 
-### Exact repairs applied to src/debate-atomic-audit.json
+## Documentary qualification, not an owner task
 
-| Entry | Repair | Primary evidence |
-| --- | --- | --- |
-| PT-088-02:c | Page 37 → **38**, including the second-review copy | PT physical page38, indexed P37, lines1000–1003: equipment modernization includes telesurgery. [Official page](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=38). The existing lula-especialistas card already contains the measure and cites38. |
-| PT-044-01 | Page26 → **27**, both unit and row-accounting source locator | PT physical page27, indexed P26, lines660–662: disrupting organized crime's economic and financial structures. [Official page](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=27). |
-| PT-X008 | Map to **lula-igualdade-salarial**, rather than lula-empregabilidade | PT physical page21, indexed P20, lines500–505, supports women-specific vocational training. [Official page](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=21). The former already explicitly contains Mulheres Mil; this was a mapping defect, not a missing promise. |
+The PDFs are archived replicas corroborated against the official text, not fresh TSE-origin binaries. Their precise historical registration version cannot be asserted from archive hashes alone. No user upload is required to inspect the files we already hold.
 
-No action, debate classification or percentage changed.
+These audits check attribution and coverage of proposals. They do not convert campaign statements into established results, feasibility findings, or independently proven historical claims.
 
-### Supplemental locator, not a missing proposal
+## Evidence
 
-PT-X032 points to physical page75, indexed P74, lines2149–2150, for disability employment inclusion. The mapped lula-acessibilidade card currently cites page23, which independently supports accessibility and employment-quota enforcement. Both source passages exist. Adding page75 to that card's source would improve traceability; the existing card is not unsupported. [Official page75](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=75).
-
-## Debate: what was corroborated, and what was not
-
-The broadcaster's [selected debate quotations](https://www.band.com.br/politica/eleicoes/debate-na-band-veja-como-foi-o-1o-embate-entre-flavio-e-lula-em-frases) still attribute more than half a million prison places to Flávio. The PL program independently specifies half a million in four years on physical page14. A [different Band report](https://www.band.com.br/politica/eleicoes/flavio-quer-classificar-faccoes-como-terroristas-e-cita-sus-padrao-einstein) still displays 500 million. The former supports the site's explicitly attributed account; neither article validates the audio or the stored timestamp. Do not silently treat the divergent report as an audio correction.
-
-Follow-up: valid local WAV/MP4/WebM recordings were recovered in the parent workspace and their hashes checked (see local-debate-media-status.json). The audio-input attempt returned an explicit unsupported-audio response in this model session; direct listening remains unavailable. Web access to the radio recording [BgjpOorIXoI](https://www.youtube.com/watch?v=BgjpOorIXoI) returned throttled retrieval. The broadcaster's [Gqc1rQtzWUk recording](https://www.youtube.com/watch?v=Gqc1rQtzWUk) returned a video page without playable audio evidence through the web tool. These are different recordings; do not transfer timestamps between them. No new direct listening occurred, and no machine transcript was relabeled as listening.
-
-## Only actual outstanding items for the excluded features
-
-1. **Audiovisual verification:** directly verify the 22 direct matches and two partial matches, speakers, surrounding qualifications and actual boundaries; then review the full recording, including the previously documented early missing passage, for omitted commitments. Positive excerpts alone cannot establish complete coverage.
-2. **Program version provenance:** usable archival PDF replicas have now been recovered, with hashes matching the UFOP corpus metadata and substantive text corroborated against the official index. PDF access is resolved; direct TSE byte/version identity is not. See program-final-attempt.md.
-3. **Coverage certification:** all retained units have card links, but that mechanical result is not an independent clause-by-clause fidelity certification. The previous complete textual normalization and selected checks remain useful; a complete current-card semantic comparison is a separate acceptance step. The nine separately recorded debate-only promises must stay outside the official-program denominator unless an exact program match is established.
-4. **Final editorial approval:** these excluded analyses remain unapproved. No provisional percentage should be released as final, and no percentage measures speaking time.
-
-These items block adding the excluded analytical features, not review of the already filtered edition. There is no newly identified owner-only decision needed to fix the three ledger defects above; they have been repaired. Existing publication and hosting approval conditions remain unchanged.
+- [Lula current-card audit](lula-program-card-closure.md)
+- [Flávio current-card audit](program-semantic-current-review.md)
+- [All24 debate mappings](current-program-debate-review.md)
+- [Recovered PDFs and provenance](program-final-attempt.md)

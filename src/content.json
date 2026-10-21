@@ -508,9 +508,10 @@
         "O programa propõe priorizar associar sons às letras, ampliar escolas cívico-militares e oferecer auxílio para matrícula quando faltar vaga pública.",
         "Propõe pagar alunos para dar reforço a colegas pelo Acolher; vincular repasses a metas de aprendizagem; capacitar professores; atender estudantes com altas habilidades; e abrir escolas nas férias.",
         "O programa também prevê um currículo digital.",
-        "Defende ensino sem orientação político-partidária, com respeito à consciência e ao papel das famílias. Propõe robótica, computadores, tablets e internet nas escolas, apoia o ensino em tempo integral e diz que o financiamento por resultados deve continuar atendendo regiões com mais dificuldades."
+        "Defende ensino sem orientação político-partidária, com respeito à consciência e ao papel das famílias. Propõe robótica, computadores, tablets e internet nas escolas, apoia o ensino em tempo integral e diz que o financiamento por resultados deve continuar atendendo regiões com mais dificuldades.",
+        "A gestão das escolas seria acompanhada por indicadores de aprendizagem e desempenho."
       ],
-      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. 20/10/2026: submedidas conferidas no texto do programa, conforme docs/final-factcheck-audit.md. Inspeção visual e revisão completa pendentes. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
+      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. 20/10/2026: submedidas conferidas no texto do programa, conforme docs/final-factcheck-audit.md. Inspeção visual e revisão completa pendentes. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente. 21/10/2026: lacuna de submedida corrigida contra a réplica arquivada do PDF, corroborada com o índice oficial; não representa resultado comprovado.",
       "implications": [
         {
           "label": "O que muda",
@@ -570,7 +571,8 @@
         "O programa Brasil Contra o Crime Organizado prevê R$ 10 bilhões do FIIS para equipamentos e infraestrutura de estados e municípios. O plano também propõe modernizar SINESP e Infoseg e ampliar as forças integradas FICCOs.",
         "Prevê patrulhamento aéreo e fluvial na Amazônia, radares, drones, satélites e centros integrados. Nas operações contra organizações de mineração ilegal, propõe investigação financeira obrigatória.",
         "Prevê ampliar mediação comunitária e justiça restaurativa, com atenção à prevenção da violência contra a juventude negra, além de reforçar a investigação de crimes financeiros e digitais.",
-        "Prevê combater o tráfico de armas e proteger grupos vulneráveis contra crimes digitais."
+        "Prevê combater o tráfico de armas e proteger grupos vulneráveis contra crimes digitais.",
+        "Prevê integrar o controle das rotas fluviais e a detecção do desmatamento às ações contra crimes ambientais."
       ],
       "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal.",
       "implications": [
@@ -597,7 +599,8 @@
           29
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "flavio-seguranca",
@@ -815,7 +818,8 @@
         "O programa propõe restringir decisões individuais de ministros, favorecendo julgamentos coletivos.",
         "O programa inclui revisão de ações constitucionais, restrições envolvendo parentes e mudanças no CNJ e no CNMP, conselhos de controle do Judiciário e do Ministério Público.",
         "A revisão também alcançaria quem pode apresentar ações de controle constitucional. O plano impediria parentes até o terceiro grau e seus escritórios de atuar no tribunal do magistrado. Propõe ampliar a presença da sociedade civil no CNJ e no CNMP e limitar atividades que considera de natureza legislativa.",
-        "Propõe acabar com o julgamento criminal inicial no STF nos casos abrangidos pela mudança de competência defendida pelo programa."
+        "Propõe acabar com o julgamento criminal inicial no STF nos casos abrangidos pela mudança de competência defendida pelo programa.",
+        "Também pretende mudar o alcance das ADPFs, ações usadas para questionar violações de preceitos fundamentais da Constituição."
       ],
       "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
       "implications": [
@@ -3484,7 +3488,8 @@
       "title": "Formação de professores",
       "summary": "Manter o salário mínimo da profissão e apoiar a formação de professores com bolsas.",
       "paragraphs": [
-        "Manter o piso docente e apoiar a formação com Pé-de-Meia Licenciatura e Bolsa Mais Professores."
+        "Manter o piso docente e apoiar a formação com Pé-de-Meia Licenciatura e Bolsa Mais Professores.",
+        "A Bolsa Mais Professores seria usada para incentivar a permanência de docentes nas regiões e áreas do conhecimento que precisam deles."
       ],
       "context": "",
       "status": "draft",
@@ -3507,7 +3512,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=32",
-          "locator": "Páginas físicas 32, 33. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 33. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Capes — funcionamento do Pé-de-Meia Licenciaturas",
@@ -3520,11 +3525,11 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
-          32,
           33
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "lula-saude-digital",
@@ -3624,7 +3629,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=34",
-          "locator": "Páginas físicas 34, 37, 38. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 34, 37, 38. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Ministério da Saúde — componente de créditos financeiros",
@@ -3836,7 +3841,8 @@
         "O programa propõe ampliar infraestrutura cultural comunitária.",
         "Prevê proteger saberes e direitos autorais de mestras e mestres tradicionais, manter equipamentos culturais, dar continuidade aos Pontos de Cultura e apoiar circulação de artistas no país e no exterior.",
         "Prevê crédito e formação profissional para a economia criativa, apoio à indústria de games e integração de atividades artísticas ao currículo escolar.",
-        "Propõe distribuir melhor os recursos culturais entre regiões, ampliar a participação social na gestão e preservar o patrimônio cultural. Para os Pontos de Cultura, prevê financiamento estável e gestão compartilhada. Também prevê apoiar a produção cultural de jovens das periferias."
+        "Propõe distribuir melhor os recursos culturais entre regiões, ampliar a participação social na gestão e preservar o patrimônio cultural. Para os Pontos de Cultura, prevê financiamento estável e gestão compartilhada. Também prevê apoiar a produção cultural de jovens das periferias.",
+        "Prevê criar programas de formação de público, ampliando o acesso de crianças e jovens a experiências culturais e artísticas."
       ],
       "context": "",
       "status": "draft",
@@ -3859,7 +3865,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=25",
-          "locator": "Páginas físicas 25, 40, 41, 42, 43. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 25, 40, 41, 42, 43. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Ministério da Cultura — funcionamento da PNAB",
@@ -3883,7 +3889,8 @@
           43
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "lula-agricultura-familiar",
@@ -3919,7 +3926,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=59",
-          "locator": "Páginas físicas 59, 60. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 21, 59, 60. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Governo Federal — acesso ao Pronaf",
@@ -3940,6 +3947,7 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
+          21,
           59,
           60
         ],
@@ -4089,7 +4097,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=47",
-          "locator": "Páginas físicas 47, 71, 72, 73. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 47, 71, 72, 73. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "MMA — estrutura do Plano Clima",
@@ -4395,7 +4403,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=74",
-          "locator": "Páginas físicas 74, 75, 77. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 75. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Planalto — texto enviado do PLP 12/2024",
@@ -4413,9 +4421,7 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
-          74,
-          75,
-          77
+          75
         ],
         "scope": "proposal-attribution-only"
       }
@@ -4516,7 +4522,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=48",
-          "locator": "Páginas físicas 48, 50, 51, 52. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 50, 51, 52. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Ministério da Fazenda — instrumentos da Nova Indústria Brasil",
@@ -4533,7 +4539,6 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
-          48,
           50,
           51,
           52
@@ -6316,7 +6321,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=20",
-          "locator": "Páginas físicas 20, 24, 33, 34. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 20, 24, 33, 34, 43. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Planalto — Lei 14.914/2024, assistência estudantil",
@@ -6332,7 +6337,8 @@
           20,
           24,
           33,
-          34
+          34,
+          43
         ],
         "scope": "proposal-attribution-only"
       }
@@ -6370,7 +6376,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=34",
-          "locator": "Páginas físicas 34, 35. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 34, 35. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Ministério da Saúde — Mais Médicos",
@@ -6479,7 +6485,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=36",
-          "locator": "Páginas físicas 36, 37. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 36, 37. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Ministério da Saúde — Calendário Técnico Nacional 2026",
@@ -6507,7 +6513,8 @@
       "summary": "Ampliar o atendimento contra o câncer e os diagnósticos feitos à distância.",
       "paragraphs": [
         "Expandir a rede oncológica e o diagnóstico à distância.",
-        "Prevê consolidar o diagnóstico de biópsias à distância e ampliar unidades oncológicas, radioterapia e cirurgia para tratar o câncer."
+        "Prevê consolidar o diagnóstico de biópsias à distância e ampliar unidades oncológicas, radioterapia e cirurgia para tratar o câncer.",
+        "Prevê atualizar os tratamentos e os medicamentos de quimioterapia e imunoterapia usados no SUS."
       ],
       "context": "",
       "status": "draft",
@@ -6555,7 +6562,8 @@
           38
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "lula-saude-mulheres",
@@ -6922,7 +6930,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=63",
-          "locator": "Páginas físicas 63, 66, 67. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 63, 66, 67. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Petrobras — estratégia comercial de 2023",
@@ -6977,7 +6985,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=64",
-          "locator": "Páginas físicas 64, 65, 66. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 65, 66. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "ANEEL — Tarifa Social",
@@ -6994,7 +7002,6 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
-          64,
           65,
           66
         ],
@@ -7205,7 +7212,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=78",
-          "locator": "Páginas físicas 78, 79. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 78, 79. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Ministério da Defesa — Base Industrial de Defesa",
@@ -7606,7 +7613,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=52",
-          "locator": "Páginas físicas 52, 62, 79, 80, 81. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 52, 62, 80, 81. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Mercosul — tratados e competências",
@@ -7621,7 +7628,6 @@
         "pages": [
           52,
           62,
-          79,
           80,
           81
         ],
@@ -7715,7 +7721,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=54",
-          "locator": "Páginas físicas 54, 55, 81, 82. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 54, 55, 62, 81, 82. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "MCTI — apresentação do plano em julho de 2024",
@@ -7735,6 +7741,7 @@
         "pages": [
           54,
           55,
+          62,
           81,
           82
         ],
@@ -7953,7 +7960,8 @@
       "paragraphs": [
         "Integrar melhorias habitacionais a saneamento, circulação e infraestrutura das periferias.",
         "Prevê concluir as obras do Periferia Viva em andamento e realizar novas seleções de projetos.",
-        "Prevê combinar a retomada de territórios dominados pelo crime com melhorias urbanas e oferta de serviços públicos."
+        "Prevê combinar a retomada de territórios dominados pelo crime com melhorias urbanas e oferta de serviços públicos.",
+        "Prevê apoiar os municípios com instrumentos para melhorar sua capacidade técnica e financeira de planejar, executar e fiscalizar investimentos urbanos."
       ],
       "context": "",
       "status": "draft",
@@ -7972,7 +7980,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=28",
-          "locator": "Páginas físicas 28, 45, 46. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 28, 45, 46. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Documento oficial sobre o mecanismo",
@@ -7994,7 +8002,8 @@
           46
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "lula-logistica",
@@ -8171,7 +8180,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=60",
-          "locator": "Páginas físicas 60, 61, 70. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 60, 61, 70. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         },
         {
           "label": "Documento oficial sobre o mecanismo",
@@ -10290,7 +10299,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=71",
-          "locator": "Páginas físicas 71, 72. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 71, 72. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -10535,7 +10544,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=20",
-          "locator": "Páginas físicas 20, 21, 60. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 20, 21. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -10547,8 +10556,7 @@
         "date": "2026-10-21",
         "pages": [
           20,
-          21,
-          60
+          21
         ],
         "scope": "proposal-attribution-only"
       }
@@ -10779,13 +10787,14 @@
       "summary": "Definir as regras de um fundo voltado ao desenvolvimento das regiões.",
       "paragraphs": [
         "Propõe definir as regras de funcionamento do Fundo Nacional de Desenvolvimento Regional.",
-        "Prevê usar fundos regionais FNE, FNO e FCO e distribuir melhor investimentos, inovação e compras públicas. Propõe apoiar indústrias ligadas à biodiversidade amazônica e atrair indústrias de baixas emissões e alto consumo de eletricidade para o Nordeste."
+        "Prevê usar fundos regionais FNE, FNO e FCO e distribuir melhor investimentos, inovação e compras públicas. Propõe apoiar indústrias ligadas à biodiversidade amazônica e atrair indústrias de baixas emissões e alto consumo de eletricidade para o Nordeste.",
+        "Prevê continuar usando recursos do Fundo Amazônia para financiar projetos de desenvolvimento sustentável."
       ],
       "sources": [
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=55",
-          "locator": "Páginas físicas 55, 56. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 55, 56. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -10800,7 +10809,8 @@
           56
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "lula-pesca-artesanal",
@@ -10957,7 +10967,8 @@
       "paragraphs": [
         "O programa propõe apoiar o uso de inteligência artificial nas empresas, compras públicas voltadas à inovação, patentes, incubadoras de negócios e defesa cibernética.",
         "A difusão de inteligência artificial priorizaria micro, pequenas e médias empresas da indústria, do agro, da saúde e da logística. O programa prevê uma lei para facilitar a inovação, fortalecimento de parques tecnológicos e proteção da privacidade e segurança dos dados.",
-        "Prevê aproximar incubadoras e empresas iniciantes das universidades."
+        "Prevê aproximar incubadoras e empresas iniciantes das universidades.",
+        "Prevê investir em pesquisa e apoiar tecnologias para melhorar serviços públicos (GovTech), além de usar compras do governo para incentivar inovação."
       ],
       "sources": [
         {
@@ -10968,7 +10979,7 @@
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": " Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
+      "editorialNotes": " Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente. 21/10/2026: lacuna de submedida corrigida contra a réplica arquivada do PDF, corroborada com o índice oficial; não representa resultado comprovado.",
       "programMeasureIds": [
         "PL-260",
         "PL-261",
@@ -10984,7 +10995,8 @@
           57
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "21/10/2026"
     },
     {
       "id": "lula-democracia",
@@ -11092,7 +11104,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=24",
-          "locator": "Páginas físicas 24, 25. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 25. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -11102,7 +11114,6 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
-          24,
           25
         ],
         "scope": "proposal-attribution-only"
@@ -11123,7 +11134,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=58",
-          "locator": "Páginas físicas 58, 59. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 58, 59. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -11154,7 +11165,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=61",
-          "locator": "Páginas físicas 61, 62. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 55, 61, 62. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -11164,6 +11175,7 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
+          55,
           61,
           62
         ],
@@ -11184,7 +11196,7 @@
         {
           "label": "TSE — programa oficial de Lula",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=75",
-          "locator": "Páginas físicas 75, 76. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+          "locator": "Páginas físicas 76. Conferidas no texto do PDF arquivado em 21/10/2026; compromissos, não resultados comprovados."
         }
       ],
       "status": "draft",
@@ -11194,7 +11206,6 @@
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
-          75,
           76
         ],
         "scope": "proposal-attribution-only"
@@ -14161,50 +14172,46 @@
   "debateIndividualAudit": {
     "status": "draft",
     "publicationApproved": false,
-    "inventoryRowsRead": 796,
+    "inventoryRowsRead": 798,
     "transcriptRecordsRead": 367,
     "counts": {
       "lula": {
-        "inventoryRows": 459,
-        "normalizedRetainedActions": 476,
-        "strictMatchedActions": 6,
+        "inventoryRows": 461,
+        "normalizedRetainedActions": 478,
+        "strictMatchedActions": 5,
         "matchedIds": [
           "PT-058-01",
           "PT-072-02",
           "PT-105-01",
-          "PT-145-01",
           "PT-149-01",
           "PT-X029"
         ],
-        "provisionalPercentage": 1.26,
+        "provisionalPercentage": 1.05,
         "publicationApproved": false,
-        "partialMatchedActions": 1
+        "partialMatchedActions": 2
       },
       "flavio": {
         "inventoryRows": 337,
         "normalizedRetainedActions": 302,
-        "strictMatchedActions": 16,
+        "strictMatchedActions": 13,
         "matchedIds": [
           "PL-001",
           "PL-006",
           "PL-007",
           "PL-010",
           "PL-014",
-          "PL-017",
           "PL-020",
           "PL-064",
           "PL-074",
           "PL-138:a",
-          "PL-164:a",
           "PL-172",
-          "PL-174:a",
           "PL-174:b",
           "PL-174:c",
           "PL-178"
         ],
-        "provisionalPercentage": 5.3,
+        "provisionalPercentage": 4.3,
         "publicationApproved": false,
-        "partialMatchedActions": 1
+        "partialMatchedActions": 4
       }
     },
     "matches": [
@@ -14221,17 +14228,14 @@
           "PT-058-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-058-01",
         "atomicId": "PT-058-01",
         "candidate": "lula",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          30
-        ],
-        "id": "PT-058-01",
         "pages": [
           30
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Create security ministry conditional on approval of security PEC"
       },
       {
         "start": 2659,
@@ -14246,17 +14250,14 @@
           "PT-072-02"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-072-02",
         "atomicId": "PT-072-02",
         "candidate": "lula",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          33
-        ],
-        "id": "PT-072-02",
         "pages": [
           33
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Continue licensing-degree aid"
       },
       {
         "start": 5229,
@@ -14271,42 +14272,14 @@
           "PT-105-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-105-01",
         "atomicId": "PT-105-01",
         "candidate": "lula",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          42
-        ],
-        "id": "PT-105-01",
         "pages": [
           42
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
-      },
-      {
-        "start": 5195,
-        "end": 5236,
-        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5195s",
-        "readerParaphrase": "Atrair data centers ao Brasil.",
-        "note": "Domestic data-center action; other AI measures not counted.",
-        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-        "status": "draft-atomic-coding",
-        "relationship": "exact-action",
-        "inventoryIds": [
-          "PT-145-01"
-        ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "atomicId": "PT-145-01",
-        "candidate": "lula",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          54
-        ],
-        "id": "PT-145-01",
-        "pages": [
-          54
-        ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Creative-business credit"
       },
       {
         "start": 5254,
@@ -14321,17 +14294,14 @@
           "PT-149-01"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-149-01",
         "atomicId": "PT-149-01",
         "candidate": "lula",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          55
-        ],
-        "id": "PT-149-01",
         "pages": [
           55
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Train digital specialists"
       },
       {
         "start": 3980,
@@ -14346,17 +14316,14 @@
           "PT-X029"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PT-X029",
         "atomicId": "PT-X029",
         "candidate": "lula",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          74
-        ],
-        "id": "PT-X029",
         "pages": [
           74
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Continue real minimum-wage appreciation policy"
       },
       {
         "start": 290,
@@ -14371,17 +14338,14 @@
           "PL-001"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-001",
         "atomicId": "PL-001",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          13
-        ],
-        "id": "PL-001",
         "pages": [
           13
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Designate PCC, CV, militias and other factions as narcoterrorist organizations"
       },
       {
         "start": 6134,
@@ -14396,17 +14360,14 @@
           "PL-006"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-006",
         "atomicId": "PL-006",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          13
-        ],
-        "id": "PL-006",
         "pages": [
           13
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Punish serious crimes committed by people over 14"
       },
       {
         "start": 5722,
@@ -14422,19 +14383,15 @@
           "PL-008"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-007",
         "atomicId": "PL-007",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          13,
-          14
-        ],
-        "id": "PL-007",
         "pages": [
           13,
           14
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Create National Border System with Army, Navy and Air Force"
       },
       {
         "start": 376,
@@ -14450,17 +14407,14 @@
           "PL-013"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-010",
         "atomicId": "PL-010",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          14
-        ],
-        "id": "PL-010",
         "pages": [
           14
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Create 500000 prison places in four years"
       },
       {
         "start": 5907,
@@ -14475,43 +14429,14 @@
           "PL-014"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-014",
         "atomicId": "PL-014",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          14
-        ],
-        "id": "PL-014",
         "pages": [
           14
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
-      },
-      {
-        "start": 5722,
-        "end": 5761,
-        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
-        "readerParaphrase": "Usar a Marinha para fiscalizar contêineres no Porto de Santos.",
-        "note": "Port military monitoring action, narrower geographic example.",
-        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-        "status": "draft-atomic-coding",
-        "relationship": "exact-action",
-        "inventoryIds": [
-          "PL-017",
-          "PL-018"
-        ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "atomicId": "PL-017",
-        "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          15
-        ],
-        "id": "PL-017",
-        "pages": [
-          15
-        ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Seek chemical castration for convicted rapists and child abusers"
       },
       {
         "start": 5753,
@@ -14528,17 +14453,14 @@
           "PL-022"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-020",
         "atomicId": "PL-020",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          15
-        ],
-        "id": "PL-020",
         "pages": [
           15
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "National facial-recognition system linked to criminal databases"
       },
       {
         "start": 5301,
@@ -14555,19 +14477,15 @@
           "PL-121"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-064",
         "atomicId": "PL-064",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          24,
-          35
-        ],
-        "id": "PL-064",
         "pages": [
           24,
           35
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Expand connection in schools and communities"
       },
       {
         "start": 3335,
@@ -14586,19 +14504,15 @@
           "PL-077"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-074",
         "atomicId": "PL-074",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          21,
-          26
-        ],
-        "id": "PL-074",
         "pages": [
           21,
           26
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "CPF-linked integrated records"
       },
       {
         "start": 3335,
@@ -14614,44 +14528,15 @@
           "PL-138"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-138:a",
         "atomicId": "PL-138:a",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          21,
-          38
-        ],
-        "id": "PL-138:a",
         "pages": [
           21,
           38
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
-      },
-      {
-        "start": 4388,
-        "end": 4401,
-        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=4388s",
-        "readerParaphrase": "Manter o Bolsa Família.",
-        "note": "Management and fraud measures in same source row are not counted.",
-        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-        "status": "draft-atomic-coding",
-        "relationship": "exact-action",
-        "inventoryIds": [
-          "PL-164"
-        ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "atomicId": "PL-164:a",
-        "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          42
-        ],
-        "id": "PL-164:a",
-        "pages": [
-          42
-        ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Provide telehealth"
       },
       {
         "start": 5321,
@@ -14666,47 +14551,14 @@
           "PL-172"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-172",
         "atomicId": "PL-172",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          44
-        ],
-        "id": "PL-172",
         "pages": [
           44
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
-      },
-      {
-        "start": 2739,
-        "end": 2763,
-        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
-        "readerParaphrase": "Ajudar a abrir e formalizar o próprio negócio.",
-        "note": "Distinct administrative/formalization action.",
-        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
-        "status": "draft-atomic-coding",
-        "relationship": "exact-action",
-        "inventoryIds": [
-          "PL-082",
-          "PL-174"
-        ],
-        "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
-        "atomicId": "PL-174:a",
-        "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          27,
-          45,
-          46
-        ],
-        "id": "PL-174:a",
-        "pages": [
-          27,
-          45,
-          46
-        ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "National job database linked to employers’ HR"
       },
       {
         "start": 5354,
@@ -14722,19 +14574,15 @@
           "PL-175"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-174:b",
         "atomicId": "PL-174:b",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          45,
-          46
-        ],
-        "id": "PL-174:b",
         "pages": [
           45,
           46
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Provide entrepreneurial training and guidance"
       },
       {
         "start": 5367,
@@ -14750,19 +14598,15 @@
           "PL-175"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-174:c",
         "atomicId": "PL-174:c",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          45,
-          46
-        ],
-        "id": "PL-174:c",
         "pages": [
           45,
           46
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Provide small-business credit"
       },
       {
         "start": 5349,
@@ -14777,17 +14621,14 @@
           "PL-178"
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
+        "id": "PL-178",
         "atomicId": "PL-178",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          46
-        ],
-        "id": "PL-178",
         "pages": [
           46
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Integrate Caixa services in a physical and digital Banco da Prosperidade platform"
       }
     ],
     "otherCommitments": [
@@ -14882,20 +14723,36 @@
         "readerScope": "Defendeu ampliar universidades, sem especificar a rede pública e a interiorização previstas no programa.",
         "verification": "second-textual-review-against-narrative-transcript-and-local-ASR",
         "relationship": "partial",
+        "id": "PT-075-05",
         "atomicId": "PT-075-05",
         "candidate": "lula",
-        "inventoryIds": [
-          "PT-075-05"
-        ],
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "programPages": [
-          33
-        ],
-        "id": "PT-075-05",
         "pages": [
           33
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Expand and decentralize higher education"
+      },
+      {
+        "start": 5195,
+        "end": 5236,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5195s",
+        "readerParaphrase": "Atrair data centers ao Brasil.",
+        "note": "Domestic data-center action; other AI measures not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "partial-action",
+        "inventoryIds": [
+          "PT-145-01"
+        ],
+        "partialScope": "Excerpt mentions data centers, not the full bundled national data-center, cloud and AI ecosystem action.",
+        "id": "PT-145-01",
+        "atomicId": "PT-145-01",
+        "candidate": "lula",
+        "pages": [
+          54
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
+        "action": "Domestic datacenter and cloud and AI ecosystem"
       },
       {
         "start": 308,
@@ -14912,19 +14769,85 @@
         ],
         "partialScope": "Only the action label is counted; parameters not said in the debate remain unmentioned.",
         "readerScope": "Falou em retomar territórios, mas não explicou a ligação com serviços públicos prevista no programa.",
+        "id": "PL-004:b",
         "atomicId": "PL-004:b",
         "candidate": "flavio",
-        "programSourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "programPages": [
-          13,
-          47
-        ],
-        "id": "PL-004:b",
         "pages": [
           13,
           47
         ],
-        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl"
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Recover criminally controlled territory with public services"
+      },
+      {
+        "start": 5722,
+        "end": 5761,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
+        "readerParaphrase": "Usar a Marinha para fiscalizar contêineres no Porto de Santos.",
+        "note": "Port military monitoring action, narrower geographic example.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "partial-action",
+        "inventoryIds": [
+          "PL-017",
+          "PL-018"
+        ],
+        "partialScope": "Excerpt mentions Navy at Santos, not the full permanent Navy/Air Force deployment at ports and airports.",
+        "id": "PL-017",
+        "atomicId": "PL-017",
+        "candidate": "flavio",
+        "pages": [
+          15
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Deploy Navy and Air Force special troops to monitor ports and airports"
+      },
+      {
+        "start": 4388,
+        "end": 4401,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=4388s",
+        "readerParaphrase": "Manter o Bolsa Família.",
+        "note": "Management and fraud measures in same source row are not counted.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "partial-action",
+        "inventoryIds": [
+          "PL-164"
+        ],
+        "partialScope": "Maintaining Bolsa Família covers one program, not the full object of maintaining existing social programs.",
+        "id": "PL-164:a",
+        "atomicId": "PL-164:a",
+        "candidate": "flavio",
+        "pages": [
+          42
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Maintain existing social programs"
+      },
+      {
+        "start": 2739,
+        "end": 2763,
+        "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=2739s",
+        "readerParaphrase": "Ajudar a abrir e formalizar o próprio negócio.",
+        "note": "Distinct administrative/formalization action.",
+        "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
+        "status": "draft-atomic-coding",
+        "relationship": "partial-action",
+        "inventoryIds": [
+          "PL-082",
+          "PL-174"
+        ],
+        "partialScope": "Helping a person formalize a business does not explicitly promise simplifying administrative procedures.",
+        "id": "PL-174:a",
+        "atomicId": "PL-174:a",
+        "candidate": "flavio",
+        "pages": [
+          27,
+          45,
+          46
+        ],
+        "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
+        "action": "Simplify business creation and formalization"
       }
     ],
     "sourceReview": {
