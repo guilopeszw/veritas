@@ -2163,7 +2163,7 @@
         "O piso passou de R$600 para R$691 na folha de outubro de 2026. O valor de cada família depende de sua composição e das regras do programa.",
         "O Decreto 13.120, assinado por Lula em 17 de setembro, corrigiu os benefícios em 15,04%, com efeitos na folha de outubro. O piso passou a R$691; o adicional por criança menor de sete anos passou a R$173. O adicional familiar previsto para gestantes, nutrizes e crianças e adolescentes de sete a menos de 18 anos passou a R$58.",
         "A principal regra de entrada é renda mensal de até R$218 por pessoa da família, além da inscrição no Cadastro Único. Conseguir emprego ou abrir MEI não provoca, por si só, cancelamento automático: o programa considera a renda e possui uma Regra de Proteção para a transição.",
-        "Na Regra de Proteção, o pagamento pode ser parcial e os limites e prazos variam conforme a situação e a data de entrada nessa regra. Por isso, o piso anunciado não deve ser entendido como o valor de qualquer pagamento, inclusive durante a transição.",
+        "Na transição após aumento da renda, a regra geral atual é de 18 meses, com metade dos benefícios e limite de R$706 por pessoa. Há um prazo de dois meses para rendas específicas, como aposentadoria, pensão por morte e BPC Idoso. Famílias que já estavam na proteção até junho de 2025 preservam até 24 meses, com limite de R$759 por pessoa e metade dos benefícios.",
         "Ao comparar propostas, observe o valor prometido, quem teria direito, o que acontece quando a renda aumenta e de onde viria o dinheiro. Uma promessa de reajuste é diferente de um reajuste já previsto em norma."
       ],
       "sources": [
@@ -2176,11 +2176,12 @@
           "url": "https://www.gov.br/mds/pt-br/noticias/bolsa-familia-tera-valor-minimo-de-r-691-a-partir-de-outubro"
         },
         {
-          "label": "MDS — regras de acesso e proteção",
-          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia/conheca-as-regras/Conheca-as-Regras"
+          "label": "MDS — Portaria 897 consolidada com a Portaria 1.191/2026",
+          "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/portaria/portaria-mds-no-897-de-07-de-julho-de-2023/PortariaMDSn897de07dejulhode2023BeneficiosPBF.pdf",
+          "locator": "Arts. 20 e 21, páginas 11–12; art. 54-A, página 26. Versão com alteração de 9/6/2026, conferida em 21/10/2026."
         }
       ],
-      "editorialNotes": "Consultado 20/10/2026. Algumas páginas antigas do MDS ainda exibem piso 600; usar decreto 17/09 e notícia específica para a folha deoutubro. Não fixar um prazo único da Regra de Proteção nem presumir benefício automático pelo cadastro. Não atribui posição de campanha a Flávio.",
+      "editorialNotes": "21/10/2026: prazo vigente conferido nos arts. 20, 21 e 54-A da Portaria 897 consolidada com a Portaria 1.191/2026. Preservar distinção entre regra geral, rendas específicas e grupo anterior; não confundir benefício integral com pagamento na proteção.",
       "kind": "Tema em debate",
       "status": "draft",
       "verification": "checked",
@@ -2200,6 +2201,19 @@
                 }
               ],
               "blockId": "tema-bolsa-familia"
+            },
+            {
+              "type": "Ato de governo",
+              "dateLabel": "2025–2026 · atos do MDS",
+              "text": "O ministério reduziu a regra geral para novas famílias a 12 meses em 2025 e ampliou para 18 em 2026. O grupo antigo permaneceu com até 24 meses. As mudanças não garantem pagamento integral durante a transição.",
+              "sources": [
+                {
+                  "label": "MDS — Portaria 897 consolidada com a Portaria 1.191/2026",
+                  "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/portaria/portaria-mds-no-897-de-07-de-julho-de-2023/PortariaMDSn897de07dejulhode2023BeneficiosPBF.pdf",
+                  "locator": "Arts. 20 e 21, páginas 11–12; art. 54-A, página 26. Versão com alteração de 9/6/2026, conferida em 21/10/2026."
+                }
+              ],
+              "blockId": "lula-protecao-renda"
             }
           ]
         },
@@ -2225,7 +2239,9 @@
             }
           ]
         }
-      ]
+      ],
+      "checkedAt": "21/10/2026",
+      "verifiedAt": "2026-10-21"
     },
     {
       "id": "tema-seguranca",
@@ -3137,8 +3153,8 @@
       ],
       "implications": [
         {
-          "label": "O que já existe",
-          "text": "O governo Lula já mudou essa transição: a Portaria 1.084/2025 fixou até 12 meses e metade do benefício para novas famílias enquadradas na regra geral, preservando até 24 meses para o grupo anterior. Esse é o registro histórico de 2025; há informações divergentes nas páginas oficiais consultadas sobre o prazo atual. Não usamos esse número como regra vigente para calcular a diferença com a promessa de dois anos."
+          "label": "Comparação com a regra atual",
+          "text": "A norma vigente prevê 18 meses na regra geral, com metade do benefício e renda de até R$706 por pessoa. A proposta de dois anos corresponde a seis meses a mais nesse prazo, se as demais condições forem mantidas. O grupo antigo já tem até 24 meses; não seria uma extensão para todos."
         },
         {
           "label": "Como isso afeta a família",
@@ -3147,6 +3163,10 @@
         {
           "label": "O que pode ser perdido na transição",
           "text": "O ponto decisivo é quanto do benefício a família manteria enquanto sua renda aumenta. Dois anos de prazo não garantem benefício integral nem proteção maior para todos. Sem o valor, o limite de renda e as regras de retorno, não podemos calcular quem ganharia ou perderia em relação à regra atual."
+        },
+        {
+          "label": "Quem tem prazo diferente",
+          "text": "O prazo é de dois meses quando a renda inclui pensão por morte, aposentadoria, benefício previdenciário público ou BPC Idoso. Quem já estava na proteção até junho de 2025 preserva até 24 meses e limite de R$759 por pessoa. Os prazos contam da atualização cadastral. BPC por deficiência não está na exceção de dois meses."
         }
       ],
       "sources": [
@@ -3159,10 +3179,6 @@
           "url": "https://www.correiobraziliense.com.br/politica/2026/10/amp/7523659-coordenadora-de-flavio-nega-intencao-de-acabar-com-bolsa-familia-em-dois-anos.html"
         },
         {
-          "label": "MDS — regras por grupo",
-          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia/conheca-as-regras/Conheca-as-Regras"
-        },
-        {
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=42",
           "locator": "Páginas físicas 42, 43. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
@@ -3170,18 +3186,23 @@
         {
           "label": "MDS — Portaria 1.084/2025, regra histórica",
           "url": "https://aplicacoes.mds.gov.br/snas/regulacao/visualizar.php?codigo=6929"
+        },
+        {
+          "label": "MDS — Portaria 897 consolidada com a Portaria 1.191/2026",
+          "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/portaria/portaria-mds-no-897-de-07-de-julho-de-2023/PortariaMDSn897de07dejulhode2023BeneficiosPBF.pdf",
+          "locator": "Arts. 20 e 21, páginas 11–12; art. 54-A, página 26. Versão com alteração de 9/6/2026, conferida em 21/10/2026."
         }
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": "Entrevista integral CBN e parâmetros finais pendentes; não atribuir desligamento universal após24meses. 21/10: prazo atual da Regra de Proteção não encerrado; fontes informativas divergem. Prazo de 2025 explicitamente histórico, sem comparação numérica atual.",
+      "editorialNotes": "21/10/2026: prazo legal resolvido pela versão consolidada do MDS com a Portaria 1.191/2026. A proposta de dois anos é atribuída à coordenadora conforme as reportagens; entrevista integral e parâmetros de valor, renda e exceções não estão documentados aqui. Não afirmar fim universal do programa nem benefício integral garantido.",
       "programMeasureIds": [
         "PL-164",
         "PL-165",
         "PL-166",
         "PL-167"
       ],
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-10-21",
       "verificationScope": "attributed-report-and-context",
       "checkedAt": "21/10/2026",
       "programAttributionReview": {
@@ -4206,13 +4227,13 @@
       "kind": "Proposta",
       "topic": "direitos",
       "title": "Bolsa Família e proteção de renda",
-      "summary": "Promete manter a proteção de renda. Seu governo também encurtou, em 2025, o apoio de transição para novas famílias cuja renda aumentou.",
+      "summary": "Promete manter a proteção de renda. Seu governo reduziu a transição em 2025 e voltou a ampliá-la em 2026.",
       "paragraphs": [
         "Manter e aperfeiçoar a proteção social.",
         "Propõe integrar a rede de assistência social, o SUAS, à resposta a desastres.",
         "Prevê ampliar recursos e modernizar a rede de assistência social básica e especializada, incluindo uma agenda específica para povos e comunidades tradicionais.",
         "Propõe enfrentar a pobreza infantil e ampliar o acesso de crianças a serviços públicos e a espaços de brincar.",
-        "Em 2025, uma portaria do Ministério do Desenvolvimento Social, assinada pelo ministro Wellington Dias, reduziu para até 12 meses a regra geral de transição das novas famílias, com metade do benefício. Preservou até 24 meses para o grupo anterior e previu dois meses para determinadas rendas estáveis. Foi uma decisão do governo Lula; não uma portaria assinada pessoalmente pelo presidente."
+        "Em 2025, o MDS do governo Lula reduziu de 24 para 12 meses a regra geral de transição para novas famílias, preservando o grupo anterior. Em 2026, a Portaria 1.191 ampliou o prazo geral para 18 meses. São atos do ministério, não portarias assinadas pessoalmente por Lula."
       ],
       "context": "",
       "status": "draft",
@@ -4231,8 +4252,12 @@
           "text": "As condições de acesso e a Regra de Proteção distinguem a entrada no programa da transição quando a renda cresce. Não temos um valor adicional específico para o próximo mandato. O efeito na pobreza precisa ser medido junto com renda do trabalho e outras condições, sem atribuir toda mudança a uma única política."
         },
         {
-          "label": "Efeito da mudança de 2025",
-          "text": "Encurtar a transição diminui o tempo de apoio após a renda aumentar. Isso não extingue o programa. As páginas oficiais consultadas divergem sobre o prazo atual; não usamos a regra histórica como cálculo definitivo do direito de uma família hoje."
+          "label": "O que mudou para quem aumenta a renda",
+          "text": "A ampliação de 12 para 18 meses prolonga o apoio por seis meses na regra geral. Ela não restaura os 24 meses para todos. Durante a proteção, a família recebe metade dos benefícios a que tem direito; há exceções por tipo de renda e data de entrada."
+        },
+        {
+          "label": "Quem tem prazo diferente",
+          "text": "O prazo é de dois meses quando a renda inclui pensão por morte, aposentadoria, benefício previdenciário público ou BPC Idoso. Quem já estava na proteção até junho de 2025 preserva até 24 meses e limite de R$759 por pessoa. Os prazos contam da atualização cadastral. BPC por deficiência não está na exceção de dois meses."
         }
       ],
       "sources": [
@@ -4250,17 +4275,18 @@
           "url": "https://www.gov.br/mds/pt-br/noticias/bolsa-familia-tera-valor-minimo-de-r-691-a-partir-de-outubro"
         },
         {
-          "label": "MDS — regras do Bolsa Família",
-          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia/conheca-as-regras/Conheca-as-Regras"
-        },
-        {
           "label": "MDS — Portaria 1.084/2025, arts. 20, 21 e 54-A",
           "url": "https://aplicacoes.mds.gov.br/snas/regulacao/visualizar.php?codigo=6929"
+        },
+        {
+          "label": "MDS — Portaria 897 consolidada com a Portaria 1.191/2026",
+          "url": "https://www.gov.br/mds/pt-br/acesso-a-informacao/legislacao/portaria/portaria-mds-no-897-de-07-de-julho-de-2023/PortariaMDSn897de07dejulhode2023BeneficiosPBF.pdf",
+          "locator": "Arts. 20 e 21, páginas 11–12; art. 54-A, página 26. Versão com alteração de 9/6/2026, conferida em 21/10/2026."
         }
       ],
-      "editorialNotes": "Consulta em 20/10/2026. Contexto legal distinto de promessa futura. Rascunho; revisar dados e temporalidade antes da publicação. Complemento textual do programa em 20/10/2026; revisão de cobertura, efeitos e versão ainda pendente.",
+      "editorialNotes": "21/10/2026: prazo vigente conferido nos arts. 20, 21 e 54-A da Portaria 897 consolidada com a Portaria 1.191/2026. Preservar distinção entre regra geral, rendas específicas e grupo anterior; não confundir benefício integral com pagamento na proteção.",
       "relatedRoute": "conteudo/tema-bolsa-familia",
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-10-21",
       "verificationScope": "program-attribution-and-context",
       "checkedAt": "21/10/2026",
       "programAttributionReview": {
@@ -15404,6 +15430,21 @@
       "before": "Permitir licenças por falta de resposta do governo no prazo e dar estabilidade às regras.",
       "after": "Conceder licença se o órgão não responder no prazo, quando o empreendedor tiver cumprido as exigências legais. Também propõe manter regras de grandes projetos por até 20 anos.",
       "reason": "Evitar que o resumo omita restrições, mudanças de posição ou diferenças entre promessa e resultado."
+    },
+    {
+      "id": "correcao-bolsa-prazo-20261021",
+      "date": "2026-10-21",
+      "type": "Correção",
+      "title": "Bolsa Família: prazo atual corrigido",
+      "description": "A versão mais recente da norma oficial resolve a divergência entre 12 e 18 meses. Os cards dos dois candidatos agora explicam a regra atual e suas exceções.",
+      "blockIds": [
+        "lula-protecao-renda",
+        "flavio-bolsa-familia-transicao",
+        "tema-bolsa-familia"
+      ],
+      "before": "Prazo atual tratado como divergente entre páginas oficiais; comparação numérica suspensa.",
+      "after": "Regra geral de 18 meses, preservadas as exceções de dois e 24 meses. Proposta de dois anos comparada de forma condicional.",
+      "reason": "Localizada a versão consolidada oficial com a Portaria MDS 1.191/2026; a cópia anterior não incorporava essa alteração."
     }
   ]
 }

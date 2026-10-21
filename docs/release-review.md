@@ -1,4 +1,4 @@
-# Release review candidate — 20 October 2026
+# Release review candidate — 21 October 2026
 
 Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --release-review`.
 
@@ -6,9 +6,7 @@ Local URL: http://127.0.0.1:4174/ . Rebuild with `python3 scripts/build.py --rel
 
 Excluded: both debate percentage datasets, atomic audit download, completeness metadata and comparison Story controls. No complete-program or full-property-audit claim is made. Build validation and exclusion assertions passed. No deployment performed; launchApproved remains false.
 
-Candidate content SHA-256: `08d017c86a75e963c9045bd4765f2c9c1bfd9792d357916c758c1fff71ce077d`
-
-Editorial approval digest (canonical filtered content): `7a5f680f24212b14c86e02a83e5dec272920154f4a7b5b4135eaff77a25d1b82`.
+Editorial approval digest (canonical filtered content): `a24db28bf8d635fa88323ab6f03830aa71997de4bde95e4a0bfc5fccfefb005c`.
 
 Public and local review builds now share the same filter. The public build additionally requires this exact editorial digest in src/release-approval.json and launchApproved. Neither approval has been granted. See final-validation.md for the checks and limitations.
 

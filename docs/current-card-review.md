@@ -9,7 +9,7 @@ Reviewed on 2026-10-21 (America/Fortaleza). Nothing published. Launch approval a
 - Complete program page mappings are in `program-attribution-review-2026-10-21.json`. Proposal source links were consolidated and their locators corrected. This verifies attribution, not feasibility, historical achievements, costs, or promised outcomes.
 - 16 cards received substantive wording/context changes in this pass. Prior changes to Flávio's salary and union cards are retained. Each correction is recorded in the reader-visible history.
 
-## What changed
+## Earlier pass changes (Bolsa Família rows superseded by the deadline review)
 
 | Card | Before | After |
 |---|---|---|
@@ -34,7 +34,7 @@ Reviewed on 2026-10-21 (America/Fortaleza). Nothing published. Launch approval a
 
 Primary documents reopened for the worker-impact corrections include [Law 15.077/2024](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15077.htm), [the original PLP 12/2024](https://www.planalto.gov.br/ccivil_03/projetos/ato_2023_2026/2024/plp/plp-012.htm), [MP 905/2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/mpv/mpv905.htm), [MDS Ordinance 1.084/2025](https://aplicacoes.mds.gov.br/snas/regulacao/visualizar.php?codigo=6929), [EC 141/2026](https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc141.htm), [Law 14.790/2023](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14790.htm) and [MP 1.394/2026](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/mpv/mpv1394.htm). Privatization chronology is explicitly attributed to [Aos Fatos](https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo-segundo-turno/), not claimed as a fresh audiovisual verification.
 
-The current Bolsa Família protection deadline remains unresolved: indexed MDS guidance mentions 18 months, whereas the opened FAQ and consolidated PDF (updated through January 2026) state 12. The indexed 18-month page redirects to login; an alleged later amendment was not obtained from an official source. The site now states the documented **2025 historical change**, without asserting that it is today's universal deadline or calculating a numerical advantage for either campaign. No unresolved 12-versus-18 conclusion is approved for publication.
+The Bolsa Família deadline discrepancy is resolved. The newer official consolidated Ordinance 897 PDF incorporates Ordinance 1,191/2026: 18 months under the general rule, with the two-month income exception and the legacy 24-month cohort retained. Both candidate cards and the shared explainer were corrected. See `bolsa-familia-deadline-review.md` for the complete discrepancy ledger and remaining evidence boundaries.
 
 This pass does not independently recertify every judicial file, property payment, asset list or audiovisual timestamp. Those cards retain their previous narrowly attributed evidence; absent documents are not upgraded to proven facts. Debate percentages and claims of exhaustive program-measure coverage remain outside the filtered release. This review does not establish that no other campaign statement exists.
 
@@ -47,7 +47,7 @@ This pass does not independently recertify every judicial file, property payment
 | 6x1-regra-atual | EC141 text reopened; transition and exceptions retained, not attributed to presidential sanction. |
 | tema-ia-campanhas | Compiled TSE regulation reopened; no candidate offense inferred from general rule. |
 | tema-bets | 2023 regulation and 2026 prohibition shown together; no measured debt reduction claimed. |
-| tema-bolsa-familia | Decree13120 reopened; values confirmed, no universal transition duration added. |
+| tema-bolsa-familia | Decree13120 values retained; current 18-month protection rule and two/24-month exceptions added from the updated consolidated ordinance. |
 | tema-seguranca | Competence and conditional effects reviewed; no crime reduction attributed solely to promises. |
 | debate-band-checagens | Existing limited GDP/market claims retained; no full-debate or timestamp certification added. |
 | atos-cidades-contexto, atos-ocorrencias-11-outubro, atos-ocorrencias-18-outubro | Report attribution, geographical windows and absence of candidate-level blame retained; no fresh census/police certification. |
@@ -57,4 +57,4 @@ This pass does not independently recertify every judicial file, property payment
 
 Passed: filtered release-review build (211 cards), exact approval/launch gates in isolated fixture, JavaScript syntax, reader-storage tests and diff whitespace checks. Mobile reading checked at 341 CSS pixels: no horizontal overflow; bookmark and heading rectangles do not overlap; expanding one candidate leaves the other collapsed. No deployment command was run.
 
-Filtered edition digest: `e85227dd22676c2074bf633d0b7f30d8c91dd2196c376955e4e051105d3ad343`. This is a fingerprint, not an approval.
+Filtered edition digest: `a24db28bf8d635fa88323ab6f03830aa71997de4bde95e4a0bfc5fccfefb005c`. This is a fingerprint, not an approval.

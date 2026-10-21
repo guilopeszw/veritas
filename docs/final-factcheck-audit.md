@@ -1,3 +1,5 @@
+> Historical audit, superseded for current readiness by `current-verification-status.md` and `current-card-review.md`. Counts and unresolved findings below describe an earlier edition.
+
 # Final fact-check readiness audit
 
 Reviewed: 2026-10-20. **Not complete; publication and public comparison sharing must remain blocked.** This report is a readiness assessment and a fresh primary-source check of the previously identified health/education gaps, not a certification of every claim.

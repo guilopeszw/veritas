@@ -1,4 +1,4 @@
-# Current release review status — 20 October 2026
+# Current release review status — 21 October 2026
 
 ## Included scope
 
@@ -19,8 +19,10 @@ These deferred investigations do not need to be completed to review this narrowe
 
 1. Owner reviews the exact current candidate text and presentation. Source approval flags currently remain five approved / 206 draft; earlier approvals have not been bulk-applied to revised text.
 2. Record editorial approval of the exact canonical filtered-content digest only after explicit owner approval. No bulk changes to individual draft flags are needed.
-3. Owner authorizes publication separately and confirms the production destination. No hosting or deployment workflow is configured.
+3. Owner authorizes publication separately and confirms the production destination. Cloudflare has been selected, but a reserved production address and completed owner-only deployment setup have not been confirmed.
 
 Completed: shared public/review filtering; isolated public-package regression tests; approval/stale-hash/launch gates; removed-data cleanup; mobile route checks; inactive channel links disabled with original declarations preserved. Automated access restrictions and a TJRJ timeout are not classified as dead sources. See final-validation.md. launchApproved remains false.
 
 Do not describe this as a complete audit of all proposals, transactions or debate coverage. No new audiovisual validation is claimed.
+
+Bolsa Família deadline discrepancy resolved on 21 October: see bolsa-familia-deadline-review.md. Both candidate cards and the common explainer use the updated official ordinance.
