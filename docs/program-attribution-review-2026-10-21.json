@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-21",
+  "scope": "Proposal text attribution, not historical outcomes or audiovisual validation",
+  "pagesByBlock": {
+    "lula-jornada": [
+      75
+    ],
+    "lula-renda": [
+      74
+    ],
+    "lula-saude": [
+      36
+    ],
+    "lula-educacao": [
+      31,
+      32,
+      33
+    ],
+    "lula-seguranca": [
+      27,
+      28,
+      29
+    ],
+    "lula-integridade": [
+      18
+    ],
+    "lula-digital": [
+      16,
+      17,
+      23
+    ],
+    "lula-institutos-federais": [
+      20,
+      33
+    ],
+    "lula-professores": [
+      32,
+      33
+    ],
+    "lula-saude-digital": [
+      35,
+      38
+    ],
+    "lula-especialistas": [
+      34,
+      37,
+      38
+    ],
+    "lula-moradia": [
+      17,
+      18,
+      45
+    ],
+    "lula-regra-fiscal": [
+      48,
+      49
+    ],
+    "lula-cuidados": [
+      22,
+      25,
+      26
+    ],
+    "lula-fomento-cultural": [
+      25,
+      40,
+      41,
+      42,
+      43
+    ],
+    "lula-agricultura-familiar": [
+      59,
+      60
+    ],
+    "lula-seguro-rural": [
+      60,
+      62
+    ],
+    "lula-energia-renovavel": [
+      64,
+      65,
+      66,
+      71
+    ],
+    "lula-adaptacao-climatica": [
+      47,
+      71,
+      72,
+      73
+    ],
+    "lula-empregabilidade": [
+      23,
+      74
+    ],
+    "lula-impostos": [
+      18,
+      49
+    ],
+    "lula-protecao-renda": [
+      18,
+      23,
+      24,
+      25
+    ],
+    "lula-seguranca-constitucional": [
+      27,
+      30
+    ],
+    "lula-trabalho-apps": [
+      74,
+      75,
+      77
+    ],
+    "lula-apostas": [
+      49
+    ],
+    "lula-industria": [
+      48,
+      50,
+      51,
+      52
+    ],
+    "lula-creches": [
+      31,
+      32
+    ],
+    "lula-alfabetizacao": [
+      31
+    ],
+    "lula-ensino-superior": [
+      20,
+      24,
+      33,
+      34
+    ],
+    "lula-atencao-basica": [
+      34,
+      35
+    ],
+    "lula-saude-bucal": [
+      36
+    ],
+    "lula-vacinacao": [
+      36,
+      37
+    ],
+    "lula-cancer": [
+      38
+    ],
+    "lula-saude-mulheres": [
+      38,
+      39
+    ],
+    "lula-saude-mental": [
+      25,
+      39
+    ],
+    "lula-saneamento": [
+      46
+    ],
+    "lula-mobilidade": [
+      46,
+      64
+    ],
+    "lula-esporte": [
+      43,
+      44
+    ],
+    "lula-desmatamento": [
+      70,
+      71,
+      72
+    ],
+    "lula-petroleo-combustiveis": [
+      63,
+      66,
+      67
+    ],
+    "lula-acesso-energia": [
+      64,
+      65,
+      66
+    ],
+    "lula-igualdade-salarial": [
+      21,
+      22,
+      75
+    ],
+    "lula-fiscalizacao-trabalho": [
+      74,
+      75
+    ],
+    "lula-previdencia": [
+      77
+    ],
+    "lula-defesa-tecnologia": [
+      78,
+      79
+    ],
+    "lula-integracao-regional": [
+      52,
+      62,
+      79,
+      80,
+      81
+    ],
+    "lula-reforma-onu": [
+      81
+    ],
+    "lula-ia-infraestrutura": [
+      54,
+      55,
+      81,
+      82
+    ],
+    "lula-cameras-prisoes": [
+      28,
+      30
+    ],
+    "lula-adultos-conectividade": [
+      31,
+      32
+    ],
+    "lula-industria-saude": [
+      39
+    ],
+    "lula-audiovisual": [
+      42
+    ],
+    "lula-urbanizacao-periferias": [
+      28,
+      45,
+      46
+    ],
+    "lula-logistica": [
+      52,
+      53,
+      54
+    ],
+    "lula-minerais": [
+      52
+    ],
+    "lula-pequenos-negocios": [
+      58,
+      76
+    ],
+    "lula-acesso-terra": [
+      60,
+      61,
+      70
+    ],
+    "lula-biocombustiveis": [
+      63,
+      68
+    ],
+    "lula-energia-nuclear": [
+      68
+    ],
+    "lula-mercado-carbono": [
+      51,
+      71
+    ],
+    "lula-negociacao-coletiva": [
+      75,
+      76,
+      77
+    ],
+    "lula-cooperacao-tecnica": [
+      81,
+      82
+    ],
+    "lula-controle-armas": [
+      28
+    ],
+    "lula-residuos": [
+      47,
+      75,
+      76
+    ],
+    "lula-biodiversidade": [
+      71,
+      72
+    ],
+    "lula-turismo": [
+      57
+    ],
+    "lula-protecao-animal": [
+      71,
+      72
+    ],
+    "lula-pequenas-empresas-mercados": [
+      17,
+      57
+    ],
+    "lula-territorios-tradicionais": [
+      20,
+      21,
+      60
+    ],
+    "lula-protecao-mulheres": [
+      21
+    ],
+    "lula-acessibilidade": [
+      23
+    ],
+    "lula-inclusao-lgbt": [
+      23
+    ],
+    "lula-protecao-digital-criancas": [
+      24
+    ],
+    "lula-celular-seguro": [
+      29
+    ],
+    "lula-migracao": [
+      30
+    ],
+    "lula-mercado-capitais": [
+      49
+    ],
+    "lula-desenvolvimento-regional": [
+      55,
+      56
+    ],
+    "lula-pesca-artesanal": [
+      61
+    ],
+    "lula-rastreabilidade-rebanho": [
+      62
+    ],
+    "lula-democracia": [
+      15,
+      16
+    ],
+    "lula-gestao-publica": [
+      16,
+      17,
+      18
+    ],
+    "lula-igualdade-racial": [
+      19,
+      20
+    ],
+    "lula-juventude": [
+      24,
+      25
+    ],
+    "lula-alimentacao": [
+      58,
+      59
+    ],
+    "lula-agropecuaria": [
+      61,
+      62
+    ],
+    "lula-economia-solidaria": [
+      75,
+      76
+    ],
+    "flavio-precos": [
+      30,
+      31
+    ],
+    "flavio-emprego": [
+      43,
+      44,
+      54
+    ],
+    "flavio-saude": [
+      37,
+      38
+    ],
+    "flavio-educacao": [
+      35,
+      36
+    ],
+    "flavio-seguranca": [
+      13,
+      14,
+      15
+    ],
+    "flavio-stf": [
+      65,
+      66
+    ],
+    "flavio-estatais": [
+      70
+    ],
+    "flavio-bolsa-familia-transicao": [
+      42,
+      43
+    ],
+    "flavio-idade-penal": [
+      13
+    ],
+    "flavio-prontuario-cpf": [
+      26
+    ],
+    "flavio-internet-servicos": [
+      24
+    ],
+    "flavio-mulheres-protecao": [
+      14,
+      17,
+      18,
+      19,
+      20
+    ],
+    "flavio-creches-cuidados": [
+      21,
+      38
+    ],
+    "flavio-saude-mulheres": [
+      21
+    ],
+    "flavio-ajuste-fiscal": [
+      33,
+      49,
+      70,
+      71
+    ],
+    "flavio-administracao": [
+      69
+    ],
+    "flavio-privatizacoes": [
+      70
+    ],
+    "flavio-agro-alimentos": [
+      31,
+      32,
+      54
+    ],
+    "flavio-habitacao": [
+      47
+    ],
+    "flavio-digital-estado": [
+      25,
+      26
+    ],
+    "flavio-desmatamento": [
+      55,
+      57,
+      58,
+      59
+    ],
+    "flavio-agua-desastres": [
+      52
+    ],
+    "flavio-minerais": [
+      55,
+      56
+    ],
+    "flavio-energia-infra": [
+      52,
+      53,
+      55
+    ],
+    "flavio-reforma-politica": [
+      65,
+      66
+    ],
+    "flavio-cultura": [
+      41
+    ],
+    "flavio-esporte": [
+      40,
+      41
+    ],
+    "flavio-turismo": [
+      51,
+      59,
+      60
+    ],
+    "flavio-regional-saneamento": [
+      47,
+      48,
+      52,
+      60
+    ],
+    "flavio-fronteiras": [
+      13,
+      14,
+      15
+    ],
+    "flavio-execucao-penal": [
+      15,
+      16
+    ],
+    "flavio-familias-vitimas": [
+      15
+    ],
+    "flavio-tecnico-fies": [
+      36,
+      37
+    ],
+    "flavio-cuidado-idosos": [
+      25,
+      37,
+      38,
+      39
+    ],
+    "flavio-antifraude-inss": [
+      72,
+      73
+    ],
+    "flavio-negociacao-trabalho": [
+      44,
+      45
+    ],
+    "flavio-reconhecimento-facial": [
+      15
+    ],
+    "flavio-reforma-tributaria": [
+      30,
+      71,
+      72
+    ],
+    "flavio-expressao": [
+      66,
+      67
+    ],
+    "flavio-federalismo": [
+      68,
+      69
+    ],
+    "flavio-empreendedorismo": [
+      27,
+      45,
+      46,
+      63
+    ],
+    "flavio-defesa-exterior": [
+      62,
+      63
+    ],
+    "flavio-castracao-quimica": [
+      14
+    ],
+    "flavio-crimes-celulares": [
+      16
+    ],
+    "flavio-ganha-ganha": [
+      19,
+      20,
+      46
+    ],
+    "flavio-mulheres-conexao-formacao": [
+      18,
+      20
+    ],
+    "flavio-claria": [
+      18,
+      19,
+      25
+    ],
+    "flavio-orientacao-financeira": [
+      19,
+      33
+    ],
+    "flavio-emendas": [
+      69
+    ],
+    "flavio-mobilidade": [
+      51
+    ],
+    "flavio-atencao-basica": [
+      37
+    ],
+    "flavio-vacinacao": [
+      37
+    ],
+    "flavio-saude-mental": [
+      39
+    ],
+    "flavio-agendamento-saude": [
+      26
+    ],
+    "flavio-regularizacao-rural": [
+      27,
+      54,
+      55
+    ],
+    "flavio-rastreabilidade-rural": [
+      28
+    ],
+    "flavio-gestao-ensino-superior": [
+      36,
+      37
+    ],
+    "flavio-licenciamento": [
+      49,
+      50
+    ],
+    "flavio-infraestrutura-logistica": [
+      50,
+      51
+    ],
+    "flavio-inovacao": [
+      56,
+      57
+    ]
+  }
+}
