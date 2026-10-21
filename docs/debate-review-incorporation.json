@@ -1,0 +1,91 @@
+{
+  "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+  "incorporated": [
+    {
+      "id": "PL-001",
+      "candidate": "flavio",
+      "start": 290,
+      "end": 325,
+      "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=290s",
+      "status": "confirmed",
+      "checks": [
+        0,
+        1,
+        2
+      ],
+      "notes": "Ele fala sobre declarar guerra ao narcoterrorismo. Vai classificar PCC, comando vermelho e milícias como organizações narcoterroristas. Disse que vai recuperar cada metro de cada bairro de cada rua de cada cidade. Também vai criar a lei antifacção",
+      "reviewedAt": "2026-10-21T13:05:38.054Z",
+      "reviewer": "site-owner",
+      "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+      "incorporation": "audio-confirmed-coverage-unchanged",
+      "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+    },
+    {
+      "id": "PL-004:b",
+      "candidate": "flavio",
+      "start": 308,
+      "end": 335,
+      "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=308s",
+      "status": "confirmed",
+      "checks": [
+        0,
+        1,
+        2
+      ],
+      "notes": "Ele fala sobre como os líderes de organizações narcoterroristas ficarem até 80 anos presos",
+      "reviewedAt": "2026-10-21T13:06:19.352Z",
+      "reviewer": "site-owner",
+      "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+      "incorporation": "confirmed-by-reviewer-partial-coverage-retained",
+      "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match."
+    },
+    {
+      "id": "PL-010",
+      "candidate": "flavio",
+      "start": 376,
+      "end": 392,
+      "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=376s",
+      "status": "confirmed",
+      "checks": [
+        0,
+        1,
+        2
+      ],
+      "notes": "Vai construir mais de meio milhão de vagas nas prisões",
+      "reviewedAt": "2026-10-21T13:07:14.238Z",
+      "reviewer": "site-owner",
+      "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+      "incorporation": "audio-confirmed-coverage-unchanged",
+      "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+    },
+    {
+      "id": "PT-058-01",
+      "candidate": "lula",
+      "start": 467,
+      "end": 493,
+      "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=467s",
+      "status": "confirmed",
+      "checks": [
+        0,
+        1,
+        2
+      ],
+      "notes": "Se o senado votar a PEC da segurança, ele irá criar o Ministério da Segurança Pública.",
+      "reviewedAt": "2026-10-21T13:08:01.975Z",
+      "reviewer": "site-owner",
+      "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+      "incorporation": "audio-confirmed-coverage-unchanged",
+      "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+    }
+  ],
+  "unresolvedObservations": [
+    {
+      "id": "PL-001",
+      "issue": "Owner note says create anti-faction law; ASR says law already approved. Do not add as new promise before checking wording."
+    },
+    {
+      "id": "PL-004:b",
+      "issue": "Owner note concerns up-to-80-year sentences at roughly337–342s, outside main308–335s but inside context. Keep separate from territory/public-services coverage."
+    }
+  ]
+}

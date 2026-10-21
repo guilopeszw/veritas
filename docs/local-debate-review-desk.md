@@ -45,3 +45,9 @@ Checked all 24 files for audio/video streams and expected duration (within
 0.2 seconds), JavaScript syntax, HTTP206 range responses, browser seek to the
 original timestamp, status persistence across reload and confirmation gating.
 Test statuses were reset to pending. No factual approval was recorded.
+
+## Local synchronization
+
+The page POSTs a debounced snapshot to its loopback server after edits and on load. The server accepts only its exact local Origin, bounds payload size, validates statuses and checks, and atomically writes `outputs/revisao-debate/latest-review.json`. This operator file is outside the repository and every release build. No remote endpoint receives review notes.
+
+The thread heartbeat compares snapshots every five minutes with `docs/debate-review-incorporation.json`. Source observations remain attributed to the owner. Changed or revoked reviews require reconciliation; a confirmed partial match is not automatically counted as direct. Do not regenerate the review page while the user is reviewing: its original ledger hash intentionally anchors their session even as evidence metadata is incorporated into the working ledger.

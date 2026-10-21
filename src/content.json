@@ -631,6 +631,16 @@
         {
           "label": "CRS — efeitos de designações de cartéis, 10/03/2025",
           "url": "https://www.congress.gov/crs_external_products/IN/PDF/IN11205/IN11205.4.pdf"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=290s",
+          "locator": "Intervalo 290–325 segundos. Escuta confirmada pelo revisor em 21/10/2026."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=376s",
+          "locator": "Intervalo 376–392 segundos. Escuta confirmada pelo revisor em 21/10/2026."
         }
       ],
       "status": "draft",
@@ -678,7 +688,47 @@
           15
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PL-001",
+          "candidate": "flavio",
+          "start": 290,
+          "end": 325,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=290s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele fala sobre declarar guerra ao narcoterrorismo. Vai classificar PCC, comando vermelho e milícias como organizações narcoterroristas. Disse que vai recuperar cada metro de cada bairro de cada rua de cada cidade. Também vai criar a lei antifacção",
+          "reviewedAt": "2026-10-21T13:05:38.054Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "audio-confirmed-coverage-unchanged",
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        },
+        {
+          "id": "PL-010",
+          "candidate": "flavio",
+          "start": 376,
+          "end": 392,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=376s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Vai construir mais de meio milhão de vagas nas prisões",
+          "reviewedAt": "2026-10-21T13:07:14.238Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "audio-confirmed-coverage-unchanged",
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        }
+      ]
     },
     {
       "id": "lula-integridade",
@@ -4357,6 +4407,11 @@
         {
           "label": "Câmara — PEC 18/2025 do Executivo",
           "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2500080"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=467s",
+          "locator": "Intervalo 467–493 segundos. Escuta confirmada pelo revisor em 21/10/2026."
         }
       ],
       "editorialNotes": "Consulta em 20/10/2026. Contexto legal distinto de promessa futura. Rascunho; revisar dados e temporalidade antes da publicação.",
@@ -4369,7 +4424,28 @@
           30
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "debateHumanReviews": [
+        {
+          "id": "PT-058-01",
+          "candidate": "lula",
+          "start": 467,
+          "end": 493,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=467s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Se o senado votar a PEC da segurança, ele irá criar o Ministério da Segurança Pública.",
+          "reviewedAt": "2026-10-21T13:08:01.975Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "audio-confirmed-coverage-unchanged",
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        }
+      ]
     },
     {
       "id": "lula-trabalho-apps",
@@ -14235,7 +14311,26 @@
           30
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
-        "action": "Create security ministry conditional on approval of security PEC"
+        "action": "Create security ministry conditional on approval of security PEC",
+        "humanReview": {
+          "id": "PT-058-01",
+          "candidate": "lula",
+          "start": 467,
+          "end": 493,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=467s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Se o senado votar a PEC da segurança, ele irá criar o Ministério da Segurança Pública.",
+          "reviewedAt": "2026-10-21T13:08:01.975Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "audio-confirmed-coverage-unchanged",
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        }
       },
       {
         "start": 2659,
@@ -14345,7 +14440,26 @@
           13
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Designate PCC, CV, militias and other factions as narcoterrorist organizations"
+        "action": "Designate PCC, CV, militias and other factions as narcoterrorist organizations",
+        "humanReview": {
+          "id": "PL-001",
+          "candidate": "flavio",
+          "start": 290,
+          "end": 325,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=290s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele fala sobre declarar guerra ao narcoterrorismo. Vai classificar PCC, comando vermelho e milícias como organizações narcoterroristas. Disse que vai recuperar cada metro de cada bairro de cada rua de cada cidade. Também vai criar a lei antifacção",
+          "reviewedAt": "2026-10-21T13:05:38.054Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "audio-confirmed-coverage-unchanged",
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        }
       },
       {
         "start": 6134,
@@ -14414,7 +14528,26 @@
           14
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Create 500000 prison places in four years"
+        "action": "Create 500000 prison places in four years",
+        "humanReview": {
+          "id": "PL-010",
+          "candidate": "flavio",
+          "start": 376,
+          "end": 392,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=376s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Vai construir mais de meio milhão de vagas nas prisões",
+          "reviewedAt": "2026-10-21T13:07:14.238Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "audio-confirmed-coverage-unchanged",
+          "incorporationNote": "Owner confirmed listening; final publication remains unapproved."
+        }
       },
       {
         "start": 5907,
@@ -14777,7 +14910,26 @@
           47
         ],
         "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl",
-        "action": "Recover criminally controlled territory with public services"
+        "action": "Recover criminally controlled territory with public services",
+        "humanReview": {
+          "id": "PL-004:b",
+          "candidate": "flavio",
+          "start": 308,
+          "end": 335,
+          "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=308s",
+          "status": "confirmed",
+          "checks": [
+            0,
+            1,
+            2
+          ],
+          "notes": "Ele fala sobre como os líderes de organizações narcoterroristas ficarem até 80 anos presos",
+          "reviewedAt": "2026-10-21T13:06:19.352Z",
+          "reviewer": "site-owner",
+          "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
+          "incorporation": "confirmed-by-reviewer-partial-coverage-retained",
+          "incorporationNote": "Note concerns up-to-80-year imprisonment in context, not the public-services component required for full program coverage. No automatic promotion to direct match."
+        }
       },
       {
         "start": 5722,
@@ -14889,6 +15041,12 @@
         "merged": 105,
         "excluded-context-or-goal": 50
       }
+    },
+    "humanReviewProgress": {
+      "reviewedIntervals": 4,
+      "totalIntervals": 24,
+      "fullRecordingReviewed": false,
+      "publicationApproved": false
     }
   },
   "readerUpdates": [

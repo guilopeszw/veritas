@@ -1,13 +1,46 @@
 """Loopback-only review server with byte ranges for accurate video seeking."""
 import re
+import json
+import threading
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 DIRECTORY = Path(__file__).resolve().parents[2] / "revisao-debate"
+WRITE_LOCK = threading.Lock()
 
 
 class Handler(SimpleHTTPRequestHandler):
+    def do_POST(self):
+        if self.path != "/review-sync" or self.headers.get("Origin") != "http://127.0.0.1:4175":
+            self.send_error(403)
+            return
+        try:
+            length = int(self.headers.get("Content-Length", "0"))
+            if not 0 < length <= 512_000:
+                raise ValueError("Invalid size")
+            payload = json.loads(self.rfile.read(length))
+            assert re.fullmatch(r"[a-f0-9]{64}", payload["ledgerSha256"])
+            assert payload["publicationApproved"] is False
+            rows = payload["reviews"]
+            assert len(rows) == 24 and len({r["id"] for r in rows}) == 24
+            for row in rows:
+                assert re.fullmatch(r"(?:PT|PL)-[A-Z0-9-]+(?::[a-z])?", row["id"])
+                assert row["status"] in {"pending", "confirmed", "correction", "uncertain"}
+                assert isinstance(row["notes"], str) and len(row["notes"]) <= 20_000
+                assert all(x in [0, 1, 2] for x in row["checks"])
+                assert row["status"] != "confirmed" or set(row["checks"]) == {0, 1, 2}
+        except (ValueError, KeyError, TypeError, AssertionError):
+            self.send_error(400, "Invalid review payload")
+            return
+        with WRITE_LOCK:
+            target = DIRECTORY / "latest-review.json"
+            temporary = DIRECTORY / "latest-review.tmp"
+            temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+            temporary.replace(target)
+        self.send_response(204)
+        self.end_headers()
+
     def send_head(self):
         self.remaining = None
         path = Path(self.translate_path(self.path))
