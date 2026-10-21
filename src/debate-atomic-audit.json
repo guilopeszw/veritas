@@ -989,7 +989,7 @@
     {
       "inventoryId": "PT-044-01",
       "sourcePages": [
-        26
+        27
       ],
       "originalMeasure": "Financial disruption of organized crime",
       "resultingUnitIds": [
@@ -12917,7 +12917,7 @@
         "PT-044-01"
       ],
       "pages": [
-        26
+        27
       ],
       "cardIds": [
         "lula-seguranca"
@@ -20738,7 +20738,7 @@
         21
       ],
       "cardIds": [
-        "lula-empregabilidade"
+        "lula-igualdade-salarial"
       ],
       "sourceUrl": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt",
       "sourceProvenance": "Official TSE indexed text re-fetched and matched to frozen extract on 2026-10-20; binary PDF and visual pages not authenticated.",
@@ -31328,7 +31328,7 @@
         "PT-088-02"
       ],
       "pages": [
-        37
+        38
       ],
       "cardIds": [
         "lula-especialistas"
@@ -32302,7 +32302,7 @@
             "PT-088-02"
           ],
           "pages": [
-            37
+            38
           ],
           "action": "Expand telesurgery facilities",
           "readerAction": "Ampliar estruturas para cirurgias a distância",
