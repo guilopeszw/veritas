@@ -8,6 +8,7 @@ import tempfile
 from release_scope import filtered_content, content_digest, require_public_approval
 
 root = Path(__file__).resolve().parent.parent
+approval_before = (root / "src/release-approval.json").read_bytes()
 source = json.loads((root / "src/content.json").read_text())
 filtered = filtered_content(source)
 assert all(key not in filtered for key in ("debateAudit", "debateIndividualAudit", "programCoverage"))
@@ -46,5 +47,5 @@ with tempfile.TemporaryDirectory() as tmp:
     subprocess.run(["python3", str(fixture / "scripts/build.py"), "--public"], check=True, capture_output=True)
     assert not (fixture / "public/debate-atomic-audit.json").exists()
 assert not source["launchApproved"]
-assert json.loads((root / "src/release-approval.json").read_text())["approvedContentSha256"] is None
+assert (root / "src/release-approval.json").read_bytes() == approval_before, "Tests must preserve real editorial approval"
 print("PASS: exact filtered scope, approval and launch gates, isolated public build, stale-file removal")
