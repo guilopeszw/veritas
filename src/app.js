@@ -54,16 +54,25 @@ function openNotifications(){
  const updates=unreadUpdates().slice().reverse().sort((a,b)=>b.date.localeCompare(a.date));
  dialog.innerHTML=`<header><h2 id="notifications-title">Notificações</h2><form method="dialog"><button aria-label="Fechar notificações">×</button></form></header><p>${updates.length?`${updates.length} atualizações não lidas`:'Você está em dia. Nenhuma novidade.'}</p><div class="notification-list">${updates.map(u=>`<article><time>${esc(u.date.split('-').reverse().join('/'))}</time><h3>${esc(u.title)}</h3><p>${esc(u.description)}</p>${(u.blockIds||[]).filter(id=>data.blocks.some(b=>b.id===id)).map(id=>`<a data-notification-target href="#/conteudo/${esc(id)}">${esc(data.blocks.find(b=>b.id===id).title)} →</a>`).join('')||`<a href="#/correcoes" data-read-update="${esc(u.id)}" data-notification-target>Ver alteração →</a>`}</article>`).join('')}</div><footer>${updates.length?'<button data-notifications-read>Marcar todas como lidas</button>':''}<a href="#/correcoes" data-notification-target>Histórico de alterações</a></footer>`;
  document.body.append(dialog);dialog.showModal();
+ const trigger=document.querySelector('[data-notifications]');
+ function placeNotifications(){
+  const mobile=matchMedia('(max-width:800px)').matches;
+  const box=trigger.getBoundingClientRect();
+  const width=Math.min(420,window.innerWidth-24);
+  const left=mobile?12:Math.min(box.right+14,window.innerWidth-width-12);
+  const top=mobile?Math.max(76,document.querySelector('.app-sidebar').getBoundingClientRect().bottom+8):Math.max(12,Math.min(box.top,window.innerHeight-320));
+  dialog.style.left=`${left}px`;dialog.style.top=`${top}px`;dialog.style.width=`${width}px`;dialog.style.maxHeight=`${Math.max(180,window.innerHeight-top-16)}px`;
+ }
+ placeNotifications();window.addEventListener('resize',placeNotifications);
+ dialog.addEventListener('close',()=>window.removeEventListener('resize',placeNotifications),{once:true});
  dialog.addEventListener('click',event=>{
   if(event.target===dialog)dialog.close();
   if(event.target.closest('[data-notification-target]')){const update=event.target.closest('[data-read-update]')?.dataset.readUpdate;if(update){seenUpdates=[...new Set([...seenUpdates,update])];readerWrite('read-updates-v2',seenUpdates);refreshNotificationBadge();}dialog.close();const id=event.target.closest('a').hash.split('/')[2];if(id)markContentRead(id);}
   if(event.target.closest('[data-notifications-read]')){seenUpdates=(data.readerUpdates||[]).map(u=>u.id);readerWrite('read-updates-v2',seenUpdates);refreshNotificationBadge();dialog.close();openNotifications();}
  });
 }
-function readerLinks(){
- const count=(data.readerUpdates||[]).filter(u=>u.type!=="Registro inicial"&&!seenUpdates.includes(u.id)).length;
- return `<nav class="reader-links" aria-label="Sua leitura"><a href="#/perguntas">Perguntas do cotidiano</a><a href="#/salvos">Salvos</a><a href="#/notificacoes">Notificações${count?` (${count})`:""}</a></nav>`;
-}
+function readerLinks(){return "";}
+
 function blockHistory(block){
  const events=(data.readerUpdates||[]).filter(u=>u.blockIds?.includes(block.id));
  return `<details class="block-history"><summary>Histórico deste conteúdo</summary>${events.map(u=>`<p><time datetime="${esc(u.date)}">${esc(u.date.split('-').reverse().join('/'))}</time> · ${esc(u.type)}</p><p>${esc(u.description)}</p>${u.before?`<p><strong>Antes:</strong> ${esc(u.before)}</p>`:""}${u.after?`<p><strong>Depois:</strong> ${esc(u.after)}</p>`:""}${u.reason?`<p><strong>Motivo:</strong> ${esc(u.reason)}</p>`:""}`).join("")||"<p>Ainda não há alterações registradas para este conteúdo.</p>"}<a href="#/correcoes">Ver o registro completo</a></details>`;
@@ -86,7 +95,7 @@ function savedPage(){
 function updatesPage(historyOnly=false){
  const entries=data.readerUpdates||[];
  const unread=entries.filter(u=>!seenUpdates.includes(u.id));
- return `${heading("Atualizações",historyOnly?"Histórico de alterações":"Notificações",historyOnly?"Registro a partir desta edição. Mudanças de conteúdo não significam novas checagens, salvo quando isso estiver indicado.":"Novidades desde sua última visita neste navegador. Na primeira visita, mostramos o registro disponível.")}${readerLinks()}${!historyOnly?`<p role="status">${unread.length} novidades não lidas</p><button data-read-updates ${unread.length?'':'disabled'}>Marcar novidades como lidas</button>`:''}<div class="reading">${entries.map(u=>`<article class="update-entry"><p><time datetime="${esc(u.date)}">${esc(u.date.split('-').reverse().join('/'))}</time> · ${esc(u.type)}${!historyOnly&&!seenUpdates.includes(u.id)?' · Não lida':''}</p><h2>${esc(u.title)}</h2><p>${esc(u.description)}</p>${u.before?`<p><strong>Antes:</strong> ${esc(u.before)}</p>`:''}${u.after?`<p><strong>Depois:</strong> ${esc(u.after)}</p>`:''}${u.reason?`<p><strong>Motivo:</strong> ${esc(u.reason)}</p>`:''}${u.blockIds?.length&&u.blockIds.length<=5?u.blockIds.filter(id=>data.blocks.some(b=>b.id===id)).map(id=>`<a href="#/conteudo/${esc(id)}">${esc(data.blocks.find(b=>b.id===id).title)} →</a>`).join(''):''}</article>`).join('')}</div>`;
+ return `${heading("Atualizações",historyOnly?"Histórico de alterações":"Notificações",historyOnly?"Registro a partir desta edição. Mudanças de conteúdo não significam novas checagens, salvo quando isso estiver indicado.":"Novidades desde sua última visita neste navegador. Na primeira visita, mostramos o registro disponível.")}${historyOnly?"":readerLinks()}${!historyOnly?`<p role="status">${unread.length} novidades não lidas</p><button data-read-updates ${unread.length?'':'disabled'}>Marcar novidades como lidas</button>`:''}<div class="reading">${entries.map(u=>`<article class="update-entry"><p><time datetime="${esc(u.date)}">${esc(u.date.split('-').reverse().join('/'))}</time> · ${esc(u.type)}${!historyOnly&&!seenUpdates.includes(u.id)?' · Não lida':''}</p><h2>${esc(u.title)}</h2><p>${esc(u.description)}</p>${u.before?`<p><strong>Antes:</strong> ${esc(u.before)}</p>`:''}${u.after?`<p><strong>Depois:</strong> ${esc(u.after)}</p>`:''}${u.reason?`<p><strong>Motivo:</strong> ${esc(u.reason)}</p>`:''}${u.blockIds?.length&&u.blockIds.length<=5?u.blockIds.filter(id=>data.blocks.some(b=>b.id===id)).map(id=>`<a href="#/conteudo/${esc(id)}">${esc(data.blocks.find(b=>b.id===id).title)} →</a>`).join(''):''}</article>`).join('')}</div>`;
 }
 const dailyQuestions=[
  {title:"O que propõem para o meu salário?",ids:["lula-renda","flavio-salario-minimo"]},

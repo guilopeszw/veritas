@@ -312,3 +312,20 @@ body.sidebar-collapsed .floating-search>span{display:none}
 .notifications-dialog header{display:flex;align-items:center;justify-content:space-between;gap:12px}.notifications-dialog h2{font-size:1.35rem;margin:0}.notifications-dialog header button{width:44px;height:44px;border:0;border-radius:50%;background:#f4f4f4;color:#111;font-size:24px}.notification-list article{padding:20px 0;border-top:1px solid #e7e7e7;overflow-wrap:anywhere}.notification-list h3{font-size:1rem;margin:8px 0}.notification-list p{font-size:.93rem;line-height:1.5}.notification-list time{font-size:.8rem;color:#666}.notification-list a{display:block;min-height:44px;padding:10px 0;color:#111}.notifications-dialog footer{margin:0;padding:16px 0 0;display:flex;flex-wrap:wrap;gap:16px;border-top:1px solid #ddd}.notifications-dialog footer a,.notifications-dialog footer button{font-size:.85rem;color:#111;min-height:44px}
 
 body:has(#notifications-dialog[open]){overflow:hidden}
+
+/* Bell-anchored notification panel. */
+.notifications-dialog{position:fixed;margin:0;transform:none;border-radius:18px;box-shadow:0 10px 32px #00000014;animation:notification-reveal .18s ease-out;transform-origin:top left}
+.notifications-dialog::backdrop{background:transparent;backdrop-filter:none}
+@keyframes notification-reveal{from{opacity:0;translate:-6px 0}to{opacity:1;translate:0 0}}
+@media(prefers-reduced-motion:reduce){.notifications-dialog{animation:none}}
+
+/* Keep scrolling content inside the panel, below a fixed header. */
+.notifications-dialog[open]{display:flex;flex-direction:column;overflow:hidden;padding:20px;gap:0;box-sizing:border-box}
+.notifications-dialog>header,.notifications-dialog>p,.notifications-dialog>footer{flex-shrink:0}
+.notifications-dialog>header{padding:0 0 8px;background:#fff}
+.notifications-dialog>p{margin:0;padding:0 0 16px;font-size:.9rem}
+.notifications-dialog .notification-list{min-height:0;overflow-y:auto;overflow-x:hidden;scrollbar-gutter:stable;padding:0 12px 0 0;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#bcbcbc transparent}
+.notifications-dialog .notification-list::-webkit-scrollbar{width:6px}
+.notifications-dialog .notification-list::-webkit-scrollbar-thumb{background:#bcbcbc;border-radius:6px}
+.notifications-dialog>footer{padding:12px 0 0;gap:8px;justify-content:space-between}
+.notifications-dialog>footer button,.notifications-dialog>footer a{font-size:.8rem}
