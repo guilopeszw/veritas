@@ -20,3 +20,15 @@ const questions=app.slice(app.indexOf('const dailyQuestions='),app.indexOf('func
 const qcontext=vm.createContext({});vm.runInContext(questions,qcontext);
 for(const q of vm.runInContext('dailyQuestions',qcontext))for(const id of q.ids)assert.ok(ids.has(id),id);
 console.log('PASS: storage persistence, blocked/corrupt storage fallback, question references');
+
+const notificationHelpers=app.slice(app.indexOf('function unreadUpdates'),app.indexOf('function openNotifications'));
+const notificationStorage=new Map();
+const ncontext=vm.createContext({localStorage:{getItem(k){return notificationStorage.get(k)??null},setItem(k,v){notificationStorage.set(k,v)}},document:{querySelectorAll(){return []}},data:{readerUpdates:[{id:'one',blockIds:['a']},{id:'two',blockIds:['b']}]}});
+vm.runInContext(helpers+notificationHelpers,ncontext);
+assert.equal(vm.runInContext('unreadUpdates().length',ncontext),2);
+vm.runInContext('markContentRead("a")',ncontext);
+assert.equal(vm.runInContext('unreadUpdates().length',ncontext),1);
+assert.equal(vm.runInContext('unreadUpdates()[0].id',ncontext),'two');
+assert.equal(vm.runInContext('readerRead("read-updates-v2",[])[0]',ncontext),'one');
+assert.ok(!app.includes('readerWrite("seen-updates",(data.readerUpdates'));
+console.log('PASS: updates stay unread until content is accessed; unrelated updates remain unread');

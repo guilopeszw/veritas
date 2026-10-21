@@ -35,10 +35,33 @@ function readerWrite(key,value){
 const bookmarkIcon='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4Z"/></svg>';
 let savedIds=readerRead("saved",[]);
 if(!Array.isArray(savedIds))savedIds=[];
-let seenUpdates=readerRead("seen-updates",[]);
+let seenUpdates=readerRead("read-updates-v2",[]);
 if(!Array.isArray(seenUpdates))seenUpdates=[];
+function unreadUpdates(){return (data.readerUpdates||[]).filter(u=>u.type!=="Registro inicial"&&!seenUpdates.includes(u.id));}
+function markContentRead(id){
+ const ids=(data.readerUpdates||[]).filter(u=>u.blockIds?.includes(id)).map(u=>u.id);
+ seenUpdates=[...new Set([...seenUpdates,...ids])];readerWrite("read-updates-v2",seenUpdates);refreshNotificationBadge();
+}
+function refreshNotificationBadge(){
+ const count=unreadUpdates().length;
+ document.querySelectorAll('[data-notifications],a[href="#/notificacoes"]').forEach(el=>{
+  el.classList.toggle('has-unread',count>0);el.setAttribute('aria-label',count?`Notificações: ${count} não lidas`:'Notificações: nenhuma novidade');el.setAttribute('aria-haspopup','dialog');
+ });
+}
+function openNotifications(){
+ document.getElementById('notifications-dialog')?.remove();
+ const dialog=document.createElement('dialog');dialog.id='notifications-dialog';dialog.className='notifications-dialog';dialog.setAttribute('aria-labelledby','notifications-title');
+ const updates=unreadUpdates().slice().reverse().sort((a,b)=>b.date.localeCompare(a.date));
+ dialog.innerHTML=`<header><h2 id="notifications-title">Notificações</h2><form method="dialog"><button aria-label="Fechar notificações">×</button></form></header><p>${updates.length?`${updates.length} atualizações não lidas`:'Você está em dia. Nenhuma novidade.'}</p><div class="notification-list">${updates.map(u=>`<article><time>${esc(u.date.split('-').reverse().join('/'))}</time><h3>${esc(u.title)}</h3><p>${esc(u.description)}</p>${(u.blockIds||[]).filter(id=>data.blocks.some(b=>b.id===id)).map(id=>`<a data-notification-target href="#/conteudo/${esc(id)}">${esc(data.blocks.find(b=>b.id===id).title)} →</a>`).join('')||`<a href="#/correcoes" data-read-update="${esc(u.id)}" data-notification-target>Ver alteração →</a>`}</article>`).join('')}</div><footer>${updates.length?'<button data-notifications-read>Marcar todas como lidas</button>':''}<a href="#/correcoes" data-notification-target>Histórico de alterações</a></footer>`;
+ document.body.append(dialog);dialog.showModal();
+ dialog.addEventListener('click',event=>{
+  if(event.target===dialog)dialog.close();
+  if(event.target.closest('[data-notification-target]')){const update=event.target.closest('[data-read-update]')?.dataset.readUpdate;if(update){seenUpdates=[...new Set([...seenUpdates,update])];readerWrite('read-updates-v2',seenUpdates);refreshNotificationBadge();}dialog.close();const id=event.target.closest('a').hash.split('/')[2];if(id)markContentRead(id);}
+  if(event.target.closest('[data-notifications-read]')){seenUpdates=(data.readerUpdates||[]).map(u=>u.id);readerWrite('read-updates-v2',seenUpdates);refreshNotificationBadge();dialog.close();openNotifications();}
+ });
+}
 function readerLinks(){
- const count=(data.readerUpdates||[]).filter(u=>!seenUpdates.includes(u.id)).length;
+ const count=(data.readerUpdates||[]).filter(u=>u.type!=="Registro inicial"&&!seenUpdates.includes(u.id)).length;
  return `<nav class="reader-links" aria-label="Sua leitura"><a href="#/perguntas">Perguntas do cotidiano</a><a href="#/salvos">Salvos</a><a href="#/notificacoes">Notificações${count?` (${count})`:""}</a></nav>`;
 }
 function blockHistory(block){
@@ -426,12 +449,15 @@ function route(){
   else if(page==="entenda"){html=heading("Entenda","Economia sem atalhos","Explicações gerais para ler propostas e comparar políticas. Estes textos não são checagens de falas específicas.")+`<div class="reading">${data.blocks.filter(b=>b.kind==="Economia explicada").map(card).join("")}</div>`;title="Entenda";}
   else if(page==="busca"){html=search(new URLSearchParams(query).get("q")||"");title="Busca";}
   else if(page==="cobertura"){html=coverage();title="Estado da cobertura";}
-  else if(page==="correcoes"||page==="novidades"||page==="notificacoes"){html=updatesPage(page==="correcoes");title="Atualizações e histórico";}
+  else if(page==="correcoes"||page==="novidades"){html=updatesPage(true);title="Histórico de alterações";}
+  else if(page==="notificacoes"){history.replaceState(null,"","#/");html=home();queueMicrotask(openNotifications);}
   else if(page==="salvos"){html=savedPage();title="Salvos";}
   else if(page==="perguntas"){html=questionsPage();title="Perguntas do cotidiano";anchor=id;}
   else if(page==="conteudo"){const block=data.blocks.find(b=>b.id===id);const back={"Checagem":"checagens","Manifestações":"manifestacoes","Debate":"debates","Tema em debate":"debate","Políticas internacionais":"soberania","Soberania nacional":"soberania","Escala 6x1":"6x1","Transparência":"transparencia","Controvérsia":"controversias"}[block?.kind];html=block?`<div class="reading">${heading("Documento",block.title)}${card(block)}<a class="text-link" href="${back?href(back):block.candidate?href(`perfil/${block.candidate}`):"#/entenda"}">← Voltar ao contexto</a></div>`:notFound();title=block?.title||"Conteúdo não encontrado";}
   else html=notFound();
   root.innerHTML=html;
+  if(page==="conteudo"&&data.blocks.some(b=>b.id===id))markContentRead(id);
+  refreshNotificationBadge();
   installReaderControls();
   installCandidateFilter(page);
   document.title=`${title} — Veritas`;
@@ -450,6 +476,7 @@ document.addEventListener("submit",event=>{
   location.hash=`/busca?q=${encodeURIComponent(new FormData(event.target).get("q").trim())}`;
 });
 document.addEventListener("click",async event=>{
+  if(event.target.closest('[data-notifications],a[href="#/notificacoes"]')){event.preventDefault();document.getElementById("search-dialog")?.close();closeSidebar();openNotifications();return;}
   const closeTrail=event.target.closest("[data-close-trail]");if(closeTrail){const details=closeTrail.closest("details");details.open=false;details.querySelector("summary").focus({preventScroll:true});return;}
   if(event.target.closest(".search-trigger")){event.preventDefault();openSearch();return;}
   if(event.target.closest("a.skip")){
@@ -562,7 +589,7 @@ try{
   }
   document.getElementById("review-banner").hidden=!["review","release-review"].includes(data.mode);
   if(data.mode==="release-review")document.getElementById("review-banner").textContent="REVISÃO FINAL LOCAL · Conteúdos pendentes excluídos · Ainda não publicado";
-  readerWrite("seen-updates",(data.readerUpdates||[]).map(u=>u.id));
+  refreshNotificationBadge();
   window.addEventListener("hashchange",route);
   route();
 }catch{
@@ -619,3 +646,5 @@ root.addEventListener('click',event=>{
  if(event.target.closest('[data-clear-saved]')){savedIds=[];readerWrite('saved',savedIds);route();}
  if(event.target.closest('[data-read-updates]')){seenUpdates=(data.readerUpdates||[]).map(u=>u.id);readerWrite('seen-updates',seenUpdates);route();}
 });
+
+root.addEventListener("toggle",event=>{if(event.target.matches?.("details.proposal-card[open]")&&event.target.id)markContentRead(event.target.id);},true);
