@@ -1,6 +1,7 @@
 # Documentation
 
-All project documentation is written in English. The product and its editorial
+English is the canonical documentation language. Core guides also have PT-BR editions.
+See the [Portuguese documentation index](README.pt-BR.md). The product and its editorial
 content remain in Brazilian Portuguese. Portuguese filenames and content IDs
 are retained for compatibility with existing links and audit references.
 

@@ -7,3 +7,9 @@ __pycache__/
 .env.*
 !.env.example
 release-review/
+
+# Local research, review media and deployment credentials
+work/
+.wrangler/
+.dev.vars
+.dev.vars.*

@@ -1,7 +1,8 @@
 # Contributing
 
-Veritas is maintained by Projeto Veritas. The repository is currently private;
-these guidelines also describe the intended public contribution workflow.
+[English](CONTRIBUTING.md) · [Português (Brasil)](CONTRIBUTING.pt-BR.md)
+
+Veritas is maintained by Projeto Veritas. External contributions use the public pull-request workflow.
 Discuss substantial changes in an issue before opening a pull request to `main`.
 Contributors do not need deployment access. Forks and pull requests cannot
 publish the website.
@@ -26,7 +27,8 @@ changing photographs.
 
 ## Language and editorial standards
 
-Write documentation, repository metadata, and commit messages in English.
+Maintain canonical documentation, repository metadata, and commit messages in English.
+Update the corresponding PT-BR guide when changing setup, contribution, or security instructions.
 User-facing content remains in clear Brazilian Portuguese. Preserve official
 names, source quotations, URLs, and machine identifiers when translating docs.
 

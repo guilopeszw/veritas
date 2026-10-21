@@ -1,44 +1,40 @@
 # Security and deployment
 
+[English](SECURITY.md) · [Português (Brasil)](SECURITY.pt-BR.md)
+
 ## Reporting vulnerabilities
 
-Use GitHub's **Security → Report a vulnerability** if available. If private
-reporting is unavailable, contact the maintainer, **@guilopeszw**, privately;
-do not publish secrets or exploit instructions in public issues.
+Use GitHub Security → Report a vulnerability when available. Otherwise contact
+maintainer @guilopeszw privately. Never post secrets or exploit details in public issues.
 
 ## Access model
 
-The following is the configuration record from 2026-10-20, not a guarantee that
-GitHub settings cannot change. Recheck enforcement before the first deployment.
+Public source access does not grant write or deployment access. As checked on
+2026-10-21, @guilopeszw is the sole repository collaborator. `main` requires the
+`validate` status check, an approving review, code-owner review, dismissal of stale
+reviews and resolution of conversations. Force pushes and branch deletion are blocked.
+The owner retains administrator bypass for explicitly authorized direct commits.
 
-- The repository is temporarily private at the maintainer's request.
-- The MIT code license remains. Making the repository public requires a separate
-  maintainer decision.
-- `main` is configured to require a PR and the `validate` check, with review.
-  The administrator retains bypass/recovery access. Maintainer-authorized direct
-  pushes have used that exception.
-- Force pushes and deletion of the default branch are configured as blocked.
-- Actions uses a read-only token. PR CI does not receive production secrets.
-- There is no `pull_request_target`, self-hosted runner, or privileged execution
-  of fork code in this configuration.
-- There is no deployment workflow; GitHub Pages is not enabled.
-- The `production` environment accepts only `main`. After the repository became
-  private, GitHub removed the required reviewer. Restoring it returned HTTP 422:
-  the current plan does not support that protection for this private repository.
-- Do not add automatic deployment until effective maintainer authorization is
-  enforced. Stored settings are not proof that protections are applied.
+CI uses a read-only token and a pinned checkout action without persisted credentials.
+There is no deployment workflow, privileged fork workflow, or GitHub Pages deployment.
+The production environment is restricted to `main`; its approval configuration must
+be verified after repository visibility changes and before enabling any deploy workflow.
 
-There is no guarantee against every attack. Administrators can change rules.
-Protect accounts with passkeys/2FA and review collaborators, tokens, and audit
-logs. Never commit long-lived tokens. Future deployment must use minimal
-permissions, a reviewed workflow, and effective release protection.
+Cloudflare Pages project `eleicoesveritas` uses manual upload, without a Git connection.
+No site deployment has been made. The selected domain is `eleicoesveritas.com.br`.
+The account member list contains only the owner; no account or user API tokens were
+listed at the 2026-10-21 check. This does not prove that the global API key has never
+been shared. Never commit credentials. Keep account access and any future tokens
+restricted to authorized maintainers; use 2FA and review access regularly.
 
-## First release
+## Release controls
 
-Permission to open-source the code does not approve content or launch.
-`python3 scripts/build.py --public` applies the same filter as `--release-review`,
-excluding pending debate metrics, program-completeness metadata and atomic downloads.
-It requires the exact filtered content hash approved in `src/release-approval.json`
-and separate `launchApproved`. Approval of one filtered edition does not approve
-the full research corpus. A content change invalidates the approved hash. Only the generated `public/`
-output may be used for a future release; never deploy `dist/` as a workaround.
+Opening the repository does not authorize website publication. The public build
+requires an approved exact filtered-content hash in `src/release-approval.json` and
+separate `launchApproved` authorization. Changes invalidate the content hash.
+Use only `python3 scripts/build.py --public` and its generated `public/` directory
+for a release. Never deploy editorial `dist/` or bypass the gates. `release-review/`
+is a local review output, not a substitute deployment path.
+
+No scanner or branch rule guarantees absolute security. Review permissions and
+actual enforcement before every change to the deployment model.

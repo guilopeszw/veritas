@@ -1,11 +1,13 @@
 # Veritas
 
+[English](README.md) · [Português (Brasil)](README.pt-BR.md)
+
 Independent, source-backed information about Brazil's presidential election.
 Veritas helps readers compare candidates, understand proposals, and inspect the
 evidence behind public claims. The website is written in plain Brazilian
-Portuguese; repository documentation is in English.
+Portuguese; English is the canonical documentation language, with Brazilian Portuguese guides.
 
-**Status: private repository · editorial preview · not publicly deployed.**
+**Status: open-source code · editorial preview · website not publicly deployed.**
 The code is MIT-licensed. This does not imply editorial approval, verified
 completeness, or authorization to publish the website.
 
@@ -29,7 +31,7 @@ npm run build
 npm run preview
 ```
 
-Repository access is required while it is private. Open
+Open
 [the local preview](http://127.0.0.1:4173). The homepage gallery supports desktop
 pointer interaction and mobile swiping, with text and controls outside the
 scrolling images.
@@ -58,13 +60,14 @@ content in our database is not evidence that a candidate has no proposal.
 `npm run build:public` uses the same checked-content filter as release review.
 It requires approval of the exact filtered content hash in `src/release-approval.json`
 and separate launch authorization. Excluded coverage metrics are not published. Never bypass these gates or deploy
-the editorial `dist/` output. There is no deployment workflow or public hosting
-configured. See [security and deployment](SECURITY.md) for access-control limits.
+the editorial `dist/` output. There is no deployment workflow. An empty Cloudflare Pages project,
+`eleicoesveritas`, is prepared for manual upload; no website has been deployed.
+The selected domain is `eleicoesveritas.com.br`. See [security and deployment](SECURITY.md) for access-control limits.
 
 ## Documentation
 
 - [Documentation index](docs/README.md)
-- [Contribution guide](CONTRIBUTING.md)
+- [Contribution guide](CONTRIBUTING.md) / [Como contribuir](CONTRIBUTING.pt-BR.md)
 - [Verification record](VERIFICACAO.md)
 - [Image attribution and licensing](ATTRIBUTIONS.md)
 - [Program coverage audit](docs/programas-cobertura-auditoria.md)
