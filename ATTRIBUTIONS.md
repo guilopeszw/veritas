@@ -11,3 +11,12 @@ The code is MIT-licensed; photographs retain the individual licenses below. Imag
 ## Official portraits
 - **Lula** — Ricardo Stuckert/PR. [Source and terms](https://commons.wikimedia.org/wiki/File:Foto_oficial_do_Presidente_da_Rep%C3%BAblica_Luiz_In%C3%A1cio_Lula_da_Silva.jpg). File: `assets/lula.jpg`.
 - **Flávio Bolsonaro** — Agência Senado. [Source and terms](https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894). File: `assets/flavio.jpg`.
+
+## Everyday-life postcard
+
+- Asset: `src/assets/brasil/trabalho-carteira.jpg` (2505 × 1772).
+- Photo: [Carteiradetrabalho.jpg](https://commons.wikimedia.org/wiki/File:Carteiradetrabalho.jpg).
+- Author: Marcello Casal Jr./Agência Brasil; photographed 1 May 2007 in Brasília.
+- License: [CC BY 3.0 BR](https://creativecommons.org/licenses/by/3.0/br/).
+- Presentation: CSS crop and dark gradient; original image bytes retained.
+- Use is illustrative and does not imply endorsement.
