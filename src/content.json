@@ -8353,13 +8353,18 @@
         {
           "label": "Vototeca — reprodução dos bens declarados",
           "url": "https://vototeca.com.br/candidatos/flavio-bolsonaro-rj/bens"
+        },
+        {
+          "label": "TSE — arquivo oficial de bens declarados, 2026 (ZIP)",
+          "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2026.zip",
+          "locator": "Registros de Flávio Bolsonaro, SQ_CANDIDATO 280002551544. Valores nominais declarados, não preços atuais."
         }
       ],
       "context": "Nos imóveis com participação parcial, o valor corresponde à parcela declarada. Esta lista não reúne todas as compras e vendas ao longo da vida.",
       "status": "draft",
       "verification": "checked",
       "checkedAt": "20/10/2026",
-      "editorialNotes": "Os itens, descrições e valores foram conferidos diretamente em Bens do Candidato, no DivulgaCandContas/TSE, em 20/10/2026. Nenhuma diferença de valor encontrada. Agrupamento e descrições simplificadas pelo Veritas; aprovação editorial permanece pendente.",
+      "editorialNotes": "Os itens, descrições e valores foram conferidos diretamente em Bens do Candidato, no DivulgaCandContas/TSE, em 20/10/2026. Nenhuma diferença de valor encontrada. Agrupamento e descrições simplificadas pelo Veritas; aprovação editorial permanece pendente. Rechecked against the official 2026 TSE assets ZIP, SQ_CANDIDATO 280002551544; the house value matches.",
       "assets": [
         {
           "type": "Casa",
@@ -8463,7 +8468,7 @@
       "candidate": "flavio",
       "kind": "Controvérsia",
       "title": "Imóveis e dinheiro vivo: reportagens e resposta judicial",
-      "summary": "O que foi publicado sobre Flávio, sua negativa de irregularidades e a decisão do STF em 2022.",
+      "summary": "Casa declarada em 2026, imóveis em declarações antigas e o que os documentos mostram sobre os pagamentos.",
       "paragraphs": [
         "Em 2022, o UOL levantou 107 imóveis negociados por integrantes da família Bolsonaro desde 1990. Segundo a reportagem, ao menos 51 foram comprados total ou parcialmente em dinheiro vivo. Esses números são da família, não somente de Flávio.",
         "Sobre Flávio, a checagem da Lupa de 9 de setembro de 2022 cita dois exemplos do levantamento: uma compra em dinheiro vivo que, segundo a reportagem, ele admitiu; e R$ 52 mil em depósitos não identificados usados para pagar parcelas do financiamento de um apartamento. São relatos atribuídos às fontes, não uma auditoria independente dessas operações pelo Veritas.",
@@ -8481,15 +8486,84 @@
           "label": "Lupa — checagem da metodologia do UOL, 09/09/2022",
           "url": "https://www.agencialupa.org/jornalismo/2022/09/09/dinheiro-vivo-uol/",
           "locator": "Corrobora que o levantamento não se baseia apenas na expressão moeda corrente; não substitui o cruzamento de cada operação pelo Veritas."
+        },
+        {
+          "label": "TSE — arquivo oficial de bens declarados, 2026 (ZIP)",
+          "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2026.zip",
+          "locator": "Registros de Flávio Bolsonaro, SQ_CANDIDATO 280002551544. Valores nominais declarados, não preços atuais."
+        },
+        {
+          "label": "TSE — arquivo oficial de bens declarados, 2018 (ZIP)",
+          "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2018.zip",
+          "locator": "Registros de Flávio Bolsonaro, SQ_CANDIDATO 190000614721. Valores nominais declarados, não preços atuais."
+        },
+        {
+          "label": "TSE — arquivo oficial de bens declarados, 2016 (ZIP)",
+          "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2016.zip",
+          "locator": "Registros de Flávio Bolsonaro, SQ_CANDIDATO 190000011736. Valores nominais declarados, não preços atuais."
+        },
+        {
+          "label": "TSE — arquivo oficial de bens declarados, 2014 (ZIP)",
+          "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2014.zip",
+          "locator": "Registros de Flávio Bolsonaro, SQ_CANDIDATO 190000000095. Valores nominais declarados, não preços atuais."
+        },
+        {
+          "label": "TSE — arquivo oficial de bens declarados, 2010 (ZIP)",
+          "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/bem_candidato/bem_candidato_2010.zip",
+          "locator": "Registros de Flávio Bolsonaro, SQ_CANDIDATO 190000000070. Valores nominais declarados, não preços atuais."
+        },
+        {
+          "label": "Escritura de 2021 — trechos reproduzidos pelo Poder360",
+          "url": "https://static.poder360.com.br/2021/03/flavio-bolsonaro-mansao-documentos-02-mar-2021-1.png",
+          "locator": "Recortes da escritura: compradores, data, preço e divisão entre recursos próprios e financiamento. Não é a íntegra da matrícula."
+        },
+        {
+          "label": "Poder360 — compra da casa e resposta de Flávio, 02/03/2021",
+          "url": "https://www.poder360.com.br/governo/flavio-bolsonaro-nega-irregularidades-em-compra-de-mansao-por-r-6-milhoes/"
         }
       ],
-      "context": "Não temos o cruzamento completo das escrituras, pagamentos e declarações eleitorais. Por isso, não afirmamos que Flávio comprou dez imóveis em dinheiro vivo nem apresentamos essas reportagens como prova de corrupção.",
+      "context": "Não some os valores de eleições diferentes: um bem pode reaparecer e outros podem ter sido vendidos. As declarações do TSE não comprovam a forma de pagamento. Faltam as escrituras completas, matrículas e comprovantes para cruzar todas as operações. Não afirmamos que Flávio comprou dez imóveis em dinheiro vivo.",
       "status": "draft",
       "verification": "checked",
       "checkedAt": "20/10/2026",
-      "editorialNotes": "Scope narrowed on 20/10/2026: Lupa reporting attribution and PET 10.562 decision checked. Removed the 2020 commercial-room account. Full deed/payment/filing reconciliation remains unavailable; no exact ten-property allegation or current comprehensive procedural status is asserted. Final editorial approval remains pending.",
-      "verificationScope": "Attributed historical reporting and dated judicial decision only; not an independent transaction audit.",
-      "transactionAudit": "pending"
+      "editorialNotes": "Expanded 20/10/2026 after direct TSE ZIP checks and visual inspection of a published deed excerpt. See docs/flavio-property-crosscheck.md for candidate IDs, values and limits. The 2026 house identity is only compatible by locality, not conclusively joined by registry number. Historical filings are not current holdings. Full transaction audit and final editorial approval remain pending.",
+      "verificationScope": "Attributed reporting and dated judicial decision; directly parsed TSE asset declarations for 2010/2014/2016/2018/2026; visually inspected 2021 deed excerpts. No complete title/payment reconciliation.",
+      "transactionAudit": "pending",
+      "implicationsTitle": "Imóveis: valores e documentos",
+      "implications": [
+        {
+          "label": "2026 · Casa no Lago Sul — R$ 6.226.043,80 declarados",
+          "text": "É o único imóvel na declaração de bens da candidatura de 2026, conferida no arquivo oficial do TSE. Trata-se do valor informado pelo candidato, não de uma avaliação atual de mercado nem de uma certidão atualizada de propriedade."
+        },
+        {
+          "label": "2021 · Compra de casa no Lago Sul — R$ 5,97 milhões",
+          "text": "O trecho da escritura publicado pelo Poder360 identifica Flávio e sua mulher como compradores em 29 de janeiro de 2021. O pagamento foi dividido em R$ 2,87 milhões de recursos próprios e R$ 3,1 milhões de financiamento do BRB. Recursos próprios não significa dinheiro vivo: o trecho não apresenta os comprovantes de transferência. A descrição do TSE é compatível com essa casa, mas não informa a matrícula para concluir o cruzamento."
+        },
+        {
+          "label": "Resposta sobre a compra de 2021",
+          "text": "Segundo o Poder360, Flávio negou irregularidades e disse que vendeu um imóvel no Rio e uma franquia para pagar a entrada. Essa é a explicação dele; não substitui os comprovantes da origem e da transferência do dinheiro."
+        },
+        {
+          "label": "2018 · Apartamento e sala comercial na Barra da Tijuca",
+          "text": "O TSE registra um apartamento por R$ 917.038,09 e uma sala comercial por R$ 150.000,00. As descrições não identificam completamente as unidades nem mostram a forma de pagamento. São bens declarados naquele ano; não podemos tratá-los como imóveis que ele ainda possui."
+        },
+        {
+          "label": "2016 · Participações de 50% em dois apartamentos",
+          "text": "A declaração registra 50% de um apartamento em Laranjeiras por R$ 423.016,54 e 50% de outro na Avenida Lúcio Costa por R$ 851.094,48. Esses são os valores das participações declaradas, não os preços comprovados dos imóveis inteiros."
+        },
+        {
+          "label": "2014 · Apartamento em Laranjeiras — R$ 565.804,81",
+          "text": "Esse é o valor informado naquela eleição. A descrição não especifica participação percentual. Sem a matrícula e a sequência das escrituras, não concluímos que seja exatamente a mesma participação declarada em 2016."
+        },
+        {
+          "label": "2010 · Apartamento em Botafogo — R$ 350.000,00",
+          "text": "O bem consta da declaração oficial daquele ano. Esse registro não comprova propriedade atual nem pagamento em dinheiro vivo."
+        },
+        {
+          "label": "2010 · Participações em salas comerciais — R$ 268.311,75",
+          "text": "São duas entradas de 10%, por R$ 103.592,50 e R$ 164.719,25. As descrições enumeram quatro salas em um grupo e sete no outro. O percentual de 10% não significa dez imóveis, e a soma representa as participações declaradas, não o preço integral das salas."
+        }
+      ]
     },
     {
       "id": "lula-canais",

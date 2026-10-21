@@ -96,7 +96,7 @@ function fullCard(block,nested=false){
     ${block.assets?.length?assetList(block):""}
     ${block.channels?.length?channelList(block):""}
     ${block.officialSource?`<p class="official-source"><a href="${esc(block.officialSource.url)}" target="_blank" rel="noopener noreferrer">${esc(block.officialSource.label)} ↗</a><small>${esc(block.officialSource.locator)}</small></p>`:""}
-    ${block.implications?.length?`<section class="proposal-implications" aria-label="Implicações e condições"><h4>Na prática</h4><dl>${block.implications.map(item=>`<div><dt>${esc(item.label)}</dt><dd>${esc(item.text)}</dd></div>`).join("")}</dl></section>`:""}
+    ${block.implications?.length?`<section class="proposal-implications" aria-label="Implicações e condições"><h4>${esc(block.implicationsTitle||"Na prática")}</h4><dl>${block.implications.map(item=>`<div><dt>${esc(item.label)}</dt><dd>${esc(item.text)}</dd></div>`).join("")}</dl></section>`:""}
     ${block.context?`<p class="context">${esc(block.context)}</p>`:""}
     ${block.relatedRoute?`<p><a class="text-link" href="${href(block.relatedRoute)}">${esc(block.relatedLabel||"Ver a evolução deste assunto")} ↗</a></p>`:""}
     <div class="article-actions"><details><summary>Ver ${block.sources.length===1?"fonte":`${block.sources.length} fontes`}</summary>${sourceList(block.sources)}</details>${`<button class="share" data-share="${esc(block.id)}" aria-label="Compartilhar: ${esc(block.title)}" title="Compartilhar">${shareIcon}</button>`}</div>
