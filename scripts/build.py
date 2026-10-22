@@ -19,6 +19,13 @@ assert not (args.public and args.release_review), "Choose public or release revi
 data = json.loads((ROOT / "src/content.json").read_text())
 if args.public or args.release_review:
     data = filtered_content(data)
+# Chronology must retain sourced, dated events in chronological order.
+events = data.get("disclosureTimeline", [])
+assert [e["date"] for e in events] == sorted(e["date"] for e in events), "Unordered disclosure chronology"
+for event in events:
+    date.fromisoformat(event["date"])
+    assert event["candidate"] in ("lula", "flavio") and event.get("title") and event.get("text"), "Incomplete disclosure event"
+    assert event.get("sources") and all(s["url"].startswith("https://") for s in event["sources"]), "Unsourced disclosure event"
 ids = [b["id"] for b in data["blocks"]]
 assert len(ids) == len(set(ids)), "IDs duplicados"
 updates = data.get("readerUpdates", [])

@@ -1854,14 +1854,16 @@
       "id": "lula-abertura-sigilos",
       "candidate": "lula",
       "kind": "Transparência",
-      "title": "Pedido ao TSE autoriza abertura condicionada dos sigilos",
-      "summary": "A petição de 20 de outubro autoriza a abertura dos sigilos de Lula e familiares se Flávio fizer o mesmo. Não temos os dados dos sigilos publicados.",
+      "title": "Aceita condições e assina acordo para abrir sigilos",
+      "summary": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos.",
       "paragraphs": [
         "No debate da Band de 18 de outubro, Lula propôs que os candidatos e seus familiares abrissem informações bancárias e telefônicas. A emissora registrou o desafio, e a CNN informou que ele sugeriu entregar as informações à Justiça antes do segundo turno.",
         "Em 19 de outubro, em Porto Alegre, Lula anunciou que entregaria ao TSE, no dia 20, autorização referente a ele e à família, incluindo os cinco filhos. A Agência Brasil registrou que ele pretendia que a Justiça investigasse e depois divulgasse os resultados.",
-        "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados."
+        "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados.",
+        "Em 21 de outubro, a campanha de Lula informou que aceitaria as condições apresentadas por Flávio, incluindo informações sobre pessoas próximas e gastos do governo. A aceitação mantém a exigência de abertura recíproca; não significa que esses documentos já tenham sido entregues ou publicados.",
+        "Em 22 de outubro, Agência Brasil e Folha noticiaram a apresentação ao TSE de um acordo assinado pelos dois lados para abrir os sigilos bancário, fiscal e telefônico. Segundo a Folha, Lula assinou pessoalmente. A reportagem da Agência Brasil informa que o pedido ainda precisava ser analisado pelo relator André Mendonça."
       ],
-      "context": "Autorização condicionada não equivale à divulgação dos dados. Situação atualizada em 20/10/2026.",
+      "context": "Autorização dos candidatos, decisão judicial, entrega dos dados e divulgação pública são etapas diferentes. Até esta conferência de 22/10/2026, as fontes consultadas confirmam o acordo, mas não comprovam a publicação dos dados.",
       "sources": [
         {
           "label": "Band — registro do desafio, 18/10/2026",
@@ -1891,40 +1893,59 @@
           "label": "TSE PJe — consulta do documento original",
           "url": "https://pje.tse.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26102010492798600000177556698",
           "locator": "Identificador impresso na cópia. A consulta direta não carregou; conferência feita na cópia integral publicada."
+        },
+        {
+          "label": "CNN Brasil — condições e resposta da campanha, 21/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-se-opoe-a-condicoes-impostas-por-flavio-sobre-sigilo-diz-campanha/"
+        },
+        {
+          "label": "Agência Brasil — acordo apresentado ao TSE, 22/10/2026",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos",
+          "locator": "Relato do termo apresentado pelas campanhas; análise judicial ainda pendente na reportagem."
+        },
+        {
+          "label": "Folha — assinatura do acordo, 22/10/2026",
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-aceita-quebra-de-sigilo-proposta-por-lula-e-candidatos-assinam-acordo-no-tse.shtml",
+          "locator": "Lula assinou pessoalmente; Flávio foi representado por advogada com procuração, segundo a reportagem."
+        },
+        {
+          "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
         }
       ],
       "status": "draft",
       "verification": "checked",
       "statusSteps": [
         {
-          "label": "Declaração",
-          "value": "Promessa registrada"
+          "label": "Autorização dos candidatos",
+          "value": "Acordo assinado em 22/10, segundo Agência Brasil e Folha."
         },
         {
-          "label": "Autorização formal",
-          "value": "Petição e certidão de protocolo conferidas em cópia documental"
+          "label": "Decisão do TSE",
+          "value": "Aguardava análise nas reportagens consultadas."
         },
         {
-          "label": "Dados publicados",
-          "value": "Não temos esses dados."
+          "label": "Entrega e divulgação dos dados",
+          "value": "Não confirmadas nesta conferência."
         }
       ],
-      "editorialNotes": "Cópia integral da petição e certidão conferida. Não certifica divulgação dos dados, deferimento judicial ou protocolo separado no STF. Datas introdutórias do relato da petição não usadas para validar o vídeo do debate.",
-      "verificationScope": "filed-petition-copy",
-      "checkedAt": "20/10/2026"
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada.",
+      "verificationScope": "attributed-agreement-report",
+      "checkedAt": "22/10/2026"
     },
     {
       "id": "flavio-abertura-sigilos",
       "candidate": "flavio",
       "kind": "Transparência",
-      "title": "Aliados dizem que não aceitará abrir os sigilos",
-      "summary": "Segundo o SBT News, aliados da campanha disseram em 20 de outubro que Flávio não aceitará o desafio de Lula para abrir os sigilos.",
+      "title": "Passa a aceitar abertura com condições e firma acordo",
+      "summary": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos.",
       "paragraphs": [
         "Na resposta ao desafio de Lula no debate de 18 de outubro, Flávio afirmou: “Eu não tenho absolutamente nada a esconder”. Segundo a cobertura da CNN, ele não confirmou expressamente que abriria seus sigilos e passou a fazer acusações contra o adversário.",
         "Em 20 de outubro, a coluna de Túlio Amâncio, no SBT News, informou que aliados integrantes da campanha disseram que Flávio não pretende abrir seus sigilos bancário, fiscal e telefônico em resposta ao desafio. Segundo a coluna, esses aliados consideram a iniciativa uma estratégia eleitoral para gerar desgaste nos últimos dias da campanha.",
-        "Não temos uma autorização formal de Flávio em resposta ao desafio nem dados bancários ou telefônicos divulgados por ele para esse fim. Dados disponíveis até 20/10/2026."
+        "Em 21 de outubro, Flávio passou a aceitar a abertura, exigindo também informações de pessoas e entidades ligadas a Lula e registros de gastos e agendas do governo. A campanha de Lula informou que aceitaria as condições. Essa manifestação posterior muda a situação descrita pelos aliados no dia anterior.",
+        "Em 22 de outubro, Agência Brasil e Folha noticiaram um acordo dos dois lados apresentado ao TSE. Segundo a Folha, a advogada de Flávio assinou por procuração. A reportagem da Agência Brasil informa que o pedido ainda aguardava análise de André Mendonça. A assinatura não demonstra que bancos, Receita ou operadoras já entregaram os dados nem que eles estejam públicos."
       ],
-      "context": "A informação sobre a recusa é atribuída a aliados ouvidos pelo SBT News; a reportagem não apresenta uma nova declaração direta de Flávio. Não temos autorização formal nem os dados publicados.",
+      "context": "Autorização dos candidatos, decisão judicial, entrega dos dados e divulgação pública são etapas diferentes. Até esta conferência de 22/10/2026, as fontes consultadas confirmam o acordo, mas não comprovam a publicação dos dados.",
       "sources": [
         {
           "label": "CNN Brasil — resposta no terceiro bloco, 18/10/2026",
@@ -1935,27 +1956,45 @@
           "label": "SBT News — Túlio Amâncio, 20/10/2026",
           "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-nao-vai-aceitar-desafio-de-lula-para-abrir-sigilos",
           "locator": "A coluna atribui a decisão a aliados integrantes da campanha; não reproduz nova recusa direta do candidato."
+        },
+        {
+          "label": "CNN Brasil — condições de Flávio, 21/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-se-opoe-a-condicoes-impostas-por-flavio-sobre-sigilo-diz-campanha/"
+        },
+        {
+          "label": "Agência Brasil — acordo apresentado ao TSE, 22/10/2026",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos",
+          "locator": "Relato do termo apresentado pelas campanhas; análise judicial ainda pendente na reportagem."
+        },
+        {
+          "label": "Folha — assinatura do acordo, 22/10/2026",
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-aceita-quebra-de-sigilo-proposta-por-lula-e-candidatos-assinam-acordo-no-tse.shtml",
+          "locator": "Lula assinou pessoalmente; Flávio foi representado por advogada com procuração, segundo a reportagem."
+        },
+        {
+          "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
         }
       ],
       "status": "draft",
       "verification": "checked",
       "statusSteps": [
         {
-          "label": "Resposta ao desafio",
-          "value": "Aliados dizem ao SBT News que não aceitará (20/10)."
+          "label": "Autorização dos candidatos",
+          "value": "Acordo assinado em 22/10, segundo Agência Brasil e Folha."
         },
         {
-          "label": "Autorização formal",
-          "value": "Não temos esses dados."
+          "label": "Decisão do TSE",
+          "value": "Aguardava análise nas reportagens consultadas."
         },
         {
-          "label": "Dados publicados",
-          "value": "Não temos esses dados."
+          "label": "Entrega e divulgação dos dados",
+          "value": "Não confirmadas nesta conferência."
         }
       ],
-      "editorialNotes": "20/10/2026: reportagem integral consultada no navegador. Recusa atribuída a aliados não identificados nominalmente, integrantes da campanha; não tratar como fala direta do candidato. Conferência de eventual documento formal e revisão editorial continuam pendentes. Conferência encerrada apenas para o relato atribuído à reportagem/entrevistado. Não comprova entrega material, autorização formal nem divulgação de dados. Ver docs/final-factcheck-audit.md.",
-      "checkedAt": "20/10/2026",
-      "verificationScope": "attributed-report"
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada.",
+      "checkedAt": "22/10/2026",
+      "verificationScope": "attributed-agreement-report"
     },
     {
       "id": "flavio-cargo-camara",
@@ -7711,7 +7750,8 @@
       "paragraphs": [
         "O programa Minha Primeira Empresa propõe simplificação, formação pelo Sistema S e crédito e serviços da Caixa.",
         "O programa propõe apoiar a entrada de pequenas empresas em mercados internacionais por meio do BNDES e da Apex.",
-        "Propõe levar as medidas de liberdade econômica a todos os estados e municípios, eliminar regras consideradas ultrapassadas e simplificar os procedimentos para manter uma empresa funcionando."
+        "Propõe levar as medidas de liberdade econômica a todos os estados e municípios, eliminar regras consideradas ultrapassadas e simplificar os procedimentos para manter uma empresa funcionando.",
+        "Atualização de 21/10/2026: após aprovação do Congresso, Lula sancionou a LC 238. Ela prevê limite do MEI de R$ 110 mil em 2027 e R$ 140 mil em 2028, com condição orçamentária, e até dois empregados a partir de 2027. O perdão alcança os créditos federais especificados na lei até 13/10/2026, não qualquer dívida. Há condições de pagamento e requerimento; não é perdão geral já concluído."
       ],
       "implications": [
         {
@@ -7755,6 +7795,10 @@
           "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
           "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5367s",
           "locator": "Intervalo 5367–5373 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
+        },
+        {
+          "label": "Planalto — LC 238/2026, arts. 2–6 e 10",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp238.htm"
         }
       ],
       "status": "draft",
@@ -7837,7 +7881,8 @@
           "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. The excerpt does not state rates or financing conditions; no implementation detail inferred.",
           "requiresClarification": false
         }
-      ]
+      ],
+      "checkedAt": "22/10/2026"
     },
     {
       "id": "flavio-defesa-exterior",
@@ -8595,7 +8640,8 @@
         "Apoiar a atividade e a contratação em pequenos negócios com acesso a crédito.",
         "Prevê fundos garantidores, investimentos de bancos públicos em parceria com gestores privados e ampliação do Brasil Mais Produtivo, com crédito para digitalização e produtividade.",
         "Para quem trabalha por conta própria, prevê crédito, capacitação, apoio técnico e comercial, inclusão digital e simplificação tributária, além de proteção social em períodos sem trabalho.",
-        "Prevê fundos de participação que reúnam bancos públicos e gestores privados para investir em empresas em crescimento."
+        "Prevê fundos de participação que reúnam bancos públicos e gestores privados para investir em empresas em crescimento.",
+        "Atualização de 21/10/2026: após aprovação do Congresso, Lula sancionou a LC 238. Ela prevê limite do MEI de R$ 110 mil em 2027 e R$ 140 mil em 2028, com condição orçamentária, e até dois empregados a partir de 2027. O perdão alcança os créditos federais especificados na lei até 13/10/2026, não qualquer dívida. Há condições de pagamento e requerimento; não é perdão geral já concluído."
       ],
       "context": "",
       "status": "draft",
@@ -8619,6 +8665,10 @@
         {
           "label": "Documento oficial sobre o mecanismo",
           "url": "https://www.gov.br/memp/pt-br/programa-acredita/novo-pronampe"
+        },
+        {
+          "label": "Planalto — LC 238/2026, arts. 2–6 e 10",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp238.htm"
         }
       ],
       "editorialNotes": "Consulta em 20/10/2026. Expansão por medidas agrupadas. Contexto distinto de efeito causal observado; revisão editorial pendente.",
@@ -8631,7 +8681,8 @@
           76
         ],
         "scope": "proposal-attribution-only"
-      }
+      },
+      "checkedAt": "22/10/2026"
     },
     {
       "id": "lula-acesso-terra",
@@ -12090,6 +12141,84 @@
           "reviewedAt": "2026-10-21T14:01:59.019Z"
         }
       ]
+    },
+    {
+      "id": "checagem-audio-lula-luchsinger",
+      "candidate": "lula",
+      "kind": "Checagem",
+      "title": "Áudio atribuído a Lula sobre Luchsinger é falso, segundo Aos Fatos",
+      "date": "2026-10-22",
+      "summary": "Aos Fatos classificou a gravação como falsa após consultar especialistas e a Secom.",
+      "paragraphs": [
+        "A checagem de 22/10 relata indícios de voz sintética em análises periciais e registra a negativa da Secom. O áudio não deve ser apresentado como uma declaração autêntica de Lula.",
+        "Os métodos tiveram resultados e limitações diferentes: uma análise identificou fortes indícios de síntese; outra ressalvou a amostra pequena, e um teste acústico não foi conclusivo. O Veritas não realizou perícia própria."
+      ],
+      "sources": [
+        {
+          "label": "Aos Fatos — apuração original",
+          "url": "https://www.aosfatos.org/noticias/falso-audio-lula-roberta-luchsinger-cnn/"
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "publisher-report",
+      "checkedAt": "22/10/2026",
+      "checkCategory": "redes",
+      "checkConclusion": "Aos Fatos classificou a gravação como falsa após consultar especialistas e a Secom.",
+      "checkedSubject": "Conteúdo que circula nas redes",
+      "editorialNotes": "Fidelidade ao relatório original conferida; não representa reprodução independente da perícia ou de toda a série estatística."
+    },
+    {
+      "id": "checagem-falencias-flavio",
+      "candidate": "flavio",
+      "kind": "Checagem",
+      "title": "Falência, fechamento de CNPJ e recuperação judicial são diferentes",
+      "date": "2026-10-20",
+      "summary": "Aos Fatos contesta a alegação de recorde de falências; recuperação judicial não significa encerramento da empresa.",
+      "paragraphs": [
+        "Na checagem de 20/10, o veículo confronta falas de Flávio com indicadores da Serasa e do Mapa de Empresas. Registra aumento de falências entre janeiro e maio de 2026, mas não um recorde histórico de falências.",
+        "Fechar um CNPJ, pedir recuperação judicial e ter falência decretada são medidas diferentes. A campanha não respondeu ao Aos Fatos até a publicação daquela reportagem. Esta síntese não transforma um indicador em prova de que todas as empresas estão bem."
+      ],
+      "sources": [
+        {
+          "label": "Aos Fatos — apuração original",
+          "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-mente-recorde-falencias-empresas/"
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "publisher-report",
+      "checkedAt": "22/10/2026",
+      "checkCategory": "falas",
+      "checkConclusion": "Aos Fatos contesta a alegação de recorde de falências; recuperação judicial não significa encerramento da empresa.",
+      "checkedSubject": "Fala do candidato",
+      "editorialNotes": "Fidelidade ao relatório original conferida; não representa reprodução independente da perícia ou de toda a série estatística."
+    },
+    {
+      "id": "checagem-pisa-ranking",
+      "candidate": "lula",
+      "kind": "Checagem",
+      "title": "Posição no ranking do Pisa não mede sozinha a evolução da educação",
+      "date": "2026-10-21",
+      "summary": "Aos Fatos considera enganosa a comparação de posições entre edições com números diferentes de países.",
+      "paragraphs": [
+        "A reportagem de 21/10 explica que comparar apenas a colocação pode distorcer o resultado quando muda o conjunto de participantes. É preciso examinar as pontuações e a comparabilidade das provas.",
+        "A checagem é sobre publicações nas redes que atribuem a Lula uma piora a partir do ranking. O Veritas não reproduziu a análise das bases internacionais e não usa esse gráfico para atribuir causalidade a um governo."
+      ],
+      "sources": [
+        {
+          "label": "Aos Fatos — apuração original",
+          "url": "https://www.aosfatos.org/noticias/comparacao-posicoes-brasil-pisa/"
+        }
+      ],
+      "status": "draft",
+      "verification": "checked",
+      "verificationScope": "publisher-report",
+      "checkedAt": "22/10/2026",
+      "checkCategory": "redes",
+      "checkConclusion": "Aos Fatos considera enganosa a comparação de posições entre edições com números diferentes de países.",
+      "checkedSubject": "Conteúdo que circula nas redes",
+      "editorialNotes": "Fidelidade ao relatório original conferida; não representa reprodução independente da perícia ou de toda a série estatística."
     }
   ],
   "rallyCities": [
@@ -16709,6 +16838,138 @@
       "before": "Prazo atual tratado como divergente entre páginas oficiais; comparação numérica suspensa.",
       "after": "Regra geral de 18 meses, preservadas as exceções de dois e 24 meses. Proposta de dois anos comparada de forma condicional.",
       "reason": "Localizada a versão consolidada oficial com a Portaria MDS 1.191/2026; a cópia anterior não incorporava essa alteração."
+    },
+    {
+      "id": "sigilos-acordo-20261022",
+      "date": "2026-10-22",
+      "type": "Atualização",
+      "title": "Sigilos: acordo dos candidatos apresentado ao TSE",
+      "description": "Histórico preservado; os cards distinguem a autorização dos candidatos da decisão judicial e da divulgação efetiva dos dados.",
+      "blockIds": [
+        "lula-abertura-sigilos",
+        "flavio-abertura-sigilos"
+      ],
+      "before": "Pedido condicionado de Lula e recusa de Flávio atribuída a aliados em 20/10.",
+      "after": "Condições em 21/10 e acordo assinado em 22/10, segundo reportagens; divulgação não confirmada.",
+      "reason": "Desdobramentos posteriores ao corte anterior."
+    },
+    {
+      "id": "noticias-20261022-conferencia",
+      "date": "2026-10-22",
+      "type": "Atualização",
+      "title": "Sigilos, MEI e novas checagens",
+      "description": "Linha do tempo dos sigilos, condições da nova lei do MEI e sínteses atribuídas ao Aos Fatos.",
+      "blockIds": [
+        "lula-abertura-sigilos",
+        "flavio-abertura-sigilos",
+        "lula-pequenos-negocios",
+        "flavio-empreendedorismo",
+        "checagem-audio-lula-luchsinger",
+        "checagem-falencias-flavio",
+        "checagem-pisa-ranking"
+      ]
+    }
+  ],
+  "disclosureTimeline": [
+    {
+      "date": "2026-10-18",
+      "candidate": "lula",
+      "title": "Propõe abertura recíproca",
+      "text": "No debate da Band, Lula desafia os candidatos e seus familiares a abrir os sigilos. A proposta é uma declaração; não é divulgação de dados.",
+      "sources": [
+        {
+          "label": "Band — registro do desafio, 18/10/2026",
+          "url": "https://www.band.com.br/politica/eleicoes/lula-desafia-flavio-a-abrir-sigilo-bancario-para-descobrir-quem-e-ladrao",
+          "locator": "Reportagem da emissora que realizou o debate; marcação no vídeo integral ainda pendente."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "candidate": "flavio",
+      "title": "Diz não ter nada a esconder",
+      "text": "Na resposta registrada pela CNN, Flávio não confirma expressamente a abertura naquele momento.",
+      "sources": [
+        {
+          "label": "CNN Brasil — resposta no terceiro bloco, 18/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-fala-em-abrir-sigilos-flavio-diz-que-nao-tem-nada-a-esconder/",
+          "locator": "Trecho da resposta de Flávio e distinção entre declaração e aceitação explícita."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "candidate": "lula",
+      "title": "Protocola autorização condicionada",
+      "text": "A cópia da petição de Lula autoriza oito anos de dados, condicionada a medida equivalente de Flávio e familiares. O documento não contém os extratos.",
+      "sources": [
+        {
+          "label": "Petição e certidão do TSE — cópia documental, 20/10/2026",
+          "url": "https://static.poder360.com.br/uploads/2026/10/peticao-lula-quebra-sigilos-tse-20out2026.pdf",
+          "locator": "Páginas 2–4: condição e escopo; capa e página 5: protocolo e autuação."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "candidate": "flavio",
+      "title": "Aliados dizem que não aceitará",
+      "text": "O SBT News atribui a aliados da campanha a informação de que ele não pretende aceitar o desafio. É um relato dos aliados, não uma nova fala direta de Flávio.",
+      "sources": [
+        {
+          "label": "SBT News — Túlio Amâncio, 20/10/2026",
+          "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-nao-vai-aceitar-desafio-de-lula-para-abrir-sigilos",
+          "locator": "A coluna atribui a decisão a aliados integrantes da campanha; não reproduz nova recusa direta do candidato."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "candidate": "flavio",
+      "title": "Aceita, mas exige outros dados",
+      "text": "Flávio condiciona a abertura a informações adicionais sobre pessoas e entidades ligadas a Lula e registros do governo. A aceitação passa a depender dessas exigências.",
+      "sources": [
+        {
+          "label": "CNN Brasil — condições de Flávio, 21/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-se-opoe-a-condicoes-impostas-por-flavio-sobre-sigilo-diz-campanha/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "candidate": "lula",
+      "title": "Campanha aceita as condições",
+      "text": "A campanha informa que Lula não se opõe às condições de Flávio. Aceitar a exigência não comprova que os dados já foram entregues.",
+      "sources": [
+        {
+          "label": "CNN Brasil — condições de Flávio, 21/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-se-opoe-a-condicoes-impostas-por-flavio-sobre-sigilo-diz-campanha/"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "candidate": "lula",
+      "title": "Mantém a exigência de reciprocidade",
+      "text": "Segundo o G1, a defesa de Lula reafirma a aceitação e pede a inclusão da Alcazar Holdings, empresa de Willer Tomaz. O pedido de acesso não comprova que a empresa pertença a Flávio.",
+      "sources": [
+        {
+          "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "candidate": "flavio",
+      "title": "Advogada assina o acordo",
+      "text": "Lula e a representante jurídica de Flávio assinam autorização para abertura total e simultânea. O texto pede requisição judicial e divulgação pública; o G1 informa que ainda é necessário aval do relator.",
+      "sources": [
+        {
+          "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
+          "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
+        }
+      ]
     }
   ]
 }
