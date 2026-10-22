@@ -1830,14 +1830,16 @@
       "id": "lula-abertura-sigilos",
       "candidate": "lula",
       "kind": "Transparência",
-      "title": "Pedido ao TSE autoriza abertura condicionada dos sigilos",
-      "summary": "A petição de 20 de outubro autoriza a abertura dos sigilos de Lula e familiares se Flávio fizer o mesmo. Não temos os dados dos sigilos publicados.",
+      "title": "Lula aceita condições e assina acordo para abrir sigilos",
+      "summary": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos.",
       "paragraphs": [
         "No debate da Band de 18 de outubro, Lula propôs que os candidatos e seus familiares abrissem informações bancárias e telefônicas. A emissora registrou o desafio, e a CNN informou que ele sugeriu entregar as informações à Justiça antes do segundo turno.",
         "Em 19 de outubro, em Porto Alegre, Lula anunciou que entregaria ao TSE, no dia 20, autorização referente a ele e à família, incluindo os cinco filhos. A Agência Brasil registrou que ele pretendia que a Justiça investigasse e depois divulgasse os resultados.",
-        "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados."
+        "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados.",
+        "Em 21 de outubro, a campanha de Lula informou que aceitaria as condições apresentadas por Flávio, incluindo informações sobre pessoas próximas e gastos do governo. A aceitação mantém a exigência de abertura recíproca; não significa que esses documentos já tenham sido entregues ou publicados.",
+        "Em 22 de outubro, Agência Brasil e Folha noticiaram a apresentação ao TSE de um acordo assinado pelos dois lados para abrir os sigilos bancário, fiscal e telefônico. Segundo a Folha, Lula assinou pessoalmente. A reportagem da Agência Brasil informa que o pedido ainda precisava ser analisado pelo relator André Mendonça."
       ],
-      "context": "Autorização condicionada não equivale à divulgação dos dados. Situação atualizada em 20/10/2026.",
+      "context": "Autorização dos candidatos, decisão judicial, entrega dos dados e divulgação pública são etapas diferentes. Até esta conferência de 22/10/2026, as fontes consultadas confirmam o acordo, mas não comprovam a publicação dos dados.",
       "sources": [
         {
           "label": "Band — registro do desafio, 18/10/2026",
@@ -1867,40 +1869,55 @@
           "label": "TSE PJe — consulta do documento original",
           "url": "https://pje.tse.jus.br/pje/Processo/ConsultaDocumento/listView.seam?x=26102010492798600000177556698",
           "locator": "Identificador impresso na cópia. A consulta direta não carregou; conferência feita na cópia integral publicada."
+        },
+        {
+          "label": "CNN Brasil — condições e resposta da campanha, 21/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-se-opoe-a-condicoes-impostas-por-flavio-sobre-sigilo-diz-campanha/"
+        },
+        {
+          "label": "Agência Brasil — acordo apresentado ao TSE, 22/10/2026",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos",
+          "locator": "Relato do termo apresentado pelas campanhas; análise judicial ainda pendente na reportagem."
+        },
+        {
+          "label": "Folha — assinatura do acordo, 22/10/2026",
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-aceita-quebra-de-sigilo-proposta-por-lula-e-candidatos-assinam-acordo-no-tse.shtml",
+          "locator": "Lula assinou pessoalmente; Flávio foi representado por advogada com procuração, segundo a reportagem."
         }
       ],
       "status": "draft",
       "verification": "checked",
       "statusSteps": [
         {
-          "label": "Declaração",
-          "value": "Promessa registrada"
+          "label": "Autorização dos candidatos",
+          "value": "Acordo assinado em 22/10, segundo Agência Brasil e Folha."
         },
         {
-          "label": "Autorização formal",
-          "value": "Petição e certidão de protocolo conferidas em cópia documental"
+          "label": "Decisão do TSE",
+          "value": "Aguardava análise nas reportagens consultadas."
         },
         {
-          "label": "Dados publicados",
-          "value": "Não temos esses dados."
+          "label": "Entrega e divulgação dos dados",
+          "value": "Não confirmadas nesta conferência."
         }
       ],
-      "editorialNotes": "Cópia integral da petição e certidão conferida. Não certifica divulgação dos dados, deferimento judicial ou protocolo separado no STF. Datas introdutórias do relato da petição não usadas para validar o vídeo do debate.",
-      "verificationScope": "filed-petition-copy",
-      "checkedAt": "20/10/2026"
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada.",
+      "verificationScope": "attributed-agreement-report",
+      "checkedAt": "22/10/2026"
     },
     {
       "id": "flavio-abertura-sigilos",
       "candidate": "flavio",
       "kind": "Transparência",
-      "title": "Aliados dizem que não aceitará abrir os sigilos",
-      "summary": "Segundo o SBT News, aliados da campanha disseram em 20 de outubro que Flávio não aceitará o desafio de Lula para abrir os sigilos.",
+      "title": "Flávio passa a aceitar abertura com condições e firma acordo",
+      "summary": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos.",
       "paragraphs": [
         "Na resposta ao desafio de Lula no debate de 18 de outubro, Flávio afirmou: “Eu não tenho absolutamente nada a esconder”. Segundo a cobertura da CNN, ele não confirmou expressamente que abriria seus sigilos e passou a fazer acusações contra o adversário.",
         "Em 20 de outubro, a coluna de Túlio Amâncio, no SBT News, informou que aliados integrantes da campanha disseram que Flávio não pretende abrir seus sigilos bancário, fiscal e telefônico em resposta ao desafio. Segundo a coluna, esses aliados consideram a iniciativa uma estratégia eleitoral para gerar desgaste nos últimos dias da campanha.",
-        "Não temos uma autorização formal de Flávio em resposta ao desafio nem dados bancários ou telefônicos divulgados por ele para esse fim. Dados disponíveis até 20/10/2026."
+        "Em 21 de outubro, Flávio passou a aceitar a abertura, exigindo também informações de pessoas e entidades ligadas a Lula e registros de gastos e agendas do governo. A campanha de Lula informou que aceitaria as condições. Essa manifestação posterior muda a situação descrita pelos aliados no dia anterior.",
+        "Em 22 de outubro, Agência Brasil e Folha noticiaram um acordo dos dois lados apresentado ao TSE. Segundo a Folha, a advogada de Flávio assinou por procuração. A reportagem da Agência Brasil informa que o pedido ainda aguardava análise de André Mendonça. A assinatura não demonstra que bancos, Receita ou operadoras já entregaram os dados nem que eles estejam públicos."
       ],
-      "context": "A informação sobre a recusa é atribuída a aliados ouvidos pelo SBT News; a reportagem não apresenta uma nova declaração direta de Flávio. Não temos autorização formal nem os dados publicados.",
+      "context": "Autorização dos candidatos, decisão judicial, entrega dos dados e divulgação pública são etapas diferentes. Até esta conferência de 22/10/2026, as fontes consultadas confirmam o acordo, mas não comprovam a publicação dos dados.",
       "sources": [
         {
           "label": "CNN Brasil — resposta no terceiro bloco, 18/10/2026",
@@ -1911,27 +1928,41 @@
           "label": "SBT News — Túlio Amâncio, 20/10/2026",
           "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-nao-vai-aceitar-desafio-de-lula-para-abrir-sigilos",
           "locator": "A coluna atribui a decisão a aliados integrantes da campanha; não reproduz nova recusa direta do candidato."
+        },
+        {
+          "label": "CNN Brasil — condições de Flávio, 21/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-se-opoe-a-condicoes-impostas-por-flavio-sobre-sigilo-diz-campanha/"
+        },
+        {
+          "label": "Agência Brasil — acordo apresentado ao TSE, 22/10/2026",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-de-lula-apresenta-acordo-com-flavio-para-abrir-sigilos",
+          "locator": "Relato do termo apresentado pelas campanhas; análise judicial ainda pendente na reportagem."
+        },
+        {
+          "label": "Folha — assinatura do acordo, 22/10/2026",
+          "url": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-aceita-quebra-de-sigilo-proposta-por-lula-e-candidatos-assinam-acordo-no-tse.shtml",
+          "locator": "Lula assinou pessoalmente; Flávio foi representado por advogada com procuração, segundo a reportagem."
         }
       ],
       "status": "draft",
       "verification": "checked",
       "statusSteps": [
         {
-          "label": "Resposta ao desafio",
-          "value": "Aliados dizem ao SBT News que não aceitará (20/10)."
+          "label": "Autorização dos candidatos",
+          "value": "Acordo assinado em 22/10, segundo Agência Brasil e Folha."
         },
         {
-          "label": "Autorização formal",
-          "value": "Não temos esses dados."
+          "label": "Decisão do TSE",
+          "value": "Aguardava análise nas reportagens consultadas."
         },
         {
-          "label": "Dados publicados",
-          "value": "Não temos esses dados."
+          "label": "Entrega e divulgação dos dados",
+          "value": "Não confirmadas nesta conferência."
         }
       ],
-      "editorialNotes": "20/10/2026: reportagem integral consultada no navegador. Recusa atribuída a aliados não identificados nominalmente, integrantes da campanha; não tratar como fala direta do candidato. Conferência de eventual documento formal e revisão editorial continuam pendentes. Conferência encerrada apenas para o relato atribuído à reportagem/entrevistado. Não comprova entrega material, autorização formal nem divulgação de dados. Ver docs/final-factcheck-audit.md.",
-      "checkedAt": "20/10/2026",
-      "verificationScope": "attributed-report"
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada.",
+      "checkedAt": "22/10/2026",
+      "verificationScope": "attributed-agreement-report"
     },
     {
       "id": "flavio-cargo-camara",
@@ -16672,6 +16703,20 @@
       "before": "Prazo atual tratado como divergente entre páginas oficiais; comparação numérica suspensa.",
       "after": "Regra geral de 18 meses, preservadas as exceções de dois e 24 meses. Proposta de dois anos comparada de forma condicional.",
       "reason": "Localizada a versão consolidada oficial com a Portaria MDS 1.191/2026; a cópia anterior não incorporava essa alteração."
+    },
+    {
+      "id": "sigilos-acordo-20261022",
+      "date": "2026-10-22",
+      "type": "Atualização",
+      "title": "Sigilos: acordo dos candidatos apresentado ao TSE",
+      "description": "Histórico preservado; os cards distinguem a autorização dos candidatos da decisão judicial e da divulgação efetiva dos dados.",
+      "blockIds": [
+        "lula-abertura-sigilos",
+        "flavio-abertura-sigilos"
+      ],
+      "before": "Pedido condicionado de Lula e recusa de Flávio atribuída a aliados em 20/10.",
+      "after": "Condições em 21/10 e acordo assinado em 22/10, segundo reportagens; divulgação não confirmada.",
+      "reason": "Desdobramentos posteriores ao corte anterior."
     }
   ]
 }
