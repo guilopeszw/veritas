@@ -1,6 +1,6 @@
 {
-  "approvedContentSha256": "264308183c386ab844999b8fa5953d486fad77e0dcc0302131cf863c254698a4",
+  "approvedContentSha256": "3924bc6b35507b1f1ee8c20555bbeb16f8e703baa70b8e2cf94675f2c35d0d0e",
   "approvedBy": "owner",
   "approvedOn": "2026-10-22",
-  "note": "Owner authorized verified disclosure updates and publication; 2026-10-22 title-only refinement removes redundant candidate names, preserving attribution and pending-content exclusions."
+  "note": "Owner explicitly authorized merging and publishing reviewed PR #4 on 2026-10-22, including the IBGE Table 4 page correction. Existing pending-content exclusions preserved."
 }
