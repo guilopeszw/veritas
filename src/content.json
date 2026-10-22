@@ -103,7 +103,7 @@
       "candidate": "lula",
       "topic": "economia",
       "title": "Salário mínimo",
-      "summary": "Promete manter aumentos acima da inflação. Em 2024, Lula também sancionou um limite para esse ganho, que vale de 2025 a 2030.",
+      "summary": "Promete manter a valorização do salário mínimo. Em 2024, Lula sancionou uma lei que, de 2025 a 2030, prevê ganho acima da inflação entre 0,6% e 2,5% ao ano. A lei não deixa claro se esse piso vale quando o PIB cai.",
       "context": "",
       "sources": [
         {
@@ -122,7 +122,27 @@
         {
           "label": "Lei 15.077/2024 — limite de reajuste",
           "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15077.htm",
-          "locator": "Art. 4"
+          "locator": "Art. 4º: o aumento real não será inferior ao índice mínimo nem superior ao índice apurado pela regra fiscal. Conferido em 22/10/2026."
+        },
+        {
+          "label": "Lei Complementar 200/2023 — limites da regra fiscal",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+          "locator": "Art. 5º, § 1º: crescimento real não inferior a 0,6% nem superior a 2,5% ao ano. Conferido em 22/10/2026."
+        },
+        {
+          "label": "Planalto — Decreto 12.797/2025, salário mínimo de 2026",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12797.htm",
+          "locator": "Art. 1º: R$ 1.621,00 a partir de 1º/1/2026. Conferido em 22/10/2026."
+        },
+        {
+          "label": "IBGE — PIB cresce 3,4% em 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/42774-pib-cresce-3-4-em-2024-e-fecha-o-ano-em-r-11-7-trilhoes.html",
+          "locator": "Crescimento real do PIB usado no reajuste de 2026. Conferido em 22/10/2026."
+        },
+        {
+          "label": "IBGE — IPCA e INPC de novembro de 2025",
+          "url": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/IPCA/Fasciculo_Indicadores_IBGE/2025/ipca-inpc_202511caderno.pdf",
+          "locator": "Página 11, Tabela 4 (Brasil): INPC acumulado em 12 meses até novembro de 2025, 4,18%. Conferido em 22/10/2026."
         },
         {
           "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
@@ -142,7 +162,7 @@
         "O programa promete manter a política de valorização do mínimo para distribuir renda e combater a pobreza.",
         "No debate de 18/10/2026: Lula afirma que, em seu governo, o salário mínimo compra 2,2 cestas básicas e apresenta como meta futura chegar a 2,5 ou 3. O valor de 2,2 é uma afirmação do candidato; a escuta confirma que ele o disse, não valida o cálculo. Os valores de 2,5 a 3 são uma meta, não um resultado já alcançado."
       ],
-      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal.",
+      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. 2026-10-22 Piso e teto do ganho real conferidos no art. 4º da Lei 15.077/2024 e no art. 5º, § 1º, da LC 200/2023. O valor de 2026 foi conferido no Decreto 12.797/2025 e é coerente com INPC de 4,18% mais ganho real de 2,5% (R$ 1.518 × 1,0418 × 1,025 ≈ R$ 1.621). A estimativa sem teto (cerca de R$ 1.636) é cálculo editorial com PIB de 3,4%. A p. 74 do programa não foi reaberta nesta rodada; o PDF do TSE recusou o acesso automatizado. Questão em aberto: a Lei 14.663 prevê reajuste só pela inflação se o PIB cair, e a Lei 15.077 fixa piso de ganho real. O card não afirma qual regra prevaleceria nesse caso; a ressalva aparece no resumo, em \"Como seria feito\" e na etapa de 2024 (revisão do PR #4). INPC conferido no caderno do IBGE de novembro de 2025, Tabela 4.",
       "implications": [
         {
           "label": "O que muda",
@@ -150,14 +170,14 @@
         },
         {
           "label": "Como seria feito",
-          "text": "A regra criada em 2023 considera o INPC e o crescimento do PIB de dois anos antes. Entre 2025 e 2030, o ganho acima da inflação também fica limitado pelo índice da regra fiscal, que pode chegar a 2,5%. Esse limite foi incluído na lei sancionada em dezembro de 2024."
+          "text": "A regra criada em 2023 considera o INPC e o crescimento do PIB de dois anos antes. Entre 2025 e 2030, o ganho acima da inflação fica entre um piso e um teto ligados à regra fiscal: a lei prevê no mínimo 0,6% e no máximo o índice apurado no ano, que chega a 2,5%. Essa regra foi incluída na lei sancionada em dezembro de 2024. Ressalva: a regra de 2023 manda reajustar só pela inflação quando o PIB cai, e a lei de 2024 não diz se o piso de 0,6% vale nesse caso. Não encontramos interpretação oficial sobre isso."
         },
         {
           "label": "O que já aconteceu e o que falta saber",
-          "text": "O limite reduz o aumento em relação à fórmula de 2023 quando o crescimento do PIB usado no cálculo supera o teto aplicável. Isso afeta quem recebe o mínimo e benefícios vinculados a ele. Não é corte nominal: o salário pode continuar subindo, mas menos do que subiria sem essa limitação."
+          "text": "O teto reduz o aumento em relação à fórmula de 2023 quando o crescimento do PIB usado no cálculo é maior. Isso já aconteceu em 2026: o PIB de 2024 cresceu 3,4%, mas o ganho real aplicado foi de 2,5%, e o mínimo passou de R$ 1.518 para R$ 1.621. Pela fórmula de 2023, sem o teto, seria cerca de R$ 1.636, segundo cálculo nosso. Não é corte nominal: o salário continua subindo, mas menos do que subiria sem esse limite."
         }
       ],
-      "verifiedAt": "2026-10-20",
+      "verifiedAt": "2026-10-22",
       "verificationScope": "program-attribution-and-context",
       "statusSteps": [
         {
@@ -166,10 +186,14 @@
         },
         {
           "label": "2024 · Lei 15.077",
-          "value": "Lula sancionou a vinculação do ganho adicional ao limite fiscal, que pode chegar a 2,5% ao ano entre 2025 e 2030."
+          "value": "Lula sancionou a vinculação do ganho adicional à regra fiscal: entre 2025 e 2030, a lei prevê de 0,6% até o índice apurado no ano, que pode chegar a 2,5%. Não está claro se o piso vale em ano de PIB negativo."
+        },
+        {
+          "label": "2026 · Decreto 12.797",
+          "value": "O mínimo foi para R$ 1.621. O PIB de 2024 cresceu 3,4%, mas o ganho real ficou no teto de 2,5%."
         }
       ],
-      "checkedAt": "21/10/2026",
+      "checkedAt": "22/10/2026",
       "programAttributionReview": {
         "date": "2026-10-21",
         "pages": [
@@ -16604,6 +16628,19 @@
       "before": "Continuar aumentando o salário mínimo acima da alta dos preços.",
       "after": "Promete manter aumentos acima da inflação. Em 2024, Lula também sancionou um limite para esse ganho, que vale de 2025 a 2030.",
       "reason": "Evitar que o resumo omita restrições, mudanças de posição ou diferenças entre promessa e resultado."
+    },
+    {
+      "id": "salario-piso-teto-20261022",
+      "date": "2026-10-22",
+      "type": "Correção",
+      "title": "Salário mínimo: piso e teto do ganho real",
+      "description": "O card agora informa que a lei de 2024 também criou um piso de 0,6% para o ganho acima da inflação e mostra que o teto já foi aplicado no reajuste de 2026.",
+      "blockIds": [
+        "lula-renda"
+      ],
+      "before": "Promete manter aumentos acima da inflação. Em 2024, Lula também sancionou um limite para esse ganho, que vale de 2025 a 2030.",
+      "after": "Promete manter a valorização do salário mínimo. Em 2024, Lula sancionou uma lei que, de 2025 a 2030, prevê ganho acima da inflação entre 0,6% e 2,5% ao ano. A lei não deixa claro se esse piso vale quando o PIB cai.",
+      "reason": "A palavra limite sugeria só um teto. O art. 4º da Lei 15.077/2024 prevê piso e teto, e o teto varia conforme a regra fiscal. A aplicação do piso em ano de PIB negativo segue sem interpretação oficial e foi indicada no texto."
     },
     {
       "id": "auditoria-20261021-flavio-emprego",
