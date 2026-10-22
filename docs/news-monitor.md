@@ -33,3 +33,11 @@ Updated Lula and Flávio transparency cards and reader history. Preserved the 18
 Consulted CNN, Folha, Agência Brasil and Poder360 coverage of the agreement; searched G1 and inspected Aos Fatos latest-news index. Some article fetches failed; search snippets and index headlines alone were not used to introduce new allegations. Broader searches included wages and Bolsa Família. This is a targeted update, not certification that every news item is current. Follow-up leads: Aos Fatos audio attributed to Lula, company-bankruptcy claim, Pisa comparison; G1 22 October pocketbook proposals. These require full-source checks before incorporation.
 
 Publication specifically authorized by the owner for the verified updates. No pending debate metrics or other unchecked blocks promoted.
+
+## 2026-10-22 — completed targeted follow-up
+
+Read full G1 agreement and pocketbook-proposal reports via HTML retrieval after search-tool access failed. Read Aos Fatos audio (22 October), bankruptcies (20 October) and Pisa-ranking (21 October) reports in full. Added three explicitly attributed publisher-report summaries; no independent forensic claim. Read the official Mapa de Empresas page (updated through September 2026), LC 238/2026 and Senate coverage. Added MEI context to both candidates: federal-credit scope, conditions, 2027/2028 effective dates and budget condition.
+
+Added eight dated disclosure events (18–22 October), preserving the attributed refusal, conditional acceptance, Lula response and signed agreement. G1 confirms the request for simultaneous disclosure still requires judicial action. Motive is not treated as established fact.
+
+Outstanding evidence: authenticated final TSE order and actual released datasets; independent replication of forensic/statistical publisher reports; any later developments after this cutoff. This completes the identified news-follow-up queue, not an exhaustive claim about every story on the internet. No pending metric released.
