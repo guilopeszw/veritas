@@ -1855,15 +1855,16 @@
       "candidate": "lula",
       "kind": "Transparência",
       "title": "Aceita condições e assina acordo para abrir sigilos",
-      "summary": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos.",
+      "summary": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
       "paragraphs": [
         "No debate da Band de 18 de outubro, Lula propôs que os candidatos e seus familiares abrissem informações bancárias e telefônicas. A emissora registrou o desafio, e a CNN informou que ele sugeriu entregar as informações à Justiça antes do segundo turno.",
         "Em 19 de outubro, em Porto Alegre, Lula anunciou que entregaria ao TSE, no dia 20, autorização referente a ele e à família, incluindo os cinco filhos. A Agência Brasil registrou que ele pretendia que a Justiça investigasse e depois divulgasse os resultados.",
         "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados.",
         "Em 21 de outubro, a campanha de Lula informou que aceitaria as condições apresentadas por Flávio, incluindo informações sobre pessoas próximas e gastos do governo. A aceitação mantém a exigência de abertura recíproca; não significa que esses documentos já tenham sido entregues ou publicados.",
-        "Em 22 de outubro, Agência Brasil e Folha noticiaram a apresentação ao TSE de um acordo assinado pelos dois lados para abrir os sigilos bancário, fiscal e telefônico. Segundo a Folha, Lula assinou pessoalmente. A reportagem da Agência Brasil informa que o pedido ainda precisava ser analisado pelo relator André Mendonça."
+        "Em 22 de outubro, Agência Brasil e Folha noticiaram a apresentação ao TSE de um acordo assinado pelos dois lados para abrir os sigilos bancário, fiscal e telefônico. Segundo a Folha, Lula assinou pessoalmente. A reportagem da Agência Brasil informa que o pedido ainda precisava ser analisado pelo relator André Mendonça.",
+        "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores."
       ],
-      "context": "Autorização dos candidatos, decisão judicial, entrega dos dados e divulgação pública são etapas diferentes. Até esta conferência de 22/10/2026, as fontes consultadas confirmam o acordo, mas não comprovam a publicação dos dados.",
+      "context": "A decisão permite divulgação voluntária pelos titulares; não é prova de que os dados já foram publicados. Até a conferência de 22/10/2026, às 20h07, não localizamos os extratos divulgados pelos dois candidatos. A divulgação pessoal também não substitui investigações oficiais.",
       "sources": [
         {
           "label": "Band — registro do desafio, 18/10/2026",
@@ -1911,6 +1912,16 @@
         {
           "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
           "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
+        },
+        {
+          "label": "Decisão de André Mendonça, 22/10/2026 — cópia publicada pelo Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf",
+          "locator": "Páginas 2–3 do PDF; documento 180190365, assinado às 18h33. Consulta direta ao PJe indisponível nesta conferência."
+        },
+        {
+          "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
+          "locator": "Publicado às 18h43; atualizado às 19h07."
         }
       ],
       "status": "draft",
@@ -1922,14 +1933,14 @@
         },
         {
           "label": "Decisão do TSE",
-          "value": "Aguardava análise nas reportagens consultadas."
+          "value": "Em 22/10, Mendonça esclareceu que a divulgação voluntária independe de autorização judicial."
         },
         {
           "label": "Entrega e divulgação dos dados",
-          "value": "Não confirmadas nesta conferência."
+          "value": "Publicação dos dados não confirmada até 22/10, às 20h07."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada.",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação.",
       "verificationScope": "attributed-agreement-report",
       "checkedAt": "22/10/2026"
     },
@@ -1938,14 +1949,15 @@
       "candidate": "flavio",
       "kind": "Transparência",
       "title": "Passa a aceitar abertura com condições e firma acordo",
-      "summary": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos.",
+      "summary": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
       "paragraphs": [
         "Na resposta ao desafio de Lula no debate de 18 de outubro, Flávio afirmou: “Eu não tenho absolutamente nada a esconder”. Segundo a cobertura da CNN, ele não confirmou expressamente que abriria seus sigilos e passou a fazer acusações contra o adversário.",
         "Em 20 de outubro, a coluna de Túlio Amâncio, no SBT News, informou que aliados integrantes da campanha disseram que Flávio não pretende abrir seus sigilos bancário, fiscal e telefônico em resposta ao desafio. Segundo a coluna, esses aliados consideram a iniciativa uma estratégia eleitoral para gerar desgaste nos últimos dias da campanha.",
         "Em 21 de outubro, Flávio passou a aceitar a abertura, exigindo também informações de pessoas e entidades ligadas a Lula e registros de gastos e agendas do governo. A campanha de Lula informou que aceitaria as condições. Essa manifestação posterior muda a situação descrita pelos aliados no dia anterior.",
-        "Em 22 de outubro, Agência Brasil e Folha noticiaram um acordo dos dois lados apresentado ao TSE. Segundo a Folha, a advogada de Flávio assinou por procuração. A reportagem da Agência Brasil informa que o pedido ainda aguardava análise de André Mendonça. A assinatura não demonstra que bancos, Receita ou operadoras já entregaram os dados nem que eles estejam públicos."
+        "Em 22 de outubro, Agência Brasil e Folha noticiaram um acordo dos dois lados apresentado ao TSE. Segundo a Folha, a advogada de Flávio assinou por procuração. A reportagem da Agência Brasil informa que o pedido ainda aguardava análise de André Mendonça. A assinatura não demonstra que bancos, Receita ou operadoras já entregaram os dados nem que eles estejam públicos.",
+        "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores."
       ],
-      "context": "Autorização dos candidatos, decisão judicial, entrega dos dados e divulgação pública são etapas diferentes. Até esta conferência de 22/10/2026, as fontes consultadas confirmam o acordo, mas não comprovam a publicação dos dados.",
+      "context": "A decisão permite divulgação voluntária pelos titulares; não é prova de que os dados já foram publicados. Até a conferência de 22/10/2026, às 20h07, não localizamos os extratos divulgados pelos dois candidatos. A divulgação pessoal também não substitui investigações oficiais.",
       "sources": [
         {
           "label": "CNN Brasil — resposta no terceiro bloco, 18/10/2026",
@@ -1974,6 +1986,16 @@
         {
           "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
           "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
+        },
+        {
+          "label": "Decisão de André Mendonça, 22/10/2026 — cópia publicada pelo Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf",
+          "locator": "Páginas 2–3 do PDF; documento 180190365, assinado às 18h33. Consulta direta ao PJe indisponível nesta conferência."
+        },
+        {
+          "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
+          "locator": "Publicado às 18h43; atualizado às 19h07."
         }
       ],
       "status": "draft",
@@ -1985,14 +2007,14 @@
         },
         {
           "label": "Decisão do TSE",
-          "value": "Aguardava análise nas reportagens consultadas."
+          "value": "Em 22/10, Mendonça esclareceu que a divulgação voluntária independe de autorização judicial."
         },
         {
           "label": "Entrega e divulgação dos dados",
-          "value": "Não confirmadas nesta conferência."
+          "value": "Publicação dos dados não confirmada até 22/10, às 20h07."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada.",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação.",
       "checkedAt": "22/10/2026",
       "verificationScope": "attributed-agreement-report"
     },
@@ -16868,6 +16890,56 @@
         "checagem-falencias-flavio",
         "checagem-pisa-ranking"
       ]
+    },
+    {
+      "id": "decisao-sigilos-20261022-lula",
+      "date": "2026-10-22",
+      "type": "Atualização",
+      "title": "Mendonça esclarece que divulgação não precisa de aval judicial",
+      "description": "A decisão foi conferida em cópia documental e reportagem do UOL; publicação dos dados continua não confirmada.",
+      "blockIds": [
+        "lula-abertura-sigilos"
+      ],
+      "before": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos.",
+      "after": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
+      "reason": "Substituir o status de decisão pendente pelo desdobramento confirmado, preservando o histórico.",
+      "sources": [
+        {
+          "label": "Decisão de André Mendonça, 22/10/2026 — cópia publicada pelo Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf",
+          "locator": "Páginas 2–3 do PDF; documento 180190365, assinado às 18h33. Consulta direta ao PJe indisponível nesta conferência."
+        },
+        {
+          "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
+          "locator": "Publicado às 18h43; atualizado às 19h07."
+        }
+      ]
+    },
+    {
+      "id": "decisao-sigilos-20261022-flavio",
+      "date": "2026-10-22",
+      "type": "Atualização",
+      "title": "Mendonça esclarece que divulgação não precisa de aval judicial",
+      "description": "A decisão foi conferida em cópia documental e reportagem do UOL; publicação dos dados continua não confirmada.",
+      "blockIds": [
+        "flavio-abertura-sigilos"
+      ],
+      "before": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos.",
+      "after": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
+      "reason": "Substituir o status de decisão pendente pelo desdobramento confirmado, preservando o histórico.",
+      "sources": [
+        {
+          "label": "Decisão de André Mendonça, 22/10/2026 — cópia publicada pelo Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf",
+          "locator": "Páginas 2–3 do PDF; documento 180190365, assinado às 18h33. Consulta direta ao PJe indisponível nesta conferência."
+        },
+        {
+          "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
+          "locator": "Publicado às 18h43; atualizado às 19h07."
+        }
+      ]
     }
   ],
   "disclosureTimeline": [
@@ -16968,6 +17040,42 @@
         {
           "label": "G1 — acordo e decisão judicial ainda necessária, 22/10/2026",
           "url": "https://g1.globo.com/politica/noticia/2026/10/22/campanhas-de-lula-e-flavio-dizem-que-entraram-em-acordo-para-abertura-de-sigilostse-ainda-precisa-autorizar.ghtml"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "candidate": "lula",
+      "title": "Mendonça dispensa aval judicial para divulgação",
+      "text": "Na decisão das 18h33, o relator esclarece que cada titular pode publicar seus próprios dados por iniciativa própria. Não há requisição de extratos na decisão. A publicação efetiva ainda não foi confirmada nesta conferência.",
+      "sources": [
+        {
+          "label": "Decisão de André Mendonça, 22/10/2026 — cópia publicada pelo Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf",
+          "locator": "Páginas 2–3 do PDF; documento 180190365, assinado às 18h33. Consulta direta ao PJe indisponível nesta conferência."
+        },
+        {
+          "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
+          "locator": "Publicado às 18h43; atualizado às 19h07."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "candidate": "flavio",
+      "title": "Mendonça dispensa aval judicial para divulgação",
+      "text": "Na decisão das 18h33, o relator esclarece que cada titular pode publicar seus próprios dados por iniciativa própria. Não há requisição de extratos na decisão. A publicação efetiva ainda não foi confirmada nesta conferência.",
+      "sources": [
+        {
+          "label": "Decisão de André Mendonça, 22/10/2026 — cópia publicada pelo Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf",
+          "locator": "Páginas 2–3 do PDF; documento 180190365, assinado às 18h33. Consulta direta ao PJe indisponível nesta conferência."
+        },
+        {
+          "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
+          "locator": "Publicado às 18h43; atualizado às 19h07."
         }
       ]
     }

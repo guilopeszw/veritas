@@ -41,3 +41,29 @@ Read full G1 agreement and pocketbook-proposal reports via HTML retrieval after 
 Added eight dated disclosure events (18–22 October), preserving the attributed refusal, conditional acceptance, Lula response and signed agreement. G1 confirms the request for simultaneous disclosure still requires judicial action. Motive is not treated as established fact.
 
 Outstanding evidence: authenticated final TSE order and actual released datasets; independent replication of forensic/statistical publisher reports; any later developments after this cutoff. This completes the identified news-follow-up queue, not an exhaustive claim about every story on the internet. No pending metric released.
+
+## 2026-10-22 — 17:59 Fortaleza disclosure monitor
+
+Compared the published candidate cards and final two disclosureTimeline events with targeted searches for the TSE case 0603195-27.2026.6.00.0000, a judicial decision, and released records. Read the TSE October news index (https://www.tse.jus.br/comunicacao/noticias/2026/Outubro); no relevant new order was identified there. This index is not a complete case docket. Searches targeting G1, Agência Brasil and Aos Fatos did not establish a later decision or public release. Recent search results from Folha, CNN, O Dia and Itatiaia still describe the agreement or pending judicial authorization; snippets were not used as proof of new facts. Full-page access to G1 and O Dia failed in the web reader. The actual PJe docket and released datasets were not authenticated in this run.
+
+Outcome: no verified change beyond the already-published agreement; no content edits, approval changes, build or deployment. Lack of a located order does not establish that no order exists. Continue monitoring.
+
+## 2026-10-22 — 19:03 Fortaleza disclosure monitor
+
+Compared the existing agreement chronology with targeted TSE, G1, Agência Brasil and Aos Fatos searches and general searches for a later Mendonça ruling. Results continued to describe the agreement awaiting judicial authorization; no newly authenticated order, delivery or public dataset was obtained. The TSE October index returned an empty reader response in this attempt, and the Poder360 agreement article could not be retrieved. Search snippets were treated as leads only. PJe docket not authenticated; this run cannot certify absence of a later order.
+
+No confirmed factual change, no publication or approval changes. Monitoring continues; no user action is required.
+
+## 2026-10-22 — 20:04 Fortaleza daily review
+
+Compared targeted news searches for both candidates with today's disclosure updates and the reviewed wage correction already incorporated in PR #4. Read the Aos Fatos latest-news index (https://www.aosfatos.org/noticias/): its leading audio, Pisa and bankruptcy checks correspond to the follow-up already logged above; index titles alone were not used as evidence. Searched G1 and Agência Brasil for new candidate proposals; results included older educational/climate comparisons, not established new commitments. The Folha comparison dated 22 October (https://www1.folha.uol.com.br/poder/2026/10/seguranca-economia-saude-veja-propostas-de-flavio-bolsonaro-e-de-lula-para-governo.shtml) could not be read in full, so its search snippets remain leads rather than incorporated claims. The TSE October index returned an empty reader response. No authenticated replacement programs or new original statements were obtained.
+
+Outcome: no new fact passed the incorporation threshold beyond today's existing revisions. Before/after: unchanged. This was a targeted search with access limitations, not exhaustive certification that all news is current. No publication, deployment, launchApproved or editorial approval changes. Repository visibility remains public under the owner's subsequent explicit authorization.
+
+Validation: syntax, release-gate tests, reader tests and review build passed; 221 filtered blocks. No content changes.
+
+## 2026-10-22 — 20:07 Fortaleza: judicial decision
+
+Read the complete three-page copy of decision 180190365 (case 0603195-27.2026.6.00.0000, signed 18:33:39), hosted by Poder360: https://static.poder360.com.br/uploads/2026/10/decisao-Andre-Mendonca-TSE-sigilos-Lula-Flavio-22out2026.pdf. Corroborated with UOL's report, published 18:43 and updated 19:07: https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm. The embedded PJe verification URL could not be accessed; no direct-portal authentication claimed. The ruling says voluntary disclosure of one's own records does not require a court order and does not itself requisition records. No released datasets were located.
+
+Updated both cards, status steps, reader history and timeline, retaining the earlier agreement reports as chronology. Before: ruling pending. After: voluntary disclosure clarified; actual publication remains unconfirmed. No inference of refusal, personal motive, compulsory delivery or innocence. Owner's standing authorization covers this verified update only; existing exclusions and launchApproved remain unchanged.

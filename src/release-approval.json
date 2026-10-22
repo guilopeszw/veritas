@@ -1,6 +1,6 @@
 {
-  "approvedContentSha256": "3924bc6b35507b1f1ee8c20555bbeb16f8e703baa70b8e2cf94675f2c35d0d0e",
+  "approvedContentSha256": "af099d2699cf74037b53a8607e618612a18b524bfbf1883cae7df7198489d554",
   "approvedBy": "owner",
   "approvedOn": "2026-10-22",
-  "note": "Owner explicitly authorized merging and publishing reviewed PR #4 on 2026-10-22, including the IBGE Table 4 page correction. Existing pending-content exclusions preserved."
+  "note": "Standing owner authorization covers verified disclosure updates: 22 October decision corroborated by document copy and UOL. Pending-content exclusions unchanged."
 }
