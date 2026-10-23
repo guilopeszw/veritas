@@ -1855,7 +1855,7 @@
       "candidate": "lula",
       "kind": "Transparência",
       "title": "Aceita condições e assina acordo para abrir sigilos",
-      "summary": "Após o acordo, o UOL noticiou a entrega de um malote de documentos ao TSE na noite de 22/10. A entrega relatada não comprova divulgação pública nem integralidade dos dados.",
+      "summary": "Entregou procurações e pediu que o TSE obtenha os dados nas fontes oficiais e coordene a divulgação simultânea. Procurações autorizam acesso; não são os extratos.",
       "paragraphs": [
         "No debate da Band de 18 de outubro, Lula propôs que os candidatos e seus familiares abrissem informações bancárias e telefônicas. A emissora registrou o desafio, e a CNN informou que ele sugeriu entregar as informações à Justiça antes do segundo turno.",
         "Em 19 de outubro, em Porto Alegre, Lula anunciou que entregaria ao TSE, no dia 20, autorização referente a ele e à família, incluindo os cinco filhos. A Agência Brasil registrou que ele pretendia que a Justiça investigasse e depois divulgasse os resultados.",
@@ -1863,9 +1863,10 @@
         "Em 21 de outubro, a campanha de Lula informou que aceitaria as condições apresentadas por Flávio, incluindo informações sobre pessoas próximas e gastos do governo. A aceitação mantém a exigência de abertura recíproca; não significa que esses documentos já tenham sido entregues ou publicados.",
         "Em 22 de outubro, Agência Brasil e Folha noticiaram a apresentação ao TSE de um acordo assinado pelos dois lados para abrir os sigilos bancário, fiscal e telefônico. Segundo a Folha, Lula assinou pessoalmente. A reportagem da Agência Brasil informa que o pedido ainda precisava ser analisado pelo relator André Mendonça.",
         "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores.",
-        "Na noite de 22 de outubro, o UOL relatou que o PT entregou ao TSE um malote com documentos bancários e telefônicos do presidente. Segundo a reportagem, Marcelo Pogliese fez a entrega acompanhado de Guilherme Boulos e Camilo Santana. Não tivemos acesso ao conteúdo nem a um recibo detalhado; não podemos confirmar sua integralidade ou disponibilidade pública."
+        "Na noite de 22 de outubro, foram entregues documentos ao TSE. A petição publicada pelo Poder360 informa a juntada de procurações de familiares e pessoas próximas. A reportagem posterior do UOL, de 23/10, esclarece que o malote continha procurações para permitir o acesso aos dados. Corrigimos a descrição anterior: a entrega não comprova entrega de extratos bancários ou registros telefônicos.",
+        "Na mesma petição, a defesa pede que o tribunal requisite os dados às fontes oficiais e coordene sua divulgação integral e simultânea. A CNN também noticiou esse pedido. Trata-se da posição da defesa, não de uma nova determinação judicial. Não autenticamos o protocolo diretamente no PJe nem localizamos decisão posterior sobre o pedido nesta conferência."
       ],
-      "context": "Entrega à Justiça e divulgação pública são etapas distintas. O relato do UOL documenta a entrega, mas não permite conferir o conteúdo ou o cumprimento integral do acordo. Não localizamos os extratos para consulta pública nesta rodada.",
+      "context": "Autorizar acesso, entregar procurações e publicar extratos são etapas diferentes. O pedido de intermediação não demonstra que o TSE o tenha acolhido. Não obtivemos os dados para consulta pública nesta conferência.",
       "sources": [
         {
           "label": "Band — registro do desafio, 18/10/2026",
@@ -1928,6 +1929,21 @@
           "label": "UOL — entrega de malote ao TSE, 22/10/2026",
           "url": "https://www.bol.uol.com.br/noticias/2026/10/22/apos-acordo-de-quebra-de-sigilo-pt-entrega-malote-com-documentos-ao-tse.ghtm",
           "locator": "Reportagem de Luccas Lucena e Nino Guimarães, às 21h06, atualizada às 21h14."
+        },
+        {
+          "label": "Petição de 22/10 — procurações e pedido de requisição, cópia no Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/Peticao_Lula_cumprimento_e_requisicao_judicialv2.pdf",
+          "locator": "Páginas 1–2: juntada de procurações e pedidos; página 3: data. Cópia sem autenticação direta no PJe."
+        },
+        {
+          "label": "CNN — pedido de intermediação do TSE, 22/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/duelo-dos-sigilos-lula-pede-que-tse-atue-como-intermediador-imparcial/",
+          "locator": "Publicado às 21h47; atualizado às 23h22."
+        },
+        {
+          "label": "UOL — envio de autorizações na madrugada, 23/10/2026",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/flavio-libera-abertura-de-sigilo-apos-pt-e-cobra-cartao-corporativo-de-lula.amp.htm",
+          "locator": "Reportagem distingue as procurações de ambos dos dados ainda não apresentados; relata posições diferentes sobre intermediação judicial."
         }
       ],
       "status": "draft",
@@ -1943,27 +1959,28 @@
         },
         {
           "label": "Entrega e divulgação dos dados",
-          "value": "UOL relata entrega de malote ao TSE na noite de 22/10. Conteúdo integral e divulgação pública não conferidos."
+          "value": "Procurações entregues, segundo a petição e as reportagens. Extratos e divulgação pública não conferidos."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 22/10, 22h06: reportagem UOL/BOL lida integralmente; entrega atribuída aos repórteres. Nenhum recibo, inventário ou extrato acessível obtido. Não promover relato de entrega a divulgação pública.",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 22/10, 22h06: reportagem UOL/BOL lida integralmente; entrega atribuída aos repórteres. Nenhum recibo, inventário ou extrato acessível obtido. Não promover relato de entrega a divulgação pública. 23/10: petição de 22/10 lida em cópia de três páginas, CNN e UOL lidos integralmente. Corrigida distinção entre procurações e extratos. Novo envio de Flávio atribuído ao UOL; íntegra não autenticada. Sem conclusão de cumprimento ou divulgação.",
       "verificationScope": "attributed-agreement-report",
-      "checkedAt": "22/10/2026"
+      "checkedAt": "23/10/2026"
     },
     {
       "id": "flavio-abertura-sigilos",
       "candidate": "flavio",
       "kind": "Transparência",
       "title": "Passa a aceitar abertura com condições e firma acordo",
-      "summary": "Depois da recusa atribuída a aliados em 20/10, Flávio apresentou condições e foi representado na assinatura do acordo em 22/10. Não confirmamos a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
+      "summary": "O UOL informou que enviou autorizações ao TSE na madrugada de 23/10. A defesa contesta a intermediação judicial. Isso não equivale à divulgação dos extratos.",
       "paragraphs": [
         "Na resposta ao desafio de Lula no debate de 18 de outubro, Flávio afirmou: “Eu não tenho absolutamente nada a esconder”. Segundo a cobertura da CNN, ele não confirmou expressamente que abriria seus sigilos e passou a fazer acusações contra o adversário.",
         "Em 20 de outubro, a coluna de Túlio Amâncio, no SBT News, informou que aliados integrantes da campanha disseram que Flávio não pretende abrir seus sigilos bancário, fiscal e telefônico em resposta ao desafio. Segundo a coluna, esses aliados consideram a iniciativa uma estratégia eleitoral para gerar desgaste nos últimos dias da campanha.",
         "Em 21 de outubro, Flávio passou a aceitar a abertura, exigindo também informações de pessoas e entidades ligadas a Lula e registros de gastos e agendas do governo. A campanha de Lula informou que aceitaria as condições. Essa manifestação posterior muda a situação descrita pelos aliados no dia anterior.",
         "Em 22 de outubro, Agência Brasil e Folha noticiaram um acordo dos dois lados apresentado ao TSE. Segundo a Folha, a advogada de Flávio assinou por procuração. A reportagem da Agência Brasil informa que o pedido ainda aguardava análise de André Mendonça. A assinatura não demonstra que bancos, Receita ou operadoras já entregaram os dados nem que eles estejam públicos.",
-        "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores."
+        "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores.",
+        "Segundo o UOL, na madrugada de 23 de outubro, a defesa enviou ao TSE autorizações para acesso aos dados. A reportagem relata que a defesa considera a disputa política e sustenta que Mendonça não deveria atuar como intermediador. O envio de autorizações não é a entrega dos próprios extratos. Não tivemos acesso à íntegra dessa nova petição nem às autorizações para conferir sua abrangência."
       ],
-      "context": "A decisão permite divulgação voluntária pelos titulares; não é prova de que os dados já foram publicados. Até a conferência de 22/10/2026, às 20h07, não localizamos os extratos divulgados pelos dois candidatos. A divulgação pessoal também não substitui investigações oficiais.",
+      "context": "O relato de envio atualiza a etapa das autorizações. Não permite concluir que todos os dados foram entregues ou publicados, nem que o acordo foi integralmente cumprido. Não obtivemos os extratos para consulta pública nesta conferência.",
       "sources": [
         {
           "label": "CNN Brasil — resposta no terceiro bloco, 18/10/2026",
@@ -2002,6 +2019,11 @@
           "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
           "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
           "locator": "Publicado às 18h43; atualizado às 19h07."
+        },
+        {
+          "label": "UOL — envio de autorizações na madrugada, 23/10/2026",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/flavio-libera-abertura-de-sigilo-apos-pt-e-cobra-cartao-corporativo-de-lula.amp.htm",
+          "locator": "Reportagem distingue as procurações de ambos dos dados ainda não apresentados; relata posições diferentes sobre intermediação judicial."
         }
       ],
       "status": "draft",
@@ -2017,11 +2039,11 @@
         },
         {
           "label": "Entrega e divulgação dos dados",
-          "value": "Publicação dos dados não confirmada até 22/10, às 20h07."
+          "value": "UOL relata envio de autorizações na madrugada de 23/10; abrangência e divulgação dos dados não conferidas."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação.",
-      "checkedAt": "22/10/2026",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 23/10: petição de 22/10 lida em cópia de três páginas, CNN e UOL lidos integralmente. Corrigida distinção entre procurações e extratos. Novo envio de Flávio atribuído ao UOL; íntegra não autenticada. Sem conclusão de cumprimento ou divulgação.",
+      "checkedAt": "23/10/2026",
       "verificationScope": "attributed-agreement-report"
     },
     {
@@ -16966,6 +16988,20 @@
           "locator": "Reportagem de Luccas Lucena e Nino Guimarães, às 21h06, atualizada às 21h14."
         }
       ]
+    },
+    {
+      "id": "sigilos-procuracoes-20261023",
+      "date": "2026-10-23",
+      "type": "Correção",
+      "title": "Sigilos: procurações não são extratos",
+      "description": "Esclarecemos o conteúdo relatado do malote e registramos os novos pedidos e o envio de autorizações.",
+      "blockIds": [
+        "lula-abertura-sigilos",
+        "flavio-abertura-sigilos"
+      ],
+      "before": "Após o acordo, o UOL noticiou a entrega de um malote de documentos ao TSE na noite de 22/10. A entrega relatada não comprova divulgação pública nem integralidade dos dados.",
+      "after": "Entrega de procurações para acesso aos dados; pedido de intermediação do TSE e envio de autorizações pela outra campanha. Divulgação pública não conferida.",
+      "reason": "Petição de 22/10 e reportagens posteriores distinguem autorizações dos registros bancários e telefônicos."
     }
   ],
   "disclosureTimeline": [
@@ -17108,13 +17144,54 @@
     {
       "date": "2026-10-22",
       "candidate": "lula",
-      "title": "UOL relata entrega de malote ao TSE",
-      "text": "À noite, o UOL noticia a entrega de documentos por Marcelo Pogliese, acompanhado de Guilherme Boulos e Camilo Santana. O conteúdo e sua integralidade não foram conferidos pelo Veritas; entrega ao tribunal não significa publicação dos dados.",
+      "title": "Procurações são entregues ao TSE",
+      "text": "A petição informa a juntada de procurações, e o UOL esclarece em 23/10 que o malote continha autorizações. Corrigimos a descrição inicial: procurações não são extratos nem comprovam publicação dos dados.",
       "sources": [
         {
           "label": "UOL — entrega de malote ao TSE, 22/10/2026",
           "url": "https://www.bol.uol.com.br/noticias/2026/10/22/apos-acordo-de-quebra-de-sigilo-pt-entrega-malote-com-documentos-ao-tse.ghtm",
           "locator": "Reportagem de Luccas Lucena e Nino Guimarães, às 21h06, atualizada às 21h14."
+        },
+        {
+          "label": "Petição de 22/10 — procurações e pedido de requisição, cópia no Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/Peticao_Lula_cumprimento_e_requisicao_judicialv2.pdf",
+          "locator": "Páginas 1–2: juntada de procurações e pedidos; página 3: data. Cópia sem autenticação direta no PJe."
+        },
+        {
+          "label": "UOL — envio de autorizações na madrugada, 23/10/2026",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/flavio-libera-abertura-de-sigilo-apos-pt-e-cobra-cartao-corporativo-de-lula.amp.htm",
+          "locator": "Reportagem distingue as procurações de ambos dos dados ainda não apresentados; relata posições diferentes sobre intermediação judicial."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "candidate": "lula",
+      "title": "Pede que o TSE obtenha e publique os dados",
+      "text": "A defesa pede requisição às fontes oficiais e divulgação integral e simultânea, contestando a divulgação por iniciativa de cada titular. É um pedido, não uma nova decisão judicial.",
+      "sources": [
+        {
+          "label": "Petição de 22/10 — procurações e pedido de requisição, cópia no Poder360",
+          "url": "https://static.poder360.com.br/uploads/2026/10/Peticao_Lula_cumprimento_e_requisicao_judicialv2.pdf",
+          "locator": "Páginas 1–2: juntada de procurações e pedidos; página 3: data. Cópia sem autenticação direta no PJe."
+        },
+        {
+          "label": "CNN — pedido de intermediação do TSE, 22/10/2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/duelo-dos-sigilos-lula-pede-que-tse-atue-como-intermediador-imparcial/",
+          "locator": "Publicado às 21h47; atualizado às 23h22."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "candidate": "flavio",
+      "title": "UOL relata envio de autorizações na madrugada",
+      "text": "Segundo o veículo, a defesa enviou autorizações, mas contesta a intermediação judicial. Não conferimos a íntegra ou a abrangência dos documentos. Autorizações não equivalem a extratos publicados.",
+      "sources": [
+        {
+          "label": "UOL — envio de autorizações na madrugada, 23/10/2026",
+          "url": "https://noticias.uol.com.br/eleicoes/2026/10/23/flavio-libera-abertura-de-sigilo-apos-pt-e-cobra-cartao-corporativo-de-lula.amp.htm",
+          "locator": "Reportagem distingue as procurações de ambos dos dados ainda não apresentados; relata posições diferentes sobre intermediação judicial."
         }
       ]
     }

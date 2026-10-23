@@ -75,3 +75,23 @@ Targeted searches for actual released statements/records and later developments,
 ## 2026-10-22 — 22:06 Fortaleza: reported physical delivery
 
 Read UOL/BOL's complete report by Luccas Lucena and Nino Guimarães, 21:06, updated 21:14: https://www.bol.uol.com.br/noticias/2026/10/22/apos-acordo-de-quebra-de-sigilo-pt-entrega-malote-com-documentos-ao-tse.ghtm. It reports delivery of a physical packet to the TSE by Marcelo Pogliese, accompanied by Boulos and Camilo. Added an explicitly attributed event and updated Lula's delivery status; no claim of document completeness or public release. Searches for corroborating newer reports and Flávio's delivery did not establish a further change. No packet contents, receipt/inventory or public records were obtained. Prior judicial decision and both candidates' history preserved.
+
+## 2026-10-22 — 23:23 Fortaleza disclosure monitor
+
+Compared targeted searches for later TSE decisions, delivery and public records with the eleven-event timeline and the last incorporated UOL report of physical delivery. Results from UOL, CNN, Agência Brasil and O Dia refer to the already-recorded agreement, conditions, ruling or packet delivery. No newly authenticated order or publicly accessible original dataset was obtained. Search snippets and social-media reposts remain leads, not evidence for new allegations. Direct PJe authentication remains unresolved; this search cannot establish absence of disclosure.
+
+Outcome: no verified factual change; no content, approval or deployment changes. Continue monitoring.
+
+## 2026-10-23 — 01:09 Fortaleza disclosure monitor
+
+Targeted searches for subsequent delivery, public datasets and decisions, including TSE, G1, Agência Brasil and Aos Fatos, did not produce a new verified development beyond the ruling and reported packet delivery already recorded. Results mainly repeated earlier agreements and expectations. No original dataset or authenticated later PJe document was obtained; indexing limitations mean this does not establish that disclosure has not occurred. No new factual claims, content edits, approval changes or deployment. Monitoring continues.
+
+## 2026-10-23 — 02:15 Fortaleza disclosure monitor
+
+Compared the latest timeline event with searches targeting TSE, G1, Agência Brasil and Aos Fatos and broader searches for actual publication or later delivery. Results returned earlier agreement reports and unrelated or older checks; no new authenticated ruling, delivery evidence or original public dataset was obtained. An elapsed expected deadline is not evidence of refusal or noncompliance. Search indexing and unresolved direct PJe access limit this check. No factual changes, approval changes or deployment; monitoring continues.
+
+## 2026-10-23 — 05:35 Fortaleza: authorizations, not statements
+
+Read CNN (22 October 21:47, updated 23:22), Poder360 and the full three-page petition copy at https://static.poder360.com.br/uploads/2026/10/Peticao_Lula_cumprimento_e_requisicao_judicialv2.pdf. Petition says powers of attorney are attached and requests court requisition and simultaneous disclosure. Direct PJe authentication remains unavailable. Read UOL 23 October report in full: https://noticias.uol.com.br/eleicoes/2026/10/23/flavio-libera-abertura-de-sigilo-apos-pt-e-cobra-cartao-corporativo-de-lula.amp.htm. It clarifies the packet contains authorizations and reports Flávio submitted authorizations overnight while disputing judicial intermediation. His new petition was not obtained; scope remains unverified.
+
+Corrected prior attributed packet description to distinguish powers of attorney from bank/phone records; preserved correction history. Added the request and attributed overnight submission to chronology. No assertion of full compliance, refusal, motive or public release. Source reports differ on whether corporate-card demand was within the agreement; omitted that unverified characterization. Standing authorization applies only to these verified/attributed updates; pending exclusions and launchApproved preserved.
