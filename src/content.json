@@ -1855,16 +1855,17 @@
       "candidate": "lula",
       "kind": "Transparência",
       "title": "Aceita condições e assina acordo para abrir sigilos",
-      "summary": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
+      "summary": "Após o acordo, o UOL noticiou a entrega de um malote de documentos ao TSE na noite de 22/10. A entrega relatada não comprova divulgação pública nem integralidade dos dados.",
       "paragraphs": [
         "No debate da Band de 18 de outubro, Lula propôs que os candidatos e seus familiares abrissem informações bancárias e telefônicas. A emissora registrou o desafio, e a CNN informou que ele sugeriu entregar as informações à Justiça antes do segundo turno.",
         "Em 19 de outubro, em Porto Alegre, Lula anunciou que entregaria ao TSE, no dia 20, autorização referente a ele e à família, incluindo os cinco filhos. A Agência Brasil registrou que ele pretendia que a Justiça investigasse e depois divulgasse os resultados.",
         "A cópia da petição e da certidão de autuação do TSE registra protocolo em 20 de outubro, às 10h58, no processo 0603195-27.2026.6.00.0000. O pedido abrange oito anos de dados bancários, fiscais e telefônicos de Lula, Janja, seus cinco filhos e pessoas jurídicas relacionadas. A autorização está condicionada à reciprocidade de Flávio e familiares. O documento pede divulgação pública, mas não contém os extratos nem comprova que os dados foram divulgados.",
         "Em 21 de outubro, a campanha de Lula informou que aceitaria as condições apresentadas por Flávio, incluindo informações sobre pessoas próximas e gastos do governo. A aceitação mantém a exigência de abertura recíproca; não significa que esses documentos já tenham sido entregues ou publicados.",
         "Em 22 de outubro, Agência Brasil e Folha noticiaram a apresentação ao TSE de um acordo assinado pelos dois lados para abrir os sigilos bancário, fiscal e telefônico. Segundo a Folha, Lula assinou pessoalmente. A reportagem da Agência Brasil informa que o pedido ainda precisava ser analisado pelo relator André Mendonça.",
-        "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores."
+        "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores.",
+        "Na noite de 22 de outubro, o UOL relatou que o PT entregou ao TSE um malote com documentos bancários e telefônicos do presidente. Segundo a reportagem, Marcelo Pogliese fez a entrega acompanhado de Guilherme Boulos e Camilo Santana. Não tivemos acesso ao conteúdo nem a um recibo detalhado; não podemos confirmar sua integralidade ou disponibilidade pública."
       ],
-      "context": "A decisão permite divulgação voluntária pelos titulares; não é prova de que os dados já foram publicados. Até a conferência de 22/10/2026, às 20h07, não localizamos os extratos divulgados pelos dois candidatos. A divulgação pessoal também não substitui investigações oficiais.",
+      "context": "Entrega à Justiça e divulgação pública são etapas distintas. O relato do UOL documenta a entrega, mas não permite conferir o conteúdo ou o cumprimento integral do acordo. Não localizamos os extratos para consulta pública nesta rodada.",
       "sources": [
         {
           "label": "Band — registro do desafio, 18/10/2026",
@@ -1922,6 +1923,11 @@
           "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
           "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
           "locator": "Publicado às 18h43; atualizado às 19h07."
+        },
+        {
+          "label": "UOL — entrega de malote ao TSE, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/apos-acordo-de-quebra-de-sigilo-pt-entrega-malote-com-documentos-ao-tse.ghtm",
+          "locator": "Reportagem de Luccas Lucena e Nino Guimarães, às 21h06, atualizada às 21h14."
         }
       ],
       "status": "draft",
@@ -1937,10 +1943,10 @@
         },
         {
           "label": "Entrega e divulgação dos dados",
-          "value": "Publicação dos dados não confirmada até 22/10, às 20h07."
+          "value": "UOL relata entrega de malote ao TSE na noite de 22/10. Conteúdo integral e divulgação pública não conferidos."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação.",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 22/10, 22h06: reportagem UOL/BOL lida integralmente; entrega atribuída aos repórteres. Nenhum recibo, inventário ou extrato acessível obtido. Não promover relato de entrega a divulgação pública.",
       "verificationScope": "attributed-agreement-report",
       "checkedAt": "22/10/2026"
     },
@@ -16940,6 +16946,26 @@
           "locator": "Publicado às 18h43; atualizado às 19h07."
         }
       ]
+    },
+    {
+      "id": "sigilos-entrega-20261022-lula",
+      "date": "2026-10-22",
+      "type": "Atualização",
+      "title": "Entrega de documentos ao TSE relatada pelo UOL",
+      "description": "O relato de entrega foi incorporado, sem afirmar divulgação pública ou cumprimento integral.",
+      "blockIds": [
+        "lula-abertura-sigilos"
+      ],
+      "before": "Após o pedido condicionado de 20/10, Lula aceitou as exigências de Flávio e assinou um acordo em 22/10. Isso não comprova a divulgação dos extratos. À noite, Mendonça esclareceu que os titulares podem divulgar seus dados sem autorização judicial.",
+      "after": "Após o acordo, o UOL noticiou a entrega de um malote de documentos ao TSE na noite de 22/10. A entrega relatada não comprova divulgação pública nem integralidade dos dados.",
+      "reason": "Novo relato jornalístico de entrega física, distinto da autorização e da publicação de extratos.",
+      "sources": [
+        {
+          "label": "UOL — entrega de malote ao TSE, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/apos-acordo-de-quebra-de-sigilo-pt-entrega-malote-com-documentos-ao-tse.ghtm",
+          "locator": "Reportagem de Luccas Lucena e Nino Guimarães, às 21h06, atualizada às 21h14."
+        }
+      ]
     }
   ],
   "disclosureTimeline": [
@@ -17076,6 +17102,19 @@
           "label": "UOL — divulgação por iniciativa dos titulares, 22/10/2026",
           "url": "https://www.bol.uol.com.br/noticias/2026/10/22/mendonca-decisao-sigilo-lula-flavio-bolsonaro.ghtm",
           "locator": "Publicado às 18h43; atualizado às 19h07."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "candidate": "lula",
+      "title": "UOL relata entrega de malote ao TSE",
+      "text": "À noite, o UOL noticia a entrega de documentos por Marcelo Pogliese, acompanhado de Guilherme Boulos e Camilo Santana. O conteúdo e sua integralidade não foram conferidos pelo Veritas; entrega ao tribunal não significa publicação dos dados.",
+      "sources": [
+        {
+          "label": "UOL — entrega de malote ao TSE, 22/10/2026",
+          "url": "https://www.bol.uol.com.br/noticias/2026/10/22/apos-acordo-de-quebra-de-sigilo-pt-entrega-malote-com-documentos-ao-tse.ghtm",
+          "locator": "Reportagem de Luccas Lucena e Nino Guimarães, às 21h06, atualizada às 21h14."
         }
       ]
     }
