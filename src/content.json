@@ -334,6 +334,11 @@
         {
           "label": "Lei 8.036/1990 — regra geral do FGTS, art. 15",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l8036consol.htm"
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
+          "locator": "Intervalo 5321–5354 segundos; revisão de 24/10/2026. Inclui a menção à Caixa logo em seguida. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
@@ -341,9 +346,10 @@
       "verification": "checked",
       "paragraphs": [
         "O programa propõe baratear contratos: primeiro emprego aos 18–24 anos; contratação de pessoas com 50+ desempregadas há pelo menos 12 meses.",
-        "Além dos contratos para jovens e pessoas com 50 anos ou mais, o plano propõe reduzir gradualmente o custo de contratação sem retirar direitos e criar um banco nacional de vagas ligado às empresas. No campo, prevê cursos e intermediação de trabalho, com retorno ao benefício social para quem continuar elegível depois de um emprego temporário."
+        "Além dos contratos para jovens e pessoas com 50 anos ou mais, o plano propõe reduzir gradualmente o custo de contratação sem retirar direitos e criar um banco nacional de vagas ligado às empresas. No campo, prevê cursos e intermediação de trabalho, com retorno ao benefício social para quem continuar elegível depois de um emprego temporário.",
+        "No debate da Band de 18 de outubro, Flávio disse que o governo se ligaria aos setores de recursos humanos das empresas para mostrar vagas com salários melhores. Na mesma resposta, citou a Caixa e o Banco da Prosperidade, sem explicar a relação com as vagas. Não citou um banco de dados nem como a ligação funcionaria."
       ],
-      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal.",
+      "editorialNotes": "2026-10-20 Texto das páginas citadas conferido na extração do PDF do TSE; inspeção visual pendente. Data e histórico de versões não confirmados. Resumo fiel do programa; somente quote contém citação literal. 2026-10-24 Trecho 5321–5354 s ouvido por colaborador: fala em ligar o governo aos recursos humanos das empresas; não menciona banco de dados.",
       "implications": [
         {
           "label": "O que muda",
@@ -3562,11 +3568,16 @@
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=13",
           "locator": "Páginas físicas 13. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6134s",
+          "locator": "Intervalo 6134–6166 segundos; revisão de 24/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa. Em 20/10/2026, conferidos diretamente no Planalto: Constituição art. 228 (inimputabilidade abaixo de 18 anos), ECA arts. 112 e 122 (medidas socioeducativas e condições de internação). Esta conferência cobre o contexto legal, não certifica a transcrição nem a íntegra do programa.",
+      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa. Em 20/10/2026, conferidos diretamente no Planalto: Constituição art. 228 (inimputabilidade abaixo de 18 anos), ECA arts. 112 e 122 (medidas socioeducativas e condições de internação). Esta conferência cobre o contexto legal, não certifica a transcrição nem a íntegra do programa. 2026-10-24 Trecho 6134–6166 s ouvido por colaborador: confirma 14 anos e a condição de crimes graves e hediondos. A menção ao estupro vem da seleção da emissora e não foi conferida nesta escuta.",
       "verifiedAt": "2026-10-20",
       "verificationScope": "program-attribution-and-context",
       "programAttributionReview": {
@@ -3717,7 +3728,7 @@
       "title": "Internet em escolas, hospitais e aldeias",
       "summary": "Ampliar a conexão em serviços e comunidades.",
       "paragraphs": [
-        "Na seleção da Band, Flávio propôs ampliar a conexão à internet em escolas, hospitais e aldeias.",
+        "No debate da Band de 18 de outubro, Flávio disse que escolas, hospitais e aldeias indígenas ficariam conectados à internet. Não explicou como isso seria feito.",
         "Promete pacotes de conexão para os cidadãos, com prioridade para mulheres atendidas pelo Brasil por Elas. A expansão daria atenção a áreas rurais, fronteiras e locais com pouca cobertura."
       ],
       "implications": [
@@ -3739,11 +3750,16 @@
           "label": "TSE — programa oficial de Flávio Bolsonaro",
           "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=24",
           "locator": "Páginas físicas 24. Trechos da proposta confrontados em 21/10/2026; metas não são resultados comprovados."
+        },
+        {
+          "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
+          "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5301s",
+          "locator": "Intervalo 5301–5323 segundos; revisão de 24/10/2026. Confirmação da fala, não do plano nem dos resultados."
         }
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa.",
+      "editorialNotes": "Proposta extraída de seleção parcial da emissora. Vídeo/timestamp e desenho detalhado pendentes. Este cartão não representa cobertura integral do programa. 2026-10-24 Trecho 5301–5323 s ouvido por colaborador: cita escolas, hospitais e aldeias indígenas; não descreve como a conexão seria feita.",
       "programMeasureIds": [
         "PL-065",
         "PL-066"
@@ -6078,7 +6094,8 @@
       "paragraphs": [
         "O plano propõe uma força militar integrada para interceptar armas e drogas em fronteiras, portos e aeroportos.",
         "O plano prevê ocupação e monitoramento permanente de portos e aeroportos por tropas especiais da Marinha e da Aeronáutica.",
-        "A força integrada é chamada de Sistema Nacional de Fronteiras e reuniria Exército, Marinha e Aeronáutica."
+        "A força integrada é chamada de Sistema Nacional de Fronteiras e reuniria Exército, Marinha e Aeronáutica.",
+        "No debate da Band de 18 de outubro, Flávio disse que a Marinha fiscalizaria contêineres no Porto de Santos, com forças de elite do Exército, da Marinha e da Aeronáutica. Não disse se essa presença seria permanente."
       ],
       "implications": [
         {
@@ -6107,12 +6124,12 @@
         {
           "label": "Rádio Bandeirantes — debate; trecho conferido pelo revisor",
           "url": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
-          "locator": "Intervalo 5722–5761 segundos; revisão de 21/10/2026. Confirmação da fala, não dos resultados."
+          "locator": "Intervalo 5722–5761 segundos; revisões de 21/10/2026 e 24/10/2026. Confirmação da fala, não dos resultados."
         }
       ],
       "status": "draft",
       "verification": "checked",
-      "editorialNotes": "Consulta 20/10/2026. Histórico documentado; efeitos descritos como mecanismos/condições. Auditoria integral de custo e execução pendente.",
+      "editorialNotes": "Consulta 20/10/2026. Histórico documentado; efeitos descritos como mecanismos/condições. Auditoria integral de custo e execução pendente. 2026-10-24 Trecho 5722–5761 s ouvido por colaborador: Marinha em contêineres no Porto de Santos, com forças de elite das três Forças; permanência e aeroportos não estabelecidos.",
       "programMeasureIds": [
         "PL-018"
       ],
@@ -15468,19 +15485,29 @@
           "start": 6134,
           "end": 6166,
           "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=6134s",
-          "status": "pending",
+          "status": "confirmed",
           "checks": [
             0,
             1,
             2
           ],
-          "notes": "",
+          "notes": "Ele diz reduzir para 14 anos a idade penal para crimes graves, crimes hediondos.",
           "chatConfirmation": {
             "date": "2026-10-21",
             "confirmed": true,
             "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
           },
-          "requiresClarification": false
+          "requiresClarification": false,
+          "previousReviews": [
+            {
+              "status": "pending",
+              "notes": ""
+            }
+          ],
+          "reviewedAt": "2026-10-24T12:00:00.000Z",
+          "reviewer": "contributor",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Contributor listening confirms age 14 and the serious/heinous-crime condition. Coverage unchanged; card text unchanged. Whether rape is cited in this interval was not established in this review."
         }
       },
       {
@@ -15685,24 +15712,33 @@
           "start": 5301,
           "end": 5323,
           "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5301s",
-          "status": "uncertain",
+          "status": "confirmed",
           "checks": [
             0,
             1,
             2
           ],
-          "notes": "",
-          "reviewedAt": "2026-10-21T13:21:31.383Z",
-          "reviewer": "site-owner",
+          "notes": "Cita os três: escolas, hospitais e aldeias indígenas. Fala de internet e diz que todos vão ficar conectados na palma da mão. Não fica claro qual o plano para concretizar isso.",
+          "reviewedAt": "2026-10-24T12:00:00.000Z",
+          "reviewer": "contributor",
           "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
           "incorporation": "observation-checked-coverage-unchanged",
-          "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Owner uncertainty preserved; this is not audio approval.",
+          "incorporationNote": "Contributor listening confirms the stated action for all three places. Earlier owner uncertainty concerned the missing plan, not the statement; the card says no method was explained. Universal coverage is not asserted.",
           "requiresClarification": false,
           "chatConfirmation": {
             "date": "2026-10-21",
             "confirmed": true,
             "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
-          }
+          },
+          "previousReviews": [
+            {
+              "status": "uncertain",
+              "notes": "",
+              "reviewedAt": "2026-10-21T13:21:31.383Z",
+              "reviewer": "site-owner",
+              "incorporationNote": "Owner listening confirmation checked against local ASR and program pages. Coverage unchanged; only the stated action is matched, not delivery or effectiveness. Owner uncertainty preserved; this is not audio approval."
+            }
+          ]
         }
       },
       {
@@ -15806,7 +15842,7 @@
         "start": 5321,
         "end": 5346,
         "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
-        "readerParaphrase": "Conectar vagas de empresas aos trabalhadores por uma base de dados.",
+        "readerParaphrase": "Conectar o governo aos setores de recursos humanos das empresas para mostrar vagas que paguem mais.",
         "note": "Job-matching instrument; hiring subsidies are not counted.",
         "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
         "status": "draft-atomic-coding",
@@ -15829,19 +15865,29 @@
           "start": 5321,
           "end": 5346,
           "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5321s",
-          "status": "pending",
+          "status": "correction",
           "checks": [
             0,
             1,
             2
           ],
-          "notes": "Governa conecta com recursos humanos para mostrar oportunidades de empresas que paguem melhor do que você tem hoje",
+          "notes": "Não cita nenhuma base de dados concreta nem empresas. Diz que vai conectar o governo aos recursos humanos das empresas. Diz que vai ser por intermédio da Caixa, pelo Banco da Prosperidade, sem explicar a relação com o assunto.",
           "chatConfirmation": {
             "date": "2026-10-21",
             "confirmed": true,
             "note": "tudo que você mandou está confirmado. sobre a economia criativa, ele só diz que o governo irá ajudar no que puder. sobre as conexões que flávio cita, ele não fala muito bem sobre isso e não fica claro qual o plano"
           },
-          "requiresClarification": false
+          "requiresClarification": false,
+          "previousReviews": [
+            {
+              "status": "pending",
+              "notes": "Governa conecta com recursos humanos para mostrar oportunidades de empresas que paguem melhor do que você tem hoje"
+            }
+          ],
+          "reviewedAt": "2026-10-24T12:00:00.000Z",
+          "reviewer": "contributor",
+          "incorporation": "observation-checked-coverage-unchanged",
+          "incorporationNote": "Paraphrase corrected: no database is mentioned. Banco da Prosperidade is matched separately (PL-178) and is not added to this action. Classification kept as exact-action pending maintainer decision on partial reclassification (issue #5)."
         }
       },
       {
@@ -16191,7 +16237,7 @@
         "start": 5722,
         "end": 5761,
         "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
-        "readerParaphrase": "Usar a Marinha para fiscalizar contêineres no Porto de Santos.",
+        "readerParaphrase": "Usar forças de elite do Exército, da Marinha e da Aeronáutica para fiscalizar contêineres no Porto de Santos.",
         "note": "Port military monitoring action, narrower geographic example.",
         "verification": "transcript-and-existing-ASR-concordance; previous visual speaker audit for parent intervals; no independent human listening",
         "status": "draft-atomic-coding",
@@ -16200,7 +16246,7 @@
           "PL-017",
           "PL-018"
         ],
-        "partialScope": "Excerpt mentions Navy at Santos, not the full permanent Navy/Air Force deployment at ports and airports.",
+        "partialScope": "Excerpt mentions Navy container inspection at Santos with Army, Navy and Air Force elite forces; permanent deployment and airports are not established.",
         "id": "PL-017",
         "atomicId": "PL-017",
         "candidate": "flavio",
@@ -16215,25 +16261,34 @@
           "start": 5722,
           "end": 5761,
           "videoUrl": "https://www.youtube.com/watch?v=BgjpOorIXoI&t=5722s",
-          "status": "uncertain",
+          "status": "confirmed",
           "checks": [
             0,
             1,
             2
           ],
-          "notes": "Ele diz que vai usar IA e criar o smart brasil (que nem o smart sampa). Não cita nada sobre permanencia mas afirma que haverá fiscalização dos portos sim",
-          "reviewedAt": "2026-10-21T13:23:47.788Z",
-          "reviewer": "site-owner",
+          "notes": "Diz Porto de Santos e que a Marinha vai fiscalizar os contêineres, e que a força de elite do Exército, da Marinha e da Aeronáutica vão fazer esse serviço.",
+          "reviewedAt": "2026-10-24T12:00:00.000Z",
+          "reviewer": "contributor",
           "baseLedgerSha256": "194a9b21e808fcc7581e6c774f82c9020848339585e05c77d3303458ea2cf5b9",
           "incorporation": "observation-checked-coverage-unchanged",
-          "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. Ports excerpt omits permanent deployment and airport scope. Owner uncertainty preserved; this is not audio approval.",
+          "incorporationNote": "Contributor listening confirms Navy container inspection at Santos with Army, Navy and Air Force elite forces. Partial coverage retained: permanent deployment and airports are not established.",
           "requiresClarification": false,
           "resolution": {
             "status": "partial-classification-resolved",
             "reason": "Owner explicitly confirms port monitoring and absence of permanence. ASR5755.38 and program p15 support partial coverage only; permanent Navy/Air Force deployment across ports and airports is not established. Owner uncertain status remains unchanged.",
             "start": 5755,
             "end": 5761
-          }
+          },
+          "previousReviews": [
+            {
+              "status": "uncertain",
+              "notes": "Ele diz que vai usar IA e criar o smart brasil (que nem o smart sampa). Não cita nada sobre permanencia mas afirma que haverá fiscalização dos portos sim",
+              "reviewedAt": "2026-10-21T13:23:47.788Z",
+              "reviewer": "site-owner",
+              "incorporationNote": "Listening does not establish the entire program action; partial coverage retained. Ports excerpt omits permanent deployment and airport scope. Owner uncertainty preserved; this is not audio approval."
+            }
+          ]
         }
       },
       {
@@ -17038,6 +17093,45 @@
       "before": "Pedido de intermediação judicial apresentado após a decisão de 22/10.",
       "after": "Segundo CNN e Itatiaia, Mendonça manteve a decisão em 23/10 e rejeitou a intermediação do TSE.",
       "reason": "Nova decisão corroborada em duas reportagens lidas integralmente; autenticação direta da íntegra pendente."
+    },
+    {
+      "id": "debate-internet-20261024",
+      "date": "2026-10-24",
+      "type": "Correção",
+      "title": "Internet: fala do debate conferida",
+      "description": "O card agora registra a fala ouvida no debate e informa que não houve explicação de como a conexão seria feita.",
+      "blockIds": [
+        "flavio-internet-servicos"
+      ],
+      "before": "Na seleção da Band, Flávio propôs ampliar a conexão à internet em escolas, hospitais e aldeias.",
+      "after": "No debate da Band de 18 de outubro, Flávio disse que escolas, hospitais e aldeias indígenas ficariam conectados à internet. Não explicou como isso seria feito.",
+      "reason": "Escuta do trecho do debate por colaborador, registrando também o que não foi dito."
+    },
+    {
+      "id": "debate-emprego-20261024",
+      "date": "2026-10-24",
+      "type": "Correção",
+      "title": "Contratação: fala do debate sobre vagas",
+      "description": "O card agora registra o que foi dito no debate sobre ligar o governo às empresas, sem atribuir um banco de dados que não foi citado.",
+      "blockIds": [
+        "flavio-emprego"
+      ],
+      "before": "Esse ponto não estava explicado no card.",
+      "after": "No debate da Band de 18 de outubro, Flávio disse que o governo se ligaria aos setores de recursos humanos das empresas para mostrar vagas com salários melhores. Na mesma resposta, citou a Caixa e o Banco da Prosperidade, sem explicar a relação com as vagas. Não citou um banco de dados nem como a ligação funcionaria.",
+      "reason": "Escuta do trecho do debate por colaborador, registrando também o que não foi dito."
+    },
+    {
+      "id": "debate-fronteiras-20261024",
+      "date": "2026-10-24",
+      "type": "Correção",
+      "title": "Portos: fala do debate sobre a Marinha",
+      "description": "O card agora registra a fala sobre fiscalização de contêineres no Porto de Santos e o que ela não inclui.",
+      "blockIds": [
+        "flavio-fronteiras"
+      ],
+      "before": "Esse ponto não estava explicado no card.",
+      "after": "No debate da Band de 18 de outubro, Flávio disse que a Marinha fiscalizaria contêineres no Porto de Santos, com forças de elite do Exército, da Marinha e da Aeronáutica. Não disse se essa presença seria permanente.",
+      "reason": "Escuta do trecho do debate por colaborador, registrando também o que não foi dito."
     }
   ],
   "disclosureTimeline": [
