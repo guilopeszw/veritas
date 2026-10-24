@@ -1865,7 +1865,8 @@
         "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores.",
         "Na noite de 22 de outubro, foram entregues documentos ao TSE. A petição publicada pelo Poder360 informa a juntada de procurações de familiares e pessoas próximas. A reportagem posterior do UOL, de 23/10, esclarece que o malote continha procurações para permitir o acesso aos dados. Corrigimos a descrição anterior: a entrega não comprova entrega de extratos bancários ou registros telefônicos.",
         "Na mesma petição, a defesa pede que o tribunal requisite os dados às fontes oficiais e coordene sua divulgação integral e simultânea. A CNN também noticiou esse pedido. Trata-se da posição da defesa, não de uma nova determinação judicial. Não autenticamos o protocolo diretamente no PJe; a decisão posterior de 23/10 é descrita a seguir.",
-        "Em 23 de outubro, Mendonça manteve o entendimento anterior e rejeitou a intermediação do TSE, segundo CNN e Itatiaia. Os titulares podem divulgar seus dados por iniciativa própria; o tribunal não irá requisitar os registros nem coordenar a publicação com base nesse acordo. As reportagens não comprovam que os extratos estejam públicos. Não autenticamos a nova decisão diretamente no PJe."
+        "Em 23 de outubro, Mendonça manteve o entendimento anterior e rejeitou a intermediação do TSE, segundo CNN e Itatiaia. Os titulares podem divulgar seus dados por iniciativa própria; o tribunal não irá requisitar os registros nem coordenar a publicação com base nesse acordo. As reportagens não comprovam que os extratos estejam públicos. Não autenticamos a nova decisão diretamente no PJe.",
+        "Em 23 de outubro, o Ministério Público Eleitoral pediu o encerramento do processo sem análise do mérito, segundo nota oficial do MPF. O parecer aponta ausência de interesse processual e de matéria eleitoral que justifique a intervenção do TSE. É uma manifestação do Ministério Público, não uma decisão de encerramento nem comprovação de divulgação dos dados."
       ],
       "context": "Autorizar acesso, entregar procurações e publicar extratos são etapas diferentes. O pedido de intermediação não demonstra que o TSE o tenha acolhido. Não obtivemos os dados para consulta pública nesta conferência.",
       "sources": [
@@ -1955,6 +1956,11 @@
           "label": "Itatiaia — rejeição da intermediação, 23/10/2026",
           "url": "https://www.itatiaia.com.br/politica/eleicoes/mendonca-rejeita-intervencao-do-tse-na-abertura-de-sigilos-de-lula-e-flavio/",
           "locator": "Pedro Nascimento, 16h48; reportagem lida integralmente."
+        },
+        {
+          "label": "MPF — parecer pela extinção do processo, 23/10/2026",
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-defende-a-extincao-de-processo-sobre-divulgacao-voluntaria-de-sigilos-de-candidatos-a-presidencia",
+          "locator": "Nota oficial da PGR, publicada às 21h49, lida integralmente. Processo 0603195-27.2026.6.00.0000."
         }
       ],
       "status": "draft",
@@ -1973,9 +1979,9 @@
           "value": "Procurações entregues, segundo a petição e as reportagens. Extratos e divulgação pública não conferidos."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 22/10, 22h06: reportagem UOL/BOL lida integralmente; entrega atribuída aos repórteres. Nenhum recibo, inventário ou extrato acessível obtido. Não promover relato de entrega a divulgação pública. 23/10: petição de 22/10 lida em cópia de três páginas, CNN e UOL lidos integralmente. Corrigida distinção entre procurações e extratos. Novo envio de Flávio atribuído ao UOL; íntegra não autenticada. Sem conclusão de cumprimento ou divulgação. 23/10, 17h30: CNN e Itatiaia lidas integralmente corroboram a manutenção da decisão. Nova íntegra não autenticada no PJe; sem inferência de divulgação pública.",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 22/10, 22h06: reportagem UOL/BOL lida integralmente; entrega atribuída aos repórteres. Nenhum recibo, inventário ou extrato acessível obtido. Não promover relato de entrega a divulgação pública. 23/10: petição de 22/10 lida em cópia de três páginas, CNN e UOL lidos integralmente. Corrigida distinção entre procurações e extratos. Novo envio de Flávio atribuído ao UOL; íntegra não autenticada. Sem conclusão de cumprimento ou divulgação. 23/10, 17h30: CNN e Itatiaia lidas integralmente corroboram a manutenção da decisão. Nova íntegra não autenticada no PJe; sem inferência de divulgação pública. 24/10: nota oficial do MPF lida integralmente e corroborada por CNN e UOL. Parecer de 23/10 distingue-se de decisão judicial; nenhuma divulgação de extratos comprovada.",
       "verificationScope": "attributed-agreement-report",
-      "checkedAt": "23/10/2026"
+      "checkedAt": "24/10/2026"
     },
     {
       "id": "flavio-abertura-sigilos",
@@ -1990,7 +1996,8 @@
         "Em 22 de outubro, Agência Brasil e Folha noticiaram um acordo dos dois lados apresentado ao TSE. Segundo a Folha, a advogada de Flávio assinou por procuração. A reportagem da Agência Brasil informa que o pedido ainda aguardava análise de André Mendonça. A assinatura não demonstra que bancos, Receita ou operadoras já entregaram os dados nem que eles estejam públicos.",
         "Às 18h33 de 22 de outubro, André Mendonça decidiu que os titulares podem divulgar voluntariamente seus próprios dados, sem precisar de autorização judicial. A cópia da decisão publicada pelo Poder360 não determina que bancos, Receita ou operadoras entreguem documentos ao TSE. O UOL também informou que a Justiça Eleitoral não fará a intermediação da divulgação. Isso atualiza a situação de espera descrita nas reportagens anteriores.",
         "Segundo o UOL, na madrugada de 23 de outubro, a defesa enviou ao TSE autorizações para acesso aos dados. A reportagem relata que a defesa considera a disputa política e sustenta que Mendonça não deveria atuar como intermediador. O envio de autorizações não é a entrega dos próprios extratos. Não tivemos acesso à íntegra dessa nova petição nem às autorizações para conferir sua abrangência.",
-        "Em 23 de outubro, Mendonça manteve o entendimento anterior e rejeitou a intermediação do TSE, segundo CNN e Itatiaia. Os titulares podem divulgar seus dados por iniciativa própria; o tribunal não irá requisitar os registros nem coordenar a publicação com base nesse acordo. As reportagens não comprovam que os extratos estejam públicos. Não autenticamos a nova decisão diretamente no PJe."
+        "Em 23 de outubro, Mendonça manteve o entendimento anterior e rejeitou a intermediação do TSE, segundo CNN e Itatiaia. Os titulares podem divulgar seus dados por iniciativa própria; o tribunal não irá requisitar os registros nem coordenar a publicação com base nesse acordo. As reportagens não comprovam que os extratos estejam públicos. Não autenticamos a nova decisão diretamente no PJe.",
+        "Em 23 de outubro, o Ministério Público Eleitoral pediu o encerramento do processo sem análise do mérito, segundo nota oficial do MPF. O parecer aponta ausência de interesse processual e de matéria eleitoral que justifique a intervenção do TSE. É uma manifestação do Ministério Público, não uma decisão de encerramento nem comprovação de divulgação dos dados."
       ],
       "context": "O relato de envio atualiza a etapa das autorizações. Não permite concluir que todos os dados foram entregues ou publicados, nem que o acordo foi integralmente cumprido. Não obtivemos os extratos para consulta pública nesta conferência.",
       "sources": [
@@ -2046,6 +2053,11 @@
           "label": "Itatiaia — rejeição da intermediação, 23/10/2026",
           "url": "https://www.itatiaia.com.br/politica/eleicoes/mendonca-rejeita-intervencao-do-tse-na-abertura-de-sigilos-de-lula-e-flavio/",
           "locator": "Pedro Nascimento, 16h48; reportagem lida integralmente."
+        },
+        {
+          "label": "MPF — parecer pela extinção do processo, 23/10/2026",
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-defende-a-extincao-de-processo-sobre-divulgacao-voluntaria-de-sigilos-de-candidatos-a-presidencia",
+          "locator": "Nota oficial da PGR, publicada às 21h49, lida integralmente. Processo 0603195-27.2026.6.00.0000."
         }
       ],
       "status": "draft",
@@ -2064,8 +2076,8 @@
           "value": "UOL relata envio de autorizações na madrugada de 23/10; abrangência e divulgação dos dados não conferidas."
         }
       ],
-      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 23/10: petição de 22/10 lida em cópia de três páginas, CNN e UOL lidos integralmente. Corrigida distinção entre procurações e extratos. Novo envio de Flávio atribuído ao UOL; íntegra não autenticada. Sem conclusão de cumprimento ou divulgação. 23/10, 17h30: CNN e Itatiaia lidas integralmente corroboram a manutenção da decisão. Nova íntegra não autenticada no PJe; sem inferência de divulgação pública.",
-      "checkedAt": "23/10/2026",
+      "editorialNotes": "Histórico de 18–20/10 preservado. Acordo de 22/10 conferido em reportagens da Agência Brasil e Folha; íntegra do novo termo e decisão judicial não autenticadas diretamente no TSE. Não inferir entrega material, deferimento ou divulgação pública. A cópia da petição de Lula de 20/10 permanece como evidência documental separada. 22/10, 20h07: lida íntegra da decisão 180190365 em cópia hospedada pelo Poder360 e corroborada com UOL. PJe direto inacessível; não alegar autenticação no portal. Decisão não requisita extratos nem confirma divulgação. 23/10: petição de 22/10 lida em cópia de três páginas, CNN e UOL lidos integralmente. Corrigida distinção entre procurações e extratos. Novo envio de Flávio atribuído ao UOL; íntegra não autenticada. Sem conclusão de cumprimento ou divulgação. 23/10, 17h30: CNN e Itatiaia lidas integralmente corroboram a manutenção da decisão. Nova íntegra não autenticada no PJe; sem inferência de divulgação pública. 24/10: nota oficial do MPF lida integralmente e corroborada por CNN e UOL. Parecer de 23/10 distingue-se de decisão judicial; nenhuma divulgação de extratos comprovada.",
+      "checkedAt": "24/10/2026",
       "verificationScope": "attributed-agreement-report"
     },
     {
@@ -17038,6 +17050,20 @@
       "before": "Pedido de intermediação judicial apresentado após a decisão de 22/10.",
       "after": "Segundo CNN e Itatiaia, Mendonça manteve a decisão em 23/10 e rejeitou a intermediação do TSE.",
       "reason": "Nova decisão corroborada em duas reportagens lidas integralmente; autenticação direta da íntegra pendente."
+    },
+    {
+      "id": "sigilos-parecer-mpe-20261024",
+      "date": "2026-10-24",
+      "type": "Atualização",
+      "title": "MP Eleitoral pede encerramento do processo sobre sigilos",
+      "description": "Parecer de 23/10 foi incluído nos dois históricos. O pedido não equivale a uma decisão judicial nem à divulgação de extratos.",
+      "blockIds": [
+        "lula-abertura-sigilos",
+        "flavio-abertura-sigilos"
+      ],
+      "before": "Histórico até a manutenção da decisão por Mendonça.",
+      "after": "Incluído parecer do MP Eleitoral pela extinção sem análise do mérito.",
+      "reason": "Nota oficial da PGR de 23/10, conferida em 24/10."
     }
   ],
   "disclosureTimeline": [
@@ -17264,6 +17290,32 @@
           "label": "Itatiaia — rejeição da intermediação, 23/10/2026",
           "url": "https://www.itatiaia.com.br/politica/eleicoes/mendonca-rejeita-intervencao-do-tse-na-abertura-de-sigilos-de-lula-e-flavio/",
           "locator": "Pedro Nascimento, 16h48; reportagem lida integralmente."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "candidate": "lula",
+      "title": "MP Eleitoral pede encerramento do processo",
+      "text": "Em 23 de outubro, o Ministério Público Eleitoral pediu o encerramento do processo sem análise do mérito, segundo nota oficial do MPF. O parecer aponta ausência de interesse processual e de matéria eleitoral que justifique a intervenção do TSE. É uma manifestação do Ministério Público, não uma decisão de encerramento nem comprovação de divulgação dos dados.",
+      "sources": [
+        {
+          "label": "MPF — parecer pela extinção do processo, 23/10/2026",
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-defende-a-extincao-de-processo-sobre-divulgacao-voluntaria-de-sigilos-de-candidatos-a-presidencia",
+          "locator": "Nota oficial da PGR, publicada às 21h49, lida integralmente. Processo 0603195-27.2026.6.00.0000."
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "candidate": "flavio",
+      "title": "MP Eleitoral pede encerramento do processo",
+      "text": "Em 23 de outubro, o Ministério Público Eleitoral pediu o encerramento do processo sem análise do mérito, segundo nota oficial do MPF. O parecer aponta ausência de interesse processual e de matéria eleitoral que justifique a intervenção do TSE. É uma manifestação do Ministério Público, não uma decisão de encerramento nem comprovação de divulgação dos dados.",
+      "sources": [
+        {
+          "label": "MPF — parecer pela extinção do processo, 23/10/2026",
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-defende-a-extincao-de-processo-sobre-divulgacao-voluntaria-de-sigilos-de-candidatos-a-presidencia",
+          "locator": "Nota oficial da PGR, publicada às 21h49, lida integralmente. Processo 0603195-27.2026.6.00.0000."
         }
       ]
     }

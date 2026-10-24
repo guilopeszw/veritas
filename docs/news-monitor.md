@@ -133,3 +133,55 @@ Targeted TSE, G1, Aos Fatos and current-news searches still returned the authori
 Read full CNN and Itatiaia reports via direct HTML after web-reader failure. Sources: https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/sigilos-mendonca-mantem-decisao-e-cobra-transparencia-sem-subterfugios/ and https://www.itatiaia.com.br/politica/eleicoes/mendonca-rejeita-intervencao-do-tse-na-abertura-de-sigilos-de-lula-e-flavio/ (16:48). They corroborate a new 23 October ruling maintaining the previous position and rejecting judicial intermediation. Original new decision not authenticated in PJe; attributed scope retained. No claim of actual records publication or adoption of campaign allegations.
 
 Updated both cards and added two timeline entries, preserving prior chronology, exclusions and launchApproved. Before: request for intermediation unresolved in the last card paragraph. After: reported rejection of intermediation, with document-access limitation. Release-gate tests, reader tests and review build passed (221 filtered blocks). Wrangler whoami reports not authenticated; browser control unavailable in this session. No deployment performed. Owner authentication is needed to publish the validated update.
+
+Deployment follow-up, 23 October: owner completed renewed OAuth authorization. Published commit 0929f88 via Wrangler to production project eleicoesveritas; deployment https://3140b1a0.eleicoesveritas.pages.dev. Public build and release/reader checks passed; GitHub CI succeeded. Headless Chrome verified https://eleicoesveritas.com.br/#/transparencia and both candidate detail routes at 390px and 1440px. New ruling text present, expanded timeline details showed no horizontal document overflow, and no page errors occurred. Earlier authentication blocker resolved.
+
+## 2026-10-23 — 18:26 Fortaleza disclosure monitor
+
+Compared current fifteen-event timeline and published ruling update with targeted TSE, G1, Agência Brasil and current-news searches. R7's 16:23 report and the Agência Brasil syndicated result reiterate the already-published maintenance of the ruling. UOL's updated authorization wording is consistent with the prior correction. No subsequent authenticated order or newly accessible original public records obtained. Search absence is not proof of refusal or non-disclosure. No factual edits, approval changes or new deployment.
+
+## 2026-10-23 — 19:52 Fortaleza disclosure monitor
+
+Compared the fifteen-event chronology with targeted TSE, G1, Agência Brasil and current-news results. Agência Brasil's original 16:19 report is now indexed at https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/mendonca-reitera-que-lula-e-flavio-podem-abrir-sigilos-por-ato-proprio and corroborates the ruling already published. UOL's revised authorization wording and SBT's roundup do not establish a subsequent decision or original public records. No new verified event, factual edits, approval changes or deployment. Direct-document limitations remain; search absence is not proof of non-disclosure.
+
+## 2026-10-23 — 20:13 Fortaleza daily review (preview only)
+
+Searched G1, Aos Fatos, Agência Brasil and TSE for both candidates. Read Aos Fatos health-video check in full via HTML: https://www.aosfatos.org/noticias/falso-que-lula-passou-mal-nao-vai-debate-globo/. Added attributed publisher-report block to preview, distinguishing December 2024 footage from current allegations and scheduled attendance from actual attendance. Campaign nonresponse preserved. Agência Brasil agenda corroborates planned attendance of both candidates. No independent medical conclusion. Before/after and sources recorded in readerUpdates.
+
+Agência Brasil's 09:33 state-enterprise comparison (https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-propoe-retomada-de-privatizacoes-lula-quer-fortalecer-empresas) overlaps existing administration/state-enterprise blocks; no new program amendment inferred from a new article date. Targeted searches are not exhaustive certification. No deployment, approval hash or launchApproved changes. Repository remains public under the owner's later explicit instruction; visibility not changed by this obsolete private-repository prompt.
+
+## 2026-10-23 — 20:56 Fortaleza disclosure monitor
+
+Compared the fifteen-event timeline with targeted TSE, G1, Agência Brasil and current-news searches. Results reiterate the already-published maintained ruling and authorizations; no later authenticated decision or original public dataset obtained. No inference of refusal or non-disclosure from search absence. No factual edits or deployment. The separate daily-review health-video addition remains preview-only and is outside this monitor's publication authorization; approval digest unchanged.
+
+## 2026-10-23 — 22:12 Fortaleza disclosure monitor
+
+Compared the fifteen-event chronology with targeted TSE, G1, Agência Brasil and current-news searches. Results refer to previously incorporated authorizations and the maintained 23 October ruling. No later authenticated order or original public dataset obtained. No claim about an ongoing debate inferred from earlier articles. Search absence does not establish refusal or non-disclosure. No factual edits, approval changes or deployment; unrelated daily-review addition remains preview-only.
+
+## 2026-10-24 — 00:21 Fortaleza disclosure monitor
+
+Targeted searches returned the previously incorporated ruling and authorizations. New SBT leads about counsel's statement and Willer Tomaz show publication times 01:22 and 00:54, later than this trigger's local time; treated as leads requiring date/context verification, not incorporated. A proceeding concerning a third party would not establish either candidate's public disclosure. No authenticated subsequent TSE order or original public dataset obtained. Fifteen-event chronology unchanged; no approval change or deployment. Unrelated daily-review addition remains preview-only.
+
+## 2026-10-24 — 01:31 Fortaleza disclosure monitor
+
+Reviewed search results from SBT (counsel interview, 01:22), Metrópoles (debate report, 00:11) and targeted TSE/G1/Agência Brasil/Aos Fatos searches. Counsel's criticisms are attributed political/legal advocacy, not documentary proof of noncompliance. Debate reports describe renewed demands; exact audiovisual wording and response remain to be checked before adding a new timeline event. SBT's separate Willer Tomaz story explicitly says the full decision is not known and relies on investigation sources; it does not establish public release of either candidate's records. No subsequent authenticated TSE order or original public dataset obtained. Fifteen-event chronology unchanged; no approval or deployment changes.
+
+## 2026-10-24 — 02:36 Fortaleza disclosure monitor
+
+Compared the fifteen-event chronology with targeted TSE, G1, Agência Brasil and current-news searches. Folha's debate roundup reports competing assertions about delivery, including Flávio's response that documents were delivered; these are not independent evidence of completeness or public disclosure. R7's 00:56 summary repeats the maintained ruling but has inconsistent weekday/date references, so it was not used to revise chronology. Band and other debate reports remain leads for audiovisual verification. No new authenticated TSE order or original publicly released dataset obtained. No factual edits, approval changes or deployment; preview-only material remains separate.
+
+## 2026-10-24 — 03:42 Fortaleza disclosure monitor
+
+Compared the fifteen-event timeline with targeted TSE, G1, Agência Brasil and current-news searches. Results repeat the maintained ruling and opposing debate claims already noted in the preceding review; no new authenticated court document or publicly accessible original dataset obtained. The third-party investigation report does not establish disclosure of either candidate's records. No factual edits, approval changes or deployment; unrelated preview-only content preserved. Search limitations do not prove refusal or non-disclosure.
+
+## 2026-10-24 — 04:51 Fortaleza disclosure monitor
+
+Compared the fifteen-event chronology with targeted TSE, Agência Brasil and current-news searches. Results repeat previously noted debate statements, the maintained ruling and the separate Willer Tomaz investigation report. No new authenticated ruling or publicly accessible original candidate records obtained. Search absence does not establish refusal or non-disclosure. No factual edits, approval changes or deployment; daily-review addition remains preview-only.
+
+## 2026-10-24 — 05:51 Fortaleza disclosure monitor
+
+Compared the fifteen-event timeline with targeted TSE, Agência Brasil and current-news searches. Results remain the earlier debate reports, counsel interview and maintained ruling; no newly authenticated order or original publicly accessible candidate records obtained. The separate third-party investigation remains distinct from voluntary candidate disclosure. Search absence is not proof of refusal or non-disclosure. No factual edits, approval changes or deployment.
+
+## 2026-10-24 — 15:35 Fortaleza disclosure monitor
+
+Execution occurred later than the scheduled heartbeat. Read the official MPF/PGR notice in full (23 October, 21:49), corroborated by CNN and UOL on 24 October. Added the Electoral Prosecution opinion seeking dismissal without a merits ruling to both cards and timelines. An opinion is not a court disposition or proof of record publication. No original candidate bank records obtained. Preserved history and launchApproved; isolated the unapproved preview health-video block and its reader update from this release. Source: https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mp-eleitoral-defende-a-extincao-de-processo-sobre-divulgacao-voluntaria-de-sigilos-de-candidatos-a-presidencia
